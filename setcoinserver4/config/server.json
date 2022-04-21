@@ -1,0 +1,49 @@
+{
+    "test":{
+        "API_SERVER_PROTOCOL":"http://",
+        "API_SERVER_HOST":"taja.malangmalang.com",
+        "API_SERVER_PORT":7311,
+        "ROOM_MAX":100,
+        "USER_MAX":100,    
+        "CHECK_TOTAL_ROOM_TIME":1000,
+        "SERVER_IDX":1002,
+        "SERVER_PORT":7334,
+        "REDIS_NEW_MODULE": "http://localhost:7321"        
+    },
+    "development":{
+        "API_SERVER_PROTOCOL":"http://",
+        "API_SERVER_HOST":"localhost:7311",        
+        "SERVER_DNS":"localhost:7334",
+        "ROOM_MAX":100,
+        "USER_MAX":100,    
+        "CHECK_TOTAL_ROOM_TIME":1000,
+        "SERVER_IDX":1002,
+        "SERVER_PORT":7334,
+        "REDIS_NEW_MODULE": "http://localhost:7321"
+    },
+    "stage":{
+        "API_SERVER_PROTOCOL":"https://",
+        "API_SERVER_HOST":"stg-api.malangmalang.com",
+        "SERVER_DNS":"stg-tt-coin-rt-4.malangmalang.com",
+        "ROOM_MAX":100,
+        "USER_MAX":100,
+        "CHECK_TOTAL_ROOM_TIME":1000,
+        "SERVER_IDX":1002,
+        "SERVER_PORT":7334,
+        "REDIS_NEW_MODULE": "http://localhost:7321"
+    },
+    "production":{
+        "API_SERVER_PROTOCOL":"https://",
+        "API_SERVER_HOST":"api.malangmalang.com",
+        "SERVER_DNS":"tt-coin-rt-4.malangmalang.com",
+        "ROOM_MAX":100,
+        "USER_MAX":100,
+        "CHECK_TOTAL_ROOM_TIME":1000,
+        "SERVER_IDX":1002,
+        "SERVER_PORT":7334,
+        "REDIS_NEW_MODULE": "http://localhost:7321"
+    }
+}
+
+
+
