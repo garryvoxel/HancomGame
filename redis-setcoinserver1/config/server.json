@@ -1,0 +1,18 @@
+{
+  "test": {
+    "port": 7321,
+    "api_server": "http://localhost:7311"
+  },
+  "development": {
+    "port": 7321,
+    "api_server": "http://localhost:7311"
+  },
+  "stage": {
+    "port": 7321,
+    "api_server": "http://localhost:7311"
+  },
+  "production": {
+    "port": 7321,
+    "api_server": "http://localhost:7311"
+  }
+}

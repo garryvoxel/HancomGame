@@ -1,0 +1,39 @@
+{
+  "development": {
+    "SETCOIN_ROOM_CHANNEL_1": {
+      "HOST": "localhost",
+      "PORT": 6379,
+      "DB": 0
+    }, 
+    "SETCOIN_ROOM_CHANNEL_2": {
+      "HOST": "localhost",
+      "PORT": 6379,
+      "DB": 1
+    },
+    "SETCOIN_ROOM_CHANNEL_3": {
+      "HOST": "localhost",
+      "PORT": 6379,
+      "DB": 2
+    },
+    "SETCOIN_ROOM_CHANNEL_4": {
+      "HOST": "localhost",
+      "PORT": 6379,
+      "DB": 3
+    },
+    "REDIS_KEY": {
+      "ROOM_LIST_KEY": "SETCOIN_ROOM_LIST",
+      "ROOM_DETAIL_KEY": "SETCOIN_ROOM_DETAIL",
+      "ROOM_SCORE_KEY": "SETCOIN_ROOM_SCORE",
+      "ROOM_HOST": "SETCOIN_ROOM_HOST",
+      "USER_DETAIL_KEY": "SETCOIN_USER_DETAIL",
+      "USER_SCORE_KEY": "SETCOIN_USER_SCORE",
+      "USER_LIST_KEY": "SET_COIN_USER_LIST",
+      "L_USER_LIST_KEY": "SET_COIN_L_USER_LIST",
+      "COMBO_ATTACK_TYPE": "SET_COIN_COMBO_A",
+      "WORD_LEVEL": "SET_COIN_WORD_LEVEL",
+      "WORD_LEVEL_LIST": "WORD_LEVEL_LIST",
+      "SESSION_SOCKET": "SESSION_SOCKET",
+      "MEMBER_LIST": "MEMBER_LIST"
+    }
+  }
+}

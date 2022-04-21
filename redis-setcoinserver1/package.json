@@ -1,0 +1,27 @@
+{
+  "name": "redis-setcoinserver1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "set NODE_ENV=development&&nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "os": "^0.1.1",
+    "pug": "2.0.0-beta11",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
