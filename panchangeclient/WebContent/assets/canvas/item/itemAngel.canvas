@@ -1,0 +1,187 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "itemAngel",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": true,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "c5241f1c-93b0-4760-a990-81ee3e4f9a53",
+    "info": {
+      "editorName": "itemAngel",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "d68a52f9-26ee-4b1e-8ccc-ec881e33fb38",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [{
+            "type": "group",
+            "id": "baf351de-601d-4ca8-91f1-a194fc0d78f9",
+            "info": {
+              "editorName": "angelGroup",
+              "editorField": true,
+              "x": 512,
+              "y": 288,
+              "scale.x": 0,
+              "scale.y": 0,
+              "setAll": [],
+              "children": [
+                {
+                  "type": "image",
+                  "id": "5a774995-b879-41af-80e3-dd643d3fad94",
+                  "asset": "0",
+                  "info": {
+                    "editorName": "ItemEngelLight2",
+                    "editorField": true,
+                    "scale.x": 0.8,
+                    "scale.y": 0.8,
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "df64d68e-251e-4afd-bf3b-88a5a7903ae7",
+                  "asset": "0",
+                  "info": {
+                    "editorName": "ItemEngelLight",
+                    "editorField": true,
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5
+                  }
+                },
+                {
+                  "type": "spritesheet",
+                  "id": "1babc42c-cf9b-45bb-a8b6-b6b49eb8847b",
+                  "asset": "1",
+                  "info": {
+                    "editorName": "ItemEngelRingLight",
+                    "editorField": true,
+                    "scale.x": 2,
+                    "scale.y": 2,
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5,
+                    "animations": [{
+                      "name": "spread",
+                      "frameRate": 12,
+                      "killOnComplete": true,
+                      "field": true,
+                      "frames": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7",
+                        "8"
+                      ]
+                    }]
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "ff9b9f51-a922-4db2-8826-9d196378c3b8",
+                  "asset": "2",
+                  "info": {
+                    "editorName": "ItemEngel",
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5
+                  }
+                },
+                {
+                  "type": "spritesheet",
+                  "id": "3492da61-9cb8-4cfe-9dbc-1230abf2f7c3",
+                  "asset": "3",
+                  "info": {
+                    "editorName": "ItemEngelStarExplosion",
+                    "editorField": true,
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5,
+                    "animations": [{
+                      "name": "spread2",
+                      "frameRate": 10,
+                      "killOnComplete": true,
+                      "field": true,
+                      "frames": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "2",
+                        "3",
+                        "6",
+                        "7"
+                      ]
+                    }]
+                  }
+                }
+              ]
+            }
+          }]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ItemEngelLight"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ItemEngelRingLight50",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ItemEngel"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ItemEngelStarExplosion",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

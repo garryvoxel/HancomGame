@@ -1,0 +1,101 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "mainTime",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "ca906c9c-79ce-46aa-ba8e-ceb036d11903",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "db7be9a3-e304-420f-b61b-0293a6deb8b7",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "f1dedfc2-6421-409d-b533-50544e370eb1",
+              "asset": "0",
+              "info": {"editorName": "PanelGameTime"}
+            },
+            {
+              "type": "image",
+              "id": "0aa12627-539c-420a-9d7b-209134892161",
+              "asset": "1",
+              "info": {
+                "editorName": "GaugeGameTime",
+                "editorField": true,
+                "x": 70,
+                "y": 18
+              }
+            },
+            {
+              "type": "text",
+              "id": "fc0eed9d-5698-4c59-8426-400f929dfb1e",
+              "info": {
+                "editorName": "mainTime",
+                "editorField": true,
+                "x": 102,
+                "y": 17,
+                "text": "00:00",
+                "style.font": "Nanum Gothic",
+                "style.fontSize": 25,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.strokeThickness": 4,
+                "style.align": "RIGHT"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelGameTime"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "GaugeGameTime"
+    }
+  },
+  "prefab-table": {}
+}

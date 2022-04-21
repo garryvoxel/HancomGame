@@ -1,0 +1,397 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "UserInfoPopup",
+    "sceneWidth": 477,
+    "sceneHeight": 381,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.roomType = \"자유\";"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "6e6861f1-6c88-4dad-875b-5b0a76bdf860",
+    "info": {
+      "editorName": "UserInfoPopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "c2473322-b0b4-47fc-be19-0b843d24c81e",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "90ff61d2-3e90-4a43-8575-16d64c5e2a3f",
+              "asset": "0",
+              "info": {"editorName": "PopPanelFriendInvite"}
+            },
+            {
+              "type": "button",
+              "id": "297a6434-7d83-4259-8e73-caeef24fecc9",
+              "asset": "1",
+              "info": {
+                "editorName": "BtnForcedExit",
+                "editorField": true,
+                "x": 354.5,
+                "y": 401,
+                "callback": "fireMen",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "button",
+              "id": "37e80cf5-3363-47e5-9451-4ba335d95ed9",
+              "asset": "2",
+              "info": {
+                "editorName": "BtnEntrust",
+                "editorField": true,
+                "x": 154.5,
+                "y": 401,
+                "callback": "changeMaster",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "image",
+              "id": "c688f077-5ebc-46a6-a15b-ba7d8178bbcf",
+              "asset": "3",
+              "info": {
+                "editorName": "STitleUserWinningRate",
+                "x": 191.5,
+                "y": 270
+              }
+            },
+            {
+              "type": "image",
+              "id": "41dd3f57-2b2c-4b8e-ba85-2c66d48db2db",
+              "asset": "4",
+              "info": {
+                "editorName": "TitleSelectUserInfo",
+                "x": 131.5,
+                "y": 35
+              }
+            },
+            {
+              "type": "image",
+              "id": "cb4e453d-c3ac-43bf-b848-5d66965fc95c",
+              "asset": "5",
+              "info": {
+                "editorName": "STitleNickname",
+                "x": 131.5,
+                "y": 100
+              }
+            },
+            {
+              "type": "button",
+              "id": "13bf7001-b21c-4ec6-bb14-e1aeeef40a5d",
+              "asset": "6",
+              "info": {
+                "editorName": "BtnExit",
+                "x": 357,
+                "y": -30,
+                "callback": "offUserInfoPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "image",
+              "id": "981a7692-155e-41c8-83a2-d5ed3a4308e3",
+              "asset": "7",
+              "info": {
+                "editorName": "BarL",
+                "x": 58,
+                "y": 135
+              }
+            },
+            {
+              "type": "image",
+              "id": "c46113d8-6145-4d03-baed-c9f625a09099",
+              "asset": "7",
+              "info": {
+                "editorName": "BarL2",
+                "x": 108,
+                "y": 305
+              }
+            },
+            {
+              "type": "image",
+              "id": "82e280f6-41ba-404e-9615-af60e19563ea",
+              "asset": "8",
+              "info": {
+                "editorName": "STitleGameReady",
+                "x": 355,
+                "y": 100
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "bcd00fb5-1f7c-435a-8ef3-765e602693cf",
+              "info": {
+                "editorName": "isReady",
+                "editorField": true,
+                "x": 379,
+                "y": 154
+              }
+            },
+            {
+              "type": "text",
+              "id": "cd95267d-7336-4b5e-8ac3-b55003a74182",
+              "info": {
+                "editorName": "txt_nickname",
+                "editorField": true,
+                "x": 188,
+                "y": 157,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "유저네임여덟글자",
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "text",
+              "id": "8993f2a2-2c1e-480c-8fc1-e5a529181b4e",
+              "info": {
+                "editorName": "txt_winrate",
+                "editorField": true,
+                "x": 239,
+                "y": 327,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "999승 999무 999패",
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "button",
+              "id": "9ae7f7e9-a69d-47d8-8990-6055f2916aab",
+              "asset": "9",
+              "info": {
+                "editorName": "mask",
+                "x": 348,
+                "y": 90,
+                "scale.y": 3,
+                "alpha": 0
+              }
+            },
+            {
+              "type": "group",
+              "id": "b9ff9d4c-0575-4504-af5f-e2971a15b9fd",
+              "info": {
+                "editorName": "clan_name",
+                "editorPick": false,
+                "editorField": true,
+                "editorShow": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "13b2b2c3-5171-4edb-bf56-52b44a7c5f61",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "STitleClanName",
+                      "x": 204.5,
+                      "y": 185
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "bae3bcab-f54a-4ff3-9939-6b2a8f880a73",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "BarL3",
+                      "x": 108,
+                      "y": 220
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "2df99ef7-bd08-4f9c-8b41-be6402d0cd13",
+                    "info": {
+                      "editorName": "txt_clanname",
+                      "editorField": true,
+                      "x": 234,
+                      "y": 241,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "빨강",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "a231ae03-2f2d-4459-b243-578c15044a64",
+              "info": {
+                "editorName": "team_color",
+                "editorField": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "eef206ec-0ffa-4591-ae33-33d192d6b20b",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "BarS",
+                      "x": 183,
+                      "y": 220
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "c6bace11-3e9b-49bc-94a0-a8066041e61c",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "STitleTeamColor",
+                      "x": 204,
+                      "y": 185
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "0ab29257-7a77-4596-ba1f-a9100746de8f",
+                    "info": {
+                      "editorName": "txt_color",
+                      "editorField": true,
+                      "x": 238,
+                      "y": 242,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "빨강",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "button",
+              "id": "d503a6a7-e7f7-4571-a173-af08b506768a",
+              "asset": "13",
+              "info": {
+                "editorName": "BtnTeamChange",
+                "editorField": true,
+                "x": -45,
+                "y": 401,
+                "callback": "changeTeamColor",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelFriendInvite"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnForcedExit",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnEntrust",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleUserWinningRate"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleSelectUserInfo"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleNickname"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarL2"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleGameReady"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnInputTxt",
+      "sprite": "3"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleClanName"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarS"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleTeamColor"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnTeamChange",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {"0": "WebContent/assets/canvas/popup/MuteControl.canvas"}
+}

@@ -1,0 +1,79 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "MainReady",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "state_init_before": "this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "acda00ed-f027-4d64-9a8a-540cf4ade4dc",
+    "info": {
+      "editorName": "MainReady",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "ed17ff6d-08ed-4056-a454-98ef84e7434f",
+          "asset": "0",
+          "info": {"editorName": "MainLoadingBackImg"}
+        },
+        {
+          "type": "button",
+          "id": "21ba8d98-83ee-47cb-9a04-a1bd6c6823a6",
+          "asset": "1",
+          "info": {
+            "editorName": "PopupBtnGameStart",
+            "x": 428,
+            "y": 412,
+            "callback": "moveRoomList",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "MainLoadingBackImg"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopupBtnGameStart",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

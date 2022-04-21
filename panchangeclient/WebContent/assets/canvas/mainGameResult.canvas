@@ -1,0 +1,691 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "mainGameResult",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.isPlaying = false;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e115cd04-f8a8-4f00-8648-2b132cbbc71b",
+    "info": {
+      "editorName": "mainGameResult",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "7694276e-fcb7-4c6b-a266-2b119c1d0cc8",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "71502379-843a-4ff3-8807-aca10860654c",
+              "asset": "0",
+              "info": {
+                "editorName": "PanelResultLose",
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "3f80d497-07a3-4777-9734-d4de6e334720",
+              "asset": "1",
+              "info": {
+                "editorName": "PanelResultVic",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "a8299bdc-204e-46d9-8fe5-54595f2bbb12",
+              "asset": "2",
+              "info": {
+                "editorName": "ResultPanelCharHaloEffect",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "5639b4ac-baf9-4088-9655-760cdd4b0081",
+              "info": {
+                "editorName": "charGroup",
+                "editorField": true,
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "type": "group",
+              "id": "caf98985-c78a-47e5-bdaa-4384d603e6e7",
+              "info": {
+                "editorName": "redScoreGroup",
+                "y": 10,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "5306b5ed-fd90-4266-8da3-53ca461c23ab",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "ResultSTitleTeamR",
+                      "x": -250,
+                      "y": -110,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "dcc32eff-9f04-4a48-8b90-45eaf4acf92a",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "ResultLoseInfoR",
+                      "x": -350,
+                      "y": -70
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "bcc47454-1cc8-4b98-a6fb-0216947077e2",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "ResultVicInfoR",
+                      "editorField": true,
+                      "x": -350,
+                      "y": -70
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "10036eb6-9a92-46dd-a694-942b01036a53",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "ResultLoseInfoPlusR",
+                      "x": -196,
+                      "y": -87
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "e4bf2f36-fe94-45f2-9769-4b4861f82bd7",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "ResultVicInfoPlusR",
+                      "editorField": true,
+                      "x": -196,
+                      "y": -87
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "d13c2328-b1fa-4155-8626-31d3faddf8b5",
+                    "info": {
+                      "editorName": "redOwnMain",
+                      "editorField": true,
+                      "x": -236,
+                      "y": -47,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "00",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 30,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "09fad2cc-12f0-4fe5-9765-336e9ca64967",
+                    "info": {
+                      "editorName": "redOwnBig",
+                      "editorField": true,
+                      "x": -130,
+                      "y": -54,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "00",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 40,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "182c7052-f9af-4bc1-aeb1-9568ece87d55",
+                    "info": {
+                      "editorName": "redTeamScore",
+                      "editorField": true,
+                      "x": -183,
+                      "y": 8,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "000000점",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 30,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "caec861b-bf74-4091-9848-dbde85eeafc5",
+              "info": {
+                "editorName": "blueScoreGroup",
+                "y": 10,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "3de38e51-ef8e-4e86-94c2-8b633f6f628a",
+                    "asset": "8",
+                    "info": {
+                      "editorName": "ResultSTitleTeamB",
+                      "x": 250,
+                      "y": -110,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "fc6e74d3-9b23-4be4-aed2-19bf3fe1ef4f",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "ResultLoseInfoB",
+                      "x": 101,
+                      "y": -70
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "27e7bffe-76a9-4fbc-a948-192344b73d34",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "ResultVicInfoB",
+                      "editorField": true,
+                      "x": 101,
+                      "y": -70
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "637d8d78-1b51-480e-a11f-1661e51ee666",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "ResultLoseInfoPlusB",
+                      "x": 253,
+                      "y": -87
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "06ef3b5b-8c05-4034-bab8-b62a8072330e",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "ResultVicInfoPlusB",
+                      "editorField": true,
+                      "x": 253,
+                      "y": -87
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "84d94233-ae0d-4dfd-b5b8-16a4068e3656",
+                    "info": {
+                      "editorName": "blueOwnMain",
+                      "editorField": true,
+                      "x": 216,
+                      "y": -48,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "00",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 30,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "d2f80c45-9eba-4295-a73c-c3efadc47245",
+                    "info": {
+                      "editorName": "blueOwnBig",
+                      "editorField": true,
+                      "x": 318,
+                      "y": -55,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "00",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 40,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "8e1fd3a1-25bb-4ee0-9e39-82942939c417",
+                    "info": {
+                      "editorName": "blueTeamScore",
+                      "editorField": true,
+                      "x": 270,
+                      "y": 8,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "000000점",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 30,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "af56ed6d-6ad2-4dd5-a8ca-b5e69650630a",
+              "info": {
+                "editorName": "recordGroup",
+                "editorField": true,
+                "y": 80,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "7f9d89ae-2501-4ad7-9030-81ac9d107561",
+                    "asset": "9",
+                    "info": {
+                      "editorName": "PanelResultMyWinRate",
+                      "editorField": true,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "8ff88ed9-18d7-403e-bf87-454b40ce891c",
+                    "info": {
+                      "editorName": "myWinRate",
+                      "editorField": true,
+                      "x": 45,
+                      "y": 8,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "000승 000패 000무",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 27,
+                      "style.fontWeight": "NORMAL",
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "bf0d6dc4-95ff-4c80-9415-25dfc7e35185",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "STitleResultMyWinRate",
+                      "x": -125,
+                      "y": 8,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "0def8674-285b-4890-9ffa-77d25cb2a84e",
+              "info": {
+                "editorName": "rankGroup",
+                "editorField": true,
+                "y": -105,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "594981c5-74b7-4157-bd5d-1ed2aca2b228",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "PanelResultMyRank",
+                      "editorField": true,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "6dfa1ef2-3043-41d0-9192-86f3f2593a2e",
+                    "info": {
+                      "editorName": "myRank",
+                      "editorField": true,
+                      "x": 50,
+                      "y": -8,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "00위",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 27,
+                      "style.fontWeight": "NORMAL",
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "eb6507b0-0bc2-40ea-8249-4e2842c811b3",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "STitleResultMyRank",
+                      "x": -30,
+                      "y": -8,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "image",
+              "id": "f47619ce-aa03-431d-bef1-fda937d92c68",
+              "asset": "13",
+              "info": {
+                "editorName": "ResultTitleLose",
+                "editorField": true,
+                "x": -15,
+                "y": -190,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "3b10f737-0dae-4326-9c2b-7ac90db99cac",
+              "asset": "14",
+              "info": {
+                "editorName": "ResultTitleVic",
+                "editorField": true,
+                "y": -190,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "a897ecd5-72cb-46f2-91e1-29f35bb1fb23",
+              "asset": "15",
+              "info": {
+                "editorName": "ResultTitleDraw",
+                "editorField": true,
+                "y": -190,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "button",
+              "id": "3ab0d492-537f-4555-8f3f-6df9424be1d8",
+              "asset": "16",
+              "info": {
+                "editorName": "ResultBtnKakao",
+                "editorField": true,
+                "x": -75,
+                "y": 160,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "callback": "this.kakaoBtn",
+                "overFrame": "0",
+                "downFrame": "1"
+              }
+            },
+            {
+              "type": "button",
+              "id": "44e7b160-3423-4aec-8d51-5e76ec21ab71",
+              "asset": "17",
+              "info": {
+                "editorName": "ResultBtnFacebook",
+                "editorField": true,
+                "x": 75,
+                "y": 160,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "callback": "this.facebookBtn",
+                "overFrame": "0",
+                "downFrame": "1"
+              }
+            },
+            {
+              "type": "button",
+              "id": "9c095fe0-5474-4e00-b472-0cf6a9d13492",
+              "asset": "18",
+              "info": {
+                "editorName": "ResultBtnContinue",
+                "editorField": true,
+                "x": -115,
+                "y": 250,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "callback": "this.continueBtn",
+                "overFrame": "2",
+                "downFrame": "1"
+              }
+            },
+            {
+              "type": "button",
+              "id": "7927e602-ec17-45d9-86ff-f0f2e29548b2",
+              "asset": "19",
+              "info": {
+                "editorName": "ResultBtnExit",
+                "editorField": true,
+                "x": 115,
+                "y": 250,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "callback": "this.exitBtn",
+                "overFrame": "2",
+                "downFrame": "1"
+              }
+            },
+            {
+              "type": "group",
+              "id": "799660aa-f50a-4e60-a5fc-510655371ec7",
+              "info": {
+                "editorName": "pointToast",
+                "editorField": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "90830531-80d1-49db-a02b-6a2305e61043",
+                    "asset": "20",
+                    "info": {
+                      "editorName": "pointToastBG2",
+                      "y": -140,
+                      "scale.x": 300,
+                      "scale.y": 4,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "90260e14-61a2-4703-81fd-9013a75aae2e",
+                    "info": {
+                      "editorName": "pointToastText",
+                      "editorField": true,
+                      "y": -140,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "(승무패) 보상으로 000 한컴포인트를 확득했습니다.",
+                      "style.font": "Nanum Gothic",
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelResultLose"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelResultVic"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultPanelCharHaloEffect"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultSTitleTeamR"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultLoseInfo"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultVicInfo"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultLoseInfoPlus"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultVicInfoPlus"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultSTitleTeamB"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelResultMyWinRate"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleResultMyWinRate"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelResultMyRank"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleResultMyRank"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultTitleLose"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultTitleVic"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultTitleDraw"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultBtnKakao",
+      "sprite": "0"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultBtnFacebook",
+      "sprite": "0"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultBtnContinue",
+      "sprite": "0"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultBtnExit",
+      "sprite": "0"
+    },
+    "20": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ImgBTranslucency"
+    }
+  },
+  "prefab-table": {"0": "WebContent/assets/canvas/CharacterGroup.canvas"}
+}

@@ -1,0 +1,100 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "itemEraser",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "557485cb-7ab9-496b-95cd-6e3c7dda1958",
+    "info": {
+      "editorName": "itemEraser",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "2366e5f0-a9d5-4102-adde-1934dbe51ebd",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [{
+            "type": "group",
+            "id": "c3f12a0d-ffe5-403c-a0e4-61f9771978cc",
+            "info": {
+              "editorName": "eraserGroup",
+              "editorField": true,
+              "x": 1200,
+              "y": 288,
+              "setAll": [],
+              "children": [
+                {
+                  "type": "image",
+                  "id": "2ae9bc5f-a35e-433c-b818-e820d38dab4e",
+                  "asset": "0",
+                  "info": {
+                    "editorName": "ItemWLine",
+                    "editorField": true,
+                    "x": -24,
+                    "y": 93,
+                    "scale.x": 2
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "c68603aa-ce0c-4e54-a218-09f597b48173",
+                  "asset": "1",
+                  "info": {
+                    "editorName": "ItemErazer",
+                    "editorField": true,
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5
+                  }
+                }
+              ]
+            }
+          }]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ItemWLine"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ItemErazer"
+    }
+  },
+  "prefab-table": {}
+}

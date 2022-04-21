@@ -1,0 +1,291 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CreateRoomPopup",
+    "sceneWidth": 597,
+    "sceneHeight": 307,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.game.createRoom = this;\nthis.game.audioManager.playSfx(\"Popup\");\nthis.myInput = this.createInput(490, 308);\nthis.myInput.setText('');\n\nvar _DD_IsFree2 = new DropDownIsFree(this.game);\n_DD_IsFree2.position.setTo(22 + 152 + 22 + 213.49996948242188, 135.0 + 76.0);\nvar _DD_Color2 = new DropDownTeamColor(this.game);\n_DD_Color2.position.setTo(22 + 152 + 22 + 112 + 21 + 213.49996948242188, 135.0 + 76.0);\nvar _DD_RunningTime2 = new DropDownRunningTime(this.game);\n_DD_RunningTime2.position.setTo(22 + 152 + 22 + 112 + 21 + 112 + 22 + 213.49996948242188, 135.0 + 76.0);\n\nthis.fDD_IsFree = _DD_IsFree2;\nthis.fDD_Color = _DD_Color2;\nthis.fDD_RunningTime = _DD_RunningTime2;\n\nthis.game.myPopup = this;\n\nthis.myInput.customInit = function() { \n\tthis.closeOther();\n}.bind(this);"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "1e4a75ae-3852-47f6-b155-6589a735374b",
+    "info": {
+      "editorName": "CreateRoomPopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "6f936138-d6bb-4a62-84a1-a50c014b57f8",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "862b88e5-5110-43a9-81ac-f7869f243686",
+              "asset": "0",
+              "info": {"editorName": "PopPanelCreateSet"}
+            },
+            {
+              "type": "image",
+              "id": "d55e5b63-b664-4267-850e-9e947f13ef2c",
+              "asset": "1",
+              "info": {
+                "editorName": "TitleRoomCreate",
+                "x": 239,
+                "y": 35
+              }
+            },
+            {
+              "type": "button",
+              "id": "1f976c86-f226-4620-bc91-d6828d359de6",
+              "asset": "2",
+              "info": {
+                "editorName": "BtnExit",
+                "x": 447,
+                "y": -30,
+                "callback": "offCreateRoomPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "image",
+              "id": "d4ac53b7-dea0-4595-a335-abe521dfb7fd",
+              "asset": "3",
+              "info": {
+                "editorName": "STitleBackImg",
+                "x": 98,
+                "y": 100,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "d993a632-c16a-4be5-bf69-be0cea34d66d",
+              "asset": "4",
+              "info": {
+                "editorName": "STitleAttribute",
+                "x": 252,
+                "y": 100,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "adb28b10-0cb4-40c1-a083-820b8cfd0522",
+              "asset": "5",
+              "info": {
+                "editorName": "STitleMemberNum",
+                "x": 141,
+                "y": 180,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "e1286e2e-d978-4dd5-87b4-c556bedd3724",
+              "asset": "6",
+              "info": {
+                "editorName": "STitleTeamColor",
+                "x": 385,
+                "y": 100,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "3c7d92df-3b1b-466b-930b-7a0a1419c582",
+              "asset": "7",
+              "info": {
+                "editorName": "STitleRoomName",
+                "x": 398.5,
+                "y": 180,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "a0a37b9b-60f5-4088-bf31-a58649ce8b12",
+              "asset": "8",
+              "info": {
+                "editorName": "STitlePlaytime",
+                "x": 519,
+                "y": 100,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "29025110-3ac0-4433-b8a4-756b2a1abc69",
+              "asset": "9",
+              "info": {
+                "editorName": "InputOnlyPanel",
+                "x": 252,
+                "y": 215
+              }
+            },
+            {
+              "type": "text",
+              "id": "effcc073-2e83-4658-b21e-7a7b0512cf5f",
+              "info": {
+                "editorName": "roomTitle",
+                "editorField": true,
+                "x": 390,
+                "y": 244,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "style.fontSize": 18,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "button",
+              "id": "f3fa2db3-7d2b-4417-9dde-e419832f0d2a",
+              "asset": "10",
+              "info": {
+                "editorName": "BtnRoomCreate1",
+                "x": 95,
+                "y": 327,
+                "callback": "createFreeRoomBtn",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "button",
+              "id": "e2ad9b02-eadb-433b-b8fd-d7e9c9c242b6",
+              "asset": "11",
+              "info": {
+                "editorName": "BtnRoomCreate2",
+                "x": 335,
+                "y": 327,
+                "callback": "createClanRoomBtn",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "a1f3bba7-7b89-4ffa-aefb-1ff7fa336dd5",
+              "info": {
+                "editorName": "DD_MenNumber",
+                "editorField": true,
+                "x": 52,
+                "y": 221
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "52f24630-2818-4931-8f68-237895877c8e",
+              "info": {
+                "editorName": "DD_Background",
+                "editorField": true,
+                "x": 22,
+                "y": 135
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelCreateSet"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleRoomCreate"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleBackImg"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleAttribute"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleMemberNum"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleTeamColor"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleRoomName"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitlePlaytime"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "InputOnlyPanel"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnRoomCreate1",
+      "sprite": "0"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnRoomCreate2",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {
+    "0": "WebContent/assets/canvas/popup/DropDownMenNumber.canvas",
+    "1": "WebContent/assets/canvas/popup/DropDownBackground.canvas"
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "eventGame",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.gameManager;\nthis.boards = [_board0, _board1, _board2];\n\t\t\n//score\nthis.flipCount = 0;\nthis.redTeamScore = 0;\nthis.blueTeamScore = 0;\n\t\t\t\n//timer\nthis.fEventTimerText.text = eventTimeSeconds;\nthis.timer;\nthis.timeInSeconds = eventTimeSeconds;\n\n//Event start animation (bounce)\nthis.setStartTween();\nthis.fEventResult.visible = false;\n\n//backgoround input block\n//this.fImgBTranslucency.inputEnabled = true;\n//this.fImgBTranslucency.events.onInputOver.add(this.blockInput, this);"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "16153dae-d635-44d6-a99e-1b6940a36712",
+    "info": {
+      "editorName": "eventGame",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "1c643d53-98c2-415c-96b8-9da7ad72c1e8",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "f3f80b11-f5a3-4421-921a-282c84e5b541",
+              "asset": "0",
+              "info": {
+                "editorName": "ImgBTranslucency",
+                "editorField": true,
+                "scale.x": 300,
+                "scale.y": 200,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "group",
+              "id": "894b4cf4-c95f-466a-acbd-2db8bd3f3b33",
+              "info": {
+                "editorName": "eventBoards",
+                "editorField": true,
+                "y": 50,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "prefab",
+                    "prefab": "0",
+                    "id": "0350e225-5305-4b2f-bb53-a36449aa0cb3",
+                    "info": {
+                      "editorName": "board0",
+                      "editorField": true,
+                      "x": 750,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "0",
+                    "id": "af2c1b4e-0b32-424a-ae5b-34b9f038ba68",
+                    "info": {
+                      "editorName": "board1",
+                      "editorField": true,
+                      "x": 1050,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "0",
+                    "id": "51c129b4-371c-4c0e-9003-c3e1e8b9f8ff",
+                    "info": {
+                      "editorName": "board2",
+                      "editorField": true,
+                      "x": 1350,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "2fa39705-9d2d-45cb-842a-afd296873241",
+                    "info": {
+                      "editorName": "watchGroup",
+                      "editorField": true,
+                      "scale.x": 0,
+                      "scale.y": 0,
+                      "pivot.x": 0.5,
+                      "pivot.y": 0.5,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "image",
+                          "id": "ea3b66e1-36d7-4ad1-a2a9-318a63fed53c",
+                          "asset": "1",
+                          "info": {
+                            "editorName": "ImgEventWatch",
+                            "y": -265,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "5574a616-6165-48ec-90e3-dbd7e48e67df",
+                          "info": {
+                            "editorName": "eventTimerText",
+                            "editorField": true,
+                            "y": -257,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5,
+                            "text": "20",
+                            "style.font": "Nanum Gothic",
+                            "style.fontSize": 55,
+                            "style.fontWeight": "NORMAL",
+                            "style.align": "CENTER"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "77ee5696-f14c-4f59-8c2c-97fce98920ed",
+              "info": {
+                "editorName": "eventStart",
+                "editorField": true,
+                "x": 750,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "fc06dc59-d0c8-4e9c-a55c-4174414cf88e",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "ImgEventTime",
+                      "editorField": true,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "dcc06575-12b1-42ac-b628-0304045a43f5",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "ImgEventTime1",
+                      "editorField": true,
+                      "scale.x": 0,
+                      "scale.y": 0,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "5b4b4100-b162-4990-847b-d02e9336a38b",
+              "info": {
+                "editorName": "eventResult",
+                "editorField": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "62ddcac0-b4e5-4ee9-8593-768c08f7030a",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "PopPanelNotice",
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "3282b871-ae56-4ab9-99a5-aaf909a2a9c9",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "STitleTeamBTotal",
+                      "x": 120,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "4e8333fd-6f45-4c2c-8dc8-1531570ef888",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "STitleTeamRTotal",
+                      "x": -120,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "91634b84-db96-4b2b-96b5-15e072c4f63c",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "TitleEventEnd",
+                      "y": -80,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "17095c83-3556-47d2-9bc6-ea578f4d8e6d",
+                    "asset": "8",
+                    "info": {
+                      "editorName": "BarM02",
+                      "x": 120,
+                      "y": 40,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "b77dbbab-4a01-41ab-84bf-3b88403b42a7",
+                    "asset": "8",
+                    "info": {
+                      "editorName": "BarM01",
+                      "x": -120,
+                      "y": 40,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "49357d09-fcf3-43c7-ac57-dd7fa1592b72",
+                    "info": {
+                      "editorName": "redScore",
+                      "editorField": true,
+                      "x": -120,
+                      "y": 40,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "0점 획득",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "c70a8fc4-78e1-4789-860c-df8981de4041",
+                    "info": {
+                      "editorName": "blueScore",
+                      "editorField": true,
+                      "x": 120,
+                      "y": 40,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "1000점 획득",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ImgBTranslucency"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ImgEventWatch"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ImgEventTime1"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ImgEventTime2"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelNotice"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleTeamBTotal"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleTeamRTotal"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleEventEnd"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarM2"
+    }
+  },
+  "prefab-table": {"0": "WebContent/assets/canvas/eventBoard.canvas"}
+}

@@ -1,0 +1,142 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "InGameInvitePopup",
+    "sceneWidth": 513,
+    "sceneHeight": 120,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "d7940b3f-c902-4dd8-bbaa-4ecceea504fa",
+    "info": {
+      "editorName": "InGameInvitePopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "95434801-b20d-4f09-bd5a-600b3e8b8273",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "37a887c4-7cd8-41c4-9dfa-f88c7221515d",
+              "asset": "0",
+              "info": {
+                "editorName": "PopPanelInvitationRequest",
+                "y": 1
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "1f0b9235-2c55-43cb-a474-c376628f8978",
+              "asset": "1",
+              "info": {
+                "editorName": "SBtnRefuse",
+                "x": 275,
+                "y": 70
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "568f9352-c0da-463d-9c3d-425b006df1f4",
+              "asset": "2",
+              "info": {
+                "editorName": "SBtnAccept",
+                "x": 125,
+                "y": 70
+              }
+            },
+            {
+              "type": "text",
+              "id": "04468f33-3c2c-4939-9e67-f8d0005c79f7",
+              "info": {
+                "editorName": "text",
+                "x": 238,
+                "y": 21,
+                "anchor.x": 0.5,
+                "text": "여덟글자의닉네임이 판뒤집기에서 초대했습니다.",
+                "style.fontSize": 16,
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "text",
+              "id": "ce6f8acb-cacb-4edf-b2f1-de3aa6a9dda6",
+              "info": {
+                "editorName": "text1",
+                "x": 466,
+                "y": 39,
+                "text": "9",
+                "style.fontSize": 40,
+                "style.fill": "#f5c242"
+              }
+            },
+            {
+              "type": "text",
+              "id": "dbe32628-5194-4cc2-8fe3-f98b456289a3",
+              "info": {
+                "editorName": "text2",
+                "x": 180,
+                "y": 43,
+                "pivot.x": 0.5,
+                "text": "(비밀번호: 0000)",
+                "style.fontSize": 17,
+                "style.fill": "#f2a63a",
+                "style.align": "CENTER"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelInvitationRequest"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "SBtnRefuse",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "SBtnAccept",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

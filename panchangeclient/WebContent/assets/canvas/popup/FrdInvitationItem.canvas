@@ -1,0 +1,100 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "FrdInvitationItem",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "0746ec55-a9ef-4bb8-a7a5-22f80ad16b9d",
+    "info": {
+      "editorName": "FrdInvitationItem",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "c23369d2-40bd-4a29-a360-b70c184775dd",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "9e974dd6-efef-4314-87c7-ea9ba18d29f8",
+              "asset": "0",
+              "info": {"editorName": "BarL"}
+            },
+            {
+              "type": "text",
+              "id": "a5ae983a-195d-45f6-bb36-a7db8c83cb0d",
+              "info": {
+                "editorName": "txt_nickname",
+                "editorField": true,
+                "x": 129,
+                "y": 7,
+                "anchor.x": 0.5,
+                "text": "닉네임은여덟글자",
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "button",
+              "id": "81cf40c8-3847-4f57-b367-a54d47eda51b",
+              "asset": "1",
+              "info": {
+                "editorName": "SBtnInvite",
+                "editorField": true,
+                "x": 280,
+                "callback": "changeChecked",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarL2"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "RoomListBtnSelect",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

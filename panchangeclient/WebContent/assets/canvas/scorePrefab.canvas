@@ -1,0 +1,88 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "scorePrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "f13dac44-fd8e-40bf-ac92-eb3805253fa3",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "64d15147-325d-46c0-908a-a95b7918d451",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "05cf2720-f585-494a-955a-7b37c95787a0",
+              "asset": "0",
+              "info": {
+                "editorName": "PanelGamePoint",
+                "editorField": true
+              }
+            },
+            {
+              "type": "text",
+              "id": "16a135e6-ca05-49c9-833d-e2f0319a46e5",
+              "info": {
+                "editorName": "MyScore",
+                "editorField": true,
+                "x": 120,
+                "y": 30,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "00000",
+                "style.font": "Nanum Gothic",
+                "style.fontSize": 25,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.strokeThickness": 4,
+                "style.align": "CENTER"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "main",
+    "asset": "PanelGamePoint"
+  }},
+  "prefab-table": {}
+}

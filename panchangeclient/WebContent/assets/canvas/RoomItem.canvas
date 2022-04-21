@@ -1,0 +1,179 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "RoomItem",
+    "sceneWidth": 644,
+    "sceneHeight": 36,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.currentMen = 0;\nthis.maxMen = 0;\nthis.roomNum = null;\nthis.ip = null;\nthis.isLock = false;\nthis.game = aGame;\nthis.isPublic = false;\nthis.aClan = \"\";\nthis.bClan = \"\";"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e67618a6-9f17-45e7-90e2-7761a9cde62a",
+    "info": {
+      "editorName": "RoomItem",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "fc2c9808-7b35-4fcf-93e2-89f4be9f8a86",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "866a4d25-bd91-49df-845c-941df9b97a91",
+              "asset": "0",
+              "info": {"editorName": "BarUnitRoomList"}
+            },
+            {
+              "type": "button",
+              "id": "696feb62-50e3-4969-9bd5-50216b95fa18",
+              "asset": "1",
+              "info": {
+                "editorName": "SBtnAdmit",
+                "x": 654,
+                "callback": "reqEnter",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "text",
+              "id": "e8a4c8e7-3946-4387-b6f2-5a16f2b31acf",
+              "info": {
+                "editorName": "txt_roomNum",
+                "editorField": true,
+                "x": 57,
+                "y": 21,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "00000000",
+                "style.fontSize": 16,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "text",
+              "id": "74043116-54c5-4457-8788-85174aab31a0",
+              "info": {
+                "editorName": "txt_roomType",
+                "editorField": true,
+                "x": 403,
+                "y": 9,
+                "text": "자유",
+                "style.fontSize": 16,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "text",
+              "id": "e4e454b6-2270-43a8-a3a4-ffd50cee447a",
+              "info": {
+                "editorName": "txt_roomMenNum",
+                "editorField": true,
+                "x": 510,
+                "y": 21,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "000/000",
+                "style.fontSize": 16,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "text",
+              "id": "9dd2f33a-a49e-4b72-87e0-cac8acceb347",
+              "info": {
+                "editorName": "txt_runningTime",
+                "editorField": true,
+                "x": 600,
+                "y": 9,
+                "text": "0분",
+                "style.fontSize": 16,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.align": "RIGHT"
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "b278ecc7-2859-428e-96e0-9f01a3cfa3a0",
+              "asset": "2",
+              "info": {
+                "editorName": "IconLock",
+                "editorField": true,
+                "x": 327,
+                "y": 7
+              }
+            },
+            {
+              "type": "text",
+              "id": "acc95fab-c562-426f-bf40-900de49deb6c",
+              "info": {
+                "editorName": "txt_roomName",
+                "editorField": true,
+                "x": 115,
+                "y": 9,
+                "text": "가나다라마바사아자차카타",
+                "style.fontSize": 16,
+                "style.fontWeight": "NORMAL"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarUnitRoomList"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "SBtnAdmit",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "IconLock",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

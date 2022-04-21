@@ -1,0 +1,191 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "tugOfWar",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.boardCondition = 0.5;\t\t//0.0 ~ 1.0\n\nthis.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "eb8b0480-2c2f-4d07-8029-d209bd09d20b",
+    "info": {
+      "editorName": "tugOfWar",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "63b288e3-d123-40a2-9ca6-51f4829d5ae2",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "spritesheet",
+              "id": "c1aa6bbe-0521-494b-872c-5af5cbc7b6a9",
+              "asset": "0",
+              "info": {
+                "editorName": "CharJuldarigiB",
+                "editorField": true,
+                "x": -100,
+                "anchor.y": 0.5,
+                "animations": [{
+                  "name": "julB",
+                  "frameRate": 5,
+                  "loop": true,
+                  "field": true,
+                  "frames": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                  ]
+                }]
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "6727de54-9541-41fd-b791-e79c3963c458",
+              "asset": "1",
+              "info": {
+                "editorName": "CharJuldarigiR",
+                "editorField": true,
+                "x": 20,
+                "anchor.x": 1,
+                "anchor.y": 0.5,
+                "animations": [{
+                  "name": "julR",
+                  "frameRate": 5,
+                  "loop": true,
+                  "field": true,
+                  "frames": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                  ]
+                }]
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "0dcf0dcb-185d-4cc1-af9c-8dfe5094242f",
+              "asset": "2",
+              "info": {
+                "editorName": "smokeR",
+                "editorField": true,
+                "x": -144,
+                "y": 17,
+                "animations": [{
+                  "name": "walk",
+                  "frameRate": 5,
+                  "loop": true,
+                  "field": true,
+                  "autoPlay": true,
+                  "frames": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                  ]
+                }]
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "0930384b-fe55-4fd1-ae04-3bb1367d2cc5",
+              "asset": "3",
+              "info": {
+                "editorName": "smokeB",
+                "editorField": true,
+                "x": 4,
+                "y": 17,
+                "animations": [{
+                  "name": "walk",
+                  "frameRate": 5,
+                  "loop": true,
+                  "field": true,
+                  "autoPlay": true,
+                  "frames": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                  ]
+                }]
+              }
+            },
+            {
+              "type": "image",
+              "id": "58bb92b6-c53a-4f3c-9992-71de557f3cae",
+              "asset": "4",
+              "info": {
+                "editorName": "ImgVS",
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharJuldarigiB1",
+      "sprite": "0"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharJuldarigiR1",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharSmogV1",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharSmogV2",
+      "sprite": "0"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ImgVS"
+    }
+  },
+  "prefab-table": {}
+}

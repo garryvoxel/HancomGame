@@ -1,0 +1,274 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "FrdInvitationPopup",
+    "sceneWidth": 477,
+    "sceneHeight": 381,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "73bc9c7b-749b-4e9f-8e10-f58c6674df28",
+    "info": {
+      "editorName": "FrdInvitationPopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "eeda6478-3ec2-43d4-887c-583e93fecf5f",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "f2f2822d-12cd-4cde-9dac-68a802ff2f28",
+              "asset": "0",
+              "info": {"editorName": "PopPanelFriendInvite"}
+            },
+            {
+              "type": "image",
+              "id": "1dca4b63-d936-43b0-8b83-934ecdf865be",
+              "asset": "1",
+              "info": {
+                "editorName": "TitleFriendInvite",
+                "x": 162,
+                "y": 35
+              }
+            },
+            {
+              "type": "image",
+              "id": "ea4a516e-62c7-4ed2-820f-8a81b1ef7a92",
+              "asset": "2",
+              "info": {
+                "editorName": "PopPanelListPageNum",
+                "x": 188.5,
+                "y": 358
+              }
+            },
+            {
+              "type": "button",
+              "id": "d96308e0-68a1-435c-92e6-0698044e93bc",
+              "asset": "3",
+              "info": {
+                "editorName": "BtnExit",
+                "x": 366,
+                "y": -30,
+                "callback": "offInvitationPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "image",
+              "id": "c81a704e-8ca2-4512-804b-4fa3f03bbdf7",
+              "asset": "4",
+              "info": {
+                "editorName": "STitleNickname",
+                "x": 133,
+                "y": 98
+              }
+            },
+            {
+              "type": "image",
+              "id": "f348f6d8-cadf-4514-812d-8c5e13963b67",
+              "asset": "5",
+              "info": {
+                "editorName": "STitleInvite",
+                "x": 355,
+                "y": 98
+              }
+            },
+            {
+              "type": "button",
+              "id": "67b21612-25e7-4ecc-884f-2ab317988090",
+              "asset": "6",
+              "info": {
+                "editorName": "BtnArrowR",
+                "x": 477,
+                "y": 144,
+                "anchor.x": 0.5,
+                "callback": "nextInviList",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "button",
+              "id": "7195ee83-66b5-465c-92ef-a9476e3d7e33",
+              "asset": "7",
+              "info": {
+                "editorName": "BtnArrowL",
+                "y": 144,
+                "anchor.x": 0.5,
+                "callback": "prevInviList",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "83feb825-38bc-4e0f-88c8-82130bc120ca",
+              "info": {
+                "editorName": "Invitation01",
+                "editorField": true,
+                "x": 60,
+                "y": 135
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "ae8f92d7-99a1-4fd3-bde4-2eb04cb664cd",
+              "info": {
+                "editorName": "Invitation02",
+                "editorField": true,
+                "x": 60,
+                "y": 178
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "fe8081a7-d51b-41b1-a529-edbe28b57845",
+              "info": {
+                "editorName": "Invitation03",
+                "editorField": true,
+                "x": 60,
+                "y": 221
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "73a2156b-ab88-4912-8269-1dbe2e3edb02",
+              "info": {
+                "editorName": "Invitation04",
+                "editorField": true,
+                "x": 60,
+                "y": 264
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "0b448955-e7c5-4fef-a4ca-64717c9caa22",
+              "info": {
+                "editorName": "Invitation05",
+                "editorField": true,
+                "x": 60,
+                "y": 307
+              }
+            },
+            {
+              "type": "text",
+              "id": "ab8abebe-a8ab-4ef4-b100-5f1d23bfc58a",
+              "info": {
+                "editorName": "txt_pageNumStr",
+                "editorField": true,
+                "x": 240,
+                "y": 381,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "00 / 00",
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "button",
+              "id": "3f29bce5-ca5d-4209-970c-59a7b50eeb3e",
+              "asset": "8",
+              "info": {
+                "editorName": "BtnInviteFriend",
+                "x": 155,
+                "y": 411,
+                "callback": "inviteFriends",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelFriendInvite"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleFriendInvite"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelListPageNum"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleNickname"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleInvite"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnArrowR",
+      "sprite": "0"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnArrowL",
+      "sprite": "0"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnInviteFriend",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {"0": "WebContent/assets/canvas/popup/FrdInvitationItem.canvas"}
+}

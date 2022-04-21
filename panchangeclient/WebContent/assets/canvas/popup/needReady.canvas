@@ -1,0 +1,63 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "needReady",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "b1c1bc72-d175-42ef-8aca-3b4bf58f0c19",
+    "info": {
+      "editorName": "needReady",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "61da67bc-a6a1-4436-afe6-76929ca8245b",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [{
+            "type": "image",
+            "id": "b1b46715-1f55-40ea-8b97-f2a7b8f05e4f",
+            "asset": "0",
+            "info": {"editorName": "Alert_callReady"}
+          }]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "main",
+    "asset": "Alert_callReady"
+  }},
+  "prefab-table": {}
+}

@@ -1,0 +1,217 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "eventBoard",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": true,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": false,
+    "create_after": "this.flipped = false;\nthis.sentence = \"\";\n\nthis.fSentenceText.wordWrap = true;\nthis.fSentenceText.wordWrapWidth = eventBoardWidth;\nthis.fSentenceText.setTextBounds(0, 0, eventBoardWidth, eventBoardHeight);\n\nthis.fWinnerData.visible = false;\n\nthis.fBoard.animations.getAnimation('toRed').onComplete.add(this.showWinnerData, this);\nthis.fBoard.animations.getAnimation('toBlue').onComplete.add(this.showWinnerData, this);\n\nthis.fResultNeutralX.visible = false;\n\nthis.fSentenceText.smoothed = false;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "5e1d54d3-9188-4f4a-bb84-601f79603ebc",
+    "info": {
+      "editorName": "eventBoard",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "8f9aaa20-4769-4dc8-8d28-96668c1a40ef",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "spritesheet",
+              "id": "1c844be5-b22c-40ef-bce6-b8d7805a709a",
+              "asset": "0",
+              "info": {
+                "editorName": "board",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "animations": [
+                  {
+                    "name": "toRed",
+                    "frameRate": 10,
+                    "field": true,
+                    "frames": [
+                      "6",
+                      "7",
+                      "2",
+                      "0"
+                    ]
+                  },
+                  {
+                    "name": "toBlue",
+                    "frameRate": 10,
+                    "field": true,
+                    "frames": [
+                      "6",
+                      "7",
+                      "5",
+                      "3"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "39282af7-e032-4e64-b14f-0fef94595c82",
+              "info": {
+                "editorName": "winnerData",
+                "editorField": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "51b86925-f8a3-49da-8710-8df2b6f1d234",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "ResultPanelCharHaloEffect",
+                      "editorField": true,
+                      "y": 20,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "0",
+                    "id": "1b2b3373-3dd4-475b-9dc4-e3c656911bdf",
+                    "info": {
+                      "editorName": "charGroup",
+                      "editorField": true,
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "07febcf6-807c-4774-b15c-3b508f734347",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "ResultBlue",
+                      "editorField": true,
+                      "x": -128,
+                      "y": -160
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "b9acdf65-6c1d-4569-9ca9-404ba5bc4d2f",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "ResultRed",
+                      "editorField": true,
+                      "x": -128,
+                      "y": -160
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "aec43135-fda8-4b79-842d-e8a30a00106f",
+                    "info": {
+                      "editorName": "winnerName",
+                      "editorField": true,
+                      "x": 40,
+                      "y": 140,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "1등이름표시텍스트",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 16,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "id": "ce8af4b7-e1df-4eb0-a704-08e1f61e758f",
+              "info": {
+                "editorName": "sentenceText",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세. 무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세. 가을 하늘 공활한데 높고 구름 없이 밝은 달은 우리 가슴 일편단심일세.",
+                "style.font": "Nanum Gothic",
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.stroke": "#ffffff"
+              }
+            },
+            {
+              "type": "image",
+              "id": "eca0cb25-41dd-4b9d-9027-74bc1ee2186b",
+              "asset": "4",
+              "info": {
+                "editorName": "ResultNeutralX",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "SheetGameEventPanel",
+      "sprite": "6"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultPanelCharHaloEffect"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultBlue"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultRed"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ResultNeutralX"
+    }
+  },
+  "prefab-table": {"0": "WebContent/assets/canvas/CharacterGroup.canvas"}
+}

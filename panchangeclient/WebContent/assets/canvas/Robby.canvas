@@ -1,0 +1,579 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Robby",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.redUsers = [];\nthis.blueUsers = [];\n\nfor(var i = 0 ; i < 3 ; i++) {\n\tfor(var j = 0 ; j < 5 ; j++) {\t\n\t\tvar _group = new RedUser(this.game);\n\t\t_group.position.setTo(198.0 + j * 148, 225.0 + i * 35);\n\t\t_group.visible = false;\n\t\tthis.redUsers.push(_group);\n\t}\n}\n\nfor(var i = 0 ; i < 3 ; i++) {\n\tfor(var j = 0 ; j < 5 ; j++) {\t\n\t\tvar _group = new BlueUser(this.game);\n\t\t_group.position.setTo(198.0 + j * 148, 370.0 + i * 35);\n\t\t_group.visible = false;\n\t\tthis.blueUsers.push(_group);\n\t}\n}\nthis.game.world.bringToTop(this.fBlueChief);\nthis.game.world.bringToTop(this.fRedChief);\n\nthis.fBlueChief.visible = false;\nthis.fRedChief.visible = false;\nthis.afterCreate();",
+    "state_init_before": "this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;",
+    "state_preload_before": "this.game.stage.disableVisibilityChange = true;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "99615f2a-6cd8-4ddb-8e72-08797183b44b",
+    "info": {
+      "editorName": "Robby",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "8604cf98-f6ca-4406-b0e6-89b1fff274bb",
+          "asset": "0",
+          "info": {"editorName": "LobbyBackImg"}
+        },
+        {
+          "type": "image",
+          "id": "199ebc29-c4d4-4b39-8c85-e7ee1001c4bd",
+          "asset": "1",
+          "info": {
+            "editorName": "PanelWaitTeamR",
+            "x": 160,
+            "y": 205
+          }
+        },
+        {
+          "type": "image",
+          "id": "df6bd6a1-9b6c-4cec-b751-1064b9dc5883",
+          "asset": "2",
+          "info": {
+            "editorName": "PanelWaitTeamB",
+            "x": 160,
+            "y": 350
+          }
+        },
+        {
+          "type": "image",
+          "id": "d8838aeb-8f56-4b0d-87bf-434913ad0b17",
+          "asset": "3",
+          "info": {
+            "editorName": "PanelRoomInfo",
+            "x": 23,
+            "y": 69
+          }
+        },
+        {
+          "type": "button",
+          "id": "4cd75f09-315b-47e2-80ee-c2f75dbad967",
+          "asset": "4",
+          "info": {
+            "editorName": "BtnHelp",
+            "x": 943,
+            "pivot.x": 81,
+            "callback": "onHelpPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "d1a62a6d-243e-47fb-979a-0909c1705736",
+          "asset": "5",
+          "info": {
+            "editorName": "BtnExit",
+            "x": 1024,
+            "pivot.x": 81,
+            "callback": "leaveRoom",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "3e2c3c84-00e8-4149-8377-20dcb7af98af",
+          "asset": "6",
+          "info": {
+            "editorName": "BtnVolControl",
+            "callback": "onVolumeCtrlPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "f4834d2e-0e5f-47ee-a750-3ef3fea81d01",
+          "asset": "7",
+          "info": {
+            "editorName": "BtnWinsizeS",
+            "x": 81,
+            "callback": "toggleFullScreen",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "image",
+          "id": "7b2cbcdf-0e20-4af4-8fc4-55ad0e244a83",
+          "asset": "8",
+          "info": {
+            "editorName": "TitleRoom",
+            "x": 419.5,
+            "y": 8
+          }
+        },
+        {
+          "type": "image",
+          "id": "e3281c8a-0531-4c9e-95ea-7826dcf98f8f",
+          "asset": "9",
+          "info": {
+            "editorName": "TeamFlagB",
+            "y": 360
+          }
+        },
+        {
+          "type": "image",
+          "id": "97c0e484-f6af-4229-a726-3e25548fc821",
+          "asset": "10",
+          "info": {
+            "editorName": "TeamFlagR",
+            "y": 215
+          }
+        },
+        {
+          "type": "button",
+          "id": "d4e405fd-aaa4-4876-9833-da50f9079834",
+          "asset": "11",
+          "info": {
+            "editorName": "BtnSetChange",
+            "editorField": true,
+            "x": 50,
+            "y": 490,
+            "callback": "onEditRoomSettingsPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "2fc487ec-4f2c-4621-8bf0-5b181290f90c",
+          "asset": "12",
+          "info": {
+            "editorName": "BtnSelectUserInfo",
+            "x": 280,
+            "y": 490,
+            "callback": "onUserInfoPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "0586b826-0081-4ebc-b696-df5c37d5ec97",
+          "asset": "13",
+          "info": {
+            "editorName": "BtnGameStart",
+            "editorField": true,
+            "x": 974,
+            "y": 490,
+            "pivot.x": 169,
+            "callback": "startGame",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "8eb194bb-eaf8-4e28-b020-d2d5d21fac03",
+          "asset": "14",
+          "info": {
+            "editorName": "BtnInviteFriend",
+            "x": 744,
+            "y": 490,
+            "pivot.x": 169,
+            "callback": "onInvitationPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "fb5a763f-af16-4b49-b9ab-05341c4d13ad",
+          "asset": "15",
+          "info": {
+            "editorName": "BtnArrowSL",
+            "editorField": true,
+            "x": 160,
+            "y": 276,
+            "pivot.x": 33.5,
+            "pivot.y": 34,
+            "callback": "prevRedTeam",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "2fc39870-ada4-4313-8191-cb09291a2a48",
+          "asset": "16",
+          "info": {
+            "editorName": "BtnArrowSR",
+            "editorField": true,
+            "x": 962,
+            "y": 276,
+            "pivot.x": 33.5,
+            "pivot.y": 34,
+            "callback": "nextRedTeam",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "82b8bebe-39b6-4445-a0e9-529bb233f27f",
+          "asset": "15",
+          "info": {
+            "editorName": "BtnArrowSL1",
+            "editorField": true,
+            "x": 160,
+            "y": 421,
+            "pivot.x": 33.5,
+            "pivot.y": 34,
+            "callback": "prevBlueTeam",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "cb1d4b6f-08d3-408a-a6f6-12e6b2c21de7",
+          "asset": "16",
+          "info": {
+            "editorName": "BtnArrowSR1",
+            "editorField": true,
+            "x": 962,
+            "y": 421,
+            "pivot.x": 33.5,
+            "pivot.y": 34,
+            "callback": "nextBlueTeam",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "ee0204e3-6759-4ba9-84d7-a2265b9fe1e4",
+          "asset": "17",
+          "info": {
+            "editorName": "IconLock",
+            "editorField": true,
+            "x": 474,
+            "y": 136
+          }
+        },
+        {
+          "type": "text",
+          "id": "92ade380-f363-47c2-ad16-8d6540ca1b89",
+          "info": {
+            "editorName": "txt_roomNum",
+            "editorField": true,
+            "x": 127,
+            "y": 151,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "00000000",
+            "style.fontSize": 16,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff"
+          }
+        },
+        {
+          "type": "text",
+          "id": "febfbb51-7ab9-4f36-ba64-623ed6dafe13",
+          "info": {
+            "editorName": "txt_roomName",
+            "editorField": true,
+            "x": 321,
+            "y": 151,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "가나다라마바사아자차카타",
+            "style.fontSize": 16,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.align": "CENTER"
+          }
+        },
+        {
+          "type": "text",
+          "id": "726bcb6e-5fba-47b9-89e4-53c1dc9edaab",
+          "info": {
+            "editorName": "txt_roomType",
+            "editorField": true,
+            "x": 581,
+            "y": 151,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "자유",
+            "style.fontSize": 16,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.align": "CENTER"
+          }
+        },
+        {
+          "type": "text",
+          "id": "b5fa39ea-93cf-4c69-9400-97ef7d6fda33",
+          "info": {
+            "editorName": "txt_runningTime",
+            "editorField": true,
+            "x": 770,
+            "y": 151,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "5분",
+            "style.fontSize": 16,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.align": "CENTER"
+          }
+        },
+        {
+          "type": "text",
+          "id": "c2db1f8f-886d-4601-9623-402e4fe5b27f",
+          "info": {
+            "editorName": "txt_boardColor",
+            "editorField": true,
+            "x": 675,
+            "y": 151,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "빨강",
+            "style.fontSize": 16,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.align": "CENTER"
+          }
+        },
+        {
+          "type": "text",
+          "id": "ecc95cf9-9258-4f6b-b66d-cee394e2ae59",
+          "info": {
+            "editorName": "txt_background",
+            "editorField": true,
+            "x": 889,
+            "y": 151,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "랜덤",
+            "style.fontSize": 16,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.align": "CENTER"
+          }
+        },
+        {
+          "type": "text",
+          "id": "a3a370f0-b19f-403b-a380-5e5cf3ea14cd",
+          "info": {
+            "editorName": "txt_redMen",
+            "editorField": true,
+            "x": 75,
+            "y": 298,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "00/00",
+            "style.fontSize": 16,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.align": "CENTER"
+          }
+        },
+        {
+          "type": "text",
+          "id": "5f7b173b-3b10-4aff-b64a-c8c227fea28a",
+          "info": {
+            "editorName": "txt_blueMen",
+            "editorField": true,
+            "x": 75,
+            "y": 443,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "00/00",
+            "style.fontSize": 16,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.align": "CENTER"
+          }
+        },
+        {
+          "type": "image",
+          "id": "029dfce9-08fa-45f1-9482-07b9d6968423",
+          "asset": "18",
+          "info": {
+            "editorName": "redChief",
+            "editorField": true,
+            "x": 197,
+            "y": 208
+          }
+        },
+        {
+          "type": "image",
+          "id": "cfb49771-237d-4f99-8c3f-4346082a8cd0",
+          "asset": "18",
+          "info": {
+            "editorName": "blueChief",
+            "editorField": true,
+            "x": 197,
+            "y": 353
+          }
+        },
+        {
+          "type": "button",
+          "id": "d07478cd-1541-461b-8302-b4a772ada791",
+          "asset": "19",
+          "info": {
+            "editorName": "BtnGameReady",
+            "editorField": true,
+            "x": 974,
+            "y": 490,
+            "pivot.x": 169,
+            "callback": "changeReadyState",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "LobbyBackImg"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelWaitTeamR"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelWaitTeamB"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelRoomInfo"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnHelp",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnVolControl",
+      "sprite": "0"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnWinsizeS",
+      "sprite": "0"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleRoom"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TeamFlagB"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TeamFlagR"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnSetChange",
+      "sprite": "0"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnSelectUserInfo",
+      "sprite": "0"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnGameStart",
+      "sprite": "0"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnInviteFriend",
+      "sprite": "0"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnArrowSL",
+      "sprite": "0"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnArrowSR",
+      "sprite": "0"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "IconLock",
+      "sprite": "0"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ChiefMark"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnGameReady",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

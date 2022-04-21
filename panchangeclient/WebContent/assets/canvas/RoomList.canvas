@@ -1,0 +1,301 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "RoomList",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate();",
+    "state_init_before": "this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;\n",
+    "state_init_after": "this.roomList = [];"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "f66b93e1-147a-4da2-96ff-0a08b04f4490",
+    "info": {
+      "editorName": "RoomList",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "03b9ac75-9562-4e9f-81d6-c6a7a5ad7ade",
+          "asset": "0",
+          "info": {"editorName": "LobbyBackImgBlur"}
+        },
+        {
+          "type": "image",
+          "id": "9d7aebff-90cb-4d52-a211-2d0c8c572b46",
+          "asset": "1",
+          "info": {
+            "editorName": "PanelRoomList",
+            "x": 91,
+            "y": 69
+          }
+        },
+        {
+          "type": "image",
+          "id": "ad578d7a-792a-43c5-b4d0-003c21b25ee9",
+          "asset": "2",
+          "info": {
+            "editorName": "TitleRoomList",
+            "x": 372.5,
+            "y": 8
+          }
+        },
+        {
+          "type": "button",
+          "id": "223af7d6-052c-48cc-a140-a78b44f7dd55",
+          "asset": "3",
+          "info": {
+            "editorName": "BtnVolControl",
+            "callback": "onVolumeCtrlPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "a491faf7-305b-4913-a4e0-00fe88b3ec9e",
+          "asset": "4",
+          "info": {
+            "editorName": "BtnWinsizeS",
+            "x": 81,
+            "callback": "toggleFullScreen",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "fd64b805-f05b-4642-8bb1-85cf30ddea99",
+          "asset": "5",
+          "info": {
+            "editorName": "BtnHelp",
+            "editorField": true,
+            "x": 943,
+            "pivot.x": 81,
+            "callback": "onHelpPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "c88c6ef7-8532-47d4-8a49-94224e4b3223",
+          "asset": "6",
+          "info": {
+            "editorName": "BtnExit",
+            "x": 1024,
+            "pivot.x": 81,
+            "callback": "closeWindow",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "57ff5e63-91a0-4d04-babf-78828896d666",
+          "asset": "7",
+          "info": {
+            "editorName": "BtnArrowR",
+            "editorField": true,
+            "x": 974,
+            "y": 240,
+            "pivot.x": 94,
+            "callback": "nextRoomList",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "886274fc-0a3c-4604-a9eb-fa9b2791f521",
+          "asset": "8",
+          "info": {
+            "editorName": "BtnArrowL",
+            "editorField": true,
+            "x": 50,
+            "y": 241,
+            "callback": "prevRoomList",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "1280d4fd-8659-4f2d-b8af-5d9105c7059c",
+          "asset": "9",
+          "info": {
+            "editorName": "BtnRoomGenerate",
+            "x": 280,
+            "y": 490,
+            "callback": "onCreateRoomPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "0e81f6dc-07dc-49f3-93f9-ad82ca56cc13",
+          "asset": "10",
+          "info": {
+            "editorName": "BtnRoomSearch",
+            "x": 50,
+            "y": 490,
+            "callback": "onSearchRoomPopup",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "4c11eafe-a3a5-4740-bcc9-d38f582e599a",
+          "asset": "11",
+          "info": {
+            "editorName": "BtnFreeAutoAdmit",
+            "x": 744,
+            "y": 490,
+            "pivot.x": 169,
+            "callback": "autoEnter",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "button",
+          "id": "58f5ddd1-bb5b-4e54-9b9e-07e7a045fd10",
+          "asset": "12",
+          "info": {
+            "editorName": "BtnClanAutoAdmit",
+            "x": 974,
+            "y": 490,
+            "pivot.x": 169,
+            "callback": "autoClan",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "text",
+          "id": "0e2535e5-a948-4447-8cd5-0f2784984287",
+          "info": {
+            "editorName": "txt_roomCount",
+            "editorField": true,
+            "x": 513,
+            "y": 480,
+            "anchor.x": 0.5,
+            "anchor.y": 0.5,
+            "text": "00/00",
+            "style.fontSize": 22,
+            "style.fill": "#ffffff",
+            "style.align": "CENTER"
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "LobbyBackImgBlur"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelRoomList"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleRoomList"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnVolControl",
+      "sprite": "0"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnWinsizeS",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnHelp",
+      "sprite": "0"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnArrowR",
+      "sprite": "0"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnArrowL",
+      "sprite": "0"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnRoomGenerate",
+      "sprite": "0"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnRoomSearch",
+      "sprite": "0"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnFreeAutoAdmit",
+      "sprite": "0"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnClanAutoAdmit",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

@@ -1,0 +1,82 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "itemEraserChange",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "85fe4778-0538-421a-a459-b794ab9c3b4c",
+    "info": {
+      "editorName": "itemEraserChange",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "b40f6b4f-3299-4807-958c-11e2df7936f9",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [{
+            "type": "spritesheet",
+            "id": "f77bf95b-67a6-4bd9-88b3-c5db29738f35",
+            "asset": "0",
+            "info": {
+              "editorName": "ItemChangeEff",
+              "anchor.x": 0.5,
+              "anchor.y": 0.5,
+              "animations": [{
+                "name": "change",
+                "frameRate": 10,
+                "killOnComplete": true,
+                "field": true,
+                "autoPlay": true,
+                "frames": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ]
+              }]
+            }
+          }]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "main",
+    "asset": "ItemChangeEff",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

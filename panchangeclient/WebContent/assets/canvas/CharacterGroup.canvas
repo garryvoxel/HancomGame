@@ -1,0 +1,577 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CharacterGroup",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "b9275996-b5e1-4be9-b91c-0c193cf1a016",
+    "info": {
+      "editorName": "CharacterGroup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "2afbe722-e8d8-4efa-933e-a06a7e08696f",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "spritesheet",
+              "id": "f04b41d2-2917-4e4a-abdb-43355133d164",
+              "asset": "0",
+              "info": {
+                "editorName": "Char6bSheet",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "animations": [
+                  {
+                    "name": "win",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "1",
+                      "2",
+                      "3",
+                      "2",
+                      "3",
+                      "3",
+                      "4",
+                      "4",
+                      "4",
+                      "5",
+                      "6",
+                      "7",
+                      "8",
+                      "8",
+                      "1",
+                      "9",
+                      "9",
+                      "10"
+                    ]
+                  },
+                  {
+                    "name": "lose",
+                    "frameRate": 10,
+                    "loop": true,
+                    "frames": [
+                      "20",
+                      "20",
+                      "21",
+                      "21",
+                      "22",
+                      "23",
+                      "24",
+                      "25",
+                      "25",
+                      "26",
+                      "27",
+                      "28",
+                      "29",
+                      "26",
+                      "27",
+                      "28",
+                      "29",
+                      "26",
+                      "27",
+                      "28",
+                      "29"
+                    ]
+                  },
+                  {
+                    "name": "draw",
+                    "frameRate": 10,
+                    "loop": true,
+                    "frames": [
+                      "11",
+                      "11",
+                      "11",
+                      "11",
+                      "11",
+                      "12",
+                      "12",
+                      "12",
+                      "13",
+                      "13",
+                      "14",
+                      "14",
+                      "15",
+                      "16",
+                      "17",
+                      "18",
+                      "19"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "b7b3384d-95a6-4e20-b5e1-6be961123b14",
+              "asset": "1",
+              "info": {
+                "editorName": "CharAmogaeSheet",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "animations": [
+                  {
+                    "name": "win",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "0",
+                      "1",
+                      "2",
+                      "3",
+                      "0",
+                      "1",
+                      "2",
+                      "3",
+                      "0",
+                      "4",
+                      "5",
+                      "6",
+                      "7",
+                      "8"
+                    ]
+                  },
+                  {
+                    "name": "lose",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "9",
+                      "10",
+                      "11",
+                      "11",
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15",
+                      "16",
+                      "17",
+                      "18",
+                      "18",
+                      "18",
+                      "19",
+                      "20",
+                      "21",
+                      "22",
+                      "23",
+                      "24",
+                      "25"
+                    ]
+                  },
+                  {
+                    "name": "draw",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "26",
+                      "27",
+                      "28",
+                      "29",
+                      "30",
+                      "31",
+                      "32",
+                      "33",
+                      "34",
+                      "30",
+                      "31",
+                      "32",
+                      "33",
+                      "34",
+                      "29",
+                      "29",
+                      "29"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "0a125e45-479f-4cdd-a5de-a2255633920b",
+              "asset": "2",
+              "info": {
+                "editorName": "CharJijiSheet",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "animations": [
+                  {
+                    "name": "win",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "0",
+                      "1",
+                      "2",
+                      "3",
+                      "3",
+                      "3",
+                      "2",
+                      "4",
+                      "5",
+                      "6",
+                      "7",
+                      "8",
+                      "8",
+                      "8",
+                      "8",
+                      "9",
+                      "10",
+                      "9",
+                      "10"
+                    ]
+                  },
+                  {
+                    "name": "lose",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "24",
+                      "25",
+                      "26",
+                      "27",
+                      "28",
+                      "29",
+                      "29",
+                      "29",
+                      "29",
+                      "30",
+                      "31",
+                      "32",
+                      "33"
+                    ]
+                  },
+                  {
+                    "name": "draw",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15",
+                      "16",
+                      "17",
+                      "18",
+                      "19",
+                      "20",
+                      "21",
+                      "22",
+                      "23"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "36d82ced-f6b8-4011-b68c-12916843aefd",
+              "asset": "3",
+              "info": {
+                "editorName": "CharMamangSheet",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "animations": [
+                  {
+                    "name": "win",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "0",
+                      "1",
+                      "2",
+                      "3",
+                      "4",
+                      "5",
+                      "6",
+                      "7",
+                      "8",
+                      "9",
+                      "10"
+                    ]
+                  },
+                  {
+                    "name": "lose",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "20",
+                      "21",
+                      "22",
+                      "23",
+                      "24",
+                      "25",
+                      "23",
+                      "24",
+                      "25"
+                    ]
+                  },
+                  {
+                    "name": "draw",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "13",
+                      "12",
+                      "11",
+                      "15",
+                      "16",
+                      "17",
+                      "18",
+                      "19",
+                      "18",
+                      "19",
+                      "18"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "995e8479-af2e-4336-a4b0-0c5a663f1a27",
+              "asset": "4",
+              "info": {
+                "editorName": "CharMoaSheet",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "animations": [
+                  {
+                    "name": "win",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "0",
+                      "1",
+                      "2",
+                      "3",
+                      "3",
+                      "4",
+                      "4",
+                      "5",
+                      "6",
+                      "6",
+                      "7",
+                      "8",
+                      "9",
+                      "10",
+                      "9",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "lose",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "19",
+                      "19",
+                      "19",
+                      "20",
+                      "21",
+                      "22",
+                      "23",
+                      "24",
+                      "25",
+                      "26",
+                      "27",
+                      "28",
+                      "29",
+                      "30",
+                      "28",
+                      "31"
+                    ]
+                  },
+                  {
+                    "name": "draw",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "11",
+                      "11",
+                      "11",
+                      "11",
+                      "11",
+                      "12",
+                      "12",
+                      "13",
+                      "13",
+                      "14",
+                      "14",
+                      "15",
+                      "15",
+                      "15",
+                      "15",
+                      "15",
+                      "16",
+                      "17",
+                      "17",
+                      "16",
+                      "16",
+                      "17",
+                      "17",
+                      "16",
+                      "16",
+                      "17",
+                      "17",
+                      "18"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "20e52723-a8d3-448d-b75c-b24291e1ed78",
+              "asset": "5",
+              "info": {
+                "editorName": "CharYayaSheet",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "animations": [
+                  {
+                    "name": "win",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "0",
+                      "1",
+                      "2",
+                      "3",
+                      "4",
+                      "5",
+                      "6",
+                      "7",
+                      "7",
+                      "7"
+                    ]
+                  },
+                  {
+                    "name": "lose",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "15",
+                      "16",
+                      "17",
+                      "18",
+                      "19",
+                      "20",
+                      "18",
+                      "19",
+                      "20",
+                      "21"
+                    ]
+                  },
+                  {
+                    "name": "draw",
+                    "frameRate": 8,
+                    "loop": true,
+                    "frames": [
+                      "8",
+                      "9",
+                      "10",
+                      "11",
+                      "12",
+                      "13",
+                      "14"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "Char6bSheet",
+      "sprite": "0"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharAmogaeSheet",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharJijiSheet",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharMamangSheet",
+      "sprite": "0"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharMoaSheet",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "CharYayaSheet",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

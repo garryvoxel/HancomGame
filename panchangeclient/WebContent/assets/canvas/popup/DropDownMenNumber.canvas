@@ -1,0 +1,346 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "DropDownMenNumber",
+    "sceneWidth": 178,
+    "sceneHeight": 40,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.isOpen = false;\nthis.dDValue = 5;\n\nthis.fPanel.visible = false;\nthis.fGroup0.visible = false;\nthis.fGroup1.visible = false;\nthis.fGroup2.visible = false;\nthis.fGroup3.visible = false;\nthis.fGroup4.visible = false;\nthis.fGroup5.visible = false;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "50e0f4e1-3152-4f0c-93ee-980b6aa8a8f7",
+    "info": {
+      "editorName": "DropDownMenNumber",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "ecc95537-5fbd-44e7-8a00-6a8447a98959",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "0beccfc0-b9ac-4ba8-9497-281be11d2107",
+              "asset": "0",
+              "info": {"editorName": "BarM"}
+            },
+            {
+              "type": "image",
+              "id": "34f2e510-5c9a-4ccf-a59b-a6d34ce75295",
+              "asset": "1",
+              "info": {
+                "editorName": "panel",
+                "editorField": true,
+                "x": 3,
+                "y": 20
+              }
+            },
+            {
+              "type": "button",
+              "id": "3222b243-3896-4e40-b591-494c829b2545",
+              "asset": "2",
+              "info": {
+                "editorName": "BtnDropdown",
+                "editorField": true,
+                "x": 137,
+                "y": 5.5,
+                "callback": "toggleDD_MenNum",
+                "overFrame": "1"
+              }
+            },
+            {
+              "type": "text",
+              "id": "d668d663-95e9-4ef5-9fdd-65fee3101b86",
+              "info": {
+                "editorName": "txt_display",
+                "editorField": true,
+                "x": 71.47802734375,
+                "y": 10,
+                "anchor.x": 0.5,
+                "text": "50:50",
+                "style.fontSize": 18,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "group",
+              "id": "26302609-9f1e-4c94-bfae-705bc12bdc71",
+              "info": {
+                "editorName": "group0",
+                "editorField": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "3e534e72-f7f5-400c-a332-622f6b8fc193",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item0",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_MenNum",
+                      "downFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "4c675102-e2d1-4058-bea7-284b74094fae",
+                    "info": {
+                      "editorName": "txt_item0",
+                      "x": 20,
+                      "y": 46,
+                      "text": "1:1",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "70f02a80-6428-472d-8ddf-8efd683ab37d",
+              "info": {
+                "editorName": "group1",
+                "editorField": true,
+                "y": 31,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "fd16f99b-aa9d-40f4-8ff1-e3e7a35fe346",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item1",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_MenNum",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "fc275223-ed63-4a40-90cd-30a073f446a1",
+                    "info": {
+                      "editorName": "txt_item1",
+                      "x": 20,
+                      "y": 46,
+                      "text": "5:5",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "17193d72-20c7-45b9-9b4a-f7eb851cb46f",
+              "info": {
+                "editorName": "group2",
+                "editorField": true,
+                "y": 62,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "feee386c-f5ff-46ab-ac95-1f83c85b6b4d",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item2",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_MenNum",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "91cfa9a6-3e29-4926-9b09-369094b79c99",
+                    "info": {
+                      "editorName": "txt_item2",
+                      "x": 20,
+                      "y": 46,
+                      "text": "10:10",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "2c48f6c5-e727-4ae0-b6cd-255cce512001",
+              "info": {
+                "editorName": "group3",
+                "editorField": true,
+                "y": 93,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "6db6a10e-1ee1-4fba-93d5-d7ff17ae6c6a",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item3",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_MenNum",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "39301fdd-bc73-4391-9899-2a518d6d3914",
+                    "info": {
+                      "editorName": "txt_item3",
+                      "x": 20,
+                      "y": 46,
+                      "text": "20:20",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "61eb8455-7365-45d0-b014-5fd406b04037",
+              "info": {
+                "editorName": "group4",
+                "editorField": true,
+                "y": 124,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "6f718a4c-249b-4cc8-a09b-f94fad22af06",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item4",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_MenNum",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "c8207272-2818-42bb-a89b-58ca54c7b4ff",
+                    "info": {
+                      "editorName": "txt_item4",
+                      "x": 20,
+                      "y": 46,
+                      "text": "30:30",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "fe0dbddf-165c-4578-b063-62b85f7ce9e7",
+              "info": {
+                "editorName": "group5",
+                "editorField": true,
+                "y": 155,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "554dff80-7af8-4993-a1af-d1f6ce1e3a32",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item5",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_MenNum",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "ea54cadf-a8c5-40ae-9fab-e1bf356d167b",
+                    "info": {
+                      "editorName": "txt_item5",
+                      "x": 20,
+                      "y": 46,
+                      "text": "50:50",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarM2"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelDropdownL6"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnDropdown",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnDropListM2",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

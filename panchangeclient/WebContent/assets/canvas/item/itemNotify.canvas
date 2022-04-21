@@ -1,0 +1,138 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "itemNotify",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "31a803fc-7290-49bb-9959-93b6ae22a965",
+    "info": {
+      "editorName": "itemNotify",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "20062ef0-a216-4b99-8f11-bb58acbad456",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "group",
+              "id": "94f8caa5-5b5c-4abf-b0ef-dbf1292e38a1",
+              "info": {
+                "editorName": "groupBlue",
+                "editorField": true,
+                "x": 735,
+                "y": 580,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "5bf418df-84bc-4fb0-bcde-eb4fb6dd1f20",
+                    "asset": "0",
+                    "info": {"editorName": "ItemUseNoticePanelB"}
+                  },
+                  {
+                    "type": "text",
+                    "id": "49de09d3-9992-4d24-adf9-3ffaef5aa6b9",
+                    "info": {
+                      "editorName": "messageBlue",
+                      "editorField": true,
+                      "x": 145,
+                      "y": 38,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "누구누구누구누구님이\n땡땡땡땡 아이템을 사용하였습니다",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 17,
+                      "style.fontWeight": "NORMAL",
+                      "style.align": "CENTER"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "d8fd6faf-1e7b-43ca-a185-ddcf1934f105",
+              "info": {
+                "editorName": "groupRed",
+                "editorField": true,
+                "y": 580,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "fc2811ec-4d4f-4b0e-a24b-05090beeb1f6",
+                    "asset": "1",
+                    "info": {"editorName": "ItemUseNoticePanelR"}
+                  },
+                  {
+                    "type": "text",
+                    "id": "4305a361-abc8-45e8-ba6e-5e7404a2a91d",
+                    "info": {
+                      "editorName": "messageRed",
+                      "editorField": true,
+                      "x": 145,
+                      "y": 38,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "누구누구누구누구님이\n땡땡땡땡 아이템을 사용하였습니다",
+                      "style.font": "Nanum Gothic",
+                      "style.fontSize": 17,
+                      "style.fontWeight": "NORMAL",
+                      "style.align": "CENTER"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ItemUseNoticePanelB"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ItemUseNoticePanelR"
+    }
+  },
+  "prefab-table": {}
+}

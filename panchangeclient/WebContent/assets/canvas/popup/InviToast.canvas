@@ -1,0 +1,110 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "InviToast",
+    "sceneWidth": 179,
+    "sceneHeight": 160,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "0911b90f-75d1-4afb-ba80-03da64e7a8e5",
+    "info": {
+      "editorName": "InviToast",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "f89a3a16-7241-49f8-987e-1e26f6f50907",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "6235781b-f871-4a4a-b59e-e917d6c00d85",
+              "asset": "0",
+              "info": {
+                "editorName": "WaitingRoomComingFriend",
+                "editorField": true
+              }
+            },
+            {
+              "type": "image",
+              "id": "d2292688-0efd-4b6f-8f70-3e7c11268820",
+              "asset": "1",
+              "info": {
+                "editorName": "WaitingRoomInvitecancel",
+                "editorField": true
+              }
+            },
+            {
+              "type": "text",
+              "id": "03280c44-45d5-45a6-b99e-a09931f8541a",
+              "info": {
+                "editorName": "txt_comm",
+                "editorField": true,
+                "x": 90,
+                "y": 88,
+                "anchor.x": 0.5,
+                "text": "초대를\n거절했습니다.",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "text",
+              "id": "7b4e5b33-a1e8-47f5-89ac-f031d787d25e",
+              "info": {
+                "editorName": "txt_nickname",
+                "editorField": true,
+                "x": 90,
+                "y": 56,
+                "anchor.x": 0.5,
+                "text": "닉네임은여덟글자",
+                "style.align": "CENTER"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "WaitingRoomComingFriend"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "WaitingRoomInvitecancel"
+    }
+  },
+  "prefab-table": {}
+}

@@ -1,0 +1,309 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "DropDownRunningTime",
+    "sceneWidth": 112,
+    "sceneHeight": 40,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.isOpen = false;\nthis.dDValue = 2;\n\t\nthis.fPanel.visible = false;\nthis.fGroup0.visible = false;\nthis.fGroup1.visible = false;\nthis.fGroup2.visible = false;\nthis.fGroup3.visible = false;\nthis.fGroup4.visible = false;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "5ffc1f72-608a-47d8-9e40-87ceb2c616fb",
+    "info": {
+      "editorName": "DropDownRunningTime",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "caf98e5c-fbe1-422d-965c-33c641a7e1be",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "eb47ab81-699b-4fde-a0cb-da684775c166",
+              "asset": "0",
+              "info": {"editorName": "BarS"}
+            },
+            {
+              "type": "image",
+              "id": "f6ee7cab-8bce-46ba-b6f9-c18caa16a158",
+              "asset": "1",
+              "info": {
+                "editorName": "panel",
+                "editorField": true,
+                "x": 3,
+                "y": 20
+              }
+            },
+            {
+              "type": "button",
+              "id": "e7def2ba-b021-4f3e-8d8b-c4eea78b416b",
+              "asset": "2",
+              "info": {
+                "editorName": "BtnDropdown",
+                "editorField": true,
+                "x": 71,
+                "y": 6,
+                "callback": "toggleDD_Time",
+                "overFrame": "1"
+              }
+            },
+            {
+              "type": "text",
+              "id": "748d65c4-85dc-4f8d-a62a-1235ae947bd2",
+              "info": {
+                "editorName": "txt_display",
+                "editorField": true,
+                "x": 38.99462890625,
+                "y": 9.5,
+                "anchor.x": 0.5,
+                "text": "3분",
+                "style.fontSize": 18,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "group",
+              "id": "f8d2e4c0-504d-4d08-82bc-7d4679e8afe0",
+              "info": {
+                "editorName": "group0",
+                "editorField": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "e72574b4-1172-4109-8625-ba8f977df6bc",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item0",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_Time",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "fe20b92e-a3d9-4730-a5cc-16bb55716417",
+                    "info": {
+                      "editorName": "txt_item0",
+                      "x": 20,
+                      "y": 46,
+                      "text": "1분",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "7688af48-4073-4126-a400-24ab45da5c87",
+              "info": {
+                "editorName": "group1",
+                "editorField": true,
+                "y": 31,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "5c5797fd-7ec1-4e52-bbf2-4f30e9882ef5",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item1",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_Time",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "d1288fca-d7f6-40ec-80f7-241be671ffb3",
+                    "info": {
+                      "editorName": "txt_item1",
+                      "x": 20,
+                      "y": 46,
+                      "text": "2분",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "f1e55f40-f9e0-4dfe-8250-1971fe06356d",
+              "info": {
+                "editorName": "group2",
+                "editorField": true,
+                "y": 62,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "2e889a0c-a7e7-43d8-b406-d6a2fd4ec6c6",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item2",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_Time",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "f87a564e-63b3-4e40-b525-8851a9085f89",
+                    "info": {
+                      "editorName": "txt_item2",
+                      "x": 20,
+                      "y": 46,
+                      "text": "3분",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "ea9e6a3f-be21-4d43-a2b6-232cca992631",
+              "info": {
+                "editorName": "group3",
+                "editorField": true,
+                "y": 93,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "3f48e62b-6a5b-49b9-8d95-423ddc19635a",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item3",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_Time",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "e8be7846-dfb0-4470-8c4d-501fb880bf63",
+                    "info": {
+                      "editorName": "txt_item3",
+                      "x": 20,
+                      "y": 46,
+                      "text": "4분",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "a4caa145-6a1f-4b95-a439-61ad60964df5",
+              "info": {
+                "editorName": "group4",
+                "editorField": true,
+                "y": 124,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "abcdc5eb-6a74-4d63-9dcc-e943582c57d8",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item4",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_Time",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "0395f903-e6f1-4c1d-b461-2dac8c69187a",
+                    "info": {
+                      "editorName": "txt_item4",
+                      "x": 20,
+                      "y": 46,
+                      "text": "5분",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarS"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelDropdownL5"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnDropdown",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnDropListS",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

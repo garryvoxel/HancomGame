@@ -1,0 +1,136 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "alertPopup",
+    "sceneWidth": 537,
+    "sceneHeight": 262,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.callback = null;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "36dc158a-5bae-4c21-9561-3355dc91c106",
+    "info": {
+      "editorName": "alertPopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "8c087b55-ba10-45ca-bc6a-6984fa52a74b",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "688287b0-1214-4f66-8d11-33e2bf15af31",
+              "asset": "0",
+              "info": {"editorName": "PopPanelNotice"}
+            },
+            {
+              "type": "image",
+              "id": "89c14c2a-f21d-4cd5-867b-25f23cb363c8",
+              "asset": "1",
+              "info": {
+                "editorName": "TitleNotice",
+                "x": 231.5,
+                "y": 35
+              }
+            },
+            {
+              "type": "button",
+              "id": "3ee7ad78-b45a-4395-a865-c176c2964a8c",
+              "asset": "2",
+              "info": {
+                "editorName": "BtnExit",
+                "x": 427,
+                "y": -30,
+                "callback": "offAlertPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "button",
+              "id": "8b817ffa-b856-44cb-9384-9109487f56a1",
+              "asset": "3",
+              "info": {
+                "editorName": "BtnCheck",
+                "x": 185,
+                "y": 282,
+                "callback": "offAlertPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "text",
+              "id": "890c7f40-7b80-48b7-a0b0-bf13c30babad",
+              "info": {
+                "editorName": "txtMsg",
+                "editorField": true,
+                "x": 268.5,
+                "y": 121,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "메시지메시지",
+                "style.fontSize": 24,
+                "style.align": "CENTER"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelNotice"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleNotice"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnCheck",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

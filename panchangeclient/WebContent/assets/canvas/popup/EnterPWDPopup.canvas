@@ -1,0 +1,151 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "EnterPWDPopup",
+    "sceneWidth": 537,
+    "sceneHeight": 262,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_before": "this.myInput = this.createInput(478, 298);\nthis.myInput.canvasInput.value('');\nthis.myInput.canvasInput.focus();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "2a17c721-41a4-4fa5-a21b-5e6caea1ded7",
+    "info": {
+      "editorName": "EnterPWDPopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "f9534289-aa28-4948-a935-d4f3f2fe289a",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "1ed44a4f-edd1-4a27-a92a-eb41c4b79d7b",
+              "asset": "0",
+              "info": {"editorName": "PopPanelNotice"}
+            },
+            {
+              "type": "button",
+              "id": "ed83af69-f953-410d-a9d1-8f7ea5450f3d",
+              "asset": "1",
+              "info": {
+                "editorName": "BtnExit",
+                "x": 387,
+                "y": -30,
+                "callback": "cancelCallbackBtn",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "button",
+              "id": "820933e8-fb47-40c6-a744-9b3f07f00f71",
+              "asset": "2",
+              "info": {
+                "editorName": "BtnCheck",
+                "x": 185,
+                "y": 282,
+                "callback": "okCallbackBtn",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "image",
+              "id": "b862a1a3-d43f-49e2-957a-6c2b0dc7b85e",
+              "asset": "3",
+              "info": {
+                "editorName": "TextImgPasswordInfo",
+                "x": 62.5,
+                "y": 105
+              }
+            },
+            {
+              "type": "image",
+              "id": "d9e4f5d8-a0c3-4978-9281-d12765441ab3",
+              "asset": "4",
+              "info": {
+                "editorName": "TitlePasswordInput",
+                "x": 154.5,
+                "y": 35
+              }
+            },
+            {
+              "type": "image",
+              "id": "ed20986f-f849-475a-81ce-a0d7ff87c779",
+              "asset": "5",
+              "info": {
+                "editorName": "InputOnlyPanel",
+                "x": 122.5,
+                "y": 165
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelNotice"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnCheck",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TextImgPasswordInfo"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitlePasswordInput"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "InputOnlyPanel"
+    }
+  },
+  "prefab-table": {}
+}

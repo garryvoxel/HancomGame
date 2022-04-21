@@ -1,0 +1,35 @@
+{
+  "name": "panchangeclient",
+  "version": "1.0.0",
+  "description": "판뒤집기 클라이언트",
+  "main": "index.js",
+  "scripts": {
+    "build-test": "gulp tst-build",
+    "build-development": "gulp dev-build",
+    "build-stage": "gulp stg-build",
+    "build-production": "gulp prd-build",
+    "set-test": "gulp set-tst",
+    "set-development": "gulp set-dev",
+    "set-stage": "gulp set-stg",
+    "set-production": "gulp set-prd",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development&&nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cluster": "^0.7.7",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "morgan": "^1.9.1",
+    "os": "^0.1.1",
+    "phaser": "^3.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-rename": "^1.4.0",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  }
+}

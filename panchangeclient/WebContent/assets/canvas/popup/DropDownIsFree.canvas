@@ -1,0 +1,198 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "DropDownIsFree",
+    "sceneWidth": 112,
+    "sceneHeight": 40,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.isOpen = false;\nthis.dDValue = 0;\n\nthis.fPanel.visible = false;\nthis.fGroup0.visible = false;\nthis.fGroup1.visible = false;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "034fd191-84ba-40b5-8012-983182b7fe01",
+    "info": {
+      "editorName": "DropDownIsPublic",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "eab4dadb-f1b4-478d-86f9-6202723aade0",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "ff152e3e-f8e4-4b8b-97bc-6a96a0e63944",
+              "asset": "0",
+              "info": {"editorName": "BarS"}
+            },
+            {
+              "type": "image",
+              "id": "9b8470bd-127f-4cf4-8553-251bb0994878",
+              "asset": "1",
+              "info": {
+                "editorName": "panel",
+                "editorField": true,
+                "x": 3,
+                "y": 20
+              }
+            },
+            {
+              "type": "button",
+              "id": "142a9e04-4abc-439d-b2fa-75b7ef3c80a3",
+              "asset": "2",
+              "info": {
+                "editorName": "BtnDropdown",
+                "editorField": true,
+                "x": 71,
+                "y": 6,
+                "callback": "toggleDD_IsFree",
+                "overFrame": "1"
+              }
+            },
+            {
+              "type": "text",
+              "id": "932c4762-0e49-46d7-bb1f-3889dde49b80",
+              "info": {
+                "editorName": "txt_display",
+                "editorField": true,
+                "x": 38,
+                "y": 10,
+                "anchor.x": 0.5,
+                "text": "공개",
+                "style.fontSize": 18,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "group",
+              "id": "9c8f027f-5baf-483e-a988-a7b441079d41",
+              "info": {
+                "editorName": "group0",
+                "editorField": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "99319a09-8d73-41bc-80a4-ac5d1d9d3432",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item0",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_IsFree",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "5a7231b2-80b9-4a71-be1c-488871021c05",
+                    "info": {
+                      "editorName": "txt_item0",
+                      "x": 20,
+                      "y": 46,
+                      "text": "공개",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "d14c171b-c19a-4195-9993-f2aedcc60e80",
+              "info": {
+                "editorName": "group1",
+                "editorField": true,
+                "y": 31,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "c959ff05-2a86-4397-a33f-eb25e34baaeb",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item1",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_IsFree",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "7fe7f9a4-ab72-4393-84b9-2100c4cfc841",
+                    "info": {
+                      "editorName": "txt_item1",
+                      "x": 20,
+                      "y": 46,
+                      "text": "비밀",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarS"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelDropdownL2"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnDropdown",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnDropListS",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

@@ -1,0 +1,53 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "mainGameBoards",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "26db7919-5118-4800-bf50-c0d9953bbdc0",
+    "info": {
+      "editorName": "mainGameBoards",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "4ac92955-071f-4306-9c8d-e746d1e4e3c6",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": []
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {},
+  "prefab-table": {}
+}

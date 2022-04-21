@@ -1,0 +1,267 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "VolumeControlPopup",
+    "sceneWidth": 597,
+    "sceneHeight": 307,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.game.audioManager.playSfx(\"Popup\");"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "c7c07bbd-a778-420c-81c4-d2c181a4a08e",
+    "info": {
+      "editorName": "VolumeControlPopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "583a0f1a-365d-4bc4-a7f8-de96835f053a",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "348177d1-c9fa-477e-abea-9c9572b9e9b3",
+              "asset": "0",
+              "info": {
+                "editorName": "PopPanelCreateSet",
+                "editorPick": false
+              }
+            },
+            {
+              "type": "image",
+              "id": "b2d4d9f1-8328-49f1-b40c-3f8fffc64c18",
+              "asset": "1",
+              "info": {
+                "editorName": "TitleVolControl",
+                "x": 213,
+                "y": 35
+              }
+            },
+            {
+              "type": "image",
+              "id": "7364124b-9322-4852-9cb3-106d1f1db262",
+              "asset": "2",
+              "info": {
+                "editorName": "STitleSoundMute1",
+                "x": 110,
+                "y": 100
+              }
+            },
+            {
+              "type": "image",
+              "id": "e419fb96-3108-416c-90ca-de3d81132016",
+              "asset": "2",
+              "info": {
+                "editorName": "STitleSoundMute2",
+                "x": 110,
+                "y": 190
+              }
+            },
+            {
+              "type": "image",
+              "id": "4f116944-cc09-4f24-954a-d186094cfd5f",
+              "asset": "3",
+              "info": {
+                "editorName": "STitleBGM",
+                "x": 310,
+                "y": 100
+              }
+            },
+            {
+              "type": "image",
+              "id": "65d8d161-b3e9-4940-a1d1-d860e5cf0479",
+              "asset": "4",
+              "info": {
+                "editorName": "STitleEffSound",
+                "x": 321,
+                "y": 190
+              }
+            },
+            {
+              "type": "button",
+              "id": "defe4753-3017-4520-98ab-06666a19b6d7",
+              "asset": "5",
+              "info": {
+                "editorName": "BtnExit",
+                "x": 447,
+                "y": -30,
+                "callback": "offVolumeCtrlPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "f89b2b70-f0ee-4b8d-90a2-30b794ddf23a",
+              "info": {
+                "editorName": "BGMCtrl",
+                "editorField": true,
+                "x": 357,
+                "y": 158
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "965b8ef7-eb28-4103-b66d-6ccd86a02ccd",
+              "info": {
+                "editorName": "EffectCtrl",
+                "editorField": true,
+                "x": 357,
+                "y": 248
+              }
+            },
+            {
+              "type": "button",
+              "id": "52580399-4a23-4ae7-b709-c048ed10ced2",
+              "asset": "6",
+              "info": {
+                "editorName": "BtnBGMLeft",
+                "x": 205,
+                "y": 134,
+                "callback": "setLeftBGM",
+                "downFrame": "1"
+              }
+            },
+            {
+              "type": "button",
+              "id": "138da6e1-3baa-4277-931b-355bf560bc0f",
+              "asset": "6",
+              "info": {
+                "editorName": "BtnEffectLeft",
+                "x": 205,
+                "y": 224,
+                "callback": "setLeftEffect",
+                "downFrame": "1"
+              }
+            },
+            {
+              "type": "button",
+              "id": "c6c8b9ec-ba4e-4a5e-a454-db3453bb179d",
+              "asset": "7",
+              "info": {
+                "editorName": "BtnBGMRight",
+                "x": 475,
+                "y": 134,
+                "callback": "setRightBGM",
+                "downFrame": "1"
+              }
+            },
+            {
+              "type": "button",
+              "id": "e90c5289-f8df-40ed-a496-91a8e345439c",
+              "asset": "7",
+              "info": {
+                "editorName": "BtnEffectRight",
+                "x": 475,
+                "y": 224,
+                "callback": "setRightEffect",
+                "downFrame": "1"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "347b0ad5-4036-4227-9c9a-c65ceced441c",
+              "info": {
+                "editorName": "muteBGM",
+                "editorField": true,
+                "x": 148,
+                "y": 158
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "82abfe73-4142-4ddc-9865-3ce82cb5003b",
+              "info": {
+                "editorName": "muteEffect",
+                "editorField": true,
+                "x": 148,
+                "y": 248
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelCreateSet"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleVolControl"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleSoundMute"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleBGM"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleEffSound"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnArrowSetL",
+      "sprite": "0"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnArrowSetR",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {
+    "0": "WebContent/assets/canvas/popup/SliderControl.canvas",
+    "1": "WebContent/assets/canvas/popup/MuteControl.canvas"
+  }
+}

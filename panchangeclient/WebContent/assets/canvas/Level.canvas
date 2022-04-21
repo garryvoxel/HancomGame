@@ -1,0 +1,589 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      179,
+      179,
+      179
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_before": "console.log(\"CREATE\");",
+    "create_after": "this.afterCreate();",
+    "state_init_after": "this.initUserField();",
+    "state_preload_before": "console.log(\"PRELOAD\");\n\n//this.game.load.image('LoadingBackImg', 'assets/image/LoadingBackImg.png');\n\nthis.game.stage.disableVisibilityChange = true;\n\nthis.setLoading();",
+    "state_preload_after": "this.game.load.script('filter', 'https://cdn.rawgit.com/photonstorm/phaser-ce/master/filters/Pixelate.js');"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "prefab",
+          "prefab": "0",
+          "id": "3555c6a8-aea3-4d82-a931-10bba6d5b7a1",
+          "info": {
+            "editorName": "backGround",
+            "editorField": true,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "1",
+          "id": "94518c4d-1a8f-42dc-a9aa-7080b4708a6b",
+          "info": {
+            "editorName": "mainGame",
+            "editorField": true,
+            "x": 150,
+            "y": 120
+          }
+        },
+        {
+          "type": "image",
+          "id": "236bc3d0-9417-48dd-a4ab-095a82d17ce8",
+          "asset": "0",
+          "info": {
+            "editorName": "PanelTeamListR",
+            "y": 100
+          }
+        },
+        {
+          "type": "image",
+          "id": "580f07ed-86db-4a61-aae5-baff31df39b5",
+          "asset": "1",
+          "info": {
+            "editorName": "PanelTeamListB",
+            "x": 923,
+            "y": 100
+          }
+        },
+        {
+          "type": "image",
+          "id": "9f1046f1-151e-4f5e-a7d5-4a8fdd67c93d",
+          "asset": "2",
+          "info": {
+            "editorName": "MyRankPanelR",
+            "editorField": true,
+            "x": 10,
+            "y": 419
+          }
+        },
+        {
+          "type": "image",
+          "id": "e2fd6128-8866-4cbc-869b-d257bfb12b1b",
+          "asset": "3",
+          "info": {
+            "editorName": "MyRankPanelB",
+            "editorField": true,
+            "x": 948,
+            "y": 419
+          }
+        },
+        {
+          "type": "image",
+          "id": "10a45393-e8d1-4941-9f5b-ca4b3f433aad",
+          "asset": "4",
+          "info": {
+            "editorName": "InputPanel",
+            "editorField": true,
+            "x": 512,
+            "y": 520,
+            "anchor.x": 0.5
+          }
+        },
+        {
+          "type": "button",
+          "id": "c201cddc-9c07-400d-bbe7-989310f052c7",
+          "asset": "5",
+          "info": {
+            "editorName": "BtnInputTxt",
+            "editorField": true,
+            "x": 618,
+            "y": 533,
+            "callback": "this.pushEnter",
+            "overFrame": "1",
+            "downFrame": "2"
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "a22a364e-e199-489b-a6b8-5d0f4dad33ed",
+          "asset": "6",
+          "info": {
+            "editorName": "InputCursorSheet",
+            "editorField": true,
+            "x": 350,
+            "y": 541,
+            "animations": [{
+              "name": "blink",
+              "frameRate": 1,
+              "loop": true,
+              "autoPlay": true,
+              "frames": [
+                "0",
+                "1"
+              ]
+            }]
+          }
+        },
+        {
+          "type": "group",
+          "id": "bb09a815-5fb7-4c62-aa09-703477bef917",
+          "info": {
+            "editorName": "redTeamUI",
+            "x": 44,
+            "y": 173,
+            "setAll": [],
+            "children": [
+              {
+                "type": "text",
+                "id": "1e211d3e-9f25-4c7f-9b3e-af790bcb3484",
+                "info": {
+                  "editorName": "redTotalScore",
+                  "editorField": true,
+                  "anchor.x": 0.5,
+                  "text": "0점",
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 14,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "11834f31-4315-4956-acf2-b8d26998b3b7",
+                "info": {
+                  "editorName": "redPlayer1",
+                  "editorField": true,
+                  "y": 88,
+                  "anchor.x": 0.5,
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 13,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "ead496df-9650-4026-a49e-76315836d277",
+                "info": {
+                  "editorName": "redPlayer2",
+                  "editorField": true,
+                  "y": 152,
+                  "anchor.x": 0.5,
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 13,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "b643783e-c93f-4b3a-b5bb-a55bedaaeed1",
+                "info": {
+                  "editorName": "redPlayer3",
+                  "editorField": true,
+                  "y": 215,
+                  "anchor.x": 0.5,
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 13,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "bca1784a-3cff-414e-9381-679b69d337e7",
+                "info": {
+                  "editorName": "redNowRanking",
+                  "editorField": true,
+                  "y": 277,
+                  "anchor.x": 0.5,
+                  "text": "00위",
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 16,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "edca00aa-beda-4f42-be0e-f889baf4ddd4",
+          "info": {
+            "editorName": "blueTeamUI",
+            "x": 979,
+            "y": 173,
+            "setAll": [],
+            "children": [
+              {
+                "type": "text",
+                "id": "97221692-e972-42d5-92cf-d066fa5841ff",
+                "info": {
+                  "editorName": "blueTotalScore",
+                  "editorField": true,
+                  "renderable": false,
+                  "anchor.x": 0.5,
+                  "text": "0점",
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 14,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "dab7d401-2372-4def-9871-15fb9f46081c",
+                "info": {
+                  "editorName": "bluePlayer1",
+                  "editorField": true,
+                  "y": 88,
+                  "anchor.x": 0.5,
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 13,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "2c861210-12e4-40d5-9243-9f8ddd1f2a72",
+                "info": {
+                  "editorName": "bluePlayer2",
+                  "editorField": true,
+                  "y": 152,
+                  "anchor.x": 0.5,
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 13,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "3fefd082-bbe4-4b45-aa7b-db099b5ca860",
+                "info": {
+                  "editorName": "bluePlayer3",
+                  "editorField": true,
+                  "y": 215,
+                  "anchor.x": 0.5,
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 13,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "8842cff2-11c3-4dc9-8736-0996b88be3e3",
+                "info": {
+                  "editorName": "blueNowRanking",
+                  "editorField": true,
+                  "y": 279,
+                  "anchor.x": 0.5,
+                  "text": "00위",
+                  "style.font": "Nanum Gothic",
+                  "style.fontSize": 16,
+                  "style.fontWeight": "NORMAL",
+                  "style.fill": "#ffffff",
+                  "style.align": "CENTER"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "image",
+          "id": "99f78640-477c-4d20-a162-c5865339cfd1",
+          "asset": "7",
+          "info": {
+            "editorName": "PanelMeBlue",
+            "editorField": true,
+            "x": 904,
+            "y": 700
+          }
+        },
+        {
+          "type": "image",
+          "id": "fa4d39de-3538-463b-9e9e-366cc7909a9a",
+          "asset": "8",
+          "info": {
+            "editorName": "PanelMeRed",
+            "editorField": true,
+            "x": 75,
+            "y": 700
+          }
+        },
+        {
+          "type": "image",
+          "id": "e90f767b-73a0-4e1a-89f0-1ee5873202b5",
+          "asset": "9",
+          "info": {
+            "editorName": "RedBonusPanel",
+            "x": 14,
+            "y": 508
+          }
+        },
+        {
+          "type": "image",
+          "id": "8b67c4ee-6f79-465c-ae45-cf9152dd4d91",
+          "asset": "10",
+          "info": {
+            "editorName": "BlueBonusPanel",
+            "x": 1010,
+            "y": 508,
+            "anchor.x": 1
+          }
+        },
+        {
+          "type": "text",
+          "id": "9ada4084-276d-4171-854d-ba9fd6f2538a",
+          "info": {
+            "editorName": "redBonusScore",
+            "editorField": true,
+            "x": 111,
+            "y": 520,
+            "anchor.x": 0.5,
+            "text": "88888",
+            "style.font": "Nanum Gothic",
+            "style.fontSize": 30,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.strokeThickness": 4
+          }
+        },
+        {
+          "type": "text",
+          "id": "1ce4b62e-7b6a-4c57-86cb-21f05a5e732c",
+          "info": {
+            "editorName": "blueBonusScore",
+            "editorField": true,
+            "x": 911,
+            "y": 520,
+            "anchor.x": 0.5,
+            "text": "88888",
+            "style.font": "Nanum Gothic",
+            "style.fontSize": 30,
+            "style.fontWeight": "NORMAL",
+            "style.fill": "#ffffff",
+            "style.strokeThickness": 4,
+            "style.align": "CENTER"
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "2",
+          "id": "22a909b7-2d63-4210-9483-aab92213fd2d",
+          "info": {
+            "editorName": "itemNotify",
+            "editorField": true,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "3",
+          "id": "98cf07d5-24fd-4a38-b03e-a91e26f5179b",
+          "info": {
+            "editorName": "TOW",
+            "editorField": true,
+            "x": 512,
+            "y": 40
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "4",
+          "id": "02f06ebf-96ad-4ac2-91bb-b4b038eac622",
+          "info": {
+            "editorName": "myScore",
+            "editorField": true,
+            "x": 8,
+            "y": 2
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "5",
+          "id": "1003b36f-5166-44dd-8f7e-6da64e30e9bc",
+          "info": {
+            "editorName": "mainTime",
+            "editorField": true,
+            "x": 804,
+            "y": 0
+          }
+        },
+        {
+          "type": "image",
+          "id": "e2086ab3-4cad-4a15-b0ff-0494573bad04",
+          "asset": "11",
+          "info": {
+            "editorName": "startNotice_blueTeam",
+            "editorField": true,
+            "x": 500,
+            "y": 75,
+            "alpha": 0,
+            "anchor.x": 0.5
+          }
+        },
+        {
+          "type": "image",
+          "id": "9420420a-6710-4d35-8e6e-228e55819e1d",
+          "asset": "12",
+          "info": {
+            "editorName": "startNotice_reaTeam",
+            "editorField": true,
+            "x": 500,
+            "y": 75,
+            "alpha": 0,
+            "anchor.x": 0.5
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "6",
+          "id": "2a1c1450-3076-4e7d-8126-e662ecaaa68f",
+          "info": {
+            "editorName": "startCountDown",
+            "editorField": true,
+            "x": 512,
+            "y": 288
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "7",
+          "id": "ff6ec23d-259f-40fc-b102-7606882a188c",
+          "info": {
+            "editorName": "readyForMsg",
+            "editorField": true,
+            "x": 500,
+            "y": 200
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelTeamListR"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelTeamListB"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "MyRankPanelR"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "MyRankPanelB"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "InputPanel"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnInputTxt",
+      "sprite": "0"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "InputCursorSheet",
+      "sprite": "0"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelMe2"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelMe"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "RedBonusPanel"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BlueBonusPanel"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "startNotice_blueTeam"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "startNotice_reaTeam"
+    }
+  },
+  "prefab-table": {
+    "0": "WebContent/assets/canvas/BackGround.canvas",
+    "1": "WebContent/assets/canvas/mainGameBoards.canvas",
+    "2": "WebContent/assets/canvas/item/itemNotify.canvas",
+    "3": "WebContent/assets/canvas/tugOfWar.canvas",
+    "4": "WebContent/assets/canvas/scorePrefab.canvas",
+    "5": "WebContent/assets/canvas/mainTime.canvas",
+    "6": "WebContent/assets/canvas/startCountDown.canvas",
+    "7": "WebContent/assets/canvas/readyForOtherPlayers.canvas"
+  }
+}

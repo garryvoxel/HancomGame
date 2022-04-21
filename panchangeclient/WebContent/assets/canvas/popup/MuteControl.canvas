@@ -1,0 +1,115 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "MuteControl",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.check = false;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "3155c7b0-1fa7-48b7-b448-6799099a7896",
+    "info": {
+      "editorName": "MuteControl",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "3819c421-9843-4e4c-b8d6-319c7d81c659",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [{
+            "type": "group",
+            "id": "6fec6e57-741e-4d0a-a46b-b27f0ad1de82",
+            "info": {
+              "editorName": "group1",
+              "setAll": [],
+              "children": [
+                {
+                  "type": "button",
+                  "id": "39428163-af15-4903-aa2d-717d31b0f272",
+                  "asset": "0",
+                  "info": {
+                    "editorName": "PanelNonCheck",
+                    "editorField": true,
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5,
+                    "callback": "toggleMuteValue"
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "8a09c15b-8069-4d26-a196-b7f5d275a406",
+                  "asset": "1",
+                  "info": {
+                    "editorName": "PanelMuteCheck",
+                    "editorField": true,
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "eb2dc820-989c-44dd-9e88-213be06dbd49",
+                  "asset": "2",
+                  "info": {
+                    "editorName": "MuteCheck",
+                    "editorField": true,
+                    "y": 1,
+                    "anchor.x": 0.5,
+                    "anchor.y": 0.5
+                  }
+                }
+              ]
+            }
+          }]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelNonCheck"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelMuteCheck"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "MuteCheck"
+    }
+  },
+  "prefab-table": {}
+}

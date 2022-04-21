@@ -1,0 +1,79 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "itemIce",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "306b3313-5960-45f6-b80c-c3e12067d3c9",
+    "info": {
+      "editorName": "itemIce",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "881a29e2-9afb-4e37-8d94-c7791bacd48d",
+        "asset": "0",
+        "info": {
+          "editorName": "ItemIcePanel",
+          "alpha": 0.1,
+          "anchor.x": 0.5,
+          "animations": [{
+            "name": "ice",
+            "frameRate": 6,
+            "loop": true,
+            "field": true,
+            "autoPlay": true,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "main",
+    "asset": "ItemIcePanel",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

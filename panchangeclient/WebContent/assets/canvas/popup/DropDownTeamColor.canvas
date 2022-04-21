@@ -1,0 +1,198 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "DropDownTeamColor",
+    "sceneWidth": 112,
+    "sceneHeight": 40,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.isOpen = false;\nthis.dDValue = 0;\n\t\nthis.fPanel.visible = false;\nthis.fGroup0.visible = false;\nthis.fGroup1.visible = false;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "3ceb7a85-91a8-408e-be71-51052aa6826e",
+    "info": {
+      "editorName": "DropDownTeamColor",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "0c67136c-70d6-468e-9f79-afeacbbff369",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "898ba6dc-8e8a-4117-bdf5-c232e6024401",
+              "asset": "0",
+              "info": {"editorName": "BarS"}
+            },
+            {
+              "type": "image",
+              "id": "111e414f-89c5-4fcf-a386-39174bd242e1",
+              "asset": "1",
+              "info": {
+                "editorName": "panel",
+                "editorField": true,
+                "x": 3,
+                "y": 20
+              }
+            },
+            {
+              "type": "button",
+              "id": "6f970469-87d8-4402-9d24-c2ced8306f0e",
+              "asset": "2",
+              "info": {
+                "editorName": "BtnDropdown",
+                "editorField": true,
+                "x": 71,
+                "y": 6,
+                "callback": "toggleDD_Color",
+                "overFrame": "1"
+              }
+            },
+            {
+              "type": "text",
+              "id": "a42f3cd1-9d33-41ed-b378-cfdb3ff5b99b",
+              "info": {
+                "editorName": "txt_display",
+                "editorField": true,
+                "x": 38,
+                "y": 10,
+                "anchor.x": 0.5,
+                "text": "빨강",
+                "style.fontSize": 18,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "group",
+              "id": "88056fbd-0dbc-4dac-9593-e1b633a7c4a0",
+              "info": {
+                "editorName": "group0",
+                "editorField": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "3c3fdce5-16f2-4518-be4f-3c479cc10821",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item0",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_Color",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "31187c06-3b10-4366-9c15-676c50da59d8",
+                    "info": {
+                      "editorName": "txt_item0",
+                      "x": 20,
+                      "y": 46,
+                      "text": "빨강",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "4a65c3ea-6867-4a02-9c04-bbe6a9a5c2c7",
+              "info": {
+                "editorName": "group1",
+                "editorField": true,
+                "y": 31,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "a4a40937-1f73-45c5-9555-36c5593693a3",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "item1",
+                      "x": 12,
+                      "y": 40,
+                      "callback": "chooseItem_Color",
+                      "overFrame": "1"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "62250a99-2a3a-42f3-ae70-294af2735e49",
+                    "info": {
+                      "editorName": "txt_item1",
+                      "x": 20,
+                      "y": 46,
+                      "text": "파랑",
+                      "style.fontSize": 18,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarS"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PanelDropdownL2"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnDropdown",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnDropListS",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

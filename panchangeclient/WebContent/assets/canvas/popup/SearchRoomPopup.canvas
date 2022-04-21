@@ -1,0 +1,204 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "SearchRoomPopup",
+    "sceneWidth": 537,
+    "sceneHeight": 262,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.myInput = this.createInput(310, 347);\nthis.myInput.canvasInput.value('');\nthis.myInput.canvasInput.focus();\nthis.tab = 'N';\nthis.game.audioManager.playSfx(\"Popup\");"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "5a24d44d-bac9-46c2-95e2-2e06847e5666",
+    "info": {
+      "editorName": "SearchRoomPopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "464a7178-b51c-4daa-9253-26b9b5f38a25",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "dc109ebe-3b3f-4bee-b04f-f49c160e3bc9",
+              "asset": "0",
+              "info": {"editorName": "PopPanelNotice"}
+            },
+            {
+              "type": "button",
+              "id": "12f49dc5-b3ad-4a7e-b1d0-ea7ba9cef561",
+              "asset": "1",
+              "info": {
+                "editorName": "BtnExit",
+                "x": 387,
+                "y": -30,
+                "callback": "offSearchRoomPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "image",
+              "id": "ce26926e-de2b-4b3b-8d9f-8103313c9d6f",
+              "asset": "2",
+              "info": {
+                "editorName": "TitleRoomSearch",
+                "x": 208.5,
+                "y": 35
+              }
+            },
+            {
+              "type": "button",
+              "id": "aa49e9d2-6a48-47b4-add0-45806eea6c25",
+              "asset": "3",
+              "info": {
+                "editorName": "TapBtnRoomNum",
+                "editorField": true,
+                "x": 295,
+                "y": 90,
+                "callback": "onSearchTabByNumber",
+                "overFrame": "4",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "button",
+              "id": "4b3d7c00-01ad-4abc-9884-f90fab5f32b5",
+              "asset": "4",
+              "info": {
+                "editorName": "TapBtnNickname",
+                "editorField": true,
+                "x": 115,
+                "y": 90,
+                "callback": "onSearchTabByNickname",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "group",
+              "id": "15ed78bd-1724-4db5-bc4a-7997e948550a",
+              "info": {
+                "editorName": "group1",
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "3e023507-4d1b-49f3-b1ec-e8b91fbe0e03",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "InputOnlyPanel",
+                      "x": 36,
+                      "y": 170
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "8d137c67-f7d9-46ce-869e-99fdfc32ade9",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "SBtnSearch",
+                      "x": 336,
+                      "y": 180,
+                      "callback": "searchRoom",
+                      "overFrame": "1",
+                      "downFrame": "2"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "22587124-1706-47f7-8797-c420fb85e3a7",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "SBtnAdmit",
+                      "editorField": true,
+                      "x": 426,
+                      "y": 180,
+                      "callback": "admitRoom"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelNotice"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleRoomSearch"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TapBtnRoomNum",
+      "sprite": "3"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TapBtnNickname",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "InputOnlyPanel"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "SBtnSearch",
+      "sprite": "0"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "SBtnAdmit",
+      "sprite": "3"
+    }
+  },
+  "prefab-table": {}
+}

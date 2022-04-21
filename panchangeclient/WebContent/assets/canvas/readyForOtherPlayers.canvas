@@ -1,0 +1,88 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "readyForOtherPlayers",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "66e31af4-2546-4fb3-9bf3-26854d06afa9",
+    "info": {
+      "editorName": "readyForOtherPlayers",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "a958a8d5-ccb4-42b8-8909-af488cce9b64",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "61acedc7-79b5-4819-8314-7428ef48d698",
+              "asset": "0",
+              "info": {
+                "editorName": "RFOPbg",
+                "editorField": true,
+                "scale.x": 2,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "text",
+              "id": "a826aeb1-53cb-4212-a09f-11b449fb6ab8",
+              "info": {
+                "editorName": "RFOPtext",
+                "editorField": true,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "다른 유저를 기다리는 중입니다",
+                "style.font": "Nanum Gothic",
+                "style.fontSize": 30,
+                "style.fontWeight": "NORMAL",
+                "style.fill": "#ffffff"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "main",
+    "asset": "PanelToastMessage"
+  }},
+  "prefab-table": {}
+}

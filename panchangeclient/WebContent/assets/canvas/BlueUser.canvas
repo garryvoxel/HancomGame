@@ -1,0 +1,104 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "BlueUser",
+    "sceneWidth": 134,
+    "sceneHeight": 32,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "d07bc2b7-f445-4629-b2f4-bbf022ebe73d",
+    "info": {
+      "editorName": "BlueUser",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "30bad221-fb5d-4ccd-a702-5375f92ce1ec",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "button",
+              "id": "7f7ee5f7-d644-45bf-a873-3151d11bfd30",
+              "asset": "0",
+              "info": {
+                "editorName": "BarUnitWaitRoomB",
+                "callback": "selUserInRobby"
+              }
+            },
+            {
+              "type": "image",
+              "id": "2f8be477-146e-40fb-9246-0e5fe0112517",
+              "asset": "1",
+              "info": {
+                "editorName": "isReady",
+                "editorField": true,
+                "editorShow": false,
+                "x": 6,
+                "y": 6
+              }
+            },
+            {
+              "type": "text",
+              "id": "f428d39f-ade1-4a93-80d2-b9572af41cf1",
+              "info": {
+                "editorName": "txt_nickname",
+                "editorField": true,
+                "x": 77,
+                "y": 18,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "닉네임이여덟자임",
+                "style.fontSize": 12,
+                "style.fontWeight": "NORMAL",
+                "style.align": "CENTER"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarUnitWaitRoomB",
+      "sprite": "0"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "ReadyForLightB"
+    }
+  },
+  "prefab-table": {}
+}

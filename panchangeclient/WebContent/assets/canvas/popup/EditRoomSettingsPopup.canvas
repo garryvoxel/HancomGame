@@ -1,0 +1,348 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "EditRoomSettingsPopup",
+    "sceneWidth": 597,
+    "sceneHeight": 307,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.game.myPopup = this;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "7109b9e6-d8b1-4a9c-81f9-7ccffbcb70d4",
+    "info": {
+      "editorName": "EditRoomSettingsPopup",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "6696e497-cff0-4c94-810f-ba49537cf4bf",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "0da8aa38-9cb2-4ca8-ba0e-068940357af1",
+              "asset": "0",
+              "info": {"editorName": "PopPanelCreateSet"}
+            },
+            {
+              "type": "button",
+              "id": "39cb23a6-0f3b-4c52-81a9-17da1751b8a7",
+              "asset": "1",
+              "info": {
+                "editorName": "BtnExit",
+                "x": 447,
+                "y": -30,
+                "callback": "offEditRoomSettingsPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "image",
+              "id": "0d94166a-e1d6-4a68-a9de-aeaa3f47d446",
+              "asset": "2",
+              "info": {
+                "editorName": "STitleBackImg",
+                "x": 98,
+                "y": 100,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "da4491d2-32dd-4017-af86-7f45f961e9cc",
+              "asset": "3",
+              "info": {
+                "editorName": "STitleAttribute",
+                "x": 252,
+                "y": 100,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "36108ee7-c72a-4378-b786-ace16314471a",
+              "asset": "4",
+              "info": {
+                "editorName": "STitleMemberNum",
+                "x": 162,
+                "y": 180,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "3b409813-6fc5-4dcf-a484-c77172d72f0b",
+              "asset": "5",
+              "info": {
+                "editorName": "STitleTeamColor",
+                "x": 385,
+                "y": 100,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "3b52a011-13d3-4bd0-b817-9ec7430d7905",
+              "asset": "6",
+              "info": {
+                "editorName": "STitleRoomName",
+                "x": 385.5,
+                "y": 180,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "397cd978-4188-4112-9b6b-b90d1aa4415c",
+              "asset": "7",
+              "info": {
+                "editorName": "STitlePlaytime",
+                "x": 519,
+                "y": 100,
+                "anchor.x": 0.5
+              }
+            },
+            {
+              "type": "image",
+              "id": "eaa3e354-bf1a-47d1-ac49-b2af25aa53ad",
+              "asset": "8",
+              "info": {
+                "editorName": "TitleRoomReset",
+                "x": 221,
+                "y": 35
+              }
+            },
+            {
+              "type": "image",
+              "id": "fd59a9e3-2c71-4504-8972-95bc7a0f24da",
+              "asset": "9",
+              "info": {
+                "editorName": "BarL1",
+                "x": 260,
+                "y": 220
+              }
+            },
+            {
+              "type": "image",
+              "id": "6b4c4579-b3bf-4f5e-8909-0b3f4ef174e4",
+              "asset": "10",
+              "info": {
+                "editorName": "BarM",
+                "x": 86,
+                "y": 220
+              }
+            },
+            {
+              "type": "button",
+              "id": "0b92d5eb-4118-4e14-a976-840166f99872",
+              "asset": "11",
+              "info": {
+                "editorName": "BtnCancel",
+                "x": 345,
+                "y": 327,
+                "callback": "offEditRoomSettingsPopup",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "button",
+              "id": "24c16986-2dad-4050-98b1-e2f59a6c8673",
+              "asset": "12",
+              "info": {
+                "editorName": "BtnChange",
+                "x": 85,
+                "y": 327,
+                "callback": "changeRoomBtn",
+                "overFrame": "1",
+                "downFrame": "2"
+              }
+            },
+            {
+              "type": "text",
+              "id": "aeab0063-5cd1-4bdb-b556-6e546ad64820",
+              "info": {
+                "editorName": "txt_menNum",
+                "editorField": true,
+                "x": 161,
+                "y": 241,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "50:50",
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "text",
+              "id": "1c1d574c-87db-4903-94de-a4d83b50a2c6",
+              "info": {
+                "editorName": "txt_roomName",
+                "editorField": true,
+                "x": 392,
+                "y": 241,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "text": "50:50",
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "0",
+              "id": "270d3f0a-2fa6-4eff-a330-379442662041",
+              "info": {
+                "editorName": "DD_Background",
+                "editorPick": false,
+                "editorField": true,
+                "editorShow": false,
+                "x": 22,
+                "y": 135
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "1",
+              "id": "fbb18e8e-1403-4723-a59c-0af899b21e88",
+              "info": {
+                "editorName": "DD_IsFree",
+                "editorField": true,
+                "x": 196,
+                "y": 135
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "2",
+              "id": "9020592b-35b5-4be9-b2a9-d77d4d89b9f2",
+              "info": {
+                "editorName": "DD_RunningTime",
+                "editorPick": false,
+                "editorField": true,
+                "x": 463,
+                "y": 135
+              }
+            },
+            {
+              "type": "prefab",
+              "prefab": "3",
+              "id": "5bc86b70-c86f-4c43-b9ad-2fb6f04c682f",
+              "info": {
+                "editorName": "DD_Color",
+                "editorPick": false,
+                "editorField": true,
+                "editorShow": false,
+                "x": 329,
+                "y": 135
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "PopPanelCreateSet"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnExit",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleBackImg"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleAttribute"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleMemberNum"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleTeamColor"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitleRoomName"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "STitlePlaytime"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "TitleRoomReset"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarL2"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BarM1"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnCancel",
+      "sprite": "0"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "main",
+      "asset": "BtnChange",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {
+    "0": "WebContent/assets/canvas/popup/DropDownBackground.canvas",
+    "1": "WebContent/assets/canvas/popup/DropDownIsFree.canvas",
+    "2": "WebContent/assets/canvas/popup/DropDownRunningTime.canvas",
+    "3": "WebContent/assets/canvas/popup/DropDownTeamColor.canvas"
+  }
+}
