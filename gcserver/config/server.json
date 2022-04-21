@@ -1,0 +1,31 @@
+{
+    "test":{
+        "SERVER_PORT":7301,
+        "MAX_USER":1000,
+        "API_SERVER_PROTOCOL":"http",
+        "API_SERVER_HOST":"taja.malangmalang.com",
+        "API_SERVER_PORT":7311,
+        "REDIS_NEW_MODULE": "http://localhost:7320"
+    },
+    "development":{
+        "SERVER_PORT":7301,
+        "MAX_USER":1000,
+        "API_SERVER_PROTOCOL":"https",
+        "API_SERVER_HOST":"dev-api.malangmalang.com",
+        "REDIS_NEW_MODULE": "http://localhost:7320"
+    },
+    "stage":{
+        "SERVER_PORT":7301,
+        "MAX_USER":1000,
+        "API_SERVER_PROTOCOL":"https",
+        "API_SERVER_HOST":"stg-api.malangmalang.com",
+        "REDIS_NEW_MODULE": "http://localhost:7320"
+    },
+    "production":{
+        "SERVER_PORT":7301,
+        "MAX_USER":1000,
+        "API_SERVER_PROTOCOL":"https",
+        "API_SERVER_HOST":"api.malangmalang.com",
+        "REDIS_NEW_MODULE": "http://localhost:7320"
+    }
+}
