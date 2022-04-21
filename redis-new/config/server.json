@@ -1,0 +1,18 @@
+{
+  "test": {
+    "port": 7320,
+    "page_length": 8
+  },
+  "development": {
+    "port": 7320,
+    "page_length": 8
+  },
+  "stage": {
+    "port": 7320,
+    "page_length": 8
+  },
+  "production": {
+    "port": 7320,
+    "page_length": 8
+  }
+}
