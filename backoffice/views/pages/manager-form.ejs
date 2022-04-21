@@ -1,0 +1,114 @@
+<% layout('../layouts/layout') -%>
+<div id="es-manager-register">
+    <!-- search area start -->
+    <div class="spage-title-area">
+        <div class="row align-items-center">
+            <div class="col-sm-12">
+                <div class="breadcrumbs-area clearfix">
+                    <h4 class="spage-title pull-left"><i class="ti-control-play"></i> <%= breadcrumbs[breadcrumbs.length - 1].name %></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- data table start -->
+        <form id="es-manager-register-form" action="<% if (mode === 'edit') { %>/managers/<%= manager.id %><% } else { %>/managers<% } %>" method="POST">
+            <div class="col-12">
+                <div class="data-tables">
+                    <div class="tablewrap2">
+                        <table class="tbsty02 text-center">
+                            <colgroup>
+                                <col width="150">
+                                <col width="*">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>이름</th>
+                                    <td>
+                                    <div class="col-sm-4">
+                                        <div class="input-group">
+                                            <input name="display_name" type="text" class="form-control" value="<%= fields.display_name || '' %>" placeholder="이름" required>
+                                        </div>
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>아이디</th>
+                                    <td>
+                                    <div class="col-sm-4">
+                                        <div class="input-group">
+                                            <input name="username" type="text" class="form-control" value="<%= fields.username || '' %>" placeholder="아이디" required>
+                                        </div>
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>비밀번호</th>
+                                    <td>
+                                    <div class="col-sm-4">
+                                        <div class="input-group">
+                                            <input name="password" type="password" class="form-control" placeholder="비밀번호"<% if (mode != 'edit') { %> required<% } %>>
+                                        </div>
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>비밀번호확인</th>
+                                    <td>
+
+                                    <div class="col-sm-4">
+                                        <div class="input-group">
+                                            <input name="password_confirmation" type="password" class="form-control" placeholder="비밀번호확인"<% if (mode != 'edit') { %> required<% } %>>
+                                        </div>
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>권한</th>
+                                    <td class="text-left pl-4">
+                                        <% const permissionNames = ['메뉴관리', '콘텐츠관리', '회원관리', '푸시알림', '포인트', '권한관리', '모니터링', '광고관리', '통계'] %>
+                                        <% const permissionArray = fields.permissions ? fields.permissions.split('') : null %>
+                                        <% for (var i = 1; i <= permissionNames.length; i++) { %>
+                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                <input type="checkbox" class="es-permission custom-control-input" id="<%= `customCheck${i}` %>"<% if (permissionArray && permissionArray[i - 1] === '1') { %> checked<% } %>>
+                                                <label class="custom-control-label" for="<%= `customCheck${i}` %>"><%= permissionNames[i - 1] %></label>
+                                            </div>
+                                        <% } %>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>상태설정</th>
+                                    <td>
+                                        <div class="col-sm-4">
+                                            <div class="input-group">
+                                                <select class="form-control" name="is_active">
+                                                    <option value="1" selected>사용중</option>
+                                                    <option value="0">정지</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <button id="es-cancel" class="btn btn-flat btn-secondary">취소</button>
+                    <% if (mode === 'edit') { %>
+                        <button class="btn btn-flat btn-success" data-mode="<%= mode %>">수정</button>
+                    <% } else { %>
+                        <button class="btn btn-flat btn-success" data-mode="<%= mode %>">등록</button>
+                    <% } %>
+                </div>
+                <input type="hidden" name="permissions">
+            </form>
+        </div>
+        <!-- data table end -->
+    </div>
+</div>
+
+<% if (alert) { %>
+    <% block('js', '<script>alert("' + alert + '");</script>') %>
+<% } %>

@@ -1,0 +1,11 @@
+<ul class="breadcrumbs pull-right">
+    <% breadcrumbs.forEach(function(item, index) { %>
+        <% if (index === 0) { %>
+            <li><a href="<%= item.href %>" title="<%= item.name %>"><i class="ti-location-pin"></i> <%= item.name %></a></li>
+        <% } else if (index === breadcrumbs.length - 1) { %>
+            <li><span><%= item.name %></span></li>
+        <% } else { %>
+            <li><a href="<%= item.href %>" title="<%= item.name %>"><%= item.name %></a></li>
+        <% } %>
+    <% }) %>
+</ul>

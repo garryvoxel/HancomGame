@@ -1,0 +1,21 @@
+<div class="paging">
+    <% if (pagination.hasPrev()) { %>
+        <a href="<%= pagination.prev() %>" class="prev" title="이전">이전</a>
+    <% } else { %>
+        <a href="javascript:void(0);" class="prev" title="이전">이전</a>
+    <% } %>
+
+    <% for (var i = pagination.firstPage; i <= pagination.lastPage; i++) { %>
+        <% if (i === pagination.currentPage) { %>
+            <strong><%= i %></strong>
+        <% } else { %>
+            <a href="<%= pagination.page(i) %>" title="<%= i %>"><%= i %></a>
+        <% } %>
+    <% } %>
+    
+    <% if (pagination.hasNext()) { %>
+        <a href="<%= pagination.next() %>" class="next" title="다음">다음</a>
+    <% } else { %>
+        <a href="javascript:void(0);" class="next" title="다음">다음</a>
+    <% } %>
+</div>

@@ -1,0 +1,735 @@
+{
+    "databases": {
+        "AccountDB": {
+            "test": {
+                "database": "AccountDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "development": {
+                "database": "AccountDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "stage": {
+                "database": "AccountDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "production": {
+                "database": "AccountDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 5,
+                    "min": 0,
+                    "idle": 10000
+                }
+            }
+        },
+        "WebDB": {
+            "test": {
+                "database": "WebDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci",
+                    "timezone": "Aisa/Seoul"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "development": {
+                "database": "WebDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "stage": {
+                "database": "WebDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "production": {
+                "database": "WebDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 5,
+                    "min": 0,
+                    "idle": 10000
+                }
+            }
+        },
+        "GameDB": {
+            "test": {
+                "database": "GameDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "development": {
+                "database": "GameDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "stage": {
+                "database": "GameDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "production": {
+                "database": "GameDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 5,
+                    "min": 0,
+                    "idle": 10000
+                }
+            }
+        },
+        "LogDB": {
+            "test": {
+                "database": "LogDB",
+                "dialect": "mysql",
+                "dialectOptions": {
+                    "multipleStatements": true
+                },
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "development": {
+                "database": "LogDB",
+                "dialect": "mysql",
+                "dialectOptions": {
+                    "multipleStatements": true
+                },
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "stage": {
+                "database": "LogDB",
+                "dialect": "mysql",
+                "dialectOptions": {
+                    "multipleStatements": true
+                },
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 2,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },
+            "production": {
+                "database": "LogDB",
+                "dialect": "mysql",
+                "dialectOptions": {
+                    "multipleStatements": true
+                },
+                "operatorsAliases": false,
+                "define": {
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 5,
+                    "min": 0,
+                    "idle": 10000
+                }
+            }
+        },
+        "BackOfficeDB": {
+            "test": {
+                "database": "BackOfficeDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "freezeTableName": true,
+                    "timestamps": false,
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+              },
+                "pool": {
+                "max": 2,
+                "idle": 30000
+                }
+            },            
+            "development": {
+                "database": "BackOfficeDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "freezeTableName": true,
+                    "timestamps": false,
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                "max": 2,
+                "idle": 30000
+                }
+            },
+            "stage": {
+                "database": "BackOfficeDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "freezeTableName": true,
+                    "timestamps": false,
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 5,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },            
+            "production": {
+                "database": "BackOfficeDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "freezeTableName": true,
+                    "timestamps": false,
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                "max": 5,
+                "idle": 30000
+                }
+            }
+        },
+        "WordDB": {
+            "test": {
+                "database": "WordDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "freezeTableName": true,
+                    "timestamps": false,
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                "max": 2,
+                "idle": 30000
+                }
+            },            
+            "development": {
+                "database": "WordDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "freezeTableName": true,
+                    "timestamps": false,
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-dev-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                "max": 2,
+                "idle": 30000
+                }
+            },
+            "stage": {
+                "database": "WordDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "freezeTableName": true,
+                    "timestamps": false,
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-stg-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                    "max": 5,
+                    "min": 0,
+                    "idle": 10000
+                }
+            },            
+            "production": {
+                "database": "WordDB",
+                "dialect": "mysql",
+                "operatorsAliases": false,
+                "define": {
+                    "freezeTableName": true,
+                    "timestamps": false,
+                    "underscored": true,
+                    "charset": "utf8mb4",
+                    "dialectOption": "utf8mb4_general_ci"
+                },
+                "replication": {
+                    "read": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    },
+                    "write": {
+                        "host": "seoul-prd-tt-mysql.hancom.io",
+                        "port": "3306",
+                        "username": "hancom_tt",
+                        "password": "gkszjaxkwk$#21"
+                    }
+                },
+                "pool": {
+                "max": 5,
+                "idle": 30000
+                }
+            }
+        }                
+    }
+}

@@ -1,0 +1,5 @@
+-- 비밀번호 변경 갱신 주기 180 설정용.
+alter table Managers add pw_updated_at timestamp default now() after updated_at;
+
+-- 로그인 실패 카운트용.
+alter table Managers add login_fail_count tinyint default 0 after is_active;

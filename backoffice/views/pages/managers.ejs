@@ -1,0 +1,120 @@
+<% layout('../layouts/layout') -%>
+<div id="es-managers">
+    <!-- search area start -->
+    <div class="spage-title-area">
+        <div class="row align-items-center">
+            <div class="col-sm-12">
+                <div class="breadcrumbs-area clearfix">
+                    <h4 class="spage-title pull-left"><i class="ti-control-play"></i> <%= breadcrumbs[breadcrumbs.length - 1].name %></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mt-1" style="border-bottom:1px #ddd solid;">
+        <form id="es-form-search">
+            <div class="form-row align-items-center">
+                <div class="col-sm-1 my-1">
+                    검색조건
+                </div>
+                <div class="col-sm-2 my-1">
+                    <select id="es-field" class="form-control">
+                        <% ['전체', '아이디', '이름'].forEach(function(value, i) { %>
+                            <% if (pagination.field == i) { %>
+                                <option value="<%= i %>" selected><%= value %></option>
+                            <% } else { %>
+                                <option value="<%= i %>"><%= value %></option>
+                            <% } %>
+                        <% }) %>
+                    </select>
+                </div>
+                <div class="col-sm-4 my-1">
+                    <div class="input-group">
+                        <% if (pagination.field == 2) { %>
+                            <input id="es-keyword" type="text" class="form-control" value="<%= pagination.keyword || '' %>" placeholder="이름">
+                        <% } else if (pagination.field == 1) { %>
+                            <input id="es-keyword" type="text" class="form-control" value="<%= pagination.keyword || '' %>" placeholder="아이디">
+                        <% } else { %>
+                            <input id="es-keyword" type="text" class="form-control" value="<%= pagination.keyword || '' %>" placeholder="검색어">
+                        <% } %>
+                    </div>
+                </div>
+                <div class="col-auto my-1">
+                    <button id="es-search" class="btn btn-warning">검색</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- search area end -->
+    <div class="row">
+        <!-- data table start -->
+        <div class="col-12 mt-5">
+            <div class="data-tables">
+                <div class="row">
+                    <div class="col-md-6 pull-left">
+                        전체 : <span class="fc_y"><%= pagination.totalItemCount %></span>
+                    </div>
+                    <div class="col-md-6">
+                        <select id="es-item-count" class="custom-select custom-select-sm form-control form-control-sm  pull-right" style="width:100px;">
+                            <% [10, 25, 50, 100].forEach(function(value) { %>
+                                <% if (pagination.itemsPerPage == value) { %>
+                                    <option value="<%= value %>" selected><%= value %></option>
+                                <% } else { %>
+                                    <option value="<%= value %>"><%= value %></option>
+                                <% } %>
+                            <% }) %>
+                        </select>
+                    </div>
+                </div>
+                <div class="tablewrap mt-2">
+                    <table id="es-table-managers" class="es-select-row tbsty01 text-center">
+                        <colgroup>
+                        <col width="150">
+                        <col width="*">
+                        <col width="*">
+                        <col width="150">
+                        <col width="150">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <% const columns = { id: 'No', username: '아이디', display_name: '이름', is_active: '상태', created_at: '등록일자' } %>
+                                <% for (var key in columns) { %>
+                                    <th data-name="<%= key %>"<%- req.query.orderby === key && req.query.sort ? ` data-sort="${req.query.sort}"` : '' %>>
+                                        <span><%= columns[key] %> <i class="ti-exchange-vertical"></i></span>
+                                    </th>
+                                <% } %>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% if (managers && managers.length) { %>
+                                <% managers.forEach(function(manager) { %>
+                                    <tr data-id="<%= manager.id %>">
+                                        <td><%= manager.id %></td>
+                                        <td><%= manager.username %></td>
+                                        <td><%= manager.display_name %></td>
+                                        <td><%= manager.is_active ? '사용중' : '정지' %></td>
+                                        <td><%= manager.createdDate %></td>
+                                    </tr>
+                                <% }); %>
+                            <% } else { %>
+                                <tr>
+                                    <td colspan="5">데이터가 없습니다.</td>
+                                </tr>
+                            <% } %>
+                        </tbody>
+                    </table>
+                </div>
+
+                <%- include ../components/pagination %>
+                
+            </div>
+            <div class="col-12 text-center mt-5">
+                <a class="btn btn-flat btn-success" href="/managers/create" title="신규등록">신규등록</a>
+            </div>
+        </div>
+        <!-- data table end -->
+    </div>
+</div>
+
+<% if (alert) { %>
+    <% block('js', '<script>alert("' + alert + '");</script>') %>
+<% } %>

@@ -1,0 +1,61 @@
+<template>
+    <div class="page-container">
+        <!-- sidebar menu area start -->
+        <main-menu />
+        <!-- sidebar menu area end -->
+        
+        <!-- main content area start -->
+        <service-forum-list v-if="isCurrentPage('/typing/service/forum-report-article/list')" />
+        <service-forum-detail v-if="isCurrentPage('/typing/service/forum-report-article/__id__/detail')"/>
+        <service-forum-list v-if="isCurrentPage('/typing/service/forum-report-comment/list')" />
+        <service-forum-detail v-if="isCurrentPage('/typing/service/forum-report-comment/__id__/detail')"/>
+
+        <!-- main content area end -->
+    </div>
+    <!-- page container area end -->
+</template>    
+
+<script>
+
+import MainMenu from '@/components/MainMenu.vue';
+
+import ServiceForumreportList from '@/components/ServiceForumreportList.vue';
+import ServiceForumreportDetail from '@/components/ServiceForumreportDetail.vue';
+
+export default {
+    name: "serviceforumreport",
+    components: {
+        'main-menu': MainMenu
+        ,'service-forum-list': ServiceForumreportList
+        ,'service-forum-detail': ServiceForumreportDetail
+    },
+    methods: {
+        isCurrentPage(page) {
+            const
+            pathUriArray = this.$route.path.split('/'),
+            pageUriArray = page.split('/');
+            
+            var isSameUri = true,
+            idIndex = 0,
+            index = 0;
+
+            idIndex = pageUriArray.indexOf('__id__');
+
+            if(idIndex > 0) {
+                for( var item in pageUriArray ) {
+                    if(index === idIndex ) { index++; continue;}
+                    if(pageUriArray[index] != pathUriArray[index]) isSameUri = false;
+                    index++;       
+                }
+                return isSameUri;
+            }
+
+            //id 값을 가지는 페이지 인지 확인후 로직을 달리함.
+            return this.$route.path === page;
+        }
+    },
+    created(){
+        require('es6-promise').polyfill();
+    }
+}
+</script>

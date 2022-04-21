@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<%- include ../components/head %>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- login area start -->
+    <div id="es-login" class="login-area">
+        <div class="login-tit">
+          <i class="ti-face-sad"></i> 로그인하세요.
+        </div>
+        <div class="container">
+            <div class="login-box ptb--100">
+                <form id="es-login-form" action="/login" method="POST">
+                    <div class="login-form-head">
+                      <div class="logo" style="padding-bottom:20px;">
+                          <img src="/images/ad_logo.png" alt="logo" width="60px">
+                      </div>
+                        <h2>한컴타자 백오피스 로그인</h2>
+                    </div>
+                    <div class="login-form-body">
+                        <div class="form-gp">
+                            <input type="text" name="username" placeholder="아이디">
+                              <i class="ti-marker-alt"></i>
+                        </div>
+                        <div class="form-gp">
+                            <input type="password" name="password" placeholder="비밀번호">
+                              <i class="ti-lock"></i>
+                        </div>
+                        <div class="row mb-4 rmber-area">
+                            <div class="col-6">
+                                <div class="custom-control custom-checkbox mr-sm-2">
+                                    <input type="checkbox" class="custom-control-input" name="remember_username" id="customControlAutosizing">
+                                    <label class="custom-control-label" for="customControlAutosizing">아이디저장</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <% if (redirectUri) { %>
+                        <input type="hidden" name="redirect_uri" value="<%= redirectUri %>">
+                    <% } %>
+                    <div class="login-form-foot">
+                        <div class="submit-btn-area">
+                            <button id="form_submit" type="submit">로그인 <i class="ti-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- login area end -->
+
+    <%- include ../components/scripts %>
+</body>
+
+</html>

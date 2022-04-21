@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<%- include ../components/head %>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- page container area start -->
+    <div class="page-container">
+
+        <!-- sidebar menu area start -->
+        <div class="sidebar-menu">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <a href=""><img src="/images/ad_logo.png" alt="logo"></a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <div class="menu-inner">
+                    <nav>
+                        <ul class="metismenu" id="menu">
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>서비스관리</span></a>
+                                <ul class="collapse">
+                                    <li><a href="index.html">메인콘텐츠관리</a></li>
+                                    <li><a href="index2.html">공지사항</a></li>
+                                    <li><a href="index3.html">이벤트</a></li>
+                                    <li><a href="">랭킹</a></li>
+                                    <li><a href="">클랜</a></li>
+                                    <li><a href="">자유게시판</a></li>
+                                    <li><a href="">고객센터</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>콘텐츠관리 </span></a>
+                                <ul class="collapse">
+                                <li><a href="">타자연습</a></li>
+                                <li><a href="">두더지게임</a></li>
+                                <li><a href="">동전쌓기</a></li>
+                                <li><a href="">판뒤집기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>광고관리</span></a>
+                                <ul class="collapse">
+                                <li><a href="">광고관리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-palette"></i><span>회원관리</span></a>
+                                <ul class="collapse">
+                                <li><a href="">회원관리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-slice"></i><span>포인트</span></a>
+                                <ul class="collapse">
+                                <li><a href="">포인트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i><span>푸시알림</span></a>
+                                <ul class="collapse">
+                                <li><a href="">푸시이력</a></li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layers-alt"></i><span>관리자관리</span></a>
+                                <ul class="collapse">
+                                <li class="active"><a href="/managers" title="관리자 관리">관리자관리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-exclamation-triangle"></i><span>모니터링</span></a>
+                                <ul class="collapse">
+                                <li><a href="">비속어목록</a></li>
+                                <li><a href="">오류로그</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-align-left"></i> <span>통계</span></a>
+                                <ul class="collapse">
+                                <li><a href="/stats/web">웹통계</a></li>
+                                <li><a href="">타자연습</a></li>
+                                <li><a href="">게임</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar menu area end -->
+        
+        <!-- main content area start -->
+        <div class="main-content">
+            <!-- header area start -->
+            <div class="header-area">
+                <div class="row align-items-center">
+                    <!-- nav and search button -->
+                    <div class="col-md-6 col-sm-8 clearfix">
+                        <div class="nav-btn pull-left">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <i class="ti-face-smile"></i> 관리자1님 안녕하세요.
+                    </div>
+                    <!-- profile info & task notification -->
+                    <div class="col-md-6 col-sm-4 clearfix">
+                        <ul class="notification-area pull-right">
+                            <li>
+                                <i class="ti-lock"></i> 로그아웃
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="favor-zone">
+                <ul>
+                <li class="favor-tit"><i class="ti-star"></i> 즐겨찾기</li>
+                <li class="favor-tab"><a href="">즐겨찾기1 <i class="ti-close"></i></a></li>
+                <li class="favor-tab"><a href="">즐겨찾기2 <i class="ti-close"></i></a></li>
+                </ul>
+            </div>
+            <!-- header area end -->
+
+            <div class="main-content-inner">
+                <!-- page title area start -->
+                <div class="page-title-area">
+                    <div class="row align-items-center">
+                        <div class="col-sm-12">
+                            <div class="breadcrumbs-area clearfix">
+                                <h2 class="page-title pull-left"><%= breadcrumbs[breadcrumbs.length - 2].name %></h2>
+                                <ul class="tit-btn pull-left">
+                                    <li><a href="" class="bookmk"><i class="ti-bookmark"></i> 즐겨찾기 추가</a></li>
+                                    <li><a href=""><i class="ti-new-window"></i> 새창보기</a></li>
+                                </ul>
+
+                                <%- include ../components/breadcrumb %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- page title area end -->
+                
+                <%- body -%>
+            </div>
+        </div>
+        <!-- main content area end -->
+
+    </div>
+    <!-- page container area end -->
+    
+    <%- include ../components/scripts %>
+
+    <%- blocks.js %>
+</body>
+
+</html>

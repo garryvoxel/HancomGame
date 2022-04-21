@@ -1,0 +1,116 @@
+- 로칼 환경 기준으로 설명합니다.  특정 계정정보는 상황에 맞춰서 변경해서 세팅해 주세요!!!!
+
+0. ################################################################## mysql, redis, nginx 설치
+
+1. ##################################################################  nodejs v10.15.1  버전 설치
+
+https://nodejs.org/ko/download/ 싸이트에서 node-v10.15.1-linux-x64.tar.gz 파일 다운로드
+~/.local 폴더에 압축파일을 복사하고 압축 풀기 
+~/.local/node-v10.15.1-linux-x64/bin/node
+
+yijoongwon@DESKTOP-1LT2481:~$ cat .profile
+:
+:
+# node.js path add
+PATH=$PATH:~/.local/node-v10.15.1-linux-x64/bin
+
+추가 로 nodejs 가 실행될수 있도록 PATH 에 추가
+
+2. ################################################################## 자꾸치기 귀찮은 명령들  alisa 처리 
+
+yijoongwon@DESKTOP-1LT2481:~/.local/bin$ ll
+total 0
+drwxrwxrwx 1 yijoongwon yijoongwon 4096 Apr 19  2019 ./
+drwxrwxrwx 1 yijoongwon yijoongwon 4096 Mar 15  2019 ../
+-rwxr-xr-x 1 yijoongwon yijoongwon  102 Apr 19  2019 svrctl*
+
+yijoongwon@DESKTOP-1LT2481:~/.local/bin$ cat svrctl
+sudo service nginx $1 && sudo service redis-server $1 && sudo service ssh $1 && sudo service mysql $1
+
+
+
+yijoongwon@DESKTOP-1LT2481:~$ cat .bash_aliases
+
+alias ggvue='cd ~/hancom-backoffice/vue_framework'
+alias ggex='cd ~/hancom-backoffice'
+
+alias gg='git status'
+alias godev='git checkout developer'
+alias goma='git checkout master && git merge developer && git push && git checkout developer'
+
+#alias ggrun='cd ~/hancom-backoffice&&clear&&NODE_ENV=test pm2 startOrRestart pm2.config.json'
+alias run='cd ~/hancom-backoffice&&clear&&NODE_ENV=test node bin/www'
+alias vrun='cd ~/hancom-backoffice/vue_framework&&clear&&npm run dev'
+
+alias nginxctl='sudo /home/yijoongwon/.local/bin/nginxctl'
+
+alias ggnpmcacheclean='npm  cache clean --force && rm -rf node_modules && rm -f package-lock.json && npm install'
+
+3. ################################################################## nginx 설정.
+
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        root /var/www/html;
+
+        # Add index.php to the list if you are using PHP
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+
+        location / {
+                add_header Cache-Control no-cache;
+                proxy_set_header Connection keep-alive;
+                proxy_pass http://localhost:8080;
+                #proxy_pass http://localhost:7303;
+        }
+
+        location /typing/api {
+                add_header Cache-Control no-cache;
+                proxy_set_header Connection keep-alive;
+                proxy_pass http://localhost:7303;
+        }
+
+        location /typing/events {
+                add_header Cache-Control no-cache;
+                proxy_set_header Connection keep-alive;
+                proxy_pass http://localhost:7303;
+        }
+
+        location /typing/uploads {
+                add_header Cache-Control no-cache;
+                proxy_set_header Connection keep-alive;
+                proxy_pass http://localhost:7303;
+        }
+}
+
+4. ################################################################## hancom-backoffice 소스코드 git clone
+
+git clone https://yijoongwon@bitbucket.org/esean/hancom-backoffice.git
+git branch developer
+
+5. ################################################################## npm install  
+   ################################################################## nodejs express 에 vue_framework 이 내장되어 있는 형식이라 2번 진행합니다.
+cd ~/hancom-backoffice/vue_framework
+npm install
+
+cd ~/hancom-backoffice
+npm install
+
+
+6. ################################################################## 개발환경 실행 
+
+.vue 실행
+cd ~/hancom-backoffice/vue_framework&&clear&&npm run dev
+
+.vue 컴파일
+cd ~/hancom-backoffice/vue_framework
+npm run build
+
+.express 실행
+cd ~/hancom-backoffice&&clear&&NODE_ENV=test node bin/www
+
+!! 참고 : 
+라이브에서는  vue client 가 컴파일되어서 express 의 public 폴더로 들어가 실행하기 때문에 1개의 데몬만 띄우면 됨.
+

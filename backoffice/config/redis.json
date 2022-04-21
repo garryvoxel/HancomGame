@@ -1,0 +1,310 @@
+{
+    "test": {
+        "SETCOIN_ROOM_CHANNEL_1": {
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 10,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_2": {
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 11,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_3": {
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 12,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_4": {
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 13,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+        "SETCOIN_ROOM_CHANNEL_1001":{
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 14,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+        "SETCOIN_ROOM_CHANNEL_1002":{
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 15,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+        "PANCHANGE_ROOM_CHANNEL_1": {
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 2,
+            "KEY1": "PANCHANGE_ROOM_LIST",
+            "KEY2": "PANCHANGE",
+            "KEY3": "CLAN-NAME",
+            "KEY4": "PANCHANGE_ROOM_NUMBER",
+            "KEY5": "PANCHANGE_HOST",
+            "MAX_ROOM_NUMBER": 1000
+
+        },
+        "USER_SESSION_REDIS": {
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 0,
+            "EXPIRE": 10
+        },
+        "RANKING_REDIS": {
+            "HOST": "localhost",
+            "PORT": 6379,
+            "DB": 3,
+            "KEY1": "SETCOIN_RANKING",
+            "KEY2": "PANCHANGE_RANKING",
+            "KEY3": "MOLE_RANKING",
+            "KEY4": "TYPING_RANKING",
+            "KEY5": "SETCOIN_SCHOOL_RANKING",
+            "KEY6": "PANCHANGE__SCHOOL_RANKING",
+            "KEY7": "MOLE_SCHOOL_RANKING",
+            "KEY8": "TYPING_SCHOOL_RANKING"
+        }
+    },
+    "development": {
+        "SETCOIN_ROOM_CHANNEL_1": {
+            "HOST": "dev-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 0,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_2": {
+            "HOST": "dev-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 1,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+        "SETCOIN_ROOM_CHANNEL_1001":{
+            "HOST": "dev-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 2,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+        "SETCOIN_ROOM_CHANNEL_1002":{
+            "HOST": "dev-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 3,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+        "PANCHANGE_ROOM_CHANNEL_1": {
+            "HOST": "dev-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 6,
+            "KEY1": "PANCHANGE_ROOM_LIST",
+            "KEY2": "PANCHANGE",
+            "KEY3": "CLAN-NAME",
+            "KEY4": "PANCHANGE_ROOM_NUMBER",
+            "KEY5": "PANCHANGE_HOST",
+            "MAX_ROOM_NUMBER": 1000
+
+        },
+
+        "USER_SESSION_REDIS": {
+            "HOST": "dev-tt-redis.hancom.io",
+            "PORT": 6379,
+            "DB": 0,
+            "EXPIRE": 10
+        },
+        "RANKING_REDIS": {
+            "HOST": "dev-tt-redis.hancom.io",
+            "PORT": 6379,
+            "DB": 3,
+            "KEY1": "SETCOIN_RANKING",
+            "KEY2": "PANCHANGE_RANKING",
+            "KEY3": "MOLE_RANKING",
+            "KEY4": "TYPING_RANKING",
+
+            "KEY5": "SETCOIN_SCHOOL_RANKING",
+            "KEY6": "PANCHANGE__SCHOOL_RANKING",
+            "KEY7": "MOLE_SCHOOL_RANKING",
+            "KEY8": "TYPING_SCHOOL_RANKING"
+        }
+    },
+    "stage": {
+        "SETCOIN_ROOM_CHANNEL_1": {
+            "HOST": "stg-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 0,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_2": {
+            "HOST": "stg-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 1,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_1001": {
+            "HOST": "stg-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 2,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_1002": {
+            "HOST": "stg-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 3,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+        "PANCHANGE_ROOM_CHANNEL_1": {
+            "HOST": "stg-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 6,
+            "KEY1": "PANCHANGE_ROOM_LIST",
+            "KEY2": "PANCHANGE",
+            "KEY3": "CLAN-NAME",
+            "KEY4": "PANCHANGE_ROOM_NUMBER",
+            "KEY5": "PANCHANGE_HOST",
+            "MAX_ROOM_NUMBER": 1000
+
+        },
+        "USER_SESSION_REDIS": {
+            "HOST": "stg-tt-redis.hancom.io",
+            "PORT": 6379,
+            "DB": 0,
+            "EXPIRE": 10
+        },
+        "RANKING_REDIS": {
+            "HOST": "stg-tt-redis.hancom.io",
+            "PORT": 6379,
+            "DB": 3,
+            "KEY1": "SETCOIN_RANKING",
+            "KEY2": "PANCHANGE_RANKING",
+            "KEY3": "MOLE_RANKING",
+            "KEY4": "TYPING_RANKING",
+
+            "KEY5": "SETCOIN_SCHOOL_RANKING",
+            "KEY6": "PANCHANGE__SCHOOL_RANKING",
+            "KEY7": "MOLE_SCHOOL_RANKING",
+            "KEY8": "TYPING_SCHOOL_RANKING"
+        }
+    },
+    "production": {
+        "SETCOIN_ROOM_CHANNEL_1": {
+            "HOST": "prd-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 0,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_2": {
+            "HOST": "prd-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 1,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_1001": {
+            "HOST": "prd-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 2,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+
+        "SETCOIN_ROOM_CHANNEL_1002": {
+            "HOST": "prd-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 3,
+            "KEY1": "SETCOIN_ROOM_NUMBER",
+            "KEY2": "SETCOIN_ROOM_LIST",
+            "KEY3": "SETCOIN",
+            "MAX_ROOM_NUMBER": 1000
+        },
+        "PANCHANGE_ROOM_CHANNEL_1": {
+            "HOST": "prd-tt-redis-rt.hancom.io",
+            "PORT": 6379,
+            "DB": 6,
+            "KEY1": "PANCHANGE_ROOM_LIST",
+            "KEY2": "PANCHANGE",
+            "KEY3": "CLAN-NAME",
+            "KEY4": "PANCHANGE_ROOM_NUMBER",
+            "KEY5": "PANCHANGE_HOST",
+            "MAX_ROOM_NUMBER": 1000
+
+        },
+
+        "USER_SESSION_REDIS": {
+            "HOST": "prd-tt-redis.hancom.io",
+            "PORT": 6379,
+            "DB": 0,
+            "EXPIRE": 10
+        },
+        "RANKING_REDIS": {
+            "HOST": "prd-tt-redis.hancom.io",
+            "PORT": 6379,
+            "DB": 3,
+            "KEY1": "SETCOIN_RANKING",
+            "KEY2": "PANCHANGE_RANKING",
+            "KEY3": "MOLE_RANKING",
+            "KEY4": "TYPING_RANKING",
+            "KEY5": "SETCOIN_SCHOOL_RANKING",
+            "KEY6": "PANCHANGE__SCHOOL_RANKING",
+            "KEY7": "MOLE_SCHOOL_RANKING",
+            "KEY8": "TYPING_SCHOOL_RANKING"
+        }
+    }
+}
