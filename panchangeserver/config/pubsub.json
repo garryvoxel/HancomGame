@@ -1,0 +1,22 @@
+{
+    "test":{
+        "PUB_SUB_REDIS_HOST":"localhost",
+        "PUB_SUB_REDIS_PORT":6379,
+        "CHANNEL_NAME":"private_system_chat"
+    },
+    "development":{
+        "PUB_SUB_REDIS_HOST":"localhost",
+        "PUB_SUB_REDIS_PORT":6379,
+        "CHANNEL_NAME":"private_system_chat"
+    },
+    "stage":{
+        "PUB_SUB_REDIS_HOST":"stg-tt-redis.hancom.io",
+        "PUB_SUB_REDIS_PORT":6379,
+        "CHANNEL_NAME":"private_system_chat"
+    },
+    "production":{        
+        "PUB_SUB_REDIS_HOST":"prd-tt-redis.hancom.io",
+        "PUB_SUB_REDIS_PORT":6379,
+        "CHANNEL_NAME":"private_system_chat"
+    }
+}

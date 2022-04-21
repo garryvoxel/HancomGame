@@ -1,0 +1,46 @@
+{
+    "test":{
+        "REDIS_SERVER": "http://taja.malangmalang.com:7311/game/panchange",
+        "API_SERVER" : "http://taja.malangmalang.com:7311",
+        "REDIS_NEW_MODULE": "http://localhost:7320",
+        "SERVER_IP" : "taja.malangmalang.com:7307",
+        "SERVER_PORT" : 7307,
+        "SERVER_IDX" : 1001,
+        "GAME_CODE" : 10001,
+        "DRAW_LIST_NUM" : 8,
+        "ROOM_MAX" : 500
+    },
+    "development":{
+        "REDIS_SERVER" : "http://localhost:7311/game/panchange",
+        "API_SERVER" : "http://localhost:7311",
+        "REDIS_NEW_MODULE": "http://localhost:7320",
+        "SERVER_IP" : "localhost:7307",
+        "SERVER_PORT" : 7307,
+        "SERVER_IDX" : 1001,
+        "GAME_CODE" : 10001,
+        "DRAW_LIST_NUM" : 8,
+        "ROOM_MAX" : 500
+    },
+    "stage":{
+        "REDIS_SERVER" : "https://stg-api.malangmalang.com/game/panchange",
+        "API_SERVER" : "https://stg-api.malangmalang.com",
+        "REDIS_NEW_MODULE": "http://localhost:7320",
+        "SERVER_IP" : "stg-tt-block-rt.malangmalang.com",
+        "SERVER_PORT" : 7307,
+        "SERVER_IDX" : 1001,
+        "GAME_CODE" : 10001,
+        "DRAW_LIST_NUM" : 8,
+        "ROOM_MAX" : 500
+    },
+    "production":{        
+        "REDIS_SERVER" : "https://api.malangmalang.com/game/panchange",
+        "API_SERVER" : "https://api.malangmalang.com",
+        "REDIS_NEW_MODULE": "http://localhost:7320",
+        "SERVER_IP" : "tt-block-rt.malangmalang.com",
+        "SERVER_PORT" : 7307,
+        "SERVER_IDX" : 1001,
+        "GAME_CODE" : 10001,
+        "DRAW_LIST_NUM" : 8,
+        "ROOM_MAX" : 500
+    }
+}

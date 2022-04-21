@@ -1,0 +1,13 @@
+{
+    "name": "PanChangeServer",
+    "script": "./app.js",
+    "merge_logs": true,
+    "out_file": "../../logs/PanChangeServer-tst-pm2-default.log",
+    "error_file": "../../logs/PanChangeServer-tst-pm2-error.log",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "instances": "1",
+    "max_memory_restart": "128M",    
+    "env": {
+        "NODE_ENV": "test"
+    }
+}
