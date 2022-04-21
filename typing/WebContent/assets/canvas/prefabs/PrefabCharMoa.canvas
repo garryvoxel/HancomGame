@@ -1,0 +1,126 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabCharMoa",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "BaseCharacterGame",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "5c817bb4-e554-44fe-a82a-cd994c81119a",
+    "info": {
+      "editorName": "PrefabCharMoa",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "2033fcbd-f78f-4ea5-b68e-1c65e7317c28",
+        "asset": "0",
+        "info": {
+          "editorName": "CharMoaSheet",
+          "scale.x": 0.9,
+          "scale.y": 0.9,
+          "anchor.x": 0.55,
+          "anchor.y": 0.55,
+          "animations": [
+            {
+              "name": "IDLE",
+              "frameRate": 6,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "3",
+                "4",
+                "5",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ]
+            },
+            {
+              "name": "RIGHT",
+              "frameRate": 10,
+              "frames": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "21",
+                "16"
+              ]
+            },
+            {
+              "name": "WRONG",
+              "frameRate": 10,
+              "frames": [
+                "23",
+                "24",
+                "25",
+                "25",
+                "26",
+                "27",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "32",
+                "35"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharMoaSheet",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

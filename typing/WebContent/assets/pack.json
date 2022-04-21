@@ -1,0 +1,3000 @@
+{
+  "boot": [{
+    "type": "image",
+    "key": "LoadingTitle1",
+    "url": "assets/images/LoadingTitle.png",
+    "overwrite": false
+  }],
+  "preloader": [{
+      "type": "image",
+      "key": "BtnMyPage",
+      "url": "assets/images/BtnMyPage.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep1",
+      "url": "assets/images/KeyStep1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep2",
+      "url": "assets/images/KeyStep2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep3",
+      "url": "assets/images/KeyStep3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep4",
+      "url": "assets/images/KeyStep4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep5",
+      "url": "assets/images/KeyStep5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep6",
+      "url": "assets/images/KeyStep6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep7",
+      "url": "assets/images/KeyStep7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep8",
+      "url": "assets/images/KeyStep8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "LittleKeyboard",
+      "url": "assets/images/LittleKeyboard.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageTxtInfo1",
+      "url": "assets/images/StageTxtInfo1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StepComplete",
+      "url": "assets/images/StepComplete.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgStep1",
+      "url": "assets/images/TxtImgStep1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgStep2",
+      "url": "assets/images/TxtImgStep2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgStep3",
+      "url": "assets/images/TxtImgStep3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgStep4",
+      "url": "assets/images/TxtImgStep4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgStep5",
+      "url": "assets/images/TxtImgStep5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgStep6",
+      "url": "assets/images/TxtImgStep6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgStep7",
+      "url": "assets/images/TxtImgStep7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgStep8",
+      "url": "assets/images/TxtImgStep8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "WBasePanel",
+      "url": "assets/images/WBasePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "MenuTapBtn1",
+      "url": "assets/sprites/MenuTapBtn1.png",
+      "frameWidth": 150,
+      "frameHeight": 56,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "MenuTapBtn2",
+      "url": "assets/sprites/MenuTapBtn2.png",
+      "frameWidth": 150,
+      "frameHeight": 56,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "MenuTapBtn3",
+      "url": "assets/sprites/MenuTapBtn3.png",
+      "frameWidth": 150,
+      "frameHeight": 56,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "MenuTapBtn4",
+      "url": "assets/sprites/MenuTapBtn4.png",
+      "frameWidth": 150,
+      "frameHeight": 56,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "OptionBtn1",
+      "url": "assets/sprites/OptionBtn1.png",
+      "frameWidth": 67,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "OptionBtn2",
+      "url": "assets/sprites/OptionBtn2.png",
+      "frameWidth": 67,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "OptionBtn3",
+      "url": "assets/sprites/OptionBtn3.png",
+      "frameWidth": 67,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepBtn",
+      "url": "assets/sprites/StepBtn.png",
+      "frameWidth": 195,
+      "frameHeight": 197,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "MenuPanelB",
+      "url": "assets/images/MenuPanelB.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "CopyrightTxt",
+      "url": "assets/images/CopyrightTxt.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageTxtInfo2",
+      "url": "assets/images/StageTxtInfo2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "InputKeyboard",
+      "url": "assets/images/InputKeyboard.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "InputKeyboardBack",
+      "url": "assets/images/InputKeyboardBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SelectRedKey1",
+      "url": "assets/images/SelectRedKey1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SelectRedKey2",
+      "url": "assets/images/SelectRedKey2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SelectRedKey3",
+      "url": "assets/images/SelectRedKey3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage1SelectCursor",
+      "url": "assets/images/Stage1SelectCursor.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "WBasePanel2",
+      "url": "assets/images/WBasePanel2.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepSetNum1",
+      "url": "assets/sprites/StepSetNum1.png",
+      "frameWidth": 30,
+      "frameHeight": 30,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepSetNum2",
+      "url": "assets/sprites/StepSetNum2.png",
+      "frameWidth": 30,
+      "frameHeight": 30,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepSetNum3",
+      "url": "assets/sprites/StepSetNum3.png",
+      "frameWidth": 30,
+      "frameHeight": 30,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepSetNum4",
+      "url": "assets/sprites/StepSetNum4.png",
+      "frameWidth": 30,
+      "frameHeight": 30,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepSetNum5",
+      "url": "assets/sprites/StepSetNum5.png",
+      "frameWidth": 30,
+      "frameHeight": 30,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepSetNum6",
+      "url": "assets/sprites/StepSetNum6.png",
+      "frameWidth": 30,
+      "frameHeight": 30,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepSetNum7",
+      "url": "assets/sprites/StepSetNum7.png",
+      "frameWidth": 30,
+      "frameHeight": 30,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepSetNum8",
+      "url": "assets/sprites/StepSetNum8.png",
+      "frameWidth": 30,
+      "frameHeight": 30,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "KeyTxtkor1",
+      "url": "assets/images/KeyTxtkor1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage2SelectCursor",
+      "url": "assets/images/Stage2SelectCursor.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage3InputPanel",
+      "url": "assets/images/Stage3InputPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage3SelectCursor",
+      "url": "assets/images/Stage3SelectCursor.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage3UpArrowIcon",
+      "url": "assets/images/Stage3UpArrowIcon.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageTxtInfo3",
+      "url": "assets/images/StageTxtInfo3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ListbarPracticeComplete",
+      "url": "assets/images/ListbarPracticeComplete.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ListbarTestComplete",
+      "url": "assets/images/ListbarTestComplete.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnBar",
+      "url": "assets/sprites/ListBtnBar.png",
+      "frameWidth": 582,
+      "frameHeight": 35,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnLeftArrow",
+      "url": "assets/sprites/ListBtnLeftArrow.png",
+      "frameWidth": 52,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnPractice",
+      "url": "assets/sprites/ListBtnPractice.png",
+      "frameWidth": 124,
+      "frameHeight": 50,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnRightArrow",
+      "url": "assets/sprites/ListBtnRightArrow.png",
+      "frameWidth": 52,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnTest",
+      "url": "assets/sprites/ListBtnTest.png",
+      "frameWidth": 124,
+      "frameHeight": 50,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnTestResult",
+      "url": "assets/sprites/ListBtnTestResult.png",
+      "frameWidth": 94,
+      "frameHeight": 38,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListTapLoad",
+      "url": "assets/sprites/ListTapLoad.png",
+      "frameWidth": 122,
+      "frameHeight": 34,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListTapSelect",
+      "url": "assets/sprites/ListTapSelect.png",
+      "frameWidth": 122,
+      "frameHeight": 34,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "StageTxtInfo4",
+      "url": "assets/images/StageTxtInfo4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage3TimePanel",
+      "url": "assets/images/Stage3TimePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage4InputPanel",
+      "url": "assets/images/Stage4InputPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage4SelectCursor",
+      "url": "assets/images/Stage4SelectCursor.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Stage4UpsetPanel",
+      "url": "assets/images/Stage4UpsetPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyTxtEn1",
+      "url": "assets/images/KeyTxtEn1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ShortWordTypeIcon1",
+      "url": "assets/images/ShortWordTypeIcon1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ShortWordTypeIcon2",
+      "url": "assets/images/ShortWordTypeIcon2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ShortWordTypeIcon3",
+      "url": "assets/images/ShortWordTypeIcon3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ShortWordTypeIcon4",
+      "url": "assets/images/ShortWordTypeIcon4.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "HandToggle",
+      "url": "assets/sprites/HandToggle.png",
+      "frameWidth": 166,
+      "frameHeight": 45,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_Continue",
+      "url": "assets/sprites/PopupBtn_Continue.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_No",
+      "url": "assets/sprites/PopupBtn_No.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_Ok",
+      "url": "assets/sprites/PopupBtn_Ok.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_Stop",
+      "url": "assets/sprites/PopupBtn_Stop.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_X",
+      "url": "assets/sprites/PopupBtn_X.png",
+      "frameWidth": 47,
+      "frameHeight": 48,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_Yes",
+      "url": "assets/sprites/PopupBtn_Yes.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "ChaIcon6B",
+      "url": "assets/images/ChaIcon6B.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ChaIconAmogae",
+      "url": "assets/images/ChaIconAmogae.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ChaIconGigi",
+      "url": "assets/images/ChaIconGigi.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ChaIconMamang",
+      "url": "assets/images/ChaIconMamang.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ChaIconMoya",
+      "url": "assets/images/ChaIconMoya.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ChaIconYaya",
+      "url": "assets/images/ChaIconYaya.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BBasePanel",
+      "url": "assets/images/BBasePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "QueationMark",
+      "url": "assets/images/QueationMark.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SetUnderline",
+      "url": "assets/images/SetUnderline.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgSetSTitle1",
+      "url": "assets/images/TxtImgSetSTitle1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgSetSTitle2",
+      "url": "assets/images/TxtImgSetSTitle2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgSetSTitle3",
+      "url": "assets/images/TxtImgSetSTitle3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgSetSTitle4",
+      "url": "assets/images/TxtImgSetSTitle4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgSetTitle",
+      "url": "assets/images/TxtImgSetTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "HandToggleL",
+      "url": "assets/sprites/HandToggleL.png",
+      "frameWidth": 109,
+      "frameHeight": 51,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "SetBtnLeftArrow",
+      "url": "assets/sprites/SetBtnLeftArrow.png",
+      "frameWidth": 42,
+      "frameHeight": 43,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "SetBtnRightArrow",
+      "url": "assets/sprites/SetBtnRightArrow.png",
+      "frameWidth": 42,
+      "frameHeight": 43,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Char6BSheet",
+      "url": "assets/sprites/Char6BSheet.png",
+      "frameWidth": 150,
+      "frameHeight": 154,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharJijiSheet",
+      "url": "assets/sprites/CharJijiSheet.png",
+      "frameWidth": 123,
+      "frameHeight": 120,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharMoaSheet",
+      "url": "assets/sprites/CharMoaSheet.png",
+      "frameWidth": 162,
+      "frameHeight": 115,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharYayaSheet",
+      "url": "assets/sprites/CharYayaSheet.png",
+      "frameWidth": 163,
+      "frameHeight": 132,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabChar6B",
+      "url": "assets/canvas/prefabs/PrefabChar6B.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharJiji",
+      "url": "assets/canvas/prefabs/PrefabCharJiji.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharMoa",
+      "url": "assets/canvas/prefabs/PrefabCharMoa.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharYaya",
+      "url": "assets/canvas/prefabs/PrefabCharYaya.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnListCall",
+      "url": "assets/sprites/ListBtnListCall.png",
+      "frameWidth": 94,
+      "frameHeight": 38,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnListDel",
+      "url": "assets/sprites/ListBtnListDel.png",
+      "frameWidth": 78,
+      "frameHeight": 29,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListBtnTitleChange",
+      "url": "assets/sprites/ListBtnTitleChange.png",
+      "frameWidth": 94,
+      "frameHeight": 38,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "text",
+      "key": "shorteng",
+      "url": "assets/texts/short/shorteng.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "shorthan",
+      "url": "assets/texts/short/shorthan.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "shorthan1",
+      "url": "assets/texts/short/shorthan1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "shorthan2",
+      "url": "assets/texts/short/shorthan2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "shorthan3",
+      "url": "assets/texts/short/shorthan3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordeng1",
+      "url": "assets/texts/word/wordeng1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordeng2",
+      "url": "assets/texts/word/wordeng2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordeng3",
+      "url": "assets/texts/word/wordeng3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordeng4",
+      "url": "assets/texts/word/wordeng4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordeng5",
+      "url": "assets/texts/word/wordeng5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordeng6",
+      "url": "assets/texts/word/wordeng6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordhan1",
+      "url": "assets/texts/word/wordhan1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordhan2",
+      "url": "assets/texts/word/wordhan2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordhan3",
+      "url": "assets/texts/word/wordhan3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordhan4",
+      "url": "assets/texts/word/wordhan4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordhan5",
+      "url": "assets/texts/word/wordhan5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordhan6",
+      "url": "assets/texts/word/wordhan6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordhan7",
+      "url": "assets/texts/word/wordhan7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "wordhan8",
+      "url": "assets/texts/word/wordhan8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "shorteng1",
+      "url": "assets/texts/short/shorteng1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "shorteng2",
+      "url": "assets/texts/short/shorteng2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "shorteng3",
+      "url": "assets/texts/short/shorteng3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BResultLisrPanel",
+      "url": "assets/images/BResultLisrPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BResultBtnLeftArrow",
+      "url": "assets/sprites/BResultBtnLeftArrow.png",
+      "frameWidth": 27,
+      "frameHeight": 27,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BResultBtnRightArrow",
+      "url": "assets/sprites/BResultBtnRightArrow.png",
+      "frameWidth": 27,
+      "frameHeight": 27,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "PopupInputField",
+      "url": "assets/images/PopupInputField.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgChangeTitle",
+      "url": "assets/images/TxtImgChangeTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_Cancel",
+      "url": "assets/sprites/PopupBtn_Cancel.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "OptionBtn4",
+      "url": "assets/sprites/OptionBtn4.png",
+      "frameWidth": 67,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "InputCursor",
+      "url": "assets/images/InputCursor.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_Again",
+      "url": "assets/sprites/PopupBtn_Again.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_GoContinue",
+      "url": "assets/sprites/PopupBtn_GoContinue.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "StepCompleteSheet",
+      "url": "assets/sprites/StepCompleteSheet.png",
+      "frameWidth": 160,
+      "frameHeight": 34,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": ",",
+      "url": "assets/images/Hands/,.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "a",
+      "url": "assets/images/Hands/a.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "b",
+      "url": "assets/images/Hands/b.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "c",
+      "url": "assets/images/Hands/c.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "d",
+      "url": "assets/images/Hands/d.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "e",
+      "url": "assets/images/Hands/e.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "f",
+      "url": "assets/images/Hands/f.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "g",
+      "url": "assets/images/Hands/g.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "h",
+      "url": "assets/images/Hands/h.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "i",
+      "url": "assets/images/Hands/i.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "j",
+      "url": "assets/images/Hands/j.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "k",
+      "url": "assets/images/Hands/k.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "l",
+      "url": "assets/images/Hands/l.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "m",
+      "url": "assets/images/Hands/m.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "n",
+      "url": "assets/images/Hands/n.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "o",
+      "url": "assets/images/Hands/o.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "p",
+      "url": "assets/images/Hands/p.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "q",
+      "url": "assets/images/Hands/q.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "r",
+      "url": "assets/images/Hands/r.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s",
+      "url": "assets/images/Hands/s.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sE",
+      "url": "assets/images/Hands/sE.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sO",
+      "url": "assets/images/Hands/sO.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sP",
+      "url": "assets/images/Hands/sP.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sQ",
+      "url": "assets/images/Hands/sQ.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sR",
+      "url": "assets/images/Hands/sR.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sT",
+      "url": "assets/images/Hands/sT.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sW",
+      "url": "assets/images/Hands/sW.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ss",
+      "url": "assets/images/Hands/ss.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "t",
+      "url": "assets/images/Hands/t.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "u",
+      "url": "assets/images/Hands/u.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "v",
+      "url": "assets/images/Hands/v.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "w",
+      "url": "assets/images/Hands/w.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "x",
+      "url": "assets/images/Hands/x.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "y",
+      "url": "assets/images/Hands/y.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "z",
+      "url": "assets/images/Hands/z.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "jum",
+      "url": "assets/images/Hands/jum.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent1",
+      "url": "assets/images/TajaHelpContent1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent2",
+      "url": "assets/images/TajaHelpContent2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent3",
+      "url": "assets/images/TajaHelpContent3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent4",
+      "url": "assets/images/TajaHelpContent4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent5",
+      "url": "assets/images/TajaHelpContent5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent6",
+      "url": "assets/images/TajaHelpContent6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent7",
+      "url": "assets/images/TajaHelpContent7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent8",
+      "url": "assets/images/TajaHelpContent8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TajaHelpContent9",
+      "url": "assets/images/TajaHelpContent9.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListTapSelect2",
+      "url": "assets/sprites/ListTapSelect2.png",
+      "frameWidth": 122,
+      "frameHeight": 34,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "text",
+      "key": "eng_vank1",
+      "url": "assets/texts/long/eng_vank1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank2",
+      "url": "assets/texts/long/eng_vank2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank3",
+      "url": "assets/texts/long/eng_vank3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank4",
+      "url": "assets/texts/long/eng_vank4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank5",
+      "url": "assets/texts/long/eng_vank5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank6",
+      "url": "assets/texts/long/eng_vank6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank7",
+      "url": "assets/texts/long/eng_vank7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank8",
+      "url": "assets/texts/long/eng_vank8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank9",
+      "url": "assets/texts/long/eng_vank9.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank10",
+      "url": "assets/texts/long/eng_vank10.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank11",
+      "url": "assets/texts/long/eng_vank11.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank12",
+      "url": "assets/texts/long/eng_vank12.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank13",
+      "url": "assets/texts/long/eng_vank13.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank14",
+      "url": "assets/texts/long/eng_vank14.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank15",
+      "url": "assets/texts/long/eng_vank15.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank16",
+      "url": "assets/texts/long/eng_vank16.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank17",
+      "url": "assets/texts/long/eng_vank17.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank18",
+      "url": "assets/texts/long/eng_vank18.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank19",
+      "url": "assets/texts/long/eng_vank19.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank20",
+      "url": "assets/texts/long/eng_vank20.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank21",
+      "url": "assets/texts/long/eng_vank21.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank22",
+      "url": "assets/texts/long/eng_vank22.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank23",
+      "url": "assets/texts/long/eng_vank23.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank24",
+      "url": "assets/texts/long/eng_vank24.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank25",
+      "url": "assets/texts/long/eng_vank25.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank26",
+      "url": "assets/texts/long/eng_vank26.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank27",
+      "url": "assets/texts/long/eng_vank27.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank28",
+      "url": "assets/texts/long/eng_vank28.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank29",
+      "url": "assets/texts/long/eng_vank29.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank30",
+      "url": "assets/texts/long/eng_vank30.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank31",
+      "url": "assets/texts/long/eng_vank31.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank32",
+      "url": "assets/texts/long/eng_vank32.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank33",
+      "url": "assets/texts/long/eng_vank33.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank34",
+      "url": "assets/texts/long/eng_vank34.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank35",
+      "url": "assets/texts/long/eng_vank35.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank36",
+      "url": "assets/texts/long/eng_vank36.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank37",
+      "url": "assets/texts/long/eng_vank37.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank38",
+      "url": "assets/texts/long/eng_vank38.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng_vank39",
+      "url": "assets/texts/long/eng_vank39.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank1",
+      "url": "assets/texts/long/kor_vank1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank10",
+      "url": "assets/texts/long/kor_vank10.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank11",
+      "url": "assets/texts/long/kor_vank11.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank12",
+      "url": "assets/texts/long/kor_vank12.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank13",
+      "url": "assets/texts/long/kor_vank13.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank14",
+      "url": "assets/texts/long/kor_vank14.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank15",
+      "url": "assets/texts/long/kor_vank15.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank16",
+      "url": "assets/texts/long/kor_vank16.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank17",
+      "url": "assets/texts/long/kor_vank17.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank18",
+      "url": "assets/texts/long/kor_vank18.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank19",
+      "url": "assets/texts/long/kor_vank19.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank2",
+      "url": "assets/texts/long/kor_vank2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank20",
+      "url": "assets/texts/long/kor_vank20.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank21",
+      "url": "assets/texts/long/kor_vank21.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank22",
+      "url": "assets/texts/long/kor_vank22.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank23",
+      "url": "assets/texts/long/kor_vank23.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank24",
+      "url": "assets/texts/long/kor_vank24.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank25",
+      "url": "assets/texts/long/kor_vank25.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank26",
+      "url": "assets/texts/long/kor_vank26.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank27",
+      "url": "assets/texts/long/kor_vank27.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank28",
+      "url": "assets/texts/long/kor_vank28.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank29",
+      "url": "assets/texts/long/kor_vank29.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank3",
+      "url": "assets/texts/long/kor_vank3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank30",
+      "url": "assets/texts/long/kor_vank30.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank31",
+      "url": "assets/texts/long/kor_vank31.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank32",
+      "url": "assets/texts/long/kor_vank32.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank33",
+      "url": "assets/texts/long/kor_vank33.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank34",
+      "url": "assets/texts/long/kor_vank34.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank35",
+      "url": "assets/texts/long/kor_vank35.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank36",
+      "url": "assets/texts/long/kor_vank36.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank37",
+      "url": "assets/texts/long/kor_vank37.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank38",
+      "url": "assets/texts/long/kor_vank38.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank39",
+      "url": "assets/texts/long/kor_vank39.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank4",
+      "url": "assets/texts/long/kor_vank4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank5",
+      "url": "assets/texts/long/kor_vank5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank6",
+      "url": "assets/texts/long/kor_vank6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank7",
+      "url": "assets/texts/long/kor_vank7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank8",
+      "url": "assets/texts/long/kor_vank8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank9",
+      "url": "assets/texts/long/kor_vank9.txt",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "InputCursor2",
+      "url": "assets/sprites/InputCursor2.png",
+      "frameWidth": 4,
+      "frameHeight": 16,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabInputCursor",
+      "url": "assets/canvas/prefabs/PrefabInputCursor.js"
+    },
+    {
+      "type": "image",
+      "key": "bg",
+      "url": "assets/images/bg.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "HelpBtnLeftArrow",
+      "url": "assets/sprites/HelpBtnLeftArrow.png",
+      "frameWidth": 42,
+      "frameHeight": 42,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "HelpBtnRightArrow",
+      "url": "assets/sprites/HelpBtnRightArrow.png",
+      "frameWidth": 42,
+      "frameHeight": 42,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_Cancels",
+      "url": "assets/sprites/PopupBtn_Cancels.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_Send",
+      "url": "assets/sprites/PopupBtn_Send.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtn_SendResult",
+      "url": "assets/sprites/PopupBtn_SendResult.png",
+      "frameWidth": 119,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "UIToaster",
+      "url": "assets/images/UIToaster.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "OptionBtn11",
+      "url": "assets/sprites/OptionBtn11.png",
+      "frameWidth": 67,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "OptionBtn12",
+      "url": "assets/sprites/OptionBtn12.png",
+      "frameWidth": 67,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "KeyStep22",
+      "url": "assets/images/KeyStep22.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep23",
+      "url": "assets/images/KeyStep23.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep24",
+      "url": "assets/images/KeyStep24.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep25",
+      "url": "assets/images/KeyStep25.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep26",
+      "url": "assets/images/KeyStep26.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep27",
+      "url": "assets/images/KeyStep27.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep28",
+      "url": "assets/images/KeyStep28.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyTxtEn2",
+      "url": "assets/images/KeyTxtEn2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyTxtkor2",
+      "url": "assets/images/KeyTxtkor2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "-",
+      "url": "assets/images/Hands/-.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "0",
+      "url": "assets/images/Hands/0.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "1",
+      "url": "assets/images/Hands/1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "2",
+      "url": "assets/images/Hands/2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "3",
+      "url": "assets/images/Hands/3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "4",
+      "url": "assets/images/Hands/4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "5",
+      "url": "assets/images/Hands/5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "6",
+      "url": "assets/images/Hands/6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "7",
+      "url": "assets/images/Hands/7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "8",
+      "url": "assets/images/Hands/8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "9",
+      "url": "assets/images/Hands/9.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "=",
+      "url": "assets/images/Hands/=.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "[",
+      "url": "assets/images/Hands/[.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "]",
+      "url": "assets/images/Hands/].png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bSlash",
+      "url": "assets/images/Hands/bSlash.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sA",
+      "url": "assets/images/Hands/sA.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sC",
+      "url": "assets/images/Hands/sC.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sD",
+      "url": "assets/images/Hands/sD.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sF",
+      "url": "assets/images/Hands/sF.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sH",
+      "url": "assets/images/Hands/sH.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sLs",
+      "url": "assets/images/Hands/sLs.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sV",
+      "url": "assets/images/Hands/sV.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sX",
+      "url": "assets/images/Hands/sX.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sZ",
+      "url": "assets/images/Hands/sZ.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "slash",
+      "url": "assets/images/Hands/slash.png",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "typing_err",
+      "urls": ["assets/audios/Typing_err.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "typing_back",
+      "urls": ["assets/audios/Typing_back.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "typing_Music",
+      "urls": ["assets/audios/Typing_Music.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "click_sound",
+      "urls": ["assets/audios/Click.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "typing_key",
+      "urls": ["assets/audios/Typing_key.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "popup_sound",
+      "urls": ["assets/audios/Popup.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "typing_ent",
+      "urls": ["assets/audios/Typing_ent.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "tog_sound",
+      "urls": ["assets/audios/Tog_sound.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "text",
+      "key": "word390han1",
+      "url": "assets/texts/word/word390han1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word390han2",
+      "url": "assets/texts/word/word390han2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word390han3",
+      "url": "assets/texts/word/word390han3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word390han4",
+      "url": "assets/texts/word/word390han4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word390han5",
+      "url": "assets/texts/word/word390han5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word390han6",
+      "url": "assets/texts/word/word390han6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word390han7",
+      "url": "assets/texts/word/word390han7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word390han8",
+      "url": "assets/texts/word/word390han8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "'",
+      "url": "assets/images/Hands/'.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s1",
+      "url": "assets/images/Hands/s1.png",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "dvo_word1",
+      "url": "assets/texts/word/dvo_word1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "dvo_word2",
+      "url": "assets/texts/word/dvo_word2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "dvo_word3",
+      "url": "assets/texts/word/dvo_word3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "dvo_word4",
+      "url": "assets/texts/word/dvo_word4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "dvo_word5",
+      "url": "assets/texts/word/dvo_word5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "dvo_word6",
+      "url": "assets/texts/word/dvo_word6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStep26e",
+      "url": "assets/images/KeyStep26e.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyTxtkor3",
+      "url": "assets/images/KeyTxtkor3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyTxtkor4",
+      "url": "assets/images/KeyTxtkor4.png",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_soon_han1",
+      "url": "assets/texts/word/word_soon_han1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_soon_han2",
+      "url": "assets/texts/word/word_soon_han2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_soon_han3",
+      "url": "assets/texts/word/word_soon_han3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_soon_han4",
+      "url": "assets/texts/word/word_soon_han4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_soon_han5",
+      "url": "assets/texts/word/word_soon_han5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_soon_han6",
+      "url": "assets/texts/word/word_soon_han6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_soon_han7",
+      "url": "assets/texts/word/word_soon_han7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_soon_han8",
+      "url": "assets/texts/word/word_soon_han8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s2",
+      "url": "assets/images/Hands/s2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s3",
+      "url": "assets/images/Hands/s3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s4",
+      "url": "assets/images/Hands/s4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s5",
+      "url": "assets/images/Hands/s5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "sJ",
+      "url": "assets/images/Hands/sJ.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS1",
+      "url": "assets/images/KeyStepS1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS2",
+      "url": "assets/images/KeyStepS2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS3",
+      "url": "assets/images/KeyStepS3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS41",
+      "url": "assets/images/KeyStepS41.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS42",
+      "url": "assets/images/KeyStepS42.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS5",
+      "url": "assets/images/KeyStepS5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS6",
+      "url": "assets/images/KeyStepS6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS71",
+      "url": "assets/images/KeyStepS71.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS72",
+      "url": "assets/images/KeyStepS72.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS81",
+      "url": "assets/images/KeyStepS81.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "KeyStepS82",
+      "url": "assets/images/KeyStepS82.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupSS_01",
+      "url": "assets/images/PopupSS_01.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupSS_02",
+      "url": "assets/images/PopupSS_02.png",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_fin_han1",
+      "url": "assets/texts/word/word_fin_han1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_fin_han2",
+      "url": "assets/texts/word/word_fin_han2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_fin_han3",
+      "url": "assets/texts/word/word_fin_han3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_fin_han4",
+      "url": "assets/texts/word/word_fin_han4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_fin_han5",
+      "url": "assets/texts/word/word_fin_han5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_fin_han6",
+      "url": "assets/texts/word/word_fin_han6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_fin_han7",
+      "url": "assets/texts/word/word_fin_han7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "word_fin_han8",
+      "url": "assets/texts/word/word_fin_han8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgCho",
+      "url": "assets/images/TxtImgCho.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TxtImgJong",
+      "url": "assets/images/TxtImgJong.png",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng1",
+      "url": "assets/texts/long/eng1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng10",
+      "url": "assets/texts/long/eng10.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng2",
+      "url": "assets/texts/long/eng2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng3",
+      "url": "assets/texts/long/eng3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng4",
+      "url": "assets/texts/long/eng4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng5",
+      "url": "assets/texts/long/eng5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng6",
+      "url": "assets/texts/long/eng6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng7",
+      "url": "assets/texts/long/eng7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng8",
+      "url": "assets/texts/long/eng8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "eng9",
+      "url": "assets/texts/long/eng9.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han1",
+      "url": "assets/texts/long/han1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han10",
+      "url": "assets/texts/long/han10.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han11",
+      "url": "assets/texts/long/han11.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han2",
+      "url": "assets/texts/long/han2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han3",
+      "url": "assets/texts/long/han3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han4",
+      "url": "assets/texts/long/han4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han5",
+      "url": "assets/texts/long/han5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han6",
+      "url": "assets/texts/long/han6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han7",
+      "url": "assets/texts/long/han7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han8",
+      "url": "assets/texts/long/han8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "han9",
+      "url": "assets/texts/long/han9.txt",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "FlowingLetterV1",
+      "url": "assets/canvas/prefabs/FlowingLetterV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharMamangSheetV2",
+      "url": "assets/sprites/CharMamangSheetV2.png",
+      "frameWidth": 171,
+      "frameHeight": 134,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharSheetAmogaeV2",
+      "url": "assets/sprites/CharSheetAmogaeV2.png",
+      "frameWidth": 160,
+      "frameHeight": 147,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharAmogaeV2",
+      "url": "assets/canvas/prefabs/PrefabCharAmogaeV2.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharMamangV2",
+      "url": "assets/canvas/prefabs/PrefabCharMamangV2.js"
+    },
+    {
+      "type": "image",
+      "key": "PracticeInfo",
+      "url": "assets/images/PracticeInfo.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnShortWordEvent",
+      "url": "assets/sprites/BtnShortWordEvent.png",
+      "frameWidth": 166,
+      "frameHeight": 45,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "TapPanelImg",
+      "url": "assets/images/TapPanelImg.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupPanelResult",
+      "url": "assets/images/PopupPanelResult.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultAtb1",
+      "url": "assets/images/ResultAtb1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultAtb2",
+      "url": "assets/images/ResultAtb2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultAtb3",
+      "url": "assets/images/ResultAtb3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupPanelNormal",
+      "url": "assets/images/PopupPanelNormal.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupPanelResultSend",
+      "url": "assets/images/PopupPanelResultSend.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupPanelSetup",
+      "url": "assets/images/PopupPanelSetup.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupPanelHelpInfo",
+      "url": "assets/images/PopupPanelHelpInfo.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PracticeInfo1",
+      "url": "assets/images/PracticeInfo1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PracticeInfo2",
+      "url": "assets/images/PracticeInfo2.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "ListTapSelect3",
+      "url": "assets/sprites/ListTapSelect3.png",
+      "frameWidth": 122,
+      "frameHeight": 34,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "text",
+      "key": "kor_cont1",
+      "url": "assets/texts/long/kor_cont1.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_cont2",
+      "url": "assets/texts/long/kor_cont2.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_cont3",
+      "url": "assets/texts/long/kor_cont3.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_cont4",
+      "url": "assets/texts/long/kor_cont4.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_cont5",
+      "url": "assets/texts/long/kor_cont5.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_cont6",
+      "url": "assets/texts/long/kor_cont6.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_cont7",
+      "url": "assets/texts/long/kor_cont7.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_cont8",
+      "url": "assets/texts/long/kor_cont8.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank40",
+      "url": "assets/texts/long/kor_vank40.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank41",
+      "url": "assets/texts/long/kor_vank41.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank42",
+      "url": "assets/texts/long/kor_vank42.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank43",
+      "url": "assets/texts/long/kor_vank43.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank44",
+      "url": "assets/texts/long/kor_vank44.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank45",
+      "url": "assets/texts/long/kor_vank45.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank46",
+      "url": "assets/texts/long/kor_vank46.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank47",
+      "url": "assets/texts/long/kor_vank47.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank48",
+      "url": "assets/texts/long/kor_vank48.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank49",
+      "url": "assets/texts/long/kor_vank49.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank50",
+      "url": "assets/texts/long/kor_vank50.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank51",
+      "url": "assets/texts/long/kor_vank51.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank52",
+      "url": "assets/texts/long/kor_vank52.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank53",
+      "url": "assets/texts/long/kor_vank53.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank54",
+      "url": "assets/texts/long/kor_vank54.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank55",
+      "url": "assets/texts/long/kor_vank55.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank56",
+      "url": "assets/texts/long/kor_vank56.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank57",
+      "url": "assets/texts/long/kor_vank57.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank58",
+      "url": "assets/texts/long/kor_vank58.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank59",
+      "url": "assets/texts/long/kor_vank59.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank60",
+      "url": "assets/texts/long/kor_vank60.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank61",
+      "url": "assets/texts/long/kor_vank61.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank62",
+      "url": "assets/texts/long/kor_vank62.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank63",
+      "url": "assets/texts/long/kor_vank63.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank64",
+      "url": "assets/texts/long/kor_vank64.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank65",
+      "url": "assets/texts/long/kor_vank65.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank66",
+      "url": "assets/texts/long/kor_vank66.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank67",
+      "url": "assets/texts/long/kor_vank67.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank68",
+      "url": "assets/texts/long/kor_vank68.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank69",
+      "url": "assets/texts/long/kor_vank69.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank70",
+      "url": "assets/texts/long/kor_vank70.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank71",
+      "url": "assets/texts/long/kor_vank71.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank72",
+      "url": "assets/texts/long/kor_vank72.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank73",
+      "url": "assets/texts/long/kor_vank73.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank74",
+      "url": "assets/texts/long/kor_vank74.txt",
+      "overwrite": false
+    },
+    {
+      "type": "text",
+      "key": "kor_vank75",
+      "url": "assets/texts/long/kor_vank75.txt",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PracticeInfo3",
+      "url": "assets/images/PracticeInfo3.png",
+      "overwrite": false
+    }
+  ],
+  "meta": {
+    "generated": "1575973527134",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
