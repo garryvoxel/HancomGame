@@ -1,0 +1,76 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "resultAddPointPanelL",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "d49728d6-4d7b-4896-89c5-4be505bab3a8",
+    "info": {
+      "editorName": "resultAddPointPanelL",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "aa6ddb53-4af4-4d61-98db-d4c579ce2ab4",
+        "asset": "0",
+        "info": {
+          "editorName": "addPointPanel",
+          "scale.x": -1,
+          "anchor.x": 0.5,
+          "anchor.y": 0.5,
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 20,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "6",
+              "3",
+              "5",
+              "4",
+              "5",
+              "4"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "addPointPanel",
+    "sprite": "4"
+  }},
+  "prefab-table": {}
+}

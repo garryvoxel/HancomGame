@@ -1,0 +1,61 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "ComboTextEffectV1",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_before": "this.beforeCreate();",
+    "create_after": "this.afterCreate();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "7d45d66f-6d8b-4305-ab69-11c3f8627a3d",
+    "info": {
+      "editorName": "eff_1",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "d1134d39-9924-4444-b6e8-6a12195e7711",
+        "asset": "0",
+        "info": {
+          "editorName": "combo_effText_1",
+          "anchor.x": 0.5,
+          "anchor.y": 0.5
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "combo_effText_1"
+  }},
+  "prefab-table": {}
+}

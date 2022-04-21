@@ -1,0 +1,74 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "JumpDustEffectV1",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "1f4e5a28-8f3a-44bd-a7d9-7ba64abe9295",
+    "info": {
+      "editorName": "prefab_jumpDust",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "6dd4367e-7017-4bf6-a183-d373aa5dc0d7",
+        "asset": "0",
+        "info": {
+          "editorName": "Char_smorkEff",
+          "anchor.x": 0.5,
+          "anchor.y": 0.8,
+          "animations": [{
+            "name": "play",
+            "frameRate": 16,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "Char_smorkEff",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

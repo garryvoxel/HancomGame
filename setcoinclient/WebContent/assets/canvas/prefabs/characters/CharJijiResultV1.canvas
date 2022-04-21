@@ -1,0 +1,125 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CharJijiResultV1",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "BaseCharacterResult",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "6fde8e78-1e29-492e-9679-d1849bf0808b",
+    "info": {
+      "editorName": "CharJijiResultV1",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "357d47f4-f182-4233-abca-adf1d8372dea",
+        "asset": "0",
+        "info": {
+          "editorName": "CharJijiSheet2",
+          "anchor.x": 0.47,
+          "anchor.y": 0.88,
+          "animations": [
+            {
+              "name": "RESULT_WIN",
+              "frameRate": 8,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "3",
+                "3",
+                "2",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "8",
+                "8",
+                "8",
+                "9",
+                "10",
+                "9",
+                "10"
+              ]
+            },
+            {
+              "name": "RESULT_LOSE",
+              "frameRate": 8,
+              "frames": [
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "29",
+                "29",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33"
+              ]
+            },
+            {
+              "name": "RESULT_DRAW",
+              "frameRate": 8,
+              "frames": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharJijiSheet2",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

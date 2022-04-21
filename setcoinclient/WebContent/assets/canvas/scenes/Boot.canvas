@@ -1,0 +1,66 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Boot",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.game.state.start(\"Preloader\");",
+    "state_preload_before": "this.beforePreload();",
+    "state_preload_after": "this.afterPreload();"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": false,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": [{
+      "file": "WebContent/assets/pack.json",
+      "section": "boot"
+    }]
+  },
+  "world": {
+    "type": "group",
+    "id": "76b7466a-9921-4172-abd9-d7ad38168f77",
+    "info": {
+      "editorName": "Boot",
+      "setAll": [],
+      "children": [{
+        "type": "text",
+        "id": "c7c8cdeb-e51d-47e5-a4d7-11ea0bb427df",
+        "info": {
+          "editorName": "text",
+          "editorGenerate": false,
+          "x": 458,
+          "y": 243,
+          "text": "Boot",
+          "style.fontSize": 40,
+          "style.align": "CENTER"
+        }
+      }]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {},
+  "prefab-table": {}
+}

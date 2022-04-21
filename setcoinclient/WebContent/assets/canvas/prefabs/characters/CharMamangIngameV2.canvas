@@ -1,0 +1,184 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CharMamangIngameV2",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "BaseCharacterIngame",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "21f72827-946e-4311-addb-b677e21e971f",
+    "info": {
+      "editorName": "CharMamangIngameV2",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "1e704a40-5a1e-4f24-9ecf-a2646b71c801",
+        "asset": "0",
+        "info": {
+          "editorName": "CharMamangSheet1_V2",
+          "anchor.x": 0.59,
+          "anchor.y": 0.94,
+          "animations": [
+            {
+              "name": "IDLE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "2",
+                "3",
+                "4",
+                "5",
+                "5",
+                "5",
+                "4",
+                "1",
+                "2",
+                "2",
+                "3",
+                "6",
+                "7",
+                "7",
+                "7",
+                "6"
+              ]
+            },
+            {
+              "name": "JUMP_IDLE",
+              "frameRate": 8,
+              "frames": [
+                "0",
+                "8"
+              ]
+            },
+            {
+              "name": "JUMP",
+              "frameRate": 8,
+              "frames": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "13",
+                "12",
+                "14",
+                "15",
+                "14",
+                "15"
+              ]
+            },
+            {
+              "name": "JUMP_LANDING",
+              "frameRate": 8,
+              "frames": [
+                "8",
+                "16",
+                "1"
+              ]
+            },
+            {
+              "name": "DROP_IDLE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "17",
+                "18",
+                "19",
+                "20",
+                "18",
+                "21"
+              ]
+            },
+            {
+              "name": "DROP",
+              "frameRate": 8,
+              "frames": [
+                "21",
+                "22",
+                "23",
+                "24",
+                "24",
+                "24",
+                "24"
+              ]
+            },
+            {
+              "name": "APPEAR_IDLE",
+              "frameRate": 8,
+              "frames": [
+                "25",
+                "26",
+                "27",
+                "28",
+                "29"
+              ]
+            },
+            {
+              "name": "APPEAR",
+              "frameRate": 8,
+              "frames": [
+                "30",
+                "31",
+                "30",
+                "31",
+                "30",
+                "31",
+                "30",
+                "31",
+                "30",
+                "31"
+              ]
+            },
+            {
+              "name": "APPEAR_LANDING",
+              "frameRate": 8,
+              "frames": [
+                "16",
+                "8",
+                "1"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharMamangSheet1_V2",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

@@ -1,0 +1,143 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CharAmogeaResultV3",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "BaseCharacterResult",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "27e3093a-e211-47d3-93a0-f38563cf3677",
+    "info": {
+      "editorName": "CharAmogeaResultV3",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "2aafdb7d-b821-4fa9-82d8-e365dbf8baba",
+        "asset": "0",
+        "info": {
+          "editorName": "CharAmogaeSheet2_V2",
+          "anchor.x": 0.48,
+          "anchor.y": 0.93,
+          "animations": [
+            {
+              "name": "RESULT_WIN",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "26",
+                "27",
+                "28",
+                "28",
+                "29",
+                "26",
+                "27",
+                "28",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "30"
+              ]
+            },
+            {
+              "name": "RESULT_LOSE",
+              "frameRate": 8,
+              "frames": [
+                "9",
+                "10",
+                "11",
+                "11",
+                "11",
+                "11",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "18",
+                "18",
+                "18",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "23",
+                "24",
+                "25",
+                "18"
+              ]
+            },
+            {
+              "name": "RESULT_DRAW",
+              "frameRate": 8,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "3",
+                "4",
+                "5",
+                "5",
+                "6",
+                "7",
+                "8",
+                "4",
+                "5",
+                "5",
+                "6",
+                "7",
+                "8",
+                "3",
+                "3"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharAmogaeSheet2_V2",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

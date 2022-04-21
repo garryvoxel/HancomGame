@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+
+	</head>
+	<body>
+		<link rel="stylesheet" type="text/css" href="http://localhost:7890/css/fullpage.css" />
+		<link rel="stylesheet" type="text/css" href="http://localhost:7890/css/style.css?41" />
+		<div id="fullpage">
+			<div class="section " id="section1">
+				<div class="fs01"><img src="http://localhost:7890/imgs/main/t02.png" alt="" /></div>
+				<div class="fs011"><img src="http://localhost:7890/imgs/main/01.png" alt="" /></div>
+				<div class="fs0111"><img src="http://localhost:7890/imgs/main/02.png" alt="" /></div>
+				<div class="fs02"><img src="http://localhost:7890/imgs/main/t03.png" alt="" /></div>
+				<div class="fs03"><img src="http://localhost:7890/imgs/main/t04.png" alt="" /></div>	
+				<div class="fs033"><img src="http://localhost:7890/imgs/main/04.png" alt="" /></div>	
+				<div class="fs04"><img src="http://localhost:7890/imgs/main/fireworks_big.png" alt=""/></div>
+				<div class="fs05"><img src="http://localhost:7890/imgs/main/fireworks_big.png" alt=""/></div>
+				<div class="fs06"><img src="http://localhost:7890/imgs/main/t01.png" alt="" /></div>
+				<div>
+					<div id="clouds3" class="clouds"></div>
+					<div id="clouds1" class="clouds"></div>
+					<div id="clouds2" class="clouds"></div>
+				</div>    
+			</div>
+			<div class="section" id="section2">
+				<div class="ss01"><img src="http://localhost:7890/imgs/main/section02_txt01.png" alt=""/></div>
+				<div class="ss02"><img src="http://localhost:7890/imgs/main/tt07.png" alt="" /></div>
+				<div class="ss03"><img src="http://localhost:7890/imgs/main/tt03.png" alt="" /></div>		
+				<div class="ss04"><img src="http://localhost:7890/imgs/main/tt04.png" alt="" /></div>
+				<div class="ss05"><img src="http://localhost:7890/imgs/main/tt05.png" alt="" /></div>
+				<div class="ss06"><img src="http://localhost:7890/imgs/main/tt06.png" alt="" /></div>
+			</div>
+			<div class="section" id="section3">
+				<div class="ts01"><img src="http://localhost:7890/imgs/main/ttt01.png" alt="" /></div>
+				<div class="ts02"><img src="http://localhost:7890/imgs/main/section03_txt01.png" alt=""/></div>				
+			</div>
+		</div>
+		<script type="text/javascript" src="http://localhost:7890/js/fullpage.min.js"></script>
+		<script type="text/javascript">
+			var myFullpage = new fullpage('#fullpage', {       
+			   anchors: ['firstPage', 'secondPage', '3rdPage'],
+			   // menu: '#menu',
+			  
+				afterLoad: function(origin, destination, direction){
+				   
+				 
+					//section 3 is using the state classes to fire the animation
+					//see the CSS code above!
+				   
+				}
+				
+			});
+			$(function(){
+				$("#clouds1").animate({'background-position-x':'-=10000'}, 500000, 'linear').animate({'background-position-x':'-=10000'}, 500000, 'linear');
+				$("#clouds3").animate({'background-position-x':'10000'}, 1000000, 'linear').animate({'background-position-x':'20000'}, 1000000, 'linear');
+			});
+			resized();
+			function get_started(){
+				$("#clouds1,#clouds2,#clouds3").stop().stop().animate({'margin-top':'+=50px'}, 1000);
+			}
+			function resized(){
+				$(".clouds").css("top", $(window).height() - 240);
+			}
+			$(window).resize(resized);
+		</script>		
+	</body>
+</html>
+
+  
+  

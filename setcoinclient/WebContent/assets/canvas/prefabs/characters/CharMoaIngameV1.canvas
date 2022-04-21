@@ -1,0 +1,182 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CharMoaIngameV1",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "BaseCharacterIngame",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "dae5a5dd-4ec3-4fc6-b2f1-59771fee3df9",
+    "info": {
+      "editorName": "CharMoaIngameV1",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "8b91bba6-5457-49d8-b44e-0119ed16ce16",
+        "asset": "0",
+        "info": {
+          "editorName": "CharMoaSheet1",
+          "anchor.x": 0.65,
+          "anchor.y": 0.96,
+          "animations": [
+            {
+              "name": "IDLE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "1",
+                "2",
+                "3",
+                "3",
+                "4",
+                "5",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ]
+            },
+            {
+              "name": "JUMP_IDLE",
+              "frameRate": 8,
+              "frames": [
+                "0",
+                "13"
+              ]
+            },
+            {
+              "name": "JUMP",
+              "frameRate": 8,
+              "frames": [
+                "14",
+                "15",
+                "16",
+                "16",
+                "16",
+                "17",
+                "18",
+                "18",
+                "18",
+                "18"
+              ]
+            },
+            {
+              "name": "JUMP_LANDING",
+              "frameRate": 8,
+              "frames": [
+                "19",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "name": "DROP_IDLE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26"
+              ]
+            },
+            {
+              "name": "DROP",
+              "frameRate": 8,
+              "frames": [
+                "21",
+                "27",
+                "28",
+                "29",
+                "30",
+                "30",
+                "30"
+              ]
+            },
+            {
+              "name": "APPEAR_IDLE",
+              "frameRate": 8,
+              "frames": [
+                "31",
+                "32",
+                "33",
+                "34",
+                "35"
+              ]
+            },
+            {
+              "name": "APPEAR",
+              "frameRate": 8,
+              "frames": [
+                "36",
+                "36",
+                "36",
+                "36",
+                "36",
+                "36",
+                "36",
+                "36",
+                "36",
+                "36"
+              ]
+            },
+            {
+              "name": "APPEAR_LANDING",
+              "frameRate": 8,
+              "frames": [
+                "37",
+                "38",
+                "39",
+                "40",
+                "0"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharMoaSheet1",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

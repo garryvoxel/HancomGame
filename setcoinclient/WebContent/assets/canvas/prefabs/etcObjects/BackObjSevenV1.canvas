@@ -1,0 +1,71 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "BackObjSevenV1",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "cbf54073-d247-4a1f-9c8d-ac9e45346b03",
+    "info": {
+      "editorName": "BackObjSevenV1",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "19e765b4-998a-402d-8e1e-b0474f09d699",
+        "asset": "0",
+        "info": {
+          "editorName": "BackImg7_Sheet1",
+          "scale.x": 0.5,
+          "scale.y": 0.5,
+          "anchor.x": 0.55,
+          "anchor.y": 0.5,
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 10,
+            "loop": true,
+            "frames": [
+              "0",
+              "1"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "BackImg7_Sheet1",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

@@ -1,0 +1,17 @@
+{
+    "apps": {
+        "name": "SetCoinClient",
+        "cwd": "./",
+        "script": "./app.js",
+        "merge_logs": true,
+        "out_file": "../../logs/SetCoinClient-tst-pm2-default.log",
+        "error_file": "../../logs/SetCoinClient-tst-pm2-error.log",
+        "log_date_format": "YYYY-MM-DD HH:mm Z",
+        "instances": "2",
+        "max_memory_restart": "128M",
+        "exec_mode": "cluster",
+        "env": {
+            "NODE_ENV": "test"
+        }
+    }
+}

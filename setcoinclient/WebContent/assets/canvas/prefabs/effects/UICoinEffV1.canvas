@@ -1,0 +1,69 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "UICoinEffV1",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "6a35a937-f9eb-4a31-a048-e21832495b43",
+    "info": {
+      "editorName": "UICoinEffV1",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "eb91433e-a188-42a0-b920-f89ef4fdb516",
+        "asset": "0",
+        "info": {
+          "editorName": "UICoinEff",
+          "anchor.x": 0.5,
+          "anchor.y": 0.55,
+          "animations": [{
+            "name": "SHOW",
+            "frameRate": 12,
+            "frames": [
+              "0",
+              "1",
+              "2"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "UICoinEff",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

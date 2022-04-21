@@ -1,0 +1,135 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CharMamangResultV2",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "BaseCharacterResult",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "394b3651-bac6-455e-a0d9-be2800d806bf",
+    "info": {
+      "editorName": "CharMamangResultV2",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "8d44fca7-84a5-4b0d-83c1-18db9d02d3a6",
+        "asset": "0",
+        "info": {
+          "editorName": "CharMamangSheet2_V2",
+          "anchor.x": 0.51,
+          "anchor.y": 0.94,
+          "animations": [
+            {
+              "name": "RESULT_WIN",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "16",
+                "16",
+                "17",
+                "17",
+                "18",
+                "18",
+                "19",
+                "19",
+                "20",
+                "21",
+                "21",
+                "21",
+                "22",
+                "23",
+                "24",
+                "21",
+                "21",
+                "22",
+                "23",
+                "24"
+              ]
+            },
+            {
+              "name": "RESULT_LOSE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "12",
+                "13",
+                "14",
+                "10"
+              ]
+            },
+            {
+              "name": "RESULT_DRAW",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "4",
+                "5",
+                "6",
+                "7",
+                "7",
+                "8",
+                "8",
+                "7",
+                "7",
+                "8",
+                "8",
+                "7",
+                "7"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharMamangSheet2_V2",
+    "sprite": "17"
+  }},
+  "prefab-table": {}
+}

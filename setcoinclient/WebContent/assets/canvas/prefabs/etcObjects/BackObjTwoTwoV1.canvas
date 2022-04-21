@@ -1,0 +1,71 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "BackObjTwoTwoV1",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "9c29ba13-2c3a-4742-9dba-e59e624f7504",
+    "info": {
+      "editorName": "BackObjTwoTwoV1",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "36bfe700-f5b2-4376-a6bf-77aa01986af0",
+        "asset": "0",
+        "info": {
+          "editorName": "BackImg2_Sheet2",
+          "anchor.x": 0.5,
+          "anchor.y": 0.5,
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 6,
+            "loop": true,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "BackImg2_Sheet2",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

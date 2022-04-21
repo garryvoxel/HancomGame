@@ -1,0 +1,3975 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "SingleLevel1",
+    "sceneWidth": 1024,
+    "sceneHeight": 576,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_before": "this.beforeCreate();",
+    "create_after": "this.afterCreate();",
+    "state_constructor_before": "this.beforeConstruct();",
+    "state_constructor_after": "this.afterConstruct();",
+    "state_init_before": "this.beforeInit();",
+    "state_init_after": "this.afterInit();",
+    "state_preload_before": "this.beforePreload();",
+    "state_preload_after": "this.afterPreload();"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": false,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "2aa2f95e-ef95-48d5-9653-10c635d78ca4",
+    "info": {
+      "editorName": "SingleLevel1",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "e9c1c3cb-841b-4b26-9a88-4f44a7a9d301",
+        "info": {
+          "editorName": "root",
+          "setAll": [],
+          "children": [
+            {
+              "type": "group",
+              "id": "a9d11e86-6d69-4176-8dfd-11778cf3815b",
+              "info": {
+                "editorName": "other",
+                "editorField": true,
+                "x": 512,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "f8dca8b2-9cca-4905-bf7f-e265b5dcf5f1",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "Back_image1_other",
+                      "editorField": true
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "c5e762cd-af31-4576-abc3-bf22fbde328b",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "Back_image2_other",
+                      "editorField": true,
+                      "y": -576
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "f32e186d-8015-43ba-bdaa-05b5cd54032a",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "Back_image3_other",
+                      "editorField": true,
+                      "y": -1152
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "0",
+                    "id": "95b4f2c8-245a-4c25-b512-1ace8417756d",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "Pelican",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "background_pelican_other",
+                      "editorField": true,
+                      "x": 68,
+                      "y": 310
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "1",
+                    "id": "b2f6bec4-748b-4646-866e-7e44f9b74dd7",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "Airplane",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "background_airplane_other",
+                      "editorField": true,
+                      "x": 66,
+                      "y": 135
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "8114d302-dd55-442f-9bd1-619d0af0e9be",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "wall_Rt_other4",
+                      "editorField": true,
+                      "x": 451,
+                      "y": -1728
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "5b4519f5-e195-4a0d-b098-b380c10a4f55",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "wall_Rt_other3",
+                      "editorField": true,
+                      "x": 451,
+                      "y": -1152
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "568630f2-25c2-43c6-81d4-fcb1a23ac6b2",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "wall_Rt_other2",
+                      "editorField": true,
+                      "x": 451,
+                      "y": -576
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "d1598240-8679-4da7-a4af-52e8da40f152",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "wall_Rt_other",
+                      "editorField": true,
+                      "x": 451
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "d158821e-76e7-428c-9465-f8551e959280",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "wall_Lf_other4",
+                      "editorField": true,
+                      "y": -1728
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "562faf45-9e4e-4e7d-b574-1b9e324ccbfa",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "wall_Lf_other3",
+                      "editorField": true,
+                      "y": -1152
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "1c9f2e90-6dd7-4f21-b462-b63c9e6bd7e4",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "wall_Lf_other2",
+                      "editorField": true,
+                      "y": -576
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "f54a841c-bdf9-45ad-b5cb-131daa2cc282",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "wall_Lf_other",
+                      "editorField": true
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "c8cd8bac-4389-4630-8735-cb2c8a96c6ba",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "ui_up_panel1_other",
+                      "x": 15,
+                      "y": 12
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "3ba60de7-c7c0-4a25-95fe-72525cd70ff2",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "ui_icon_coin_other",
+                      "x": 26,
+                      "y": 21
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "3cf26ae5-1ae8-439e-bd33-dd8070944d17",
+                    "info": {
+                      "editorName": "coinValueOutline_other",
+                      "editorField": true,
+                      "x": 77.5,
+                      "y": 25.5,
+                      "text": "4680",
+                      "style.font": "배달의민족 주아",
+                      "style.strokeThickness": 4,
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "74fa3e6a-fea6-46c3-a811-318a9a5b98e7",
+                    "info": {
+                      "editorName": "coinValue_other",
+                      "editorField": true,
+                      "x": 79,
+                      "y": 27,
+                      "text": "4680",
+                      "style.font": "배달의민족 주아",
+                      "style.fill": "#ffffff",
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "c6110958-f674-47a0-8019-a7867696a879",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "ui_up_panel2_other",
+                      "x": 365,
+                      "y": 12
+                    }
+                  },
+                  {
+                    "type": "tileSprite",
+                    "id": "d266316a-6209-480a-bd7b-b78e57978a2b",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "ui_guideLine_other",
+                      "y": 220,
+                      "width": 511,
+                      "height": 6
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "2",
+                    "id": "70474578-0224-4556-afb5-0ed8f4e7c557",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_heartBreak",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "ui_icon_heart3_other",
+                      "editorShow": false,
+                      "x": 461,
+                      "y": 39
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "2",
+                    "id": "9eb5c8f9-82c6-4142-a3f6-c3a1835b8da2",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_heartBreak",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "ui_icon_heart2_other",
+                      "editorShow": false,
+                      "x": 431,
+                      "y": 39
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "2",
+                    "id": "8cf7be55-bdcf-41ce-8803-0bf03fcaf8aa",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_heartBreak",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "ui_icon_heart1_other",
+                      "editorShow": false,
+                      "x": 400,
+                      "y": 39
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "e3432260-6511-432b-a39f-7430d91dee10",
+                    "info": {
+                      "editorName": "meterOutlineValue_other",
+                      "editorField": true,
+                      "x": 261,
+                      "y": 39,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "4680m",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 41,
+                      "style.fontWeight": "NORMAL",
+                      "style.strokeThickness": 4,
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "f82ffa30-e970-4b8c-be0f-003fe3ba1011",
+                    "info": {
+                      "editorName": "meterValue_other",
+                      "editorField": true,
+                      "x": 261,
+                      "y": 39,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "4680m",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 41,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "98a82cb9-5057-410b-a5b9-51f6a5bb7edd",
+                    "info": {
+                      "editorName": "coin_container_other",
+                      "editorField": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "fcf920d1-54c1-471b-8a8e-806f6c40b984",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "otherCoinPile1",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 243,
+                            "y": 528
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "4e1ff878-f773-4931-b07b-ff6f10876762",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "otherCoinPile2",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 235,
+                            "y": 515
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "98c962d6-8eab-449d-a65a-20e3cf4cf0ba",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "otherCoinPile3",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 240,
+                            "y": 500
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "73673212-0f0b-45c2-bcae-2cb67c1c9ec8",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "otherCoinPile4",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 235,
+                            "y": 485
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "42f0b88d-9478-4b4a-bbf2-6af86d92d3ce",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "otherCoinPile5",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 242,
+                            "y": 470
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "ffd0beaa-10ec-42ba-b763-4da698ea9009",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "otherCoinPile6",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 237,
+                            "y": 455
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "fcade0ef-812f-4909-bee4-9b4a9061e873",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "otherCoinPile7",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 241,
+                            "y": 440
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "65fb11a4-f6c9-49fa-a868-0c3036d6b483",
+                    "info": {
+                      "editorName": "coin_player_other",
+                      "editorField": true,
+                      "physicsGroup": true,
+                      "setAll": [],
+                      "children": []
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "4",
+                    "id": "de716c55-7114-4c2e-bd50-e2ac0e2a0ac5",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "CharMamangSheet1_V2",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "Char_aniSheet_other",
+                      "editorGenerate": false,
+                      "x": 235,
+                      "y": 436
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "03227603-2f0d-401e-a7a5-4f2a4eac5b53",
+                    "info": {
+                      "editorName": "Char_aniSheet_other_group",
+                      "editorField": true,
+                      "setAll": [],
+                      "children": []
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "28b648c0-e79c-472d-b81e-1d470cdeb7c3",
+                    "info": {
+                      "editorName": "coin_part_other",
+                      "editorField": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "3f4dead6-fa4a-4ccd-99ab-69f40fde9587",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part10_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "589d0398-df1f-4561-9c67-5af3df98b23a",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part9_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "832c3183-c210-4d37-9f7a-6c66e67498e1",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part8_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "6d130b56-91ae-4d0a-8bbd-f603590b36ca",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part7_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "03ceddd1-0955-4f32-95a9-cfed6e9bc5df",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part6_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "e9b64493-5a00-495d-8d72-f6ef6efdaf14",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part5_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "08fff9d0-34e5-4b2e-9bcc-877ed4479783",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part4_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "6d829b96-1426-481a-b5ca-08da70d69a60",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part3_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "ad27dc0f-47e1-4ed8-ae6f-433e3badb354",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part2_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "bb10dd13-1eaa-49f5-a6ad-25f4f8c19f71",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part1_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "6",
+                    "id": "d2431d42-13c3-4f79-850f-1c17b666eb7f",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_talkBox",
+                      "sprite": "7"
+                    },
+                    "info": {
+                      "editorName": "sheet_talkBox_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 245,
+                      "y": 335
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "7",
+                    "id": "1ac17b08-968a-4d07-ac60-7accebe3d68f",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_talkBoxCombo11",
+                      "sprite": "9"
+                    },
+                    "info": {
+                      "editorName": "sheet_talkBoxCombo1_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 245,
+                      "y": 335
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "8",
+                    "id": "372d9683-5f62-4028-a004-58b1ed876ca2",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_talkBoxCombo22",
+                      "sprite": "7"
+                    },
+                    "info": {
+                      "editorName": "sheet_talkBoxCombo2_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 245,
+                      "y": 335
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "8c4a8e45-8bef-4b7f-b3c1-5c1dc2572ba9",
+                    "info": {
+                      "editorName": "wordtext_other",
+                      "editorField": true,
+                      "x": 192,
+                      "y": 274,
+                      "style.font": "나눔고딕",
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "9",
+                    "id": "6a1c29e4-ee7c-4ee3-9a84-d409846b6dee",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_coin_eff",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "sheet_coin_eff_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 236,
+                      "y": 426
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "10",
+                    "id": "41ac25bf-ac9b-4974-88e4-e72772fcb87e",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_coinCombo_eff",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "sheet_coinCombo_eff_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 238,
+                      "y": 431
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "11",
+                    "id": "e55f01a8-b0bd-4ff3-9ded-aa36e584ffc6",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "combo_effText_1"
+                    },
+                    "info": {
+                      "editorName": "combo_effText_other",
+                      "editorGenerate": false,
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 240,
+                      "y": 375
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "c117c252-1ff7-4f3a-ab6d-87b02ee2a035",
+                    "info": {
+                      "editorName": "combo_group_other",
+                      "editorField": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "image",
+                          "id": "1f08f5b5-8815-4a9a-848f-24aecd5dd362",
+                          "asset": "8",
+                          "info": {
+                            "editorName": "ui_comboPanel_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 151,
+                            "y": 420
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "6d45a52e-c9ea-447f-82d3-159dac2dedef",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "ui_comboGauge_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 152,
+                            "y": 484
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "ecf52c54-3ab6-4a66-9f58-d8f3ab0ec999",
+                    "info": {
+                      "editorName": "crumble_group_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "65a4cb39-2d2b-4ae9-991f-c5656ff0ea71",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_20_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 252,
+                            "y": 382
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "88eeb4c1-bd72-4944-85ba-3f418c1ced8a",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_19_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 346,
+                            "y": 502
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "ff5cb026-63ec-4954-8c9a-5867152ecb71",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_18_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 150,
+                            "y": 492
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "f1452471-de78-42b7-9464-fcfda60272e2",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_17_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 320,
+                            "y": 470
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "8e050724-ef84-4ddb-b6a7-ff3457b32623",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_16_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 325,
+                            "y": 431
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "ac04cf15-df04-421f-90c3-def6818e47ce",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_15_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 288,
+                            "y": 386
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "822bc165-4b6f-433b-bb41-8ec9fb36a71d",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_14_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 238,
+                            "y": 377
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "53398801-e866-4980-abde-65283004fae5",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_13_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 178,
+                            "y": 379
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "acf22b54-8d7a-4014-ad30-416d4a9cecee",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_12_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 154,
+                            "y": 435
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "edeb3b10-bef0-4d0d-8a94-549fd7d3668e",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_11_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 162,
+                            "y": 488
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "d4b12035-400a-414f-a0ea-3fab7905c050",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_10_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 250,
+                            "y": 400
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "e164d774-6335-4c96-994b-9d2f45fdccb9",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_9_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 217,
+                            "y": 405
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "5c45fff7-545a-448f-b504-2f32bd6c016c",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_8_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 257,
+                            "y": 424
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "9285887c-3806-4605-9c26-0cbc441339f1",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_7_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 205,
+                            "y": 440
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "24520c49-5350-4aa7-9590-9649d15ee3c0",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_6_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 240,
+                            "y": 462
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "74cb4e7e-fded-411e-b9e9-793b18ecfd32",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_5_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 267,
+                            "y": 479
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "45aba60b-1a3d-4786-a001-c0206ecb454e",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_4_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 205,
+                            "y": 485
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "9d17a270-6731-437d-9a27-1c7fe0167dd5",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_3_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 283,
+                            "y": 517
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "a80fe755-ade9-4674-bf80-57cefd2abb78",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_2_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 240,
+                            "y": 519
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "a836bc28-a267-4ea0-9e06-3e4e973d7a0a",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_1_other",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 195,
+                            "y": 523
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "13",
+                    "id": "89faa384-c5de-4273-877c-e90cbfd4feb5",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "UICoinEff",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "coin_effect_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 41,
+                      "y": 39
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "1724406a-cf70-4e4d-a211-195b55a64838",
+                    "info": {
+                      "editorName": "start_count_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "image",
+                          "id": "6149d937-c79e-4944-9237-633b8d8b5d06",
+                          "asset": "10",
+                          "info": {
+                            "editorName": "begin_start_other",
+                            "editorField": true,
+                            "x": 235,
+                            "y": 240,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "1e70f92d-566e-43eb-818d-0944a963ca1a",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "begin_ready2_other",
+                            "editorField": true,
+                            "x": 235,
+                            "y": 245,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "db571d15-9fd6-4095-911e-8a63284b29ee",
+                          "asset": "12",
+                          "info": {
+                            "editorName": "begin_ready1_other",
+                            "editorField": true,
+                            "x": 235,
+                            "y": 245,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "b9e372b5-3881-4884-977a-f0227c41aab7",
+                          "asset": "13",
+                          "info": {
+                            "editorName": "begin_ready_other",
+                            "editorField": true,
+                            "x": 235,
+                            "y": 245,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "2c7bf535-af82-4195-b66e-5f4396ff9849",
+              "info": {
+                "editorName": "user",
+                "editorField": true,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "5f7c9e4e-9069-4d82-a89d-6da9c9e1485b",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "Back_image1_user",
+                      "editorField": true
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "2929a013-772d-4852-970d-8e9bee2a16ab",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "Back_image2_user",
+                      "editorField": true,
+                      "y": -576
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "4c6f8fe6-e4ae-4b1f-a7cb-0a19c75239de",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "Back_image3_user",
+                      "editorField": true,
+                      "y": -1152
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "14",
+                    "id": "cb9ec48c-6961-43d9-ad36-e46567c9297d",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "Airplane",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "background_airplane_user",
+                      "editorField": true,
+                      "x": 379,
+                      "y": 110
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "15",
+                    "id": "7ddb9ae9-2b0d-4e41-b327-4760a60708f7",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "Pelican",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "background_pelican_user",
+                      "editorField": true,
+                      "x": 413,
+                      "y": 245
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "e5b83d23-0532-40bd-b794-1e177415665d",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "wall_Rt_user4",
+                      "editorField": true,
+                      "x": 451,
+                      "y": -1728
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "af6f480a-1be7-4794-afd1-ba31805a09d7",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "wall_Rt_user3",
+                      "editorField": true,
+                      "x": 451,
+                      "y": -1152
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "13abbea0-e7af-462a-bad9-75f943c548f0",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "wall_Rt_user2",
+                      "editorField": true,
+                      "x": 451,
+                      "y": -576
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "b7b2d171-4651-4ecd-a1fe-06150ed3e98b",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "wall_Rt_user",
+                      "editorField": true,
+                      "x": 451
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "c3444107-cbe4-4fc8-bf4b-5242435e2b8d",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "wall_Lf_user4",
+                      "editorField": true,
+                      "y": -1728
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "455e6226-ccdb-4983-9e33-8ab33e715196",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "wall_Lf_user3",
+                      "editorField": true,
+                      "y": -1152
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "b9a152b5-cc3f-4b2f-aa03-142b9a12e33a",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "wall_Lf_user2",
+                      "editorField": true,
+                      "y": -576
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "d923d3d5-d3b0-4ad8-8d7b-0123d4e6e8a3",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "wall_Lf_user",
+                      "editorField": true
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "0b7741f2-e43d-4ad8-9ec2-cb495adb300f",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "ui_up_panel1_user",
+                      "x": 15,
+                      "y": 12
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "47e9711d-9943-4247-abe2-96ccb3a8680b",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "ui_icon_coin_user",
+                      "x": 26,
+                      "y": 21
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "5a11c350-0e9d-468f-b38a-e1fd263b619e",
+                    "info": {
+                      "editorName": "coinValueOutline_user",
+                      "editorField": true,
+                      "x": 77.5,
+                      "y": 25.5,
+                      "text": "4680",
+                      "style.font": "배달의민족 주아",
+                      "style.strokeThickness": 4,
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "f6407014-69f7-4cdb-a7ff-7e731dd8da2a",
+                    "info": {
+                      "editorName": "coinValue_user",
+                      "editorField": true,
+                      "x": 79,
+                      "y": 27,
+                      "text": "4680",
+                      "style.font": "배달의민족 주아",
+                      "style.fill": "#ffffff",
+                      "style.align": "RIGHT"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "0b600406-6a84-4095-836c-afcfa91db95f",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "ui_up_panel2_user",
+                      "x": 365,
+                      "y": 12
+                    }
+                  },
+                  {
+                    "type": "tileSprite",
+                    "id": "e20cae39-25e9-4775-9e96-eb39c10f8e75",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "ui_guideLine_user",
+                      "y": 220,
+                      "width": 511,
+                      "height": 6
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "2",
+                    "id": "d942479b-3bcf-449d-871a-d865a9bbaa1a",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_heartBreak",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "ui_icon_heart3_user",
+                      "editorShow": false,
+                      "x": 462,
+                      "y": 39
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "2",
+                    "id": "e3ae3f59-3391-4c26-a057-7f17f9cd5d09",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_heartBreak",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "ui_icon_heart2_user",
+                      "editorShow": false,
+                      "x": 431,
+                      "y": 39
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "2",
+                    "id": "17c00978-15af-4fe4-8f73-676cdbc29a14",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_heartBreak",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "ui_icon_heart1_user",
+                      "editorShow": false,
+                      "x": 400,
+                      "y": 39
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "8fb395bb-9b6f-4b9c-9acb-3558944a4503",
+                    "info": {
+                      "editorName": "meterOutlineValue_user",
+                      "editorField": true,
+                      "x": 261,
+                      "y": 39,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "4680m",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 41,
+                      "style.fontWeight": "NORMAL",
+                      "style.strokeThickness": 4,
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "81cb2663-f648-4d43-be53-a5f9c2c3bd19",
+                    "info": {
+                      "editorName": "meterValue_user",
+                      "editorField": true,
+                      "x": 261,
+                      "y": 39,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "4680m",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 41,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "522ed44d-5272-490d-b0ca-d8e74ee4eb30",
+                    "info": {
+                      "editorName": "coin_container_user",
+                      "editorField": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "ee2c6d27-abec-41ec-8e98-327d80f585da",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "userCoinPile1",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 243,
+                            "y": 528
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "f83d9ba1-3057-478c-815f-755488aa700d",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "userCoinPile2",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 235,
+                            "y": 515
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "b5eea603-dc65-45dd-96ea-1ab37363475c",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "userCoinPile3",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 240,
+                            "y": 500
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "e765492e-80c6-4f95-9d0c-70870508a5e9",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "userCoinPile4",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 235,
+                            "y": 485
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "3653b81c-71de-45ed-9ebc-75d8c3b2b757",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "userCoinPile5",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 242,
+                            "y": 470
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "e0637e60-78a2-44e5-8495-fcbfc4653e4a",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "userCoinPile6",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 237,
+                            "y": 455
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "3",
+                          "id": "2d75aec7-f4ea-4056-b454-8a9a97079284",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_aniSheet",
+                            "sprite": "1"
+                          },
+                          "info": {
+                            "editorName": "userCoinPile7",
+                            "editorGenerate": false,
+                            "editorShow": false,
+                            "x": 241,
+                            "y": 440
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "dd4f52a0-a4f7-4058-a102-b3233b5a45f0",
+                    "info": {
+                      "editorName": "coin_player_user",
+                      "editorField": true,
+                      "physicsGroup": true,
+                      "setAll": [],
+                      "children": []
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "16",
+                    "id": "889fc5e4-6d85-4e4a-954c-33dbefe330d4",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "char_yayaSheet1",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "Char_aniSheet_user",
+                      "editorGenerate": false,
+                      "x": 235,
+                      "y": 436
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "d2d71753-eed5-40af-8a87-3d59c1d216b9",
+                    "info": {
+                      "editorName": "Char_aniSheet_user_group",
+                      "editorField": true,
+                      "setAll": [],
+                      "children": []
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "f9ba9f01-188f-4e36-ac7f-b4842ca21706",
+                    "info": {
+                      "editorName": "coin_part_user",
+                      "editorField": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "ab959eb8-46cb-4fa2-afaf-852c4ed7e671",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part10_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "5e18b36b-11d3-4691-95a3-579bc8105751",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part9_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "1caaab39-0744-4d47-b5bd-cceae856f02e",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part8_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "b9574880-512f-45ab-95da-42c558ae2bd0",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part7_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "7c5cefc7-7cce-4a14-894c-3416643bc05f",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part6_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "9a8aafba-6e05-4279-b36d-3597da1041f6",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part5_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "de2397f2-3dda-412a-961e-880efa54e2a5",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part4_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "5b11f0ef-2222-4c82-b872-d978a7ae0e10",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part3_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "d45f5e33-be69-4e39-9df8-c007335aeb05",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part2_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "5",
+                          "id": "dc7f3a46-8206-4128-b77b-02173e3196aa",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "coin_part"
+                          },
+                          "info": {
+                            "editorName": "coin_part1_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 236,
+                            "y": 439
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "6",
+                    "id": "bb568dfe-4c9d-43d9-b8dd-151360e3af65",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_talkBox",
+                      "sprite": "7"
+                    },
+                    "info": {
+                      "editorName": "sheet_talkBox_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 245,
+                      "y": 335
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "7",
+                    "id": "6f1337b8-de11-4b7b-9e4f-804fe8bf68ee",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_talkBoxCombo11",
+                      "sprite": "9"
+                    },
+                    "info": {
+                      "editorName": "sheet_talkBoxCombo1_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 245,
+                      "y": 335
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "8",
+                    "id": "a2f457b6-0206-4d01-9498-87fc2a081b11",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_talkBoxCombo22",
+                      "sprite": "7"
+                    },
+                    "info": {
+                      "editorName": "sheet_talkBoxCombo2_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 245,
+                      "y": 335
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "8c6e6a4c-b9bf-4ca5-a959-011a63786ffa",
+                    "info": {
+                      "editorName": "wordtext_user",
+                      "editorField": true,
+                      "x": 192,
+                      "y": 274,
+                      "style.font": "나눔고딕",
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "9",
+                    "id": "98e63008-69e1-4f5c-a238-c642adf6a97e",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_coin_eff",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "sheet_coin_eff_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 236,
+                      "y": 426
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "10",
+                    "id": "c74135f5-1520-42de-80e9-9b8e14f9fa44",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "sheet_coinCombo_eff",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "sheet_coinCombo_eff_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 238,
+                      "y": 431
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "11",
+                    "id": "297f0ee8-f3eb-4699-b61f-334ee1d4af0f",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "combo_effText_1"
+                    },
+                    "info": {
+                      "editorName": "combo_effText_user",
+                      "editorGenerate": false,
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 240,
+                      "y": 375
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "a4db174e-c6e1-4042-93fb-10d8c7a1b701",
+                    "info": {
+                      "editorName": "combo_group_user",
+                      "editorField": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "image",
+                          "id": "f418230f-8733-4b4e-863d-0fb769e46281",
+                          "asset": "8",
+                          "info": {
+                            "editorName": "ui_comboPanel_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 151,
+                            "y": 420
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "70f01c69-2910-423c-b623-1ad3b1058f7c",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "ui_comboGauge_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 152,
+                            "y": 484
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "68fb74c2-c55c-447a-92ce-2051456800c6",
+                    "info": {
+                      "editorName": "crumble_group_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "2b062d71-4345-4d44-a316-7f06281d1b0e",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_20_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 252,
+                            "y": 382
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "16bf72e8-315b-4dda-a944-4e563a935b97",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_19_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 346,
+                            "y": 502
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "5db78f11-15f6-41f3-8548-a8ec5fb9a09a",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_18_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 150,
+                            "y": 492
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "e1818f3e-cbd4-476d-aad1-f8a1aa32e895",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_17_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 320,
+                            "y": 470
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "2b91a4f6-bfa0-44a1-b62f-b16d4f4661f8",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_16_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 325,
+                            "y": 431
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "e8c367c5-7313-413b-a34a-5cd48bf6edd9",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_15_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 288,
+                            "y": 386
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "6ddbf8bb-ae61-41ba-b4db-dfc37d48c982",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_14_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 238,
+                            "y": 377
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "687825ab-f571-4791-8586-9fb668ab5c1d",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_13_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 178,
+                            "y": 379
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "478e7775-f1d2-442a-9c6a-659df9aeffed",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_12_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 154,
+                            "y": 435
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "53da456c-dc14-444d-b658-2c0ba36fbdd4",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_11_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 162,
+                            "y": 488
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "3b18791d-0cdb-4a84-b8d4-b417d2f3cc05",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_10_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 250,
+                            "y": 450
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "345276b0-00d1-4637-bfd3-ead74bef64c9",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_9_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 217,
+                            "y": 450
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "55fa22f2-e0a0-4d33-bf8b-67985802d02c",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_8_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 257,
+                            "y": 460
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "1052aa51-b819-412c-9daa-0a6bc45fd2d6",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_7_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 205,
+                            "y": 440
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "ce8bad5c-0fa7-499a-9d34-0a995017a568",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_6_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 240,
+                            "y": 462
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "04361806-0a40-4e04-8948-b438fe8f8243",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_5_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 267,
+                            "y": 479
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "419144a7-e37b-47c4-977a-9fecf7fa5d21",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_4_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 205,
+                            "y": 485
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "d44f8ae6-bbcf-44b7-92f5-a80d8fdfc538",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_3_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 283,
+                            "y": 517
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "e5c3614f-abda-4268-a052-75620c9c1cb6",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_2_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 240,
+                            "y": 519
+                          }
+                        },
+                        {
+                          "type": "prefab",
+                          "prefab": "12",
+                          "id": "242a32ec-2057-41ec-ba0c-6c147a11b858",
+                          "asset-ref": {
+                            "file": "WebContent/assets/pack.json",
+                            "section": "preloader",
+                            "asset": "EffSmoke",
+                            "sprite": "0"
+                          },
+                          "info": {
+                            "editorName": "crumble_effect_1_user",
+                            "editorField": true,
+                            "editorShow": false,
+                            "x": 195,
+                            "y": 523
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "13",
+                    "id": "01f28cb5-095e-4182-b33a-596f3d4f8d73",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "UICoinEff",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "coin_effect_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 43,
+                      "y": 39
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "b8db4161-13cb-49c4-ad51-d5248ad47dc9",
+                    "info": {
+                      "editorName": "start_count_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "image",
+                          "id": "48443738-542b-475f-a95c-fd454dcd2c52",
+                          "asset": "10",
+                          "info": {
+                            "editorName": "begin_start_user",
+                            "editorField": true,
+                            "x": 235,
+                            "y": 240,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "1d9a5a7c-371e-4090-8fee-3275c8eaf570",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "begin_ready2_user",
+                            "editorField": true,
+                            "x": 235,
+                            "y": 245,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "d522613b-ad9b-44da-b727-e1c883bd8d5b",
+                          "asset": "12",
+                          "info": {
+                            "editorName": "begin_ready1_user",
+                            "editorField": true,
+                            "x": 235,
+                            "y": 245,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "699be09d-b7e2-48b0-a45f-af2ee4ee4cb6",
+                          "asset": "13",
+                          "info": {
+                            "editorName": "begin_ready_user",
+                            "editorField": true,
+                            "x": 235,
+                            "y": 245,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "21c0e225-4e72-47f0-b5c1-08213879d04f",
+              "info": {
+                "editorName": "common",
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "tileSprite",
+                    "id": "49a5584e-7899-476d-b4c8-2997c3946d0c",
+                    "asset": "14",
+                    "info": {
+                      "editorName": "ui_dw_panelUnit",
+                      "y": 537,
+                      "width": 1024,
+                      "height": 39
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "53836822-74ef-4c06-9741-b4130c6f7160",
+                    "asset": "15",
+                    "info": {
+                      "editorName": "ui_input",
+                      "x": 331,
+                      "y": 517
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "d1ff7046-b057-4cf6-849e-d6fbe580d373",
+                    "asset": "16",
+                    "info": {
+                      "editorName": "uiidPanel_other",
+                      "x": 814,
+                      "y": 518
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "ee797e24-4cbe-46a4-9b29-0c5aa9d34cb7",
+                    "info": {
+                      "editorName": "otherID_text",
+                      "editorField": true,
+                      "x": 830,
+                      "y": 534,
+                      "text": "ABCDABCDABCDABCD",
+                      "style.font": "나눔고딕",
+                      "style.fontSize": 14,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "c5e53b84-0444-4e4f-ab5e-81c63b3c28b9",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "uiidPanel_user",
+                      "y": 517
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "a72c1189-d143-43db-a2c4-b063075c6529",
+                    "info": {
+                      "editorName": "userID_text",
+                      "editorField": true,
+                      "x": 44,
+                      "y": 532,
+                      "text": "ABCDABCDABCDABCD",
+                      "style.font": "나눔고딕",
+                      "style.fontSize": 14,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "5e79644a-68af-4cb8-a593-273aca7f3529",
+                    "info": {
+                      "editorName": "ui_inputWord",
+                      "editorField": true,
+                      "x": 365,
+                      "y": 534,
+                      "style.font": "나눔고딕",
+                      "style.fontSize": 14,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "17",
+                    "id": "34ee84d9-21a5-4b01-a2cd-4357ef09a47c",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "InputCursorSheet",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "InputCursorSheet",
+                      "editorField": true,
+                      "x": 367,
+                      "y": 533
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "0fffcdd4-3a38-48c3-ba58-5985bcfd0f39",
+                    "asset": "18",
+                    "info": {
+                      "editorName": "ui_input_btnSheet",
+                      "x": 619,
+                      "y": 521,
+                      "callback": "this.wordinput",
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "3"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "5aa46367-54c2-4746-95cb-818055473699",
+                    "asset": "19",
+                    "info": {
+                      "editorName": "ui_vs",
+                      "x": 385,
+                      "y": 84
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "1ecd0031-4314-4cd0-bfbd-dda544e8c5dd",
+                    "asset": "20",
+                    "info": {
+                      "editorName": "ui_timePanel",
+                      "editorField": true,
+                      "x": 433,
+                      "y": 262
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "128e5ed6-3def-4239-900e-3abd55148226",
+                    "info": {
+                      "editorName": "timeNum",
+                      "editorField": true,
+                      "x": 501,
+                      "y": 280,
+                      "text": "01:00",
+                      "style.font": "나눔고딕",
+                      "style.fontSize": 24,
+                      "style.fill": "#400040",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "f678aab6-a150-48e0-a6ea-2954031f4e2a",
+                    "info": {
+                      "editorName": "testWords",
+                      "editorGenerate": false,
+                      "editorShow": false,
+                      "x": -100,
+                      "y": -100,
+                      "text": "아하",
+                      "style.font": "나눔고딕",
+                      "style.fontSize": 24,
+                      "style.fill": "#400040",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "3813a539-d042-4d8f-be7c-e92110c5ca9e",
+                    "asset": "21",
+                    "info": {
+                      "editorName": "ui_timePanel_Alert",
+                      "editorField": true,
+                      "x": 437,
+                      "y": 267
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "18",
+                    "id": "8286f96d-cbeb-4577-b267-f0b7f789565f",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "SheetEffComboAtt2",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "combo_attack_effect_explosion_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 260,
+                      "y": 67
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "19",
+                    "id": "bc767cc0-6d2e-4fc4-8a8c-283200c72f3f",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "SheetEffComboAtt1",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "combo_attack_effect_fly_other",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 749,
+                      "y": 426
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "18",
+                    "id": "41b2b9a4-3ef6-462b-940d-ff5d4b2a989c",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "SheetEffComboAtt2",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "combo_attack_effect_explosion_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 760,
+                      "y": 75
+                    }
+                  },
+                  {
+                    "type": "prefab",
+                    "prefab": "19",
+                    "id": "26cc817f-3af0-4330-aed7-7204241fc999",
+                    "asset-ref": {
+                      "file": "WebContent/assets/pack.json",
+                      "section": "preloader",
+                      "asset": "SheetEffComboAtt1",
+                      "sprite": "0"
+                    },
+                    "info": {
+                      "editorName": "combo_attack_effect_fly_user",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 239,
+                      "y": 438
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "3b2ad704-15eb-4cd4-91bf-40c633820c4d",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "transImg_",
+                      "editorPick": false,
+                      "editorField": true,
+                      "editorShow": false
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "33c9f3c3-ff34-4c9c-884a-39862c007067",
+                    "asset": "23",
+                    "info": {
+                      "editorName": "resultEff_L",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 512,
+                      "y": 283,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "1dfbe3e3-a33e-4106-9a2a-922634812fca",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "resultEff_S",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 512,
+                      "y": 283,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "bcefa4eb-2c9d-461c-bac6-bd62dfaaeb4d",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "resultImg",
+                      "editorField": true,
+                      "editorShow": false,
+                      "x": 512,
+                      "y": 283,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "4f820312-30ae-4241-9eda-b64daf47c167",
+              "info": {
+                "editorName": "result",
+                "editorPick": false,
+                "editorShow": false,
+                "setAll": [],
+                "children": [{
+                  "type": "group",
+                  "id": "ac281f74-e7f0-4631-b0b6-a06b8e829ffc",
+                  "info": {
+                    "editorName": "SucessAI",
+                    "editorField": true,
+                    "setAll": [],
+                    "children": [
+                      {
+                        "type": "image",
+                        "id": "6d8e51e8-6f6c-4daf-9ab4-eca9759d463f",
+                        "asset": "22",
+                        "info": {"editorName": "transImgSA"}
+                      },
+                      {
+                        "type": "button",
+                        "id": "f5463379-9968-4e68-978c-efde2a18cfdb",
+                        "asset": "26",
+                        "info": {
+                          "editorName": "RUIBtnContinueSA",
+                          "editorGenerate": false,
+                          "editorField": true,
+                          "editorShow": false,
+                          "x": 318,
+                          "y": 460,
+                          "callback": "this.ContinueAI",
+                          "overFrame": "1",
+                          "downFrame": "2",
+                          "upFrame": "0"
+                        }
+                      },
+                      {
+                        "type": "button",
+                        "id": "1e037078-7fe3-4678-8221-a9a8c56b6391",
+                        "asset": "27",
+                        "info": {
+                          "editorName": "RUIBtnSheetExitSA",
+                          "editorField": true,
+                          "x": 428,
+                          "y": 460,
+                          "callback": "this.ExitAI",
+                          "overFrame": "1",
+                          "downFrame": "2",
+                          "upFrame": "0"
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "54ea8cfa-b41e-48d4-b692-add7abecdf25",
+                        "asset": "28",
+                        "info": {
+                          "editorName": "RUIRedPanelSA",
+                          "editorField": true,
+                          "x": 119,
+                          "y": 64
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "0461cb82-454d-451a-a046-36e228eea851",
+                        "asset": "29",
+                        "info": {
+                          "editorName": "RUIRedPanelFA",
+                          "editorField": true,
+                          "x": 119,
+                          "y": 64
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "00d296b0-2eba-4b83-97a4-cf26f5437eff",
+                        "asset": "30",
+                        "info": {
+                          "editorName": "RUICharEffSA2",
+                          "editorField": true,
+                          "x": 512,
+                          "y": 260,
+                          "rotation": -0.40142572795869574,
+                          "alpha": 0.8,
+                          "anchor.x": 0.5,
+                          "anchor.y": 0.5
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "4647bba5-5ed8-4230-9a4e-ff49ca305285",
+                        "asset": "30",
+                        "info": {
+                          "editorName": "RUICharEffSA1",
+                          "editorField": true,
+                          "x": 512,
+                          "y": 260,
+                          "alpha": 0.8,
+                          "anchor.x": 0.5,
+                          "anchor.y": 0.5
+                        }
+                      },
+                      {
+                        "type": "prefab",
+                        "prefab": "20",
+                        "id": "8d017028-9d34-4cde-820c-ecee4a4d2e96",
+                        "asset-ref": {
+                          "file": "WebContent/assets/pack.json",
+                          "section": "preloader",
+                          "asset": "CharMamangSheet2_V2",
+                          "sprite": "17"
+                        },
+                        "info": {
+                          "editorName": "CharMamangSheetSA",
+                          "editorGenerate": false,
+                          "editorShow": false,
+                          "x": 512,
+                          "y": 312
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "id": "202edfe4-9ae0-4f54-9c8d-0e34c374900e",
+                        "info": {
+                          "editorName": "CharAIAniSheetGroup",
+                          "editorField": true,
+                          "setAll": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "93339608-dafa-45ab-9553-78401c42007f",
+                        "asset": "31",
+                        "info": {
+                          "editorName": "RUIInfoRSA2",
+                          "editorField": true,
+                          "x": 602,
+                          "y": 235
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "50716741-dbb5-4b01-b3f7-d7487df36314",
+                        "asset": "31",
+                        "info": {
+                          "editorName": "RUIInfoRSA1",
+                          "editorField": true,
+                          "x": 165,
+                          "y": 235
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "8c2441ba-5c0f-46ab-af10-230c3cf61681",
+                        "asset": "32",
+                        "info": {
+                          "editorName": "RUIInfoRFA2",
+                          "editorField": true,
+                          "x": 602,
+                          "y": 235
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "abf69178-0247-4ce9-9eda-e345720d8b39",
+                        "asset": "32",
+                        "info": {
+                          "editorName": "RUIInfoRFA1",
+                          "editorField": true,
+                          "x": 165,
+                          "y": 235
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "id": "108ce915-4c7d-46f0-b05b-b2d4c929d771",
+                        "info": {
+                          "editorName": "PMeterSA2",
+                          "editorField": true,
+                          "x": 718,
+                          "y": 242,
+                          "style.font": "나눔고딕",
+                          "style.fontSize": 28,
+                          "style.fill": "#ffffff",
+                          "style.align": "CENTER"
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "id": "45ab4f19-539a-450a-9b1f-f1519fbb93be",
+                        "info": {
+                          "editorName": "PPointSA2",
+                          "editorField": true,
+                          "x": 718,
+                          "y": 298,
+                          "style.font": "나눔고딕",
+                          "style.fontSize": 28,
+                          "style.fill": "#ffffff",
+                          "style.align": "CENTER"
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "id": "873db5f4-4ae4-4cf0-b59b-ceac585296ca",
+                        "info": {
+                          "editorName": "PMeterSA1",
+                          "editorField": true,
+                          "x": 282,
+                          "y": 242,
+                          "style.font": "나눔고딕",
+                          "style.fontSize": 28,
+                          "style.fill": "#ffffff",
+                          "style.align": "CENTER"
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "id": "6268c0b9-e031-4b15-9630-3cd8b36baae9",
+                        "info": {
+                          "editorName": "PPointSA1",
+                          "editorField": true,
+                          "x": 282,
+                          "y": 298,
+                          "style.font": "나눔고딕",
+                          "style.fontSize": 28,
+                          "style.fill": "#ffffff",
+                          "style.align": "CENTER"
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "id": "e67eafd8-3688-4fab-b4b4-e3d0bd4946a1",
+                        "info": {
+                          "editorName": "PNicknameLineSA2",
+                          "editorField": true,
+                          "x": 580,
+                          "y": 189,
+                          "style.font": "나눔고딕",
+                          "style.fontSize": 28,
+                          "style.fill": "#bff2ff",
+                          "style.stroke": "#bff2ff",
+                          "style.strokeThickness": 4,
+                          "style.align": "CENTER"
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "id": "91598ad3-9ba7-4f97-8749-a0353d10a562",
+                        "info": {
+                          "editorName": "PNicknameSA2",
+                          "editorField": true,
+                          "x": 580,
+                          "y": 189,
+                          "style.font": "나눔고딕",
+                          "style.fontSize": 28,
+                          "style.fill": "#2a2a2a",
+                          "style.align": "CENTER"
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "id": "6fd24a37-2190-4da9-a3ff-f3f3be291e0c",
+                        "info": {
+                          "editorName": "PNicknameLineSA1",
+                          "editorField": true,
+                          "x": 160,
+                          "y": 189,
+                          "style.font": "나눔고딕",
+                          "style.fontSize": 28,
+                          "style.fill": "#bff2ff",
+                          "style.stroke": "#bff2ff",
+                          "style.strokeThickness": 4,
+                          "style.align": "CENTER"
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "id": "e786bee8-72f9-4a6d-8e53-48d781f72839",
+                        "info": {
+                          "editorName": "PNicknameSA1",
+                          "editorField": true,
+                          "x": 160,
+                          "y": 189,
+                          "style.font": "나눔고딕",
+                          "style.fontSize": 28,
+                          "style.fill": "#2a2a2a",
+                          "style.align": "CENTER"
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "508b4734-4118-41d4-9df1-1a449a0623cf",
+                        "asset": "33",
+                        "info": {
+                          "editorName": "RUI2PSA",
+                          "x": 708,
+                          "y": 140
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "c6e1c9ee-1a48-4e61-9653-ecb360b40545",
+                        "asset": "34",
+                        "info": {
+                          "editorName": "RUI1PSA",
+                          "x": 255,
+                          "y": 140
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "51db1194-8570-4568-b54e-a8d258803902",
+                        "asset": "35",
+                        "info": {
+                          "editorName": "RUIVicTitleSA",
+                          "editorField": true,
+                          "x": 352,
+                          "y": 12
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "898d91c0-3b53-4c96-b3a1-089cd49010d9",
+                        "asset": "36",
+                        "info": {
+                          "editorName": "RUIDrawTitleDA",
+                          "editorField": true,
+                          "x": 387,
+                          "y": 20
+                        }
+                      },
+                      {
+                        "type": "image",
+                        "id": "2ec7f44b-3534-4206-a03d-bf371d6edd81",
+                        "asset": "37",
+                        "info": {
+                          "editorName": "RUIFailTitleFA",
+                          "editorField": true,
+                          "x": 270,
+                          "y": 26
+                        }
+                      }
+                    ]
+                  }
+                }]
+              }
+            },
+            {
+              "type": "group",
+              "id": "90ca2f36-1813-4cbb-b8f3-4f792d28ccdf",
+              "info": {
+                "editorName": "PopupPublicB",
+                "editorPick": false,
+                "editorField": true,
+                "editorShow": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "fd19e913-3605-437f-bdf2-9c4577031f32",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "transImg703",
+                      "editorField": true
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "3e21ccca-248a-4d23-9810-cd2415a84169",
+                    "asset": "38",
+                    "info": {
+                      "editorName": "PopupBtnCheck3",
+                      "editorField": true,
+                      "x": 426,
+                      "y": 396,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "65f02e4c-d83e-4d7f-b9a7-a9d5763d1b55",
+                    "info": {
+                      "editorName": "YesNoGroup",
+                      "x": 322,
+                      "y": 402,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "button",
+                          "id": "116dffb9-8f19-4561-819e-c68e38457ed6",
+                          "asset": "39",
+                          "info": {
+                            "editorName": "PopupBtnNo",
+                            "editorField": true,
+                            "x": 214,
+                            "y": -6,
+                            "overFrame": "1",
+                            "downFrame": "2",
+                            "upFrame": "0"
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "ff39766c-dd8a-49d6-9944-35496d151ab6",
+                          "asset": "40",
+                          "info": {
+                            "editorName": "PopupBtnYes",
+                            "editorField": true,
+                            "x": -6,
+                            "y": -6,
+                            "overFrame": "1",
+                            "downFrame": "2",
+                            "upFrame": "0"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "e90b6dae-645e-4528-a655-90028c4087e8",
+                    "asset": "41",
+                    "info": {
+                      "editorName": "PopupPublicBPanel",
+                      "x": 243,
+                      "y": 110
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "69d0c089-64d7-4bd1-8743-337bdebe0ffd",
+                    "info": {
+                      "editorName": "ContentsText",
+                      "editorField": true,
+                      "x": 512,
+                      "y": 250,
+                      "style.font": "나눔바른고딕",
+                      "style.fontSize": 25,
+                      "style.fill": "#2a2a2a"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "a52946bf-0186-4a3b-9da6-636f0f450f43",
+                    "asset": "42",
+                    "info": {
+                      "editorName": "PublicBtnExit1",
+                      "x": 669,
+                      "y": 94,
+                      "callback": "this.cancelBlueListener",
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "fb7eb86c-ff37-4bf2-9fb6-cf31a581ef8e",
+                    "asset": "43",
+                    "info": {
+                      "editorName": "TitleTalk",
+                      "x": 476,
+                      "y": 140
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "1deccd56-941c-4d37-8948-8fff2744ce5d",
+              "info": {
+                "editorName": "PopupPublicR",
+                "editorPick": false,
+                "editorField": true,
+                "editorShow": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "56477c85-1dbc-40da-a412-1b4d84d7b800",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "transImg704",
+                      "editorField": true
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "a45c47f9-bcc0-4cad-8a62-fdd30e1c8602",
+                    "asset": "38",
+                    "info": {
+                      "editorName": "PopupBtnCheck4",
+                      "editorField": true,
+                      "x": 426,
+                      "y": 396,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "8705f30b-d94d-4e69-acd9-73e8f6b25174",
+                    "info": {
+                      "editorName": "YesNoGroupR",
+                      "x": 322,
+                      "y": 402,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "button",
+                          "id": "ce22ad64-9999-4dd5-a6f6-d734fd897fc5",
+                          "asset": "39",
+                          "info": {
+                            "editorName": "PopupBtnNoR",
+                            "editorField": true,
+                            "x": 214,
+                            "y": -6,
+                            "overFrame": "1",
+                            "downFrame": "2",
+                            "upFrame": "0"
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "a0160319-83ab-48da-9a5e-90ebe8fcf3f6",
+                          "asset": "40",
+                          "info": {
+                            "editorName": "PopupBtnYesR",
+                            "editorField": true,
+                            "x": -6,
+                            "y": -6,
+                            "overFrame": "1",
+                            "downFrame": "2",
+                            "upFrame": "0"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "80061b68-c11b-4cf7-8fe8-c6c089bf0ec7",
+                    "asset": "44",
+                    "info": {
+                      "editorName": "PopupPublicRPanel",
+                      "x": 243,
+                      "y": 110
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "e5b8ad61-d242-41e0-a50e-1db587dcae6a",
+                    "info": {
+                      "editorName": "ContentsText2",
+                      "editorField": true,
+                      "x": 512,
+                      "y": 250,
+                      "style.font": "나눔바른고딕",
+                      "style.fontSize": 25,
+                      "style.fill": "#2a2a2a"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "face8652-ebbd-4378-a41f-7d9a881942b2",
+                    "asset": "42",
+                    "info": {
+                      "editorName": "PublicBtnExit2",
+                      "editorField": true,
+                      "x": 669,
+                      "y": 94,
+                      "callback": "this.cancelRedListener",
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "4b48cdb8-93b3-47cf-843d-c8f8b3455a31",
+                    "asset": "45",
+                    "info": {
+                      "editorName": "TitleNotice",
+                      "x": 473,
+                      "y": 140
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "91ba1991-697b-4943-9200-615f74e1d64e",
+              "info": {
+                "editorName": "PopupPublicRExit",
+                "editorPick": false,
+                "editorField": true,
+                "editorShow": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "ea1a7689-a454-416f-b12f-ea6ed3a813da",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "transImg704_Exit",
+                      "editorField": true
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "fef2b8a8-d1f7-4afd-af02-f71a83ba83d5",
+                    "asset": "38",
+                    "info": {
+                      "editorName": "PopupBtnCheck4_Exit",
+                      "editorField": true,
+                      "x": 426,
+                      "y": 396,
+                      "callback": "",
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "543d3eb6-d2f6-4f62-a87d-29d957904122",
+                    "info": {
+                      "editorName": "YesNoGroupR_BR_Exit",
+                      "x": 322,
+                      "y": 402,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "button",
+                          "id": "a9ef3e63-3790-46be-98b4-0271522c66c5",
+                          "asset": "39",
+                          "info": {
+                            "editorName": "PopupBtnNoR_Exit",
+                            "editorField": true,
+                            "x": 214,
+                            "y": -6,
+                            "overFrame": "1",
+                            "downFrame": "2",
+                            "upFrame": "0"
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "ed034ffb-d0be-4655-9b41-6c4de71c3617",
+                          "asset": "40",
+                          "info": {
+                            "editorName": "PopupBtnYesR_Exit",
+                            "editorField": true,
+                            "x": -6,
+                            "y": -6,
+                            "overFrame": "1",
+                            "downFrame": "2",
+                            "upFrame": "0"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "fd761dd2-5fd5-4253-ad97-dd3ae38d9192",
+                    "asset": "44",
+                    "info": {
+                      "editorName": "PopupPublicRPanel_Exit",
+                      "x": 243,
+                      "y": 110
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "6e559f23-6092-432b-b0a2-9e403c13bb98",
+                    "info": {
+                      "editorName": "ContentsText2_Exit",
+                      "editorField": true,
+                      "x": 512,
+                      "y": 250,
+                      "style.font": "나눔바른고딕",
+                      "style.fontSize": 25,
+                      "style.fill": "#2a2a2a"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "b786db96-66cc-4583-b012-571a214147aa",
+                    "asset": "42",
+                    "info": {
+                      "editorName": "PublicBtnExit2_Exit",
+                      "editorField": true,
+                      "x": 669,
+                      "y": 94,
+                      "callback": "this.cancelRedExitListener",
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "f1fecd15-99eb-4516-84bf-3caf97e8f4f5",
+                    "asset": "45",
+                    "info": {
+                      "editorName": "TitleNotice_Exit",
+                      "x": 473,
+                      "y": 140
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "15960b45-7973-41ef-ac11-b8a4ece69daf",
+              "info": {
+                "editorName": "ToastMessageGroup",
+                "editorPick": false,
+                "editorField": true,
+                "editorShow": false,
+                "x": 1,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "4098f23b-2b1a-48e2-8169-b897ba7e0f38",
+                    "asset": "46",
+                    "info": {
+                      "editorName": "UIToaster",
+                      "y": 238
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "bcf2d2cb-6817-4d41-a78b-f43fca405c22",
+                    "info": {
+                      "editorName": "ToastMessageText",
+                      "editorField": true,
+                      "x": 512,
+                      "y": 250,
+                      "text": "토스트 메세지",
+                      "style.font": "나눔바른고딕",
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "dc61daf9-7900-43f8-80ad-69b5db98f445",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "notRayCast1",
+                      "editorField": true,
+                      "alpha": 0
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "Back_image1"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "Back_image3"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "Back_image2"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "wall_Rt"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "wall_Lf"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_up_panel"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_icon_coin"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_guideLine"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_comboPanel"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_comboGauge"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "begin_start"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "begin_ready1"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "begin_ready2"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "begin_ready3"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_dw_panelUnit"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_input"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "uiidPanel_other"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "uiidPanel_me"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_input_btnSheet",
+      "sprite": "0"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_vs"
+    },
+    "20": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_timePanel"
+    },
+    "21": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_timePanel_Alert"
+    },
+    "22": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "transImg_70"
+    },
+    "23": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "resultEff_L"
+    },
+    "24": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "resultEff_S"
+    },
+    "25": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "resultImg"
+    },
+    "26": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIBtnSheetContinue",
+      "sprite": "0"
+    },
+    "27": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIBtnSheetExit",
+      "sprite": "0"
+    },
+    "28": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIBluePanel"
+    },
+    "29": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIRedPanel"
+    },
+    "30": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUICharEff"
+    },
+    "31": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIInfo"
+    },
+    "32": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIInfoR"
+    },
+    "33": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUI2P"
+    },
+    "34": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUI1P"
+    },
+    "35": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIVicTitle"
+    },
+    "36": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIDrawTitle"
+    },
+    "37": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RUIFailTitle"
+    },
+    "38": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupBtnCheck",
+      "sprite": "0"
+    },
+    "39": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupBtnNo",
+      "sprite": "0"
+    },
+    "40": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupBtnYes",
+      "sprite": "0"
+    },
+    "41": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupPublic"
+    },
+    "42": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "RoomListBtnExit",
+      "sprite": "0"
+    },
+    "43": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "TitleTalk"
+    },
+    "44": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupPublicNotice"
+    },
+    "45": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "TitleNotice"
+    },
+    "46": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIToaster"
+    }
+  },
+  "prefab-table": {
+    "10": "WebContent/assets/canvas/prefabs/effects/CoinEffectComboV1.canvas",
+    "11": "WebContent/assets/canvas/prefabs/effects/ComboTextEffectV1.canvas",
+    "12": "WebContent/assets/canvas/prefabs/effects/CoinEffCrashV2.canvas",
+    "13": "WebContent/assets/canvas/prefabs/effects/UICoinEffV1.canvas",
+    "14": "WebContent/assets/canvas/prefabs/etcObjects/BackObjAirplaneV1.canvas",
+    "15": "WebContent/assets/canvas/prefabs/etcObjects/BackObjPelicanV1.canvas",
+    "16": "WebContent/assets/canvas/prefabs/characters/CharYayaIngameV1.canvas",
+    "17": "WebContent/assets/canvas/prefabs/etcObjects/InputCursor.canvas",
+    "18": "WebContent/assets/canvas/prefabs/effects/EffComboAttExplosionV1.canvas",
+    "19": "WebContent/assets/canvas/prefabs/effects/EffComboAttFlyV1.canvas",
+    "0": "WebContent/assets/canvas/prefabs/etcObjects/BackObjPelican2V1.canvas",
+    "1": "WebContent/assets/canvas/prefabs/etcObjects/BackObjAirplane2V1.canvas",
+    "2": "WebContent/assets/canvas/prefabs/etcObjects/LifeHeartV1.canvas",
+    "3": "WebContent/assets/canvas/prefabs/etcObjects/CoinV1.canvas",
+    "4": "WebContent/assets/canvas/prefabs/characters/CharMamangIngameV2.canvas",
+    "5": "WebContent/assets/canvas/prefabs/etcObjects/CoinPartV1.canvas",
+    "6": "WebContent/assets/canvas/prefabs/etcObjects/TalkBoxV1.canvas",
+    "7": "WebContent/assets/canvas/prefabs/etcObjects/TalkBoxComboV2.canvas",
+    "8": "WebContent/assets/canvas/prefabs/etcObjects/TalkBoxCombo2V2.canvas",
+    "9": "WebContent/assets/canvas/prefabs/effects/CoinEffectV1.canvas",
+    "20": "WebContent/assets/canvas/prefabs/characters/CharMamangResultV2.canvas"
+  }
+}

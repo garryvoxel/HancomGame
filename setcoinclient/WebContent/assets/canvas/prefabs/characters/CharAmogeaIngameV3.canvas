@@ -1,0 +1,178 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CharAmogeaIngameV3",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "BaseCharacterIngame",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "504ff757-90cf-42c1-8b3c-82acc164ada6",
+    "info": {
+      "editorName": "CharAmogeaIngameV3",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "679b9e3a-bbc6-414d-9b13-d8380bdeb8ef",
+        "asset": "0",
+        "info": {
+          "editorName": "CharAmogaeSheet1_V2",
+          "anchor.x": 0.54,
+          "anchor.y": 0.98,
+          "animations": [
+            {
+              "name": "IDLE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "4",
+                "4",
+                "3",
+                "1",
+                "5",
+                "6",
+                "6",
+                "6",
+                "5",
+                "2",
+                "1"
+              ]
+            },
+            {
+              "name": "JUMP_IDLE",
+              "frameRate": 8,
+              "frames": [
+                "2",
+                "7"
+              ]
+            },
+            {
+              "name": "JUMP",
+              "frameRate": 8,
+              "frames": [
+                "8",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "13",
+                "13"
+              ]
+            },
+            {
+              "name": "JUMP_LANDING",
+              "frameRate": 8,
+              "frames": [
+                "2",
+                "7"
+              ]
+            },
+            {
+              "name": "DROP_IDLE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "18",
+                "19",
+                "20",
+                "21",
+                "20",
+                "19"
+              ]
+            },
+            {
+              "name": "DROP",
+              "frameRate": 8,
+              "frames": [
+                "18",
+                "22",
+                "23",
+                "24",
+                "24",
+                "24",
+                "24"
+              ]
+            },
+            {
+              "name": "APPEAR_IDLE",
+              "frameRate": 8,
+              "frames": [
+                "14",
+                "15",
+                "16",
+                "17",
+                "13"
+              ]
+            },
+            {
+              "name": "APPEAR",
+              "frameRate": 8,
+              "frames": [
+                "13",
+                "13",
+                "13",
+                "13",
+                "13",
+                "13",
+                "13",
+                "13",
+                "13",
+                "13"
+              ]
+            },
+            {
+              "name": "APPEAR_LANDING",
+              "frameRate": 8,
+              "frames": [
+                "2",
+                "7",
+                "1"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharAmogaeSheet1_V2",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

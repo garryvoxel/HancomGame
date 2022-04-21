@@ -1,0 +1,2354 @@
+{
+  "boot": [
+    {
+      "type": "image",
+      "key": "LoadingBackImg",
+      "url": "assets/images/LoadingBackImg.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "GamesRated2",
+      "url": "assets/images/GamesRated.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "LoadingTxtSheet",
+      "url": "assets/sprites/LoadingTxtSheet.png",
+      "frameWidth": 295,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "LoadingTxtV1",
+      "url": "assets/canvas/prefabs/etcObjects/LoadingTxtV1.js"
+    }
+  ],
+  "preloader": [
+    {
+      "type": "image",
+      "key": "Back_cloud_1",
+      "url": "assets/images/Back_cloud_1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Back_cloud_2",
+      "url": "assets/images/Back_cloud_2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Back_image",
+      "url": "assets/images/Back_image.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "coin",
+      "url": "assets/images/coin.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_comboGauge",
+      "url": "assets/images/ui_comboGauge.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_comboPanel",
+      "url": "assets/images/ui_comboPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_dw_panelUnit",
+      "url": "assets/images/ui_dw_panelUnit.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_guideLine",
+      "url": "assets/images/ui_guideLine.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_icon_coin",
+      "url": "assets/images/ui_icon_coin.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_icon_heart",
+      "url": "assets/images/ui_icon_heart.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_input",
+      "url": "assets/images/ui_input.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_timePanel",
+      "url": "assets/images/ui_timePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_up_panel",
+      "url": "assets/images/ui_up_panel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ui_vs",
+      "url": "assets/images/ui_vs.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "uiidPanel_me",
+      "url": "assets/images/uiidPanel_me.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "uiidPanel_other",
+      "url": "assets/images/uiidPanel_other.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "ui_input_btnSheet",
+      "url": "assets/sprites/ui_input_btnSheet.png",
+      "frameWidth": 73,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "wall_Lf",
+      "url": "assets/images/wall_Lf.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "wall_Rt",
+      "url": "assets/images/wall_Rt.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "CoinEffectV1",
+      "url": "assets/canvas/prefabs/effects/CoinEffectV1.js"
+    },
+    {
+      "type": "image",
+      "key": "begin_ready",
+      "url": "assets/images/begin_ready.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "begin_start",
+      "url": "assets/images/begin_start.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "combo_effText_1",
+      "url": "assets/images/combo_effText_1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "combo_effText_2",
+      "url": "assets/images/combo_effText_2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "combo_effText_3",
+      "url": "assets/images/combo_effText_3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "combo_effText_4",
+      "url": "assets/images/combo_effText_4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "combo_effText_5",
+      "url": "assets/images/combo_effText_5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "combo_effText_6",
+      "url": "assets/images/combo_effText_6.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_coin_eff",
+      "url": "assets/sprites/sheet_coin_eff.png",
+      "frameWidth": 184,
+      "frameHeight": 45,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_heartBreak",
+      "url": "assets/sprites/sheet_heartBreak.png",
+      "frameWidth": 37,
+      "frameHeight": 61,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_talkBox",
+      "url": "assets/sprites/sheet_talkBox.png",
+      "frameWidth": 195,
+      "frameHeight": 85,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "LifeHeartV1",
+      "url": "assets/canvas/prefabs/etcObjects/LifeHeartV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "Char_1_aniSheet",
+      "url": "assets/images/Char_1_aniSheet.png",
+      "frameWidth": 91,
+      "frameHeight": 229,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "Back_image1",
+      "url": "assets/images/Back_image.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Back_image2",
+      "url": "assets/images/Back_image2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Back_image3",
+      "url": "assets/images/Back_image1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "resultEff_L",
+      "url": "assets/images/resultEff_L.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "resultEff_S",
+      "url": "assets/images/resultEff_S.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "resultImg",
+      "url": "assets/images/resultImg.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "transImg_70",
+      "url": "assets/images/transImg_70.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "ComboTextEffectV1",
+      "url": "assets/canvas/prefabs/effects/ComboTextEffectV1.js"
+    },
+    {
+      "type": "script",
+      "key": "TalkBoxV1",
+      "url": "assets/canvas/prefabs/etcObjects/TalkBoxV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "Char_smorkEff",
+      "url": "assets/sprites/Char_smorkEff.png",
+      "frameWidth": 193,
+      "frameHeight": 55,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "JumpDustEffectV1",
+      "url": "assets/canvas/prefabs/effects/JumpDustEffectV1.js"
+    },
+    {
+      "type": "image",
+      "key": "ui_timePanel_Alert",
+      "url": "assets/images/ui_timePanel_Alert.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "Char_2_aniSheet",
+      "url": "assets/images/Char_2_aniSheet.png",
+      "frameWidth": 163,
+      "frameHeight": 231,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CharYayaIngameV1",
+      "url": "assets/canvas/prefabs/characters/CharYayaIngameV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "coin_aniSheet",
+      "url": "assets/sprites/coin_aniSheet.png",
+      "frameWidth": 74,
+      "frameHeight": 74,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CoinV1",
+      "url": "assets/canvas/prefabs/etcObjects/CoinV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_coinCombo_eff",
+      "url": "assets/sprites/sheet_coinCombo_eff.png",
+      "frameWidth": 149,
+      "frameHeight": 193,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CoinEffectComboV1",
+      "url": "assets/canvas/prefabs/effects/CoinEffectComboV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "parachuteSheet",
+      "url": "assets/sprites/parachuteSheet.png",
+      "frameWidth": 151,
+      "frameHeight": 99,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "char_yayaSheet1",
+      "url": "assets/sprites/char_yayaSheet1.png",
+      "frameWidth": 201,
+      "frameHeight": 124,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharYayaSheet2",
+      "url": "assets/sprites/CharYayaSheet2.png",
+      "frameWidth": 162,
+      "frameHeight": 132,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CharYayaResultV1",
+      "url": "assets/canvas/prefabs/characters/CharYayaResultV1.js"
+    },
+    {
+      "type": "image",
+      "key": "begin_ready1",
+      "url": "assets/images/begin_ready1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "begin_ready2",
+      "url": "assets/images/begin_ready2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "begin_ready3",
+      "url": "assets/images/begin_ready3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "coin_part",
+      "url": "assets/images/coin_part.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "CoinPartV1",
+      "url": "assets/canvas/prefabs/etcObjects/CoinPartV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_talkBoxAttackTxt",
+      "url": "assets/sprites/sheet_talkBoxAttackTxt.png",
+      "frameWidth": 98,
+      "frameHeight": 26,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_talkBoxCombo1",
+      "url": "assets/sprites/sheet_talkBoxCombo1.png",
+      "frameWidth": 220,
+      "frameHeight": 85,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_talkBoxCombo2",
+      "url": "assets/sprites/sheet_talkBoxCombo2.png",
+      "frameWidth": 386,
+      "frameHeight": 85,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "UICoinEff",
+      "url": "assets/sprites/UICoinEff.png",
+      "frameWidth": 62,
+      "frameHeight": 57,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "EffSmoke",
+      "url": "assets/images/EffSmoke.png",
+      "frameWidth": 111,
+      "frameHeight": 105,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "UICoinEffV1",
+      "url": "assets/canvas/prefabs/effects/UICoinEffV1.js"
+    },
+    {
+      "type": "script",
+      "key": "CoinEffCrashV2",
+      "url": "assets/canvas/prefabs/effects/CoinEffCrashV2.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "Airplane",
+      "url": "assets/sprites/Airplane.png",
+      "frameWidth": 111,
+      "frameHeight": 72,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Pelican",
+      "url": "assets/sprites/Pelican.png",
+      "frameWidth": 113,
+      "frameHeight": 92,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "BackObjAirplaneV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjAirplaneV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjAirplane2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjAirplane2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjPelicanV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjPelicanV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjPelican2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjPelican2V1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "SheetEffComboAtt1",
+      "url": "assets/sprites/SheetEffComboAtt1.png",
+      "frameWidth": 146,
+      "frameHeight": 239,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "SheetEffComboAtt2",
+      "url": "assets/sprites/SheetEffComboAtt2.png",
+      "frameWidth": 243,
+      "frameHeight": 223,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "EffComboAttFlyV1",
+      "url": "assets/canvas/prefabs/effects/EffComboAttFlyV1.js"
+    },
+    {
+      "type": "script",
+      "key": "EffComboAttExplosionV1",
+      "url": "assets/canvas/prefabs/effects/EffComboAttExplosionV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "UICoinEffRe",
+      "url": "assets/sprites/UICoinEffRe.png",
+      "frameWidth": 62,
+      "frameHeight": 57,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "UICoinEffV2",
+      "url": "assets/canvas/prefabs/effects/UICoinEffV2.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharJijiSheet1",
+      "url": "assets/sprites/CharJijiSheet1.png",
+      "frameWidth": 127,
+      "frameHeight": 97,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CharJijiIngameV1",
+      "url": "assets/canvas/prefabs/characters/CharJijiIngameV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharJijiSheet2",
+      "url": "assets/sprites/CharJijiSheet2.png",
+      "frameWidth": 148,
+      "frameHeight": 119,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CharJijiResultV1",
+      "url": "assets/canvas/prefabs/characters/CharJijiResultV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "Char6bSheet1",
+      "url": "assets/sprites/Char6bSheet1.png",
+      "frameWidth": 151,
+      "frameHeight": 96,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Char6bSheet2",
+      "url": "assets/sprites/Char6bSheet2.png",
+      "frameWidth": 137,
+      "frameHeight": 155,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "Char6bIngameV1",
+      "url": "assets/canvas/prefabs/characters/Char6bIngameV1.js"
+    },
+    {
+      "type": "script",
+      "key": "Char6bResultV1",
+      "url": "assets/canvas/prefabs/characters/Char6bResultV1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharMoaSheet1",
+      "url": "assets/sprites/CharMoaSheet1.png",
+      "frameWidth": 188,
+      "frameHeight": 223,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharMoaSheet2",
+      "url": "assets/sprites/CharMoaSheet2.png",
+      "frameWidth": 162,
+      "frameHeight": 109,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CharMoaIngameV1",
+      "url": "assets/canvas/prefabs/characters/CharMoaIngameV1.js"
+    },
+    {
+      "type": "script",
+      "key": "CharMoaResultV1",
+      "url": "assets/canvas/prefabs/characters/CharMoaResultV1.js"
+    },
+    {
+      "type": "image",
+      "key": "RUI1P",
+      "url": "assets/images/Result/RUI1P.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUI2P",
+      "url": "assets/images/Result/RUI2P.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIBluePanel",
+      "url": "assets/images/Result/RUIBluePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUICharEff",
+      "url": "assets/images/Result/RUICharEff.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIDrawTitle",
+      "url": "assets/images/Result/RUIDrawTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIFailTitle",
+      "url": "assets/images/Result/RUIFailTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIInfo",
+      "url": "assets/images/Result/RUIInfo.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIInfoR",
+      "url": "assets/images/Result/RUIInfoR.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIRedPanel",
+      "url": "assets/images/Result/RUIRedPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIScoreKa",
+      "url": "assets/images/Result/RUIScoreKa.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIScorePanel",
+      "url": "assets/images/Result/RUIScorePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUISharePanel",
+      "url": "assets/images/Result/RUISharePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIVicTitle",
+      "url": "assets/images/Result/RUIVicTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "RUIBtnSheetContinue",
+      "url": "assets/images/Result/RUIBtnSheetContinue.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RUIBtnSheetExit",
+      "url": "assets/images/Result/RUIBtnSheetExit.png",
+      "frameWidth": 170,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RUIBtnSheetFacebook",
+      "url": "assets/images/Result/RUIBtnSheetFacebook.png",
+      "frameWidth": 140,
+      "frameHeight": 60,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RUIBtnSheetKakao",
+      "url": "assets/images/Result/RUIBtnSheetKakao.png",
+      "frameWidth": 140,
+      "frameHeight": 60,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "RUISharePanelR",
+      "url": "assets/images/Result/RUISharePanelR.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomListBar",
+      "url": "assets/images/Lobby/RoomListBar.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomListPanel",
+      "url": "assets/images/Lobby/RoomListPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomListTitle",
+      "url": "assets/images/Lobby/RoomListTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListBtnExit",
+      "url": "assets/sprites/Lobby/RoomListBtnExit.png",
+      "frameWidth": 81,
+      "frameHeight": 78,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListBtnGo",
+      "url": "assets/sprites/Lobby/RoomListBtnGo.png",
+      "frameWidth": 78,
+      "frameHeight": 36,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListBtnHelp",
+      "url": "assets/sprites/Lobby/RoomListBtnHelp.png",
+      "frameWidth": 81,
+      "frameHeight": 78,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListBtnLR",
+      "url": "assets/sprites/Lobby/RoomListBtnLR.png",
+      "frameWidth": 94,
+      "frameHeight": 94,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListBtnPlayThing",
+      "url": "assets/sprites/Lobby/RoomListBtnPlayThing.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListBtnRoomThing",
+      "url": "assets/sprites/Lobby/RoomListBtnRoomThing.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListBtnVolume",
+      "url": "assets/sprites/Lobby/RoomListBtnVolume.png",
+      "frameWidth": 81,
+      "frameHeight": 78,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListIconLock",
+      "url": "assets/sprites/Lobby/RoomListIconLock.png",
+      "frameWidth": 22,
+      "frameHeight": 22,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "RoomListBack",
+      "url": "assets/images/Lobby/RoomListBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomBack",
+      "url": "assets/images/Lobby/RoomBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomInfoPanel",
+      "url": "assets/images/Lobby/RoomInfoPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomOtherWait",
+      "url": "assets/images/Lobby/RoomOtherWait.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomTitle",
+      "url": "assets/images/Lobby/RoomTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomBtnInvite",
+      "url": "assets/sprites/Lobby/RoomBtnInvite.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomBtnSetting",
+      "url": "assets/sprites/Lobby/RoomBtnSetting.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel1",
+      "url": "assets/images/Lobby/DropdownPanel1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel1Dw",
+      "url": "assets/images/Lobby/DropdownPanel1Dw.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel1DwList",
+      "url": "assets/images/Lobby/DropdownPanel1DwList.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel1DwListOn",
+      "url": "assets/images/Lobby/DropdownPanel1DwListOn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel2",
+      "url": "assets/images/Lobby/DropdownPanel2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel2Dw",
+      "url": "assets/images/Lobby/DropdownPanel2Dw.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel2DwList",
+      "url": "assets/images/Lobby/DropdownPanel2DwList.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel2DwListOn",
+      "url": "assets/images/Lobby/DropdownPanel2DwListOn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "InputType1",
+      "url": "assets/images/Lobby/InputType1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupCreateRoom",
+      "url": "assets/images/Lobby/PopupCreateRoom.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SmallTitleAttribute",
+      "url": "assets/images/Lobby/SmallTitleAttribute.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SmallTitleBack",
+      "url": "assets/images/Lobby/SmallTitleBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SmallTitlePlaytime",
+      "url": "assets/images/Lobby/SmallTitlePlaytime.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SmallTitleRoom",
+      "url": "assets/images/Lobby/SmallTitleRoom.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleRoomCreate",
+      "url": "assets/images/Lobby/TitleRoomCreate.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "DropdownBtn",
+      "url": "assets/sprites/Lobby/DropdownBtn.png",
+      "frameWidth": 36,
+      "frameHeight": 29,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "InputBtnOk",
+      "url": "assets/sprites/Lobby/InputBtnOk.png",
+      "frameWidth": 69,
+      "frameHeight": 36,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupCreateBtnCreate",
+      "url": "assets/sprites/Lobby/PopupCreateBtnCreate.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "PublicPanel1",
+      "url": "assets/images/Lobby/PublicPanel1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "DropdownPanel3Dw",
+      "url": "assets/images/Lobby/DropdownPanel3Dw.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtnCancel",
+      "url": "assets/sprites/Lobby/PopupBtnCancel.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtnChange",
+      "url": "assets/sprites/Lobby/PopupBtnChange.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "PopupInfoBar1",
+      "url": "assets/images/Lobby/PopupInfoBar1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleRoomReset",
+      "url": "assets/images/Lobby/TitleRoomReset.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "InputType2",
+      "url": "assets/images/Lobby/InputType2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupPublic",
+      "url": "assets/images/Lobby/PopupPublic.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitlePasswordSet",
+      "url": "assets/images/Lobby/TitlePasswordSet.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleRoomSearch",
+      "url": "assets/images/Lobby/TitleRoomSearch.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "TapBtnNickname",
+      "url": "assets/sprites/Lobby/TapBtnNickname.png",
+      "frameWidth": 129,
+      "frameHeight": 76,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "TapBtnRoomNum",
+      "url": "assets/sprites/Lobby/TapBtnRoomNum.png",
+      "frameWidth": 129,
+      "frameHeight": 76,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtnCheck",
+      "url": "assets/sprites/Lobby/PopupBtnCheck.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "PasswordSetInfoText",
+      "url": "assets/images/Lobby/PasswordSetInfoText.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupPublicNotice",
+      "url": "assets/images/Lobby/PopupPublicNotice.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleNotice",
+      "url": "assets/images/Lobby/TitleNotice.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleTalk",
+      "url": "assets/images/Lobby/TitleTalk.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtnNo",
+      "url": "assets/sprites/Lobby/PopupBtnNo.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtnYes",
+      "url": "assets/sprites/Lobby/PopupBtnYes.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "PopupFriendInvitePanel",
+      "url": "assets/images/Lobby/PopupFriendInvitePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupListNumPanel",
+      "url": "assets/images/Lobby/PopupListNumPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleFriendInvite",
+      "url": "assets/images/Lobby/TitleFriendInvite.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleSinglePlay",
+      "url": "assets/images/Lobby/TitleSinglePlay.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "FriendPopupBtnInvite",
+      "url": "assets/sprites/Lobby/FriendPopupBtnInvite.png",
+      "frameWidth": 78,
+      "frameHeight": 36,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtnGameStart",
+      "url": "assets/sprites/Lobby/PopupBtnGameStart.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "SmallTitleInvite",
+      "url": "assets/images/Lobby/SmallTitleInvite.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "SmallTitleNickname",
+      "url": "assets/images/Lobby/SmallTitleNickname.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "ParaChuteV1",
+      "url": "assets/canvas/prefabs/etcObjects/ParaChuteV1.js"
+    },
+    {
+      "type": "image",
+      "key": "TitlePasswordInput",
+      "url": "assets/images/Lobby/TitlePasswordInput.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomSearchBtnSearch",
+      "url": "assets/sprites/Lobby/RoomSearchBtnSearch.png",
+      "frameWidth": 78,
+      "frameHeight": 37,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "InvitePanelBtnAccept",
+      "url": "assets/sprites/Lobby/InvitePanelBtnAccept.png",
+      "frameWidth": 78,
+      "frameHeight": 36,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "InvitePanelBtnDeny",
+      "url": "assets/sprites/Lobby/InvitePanelBtnDeny.png",
+      "frameWidth": 78,
+      "frameHeight": 36,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "InviteMessagePanel",
+      "url": "assets/images/Lobby/InviteMessagePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "WaitingRoomInvitecancel",
+      "url": "assets/images/Lobby/WaitingRoomInvitecancel.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtnInvite",
+      "url": "assets/sprites/Lobby/PopupBtnInvite.png",
+      "frameWidth": 169,
+      "frameHeight": 86,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "RoomListBtnSelect",
+      "url": "assets/sprites/Lobby/RoomListBtnSelect.png",
+      "frameWidth": 78,
+      "frameHeight": 36,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "UIToaster",
+      "url": "assets/images/UIToaster.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent1",
+      "url": "assets/images/Help/PopupHelpContent1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent10",
+      "url": "assets/images/Help/PopupHelpContent10.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent11",
+      "url": "assets/images/Help/PopupHelpContent11.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent2",
+      "url": "assets/images/Help/PopupHelpContent2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent3",
+      "url": "assets/images/Help/PopupHelpContent3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent4",
+      "url": "assets/images/Help/PopupHelpContent4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent5",
+      "url": "assets/images/Help/PopupHelpContent5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent6",
+      "url": "assets/images/Help/PopupHelpContent6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent7",
+      "url": "assets/images/Help/PopupHelpContent7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent8",
+      "url": "assets/images/Help/PopupHelpContent8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContent9",
+      "url": "assets/images/Help/PopupHelpContent9.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpContentPanel",
+      "url": "assets/images/Help/PopupHelpContentPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpDontAgain",
+      "url": "assets/images/Help/PopupHelpDontAgain.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpDontAgainCheck",
+      "url": "assets/images/Help/PopupHelpDontAgainCheck.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpPagePanel",
+      "url": "assets/images/Help/PopupHelpPagePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpPanel",
+      "url": "assets/images/Help/PopupHelpPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpTitleTxt",
+      "url": "assets/images/Help/PopupHelpTitleTxt.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BarSetGaugeBack",
+      "url": "assets/images/Lobby/BarSetGaugeBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "MuteCheck",
+      "url": "assets/images/Lobby/MuteCheck.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PanelMuteCheck",
+      "url": "assets/images/Lobby/PanelMuteCheck.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopPanelCreateSet",
+      "url": "assets/images/Lobby/PopPanelCreateSet.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "STitleBGM",
+      "url": "assets/images/Lobby/STitleBGM.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "STitleEffSound",
+      "url": "assets/images/Lobby/STitleEffSound.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "STitleSoundMute",
+      "url": "assets/images/Lobby/STitleSoundMute.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleVolControl",
+      "url": "assets/images/Lobby/TitleVolControl.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnArrowSetL",
+      "url": "assets/sprites/Lobby/BtnArrowSetL.png",
+      "frameWidth": 35,
+      "frameHeight": 47,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnArrowSetR",
+      "url": "assets/sprites/Lobby/BtnArrowSetR.png",
+      "frameWidth": 35,
+      "frameHeight": 47,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnSetGaugePointer",
+      "url": "assets/sprites/Lobby/BtnSetGaugePointer.png",
+      "frameWidth": 46,
+      "frameHeight": 46,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "LoadingIndicator",
+      "url": "assets/images/LoadingIndicator.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_talkBoxCombo11",
+      "url": "assets/sprites/sheet_talkBoxCombo11.png",
+      "frameWidth": 270,
+      "frameHeight": 95,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "sheet_talkBoxCombo22",
+      "url": "assets/sprites/sheet_talkBoxCombo22.png",
+      "frameWidth": 442,
+      "frameHeight": 87,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "TalkBoxCombo2V2",
+      "url": "assets/canvas/prefabs/etcObjects/TalkBoxCombo2V2.js"
+    },
+    {
+      "type": "script",
+      "key": "TalkBoxComboV2",
+      "url": "assets/canvas/prefabs/etcObjects/TalkBoxComboV2.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg8_Sheet1",
+      "url": "assets/sprites/BackImg8_Sheet1.png",
+      "frameWidth": 98,
+      "frameHeight": 53,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg8_Sheet2",
+      "url": "assets/sprites/BackImg8_Sheet2.png",
+      "frameWidth": 48,
+      "frameHeight": 55,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "BackObjEightV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjEightV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjEight2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjEight2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjEightTwoV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjEightTwoV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjEightTwo2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjEightTwo2V1.js"
+    },
+    {
+      "type": "image",
+      "key": "BackImg3_bg1",
+      "url": "assets/images/BackImg3_bg1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg3_bg2",
+      "url": "assets/images/BackImg3_bg2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg3_bg3",
+      "url": "assets/images/BackImg3_bg3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg3_wallL",
+      "url": "assets/images/BackImg3_wallL.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg3_wallR",
+      "url": "assets/images/BackImg3_wallR.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg7_bg1",
+      "url": "assets/images/BackImg7_bg1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg7_bg2",
+      "url": "assets/images/BackImg7_bg2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg7_bg3",
+      "url": "assets/images/BackImg7_bg3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg7_wallL",
+      "url": "assets/images/BackImg7_wallL.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg7_wallR",
+      "url": "assets/images/BackImg7_wallR.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg3_Sheet1",
+      "url": "assets/sprites/BackImg3_Sheet1.png",
+      "frameWidth": 68,
+      "frameHeight": 40,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg3_Sheet2",
+      "url": "assets/sprites/BackImg3_Sheet2.png",
+      "frameWidth": 87,
+      "frameHeight": 33,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg7_Sheet1",
+      "url": "assets/sprites/BackImg7_Sheet1.png",
+      "frameWidth": 111,
+      "frameHeight": 72,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg7_Sheet2",
+      "url": "assets/sprites/BackImg7_Sheet2.png",
+      "frameWidth": 113,
+      "frameHeight": 92,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "BackObjThreeV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjThreeV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjThree2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjThree2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjThreeTwoV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjThreeTwoV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjThreeTwo2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjThreeTwo2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjSevenV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjSevenV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjSeven2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjSeven2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjSevenTwoV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjSevenTwoV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjSevenTwo2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjSevenTwo2V1.js"
+    },
+    {
+      "type": "image",
+      "key": "BackImg6_bg1",
+      "url": "assets/images/BackImg6_bg1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg6_bg2",
+      "url": "assets/images/BackImg6_bg2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg6_bg3",
+      "url": "assets/images/BackImg6_bg3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg6_wallL",
+      "url": "assets/images/BackImg6_wallL.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg6_wallR",
+      "url": "assets/images/BackImg6_wallR.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg6_Sheet1",
+      "url": "assets/sprites/BackImg6_Sheet1.png",
+      "frameWidth": 80,
+      "frameHeight": 51,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg6_Sheet2",
+      "url": "assets/sprites/BackImg6_Sheet2.png",
+      "frameWidth": 65,
+      "frameHeight": 46,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "BackObjSixV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjSixV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjSix2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjSix2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjSixTwoV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjSixTwoV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjSixTwo2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjSixTwo2V1.js"
+    },
+    {
+      "type": "image",
+      "key": "BackImg4_bg1",
+      "url": "assets/images/BackImg4_bg1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg4_bg2",
+      "url": "assets/images/BackImg4_bg2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg4_bg3",
+      "url": "assets/images/BackImg4_bg3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg4_wallL",
+      "url": "assets/images/BackImg4_wallL.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg4_wallR",
+      "url": "assets/images/BackImg4_wallR.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg4_Sheet1",
+      "url": "assets/sprites/BackImg4_Sheet1.png",
+      "frameWidth": 97,
+      "frameHeight": 63,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg4_Sheet2",
+      "url": "assets/sprites/BackImg4_Sheet2.png",
+      "frameWidth": 89,
+      "frameHeight": 46,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "BackObjFourV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjFourV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjFour2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjFour2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjFourTwoV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjFourTwoV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjFourTwo2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjFourTwo2V1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnWinsizeB",
+      "url": "assets/sprites/Lobby/BtnWinsizeB.png",
+      "frameWidth": 81,
+      "frameHeight": 78,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnWinsizeS",
+      "url": "assets/sprites/Lobby/BtnWinsizeS.png",
+      "frameWidth": 81,
+      "frameHeight": 78,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "BackImg2_bg1",
+      "url": "assets/images/BackImg2_bg1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg2_bg2",
+      "url": "assets/images/BackImg2_bg2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg2_bg3",
+      "url": "assets/images/BackImg2_bg3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg2_wallL",
+      "url": "assets/images/BackImg2_wallL.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg2_wallR",
+      "url": "assets/images/BackImg2_wallR.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg2_Sheet1",
+      "url": "assets/sprites/BackImg2_Sheet1.png",
+      "frameWidth": 140,
+      "frameHeight": 56,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg2_Sheet2",
+      "url": "assets/sprites/BackImg2_Sheet2.png",
+      "frameWidth": 96,
+      "frameHeight": 77,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "BackObjTwoV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjTwoV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjTwo2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjTwo2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjTwoTwoV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjTwoTwoV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjTwoTwo2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjTwoTwo2V1.js"
+    },
+    {
+      "type": "image",
+      "key": "BackImg5_bg1",
+      "url": "assets/images/BackImg5_bg1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg5_bg2",
+      "url": "assets/images/BackImg5_bg2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg5_bg3",
+      "url": "assets/images/BackImg5_bg3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg5_wallL",
+      "url": "assets/images/BackImg5_wallL.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg5_wallR",
+      "url": "assets/images/BackImg5_wallR.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg5_Sheet1",
+      "url": "assets/sprites/BackImg5_Sheet1.png",
+      "frameWidth": 80,
+      "frameHeight": 51,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BackImg5_Sheet2",
+      "url": "assets/sprites/BackImg5_Sheet2.png",
+      "frameWidth": 49,
+      "frameHeight": 69,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "BackObjFiveV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjFiveV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjFive2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjFive2V1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjFiveTwoV1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjFiveTwoV1.js"
+    },
+    {
+      "type": "script",
+      "key": "BackObjFiveTwo2V1",
+      "url": "assets/canvas/prefabs/etcObjects/BackObjFiveTwo2V1.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "InputCursorSheet",
+      "url": "assets/sprites/InputCursorSheet.png",
+      "frameWidth": 3,
+      "frameHeight": 18,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "InputCursor",
+      "url": "assets/canvas/prefabs/etcObjects/InputCursor.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnOpinion",
+      "url": "assets/sprites/BtnOpinion.png",
+      "frameWidth": 81,
+      "frameHeight": 78,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "Coin_Rm",
+      "urls": ["assets/audios/Coin_Rm.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Draw",
+      "urls": ["assets/audios/Draw.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Ans_right",
+      "urls": ["assets/audios/Ans_right.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Ans_wrong",
+      "urls": ["assets/audios/Ans_wrong.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Coin_land",
+      "urls": ["assets/audios/Coin_land.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Coin_des",
+      "urls": ["assets/audios/Coin_des.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Popup",
+      "urls": ["assets/audios/Popup.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Tog_sound",
+      "urls": ["assets/audios/Tog_sound.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Lose",
+      "urls": ["assets/audios/Lose.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Click",
+      "urls": ["assets/audios/Click.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Coin_coat",
+      "urls": ["assets/audios/Coin_coat.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "CoDown_3_2_1",
+      "urls": ["assets/audios/CoDown_3_2_1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Coin_Music",
+      "urls": ["assets/audios/Coin_Music.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Coin_score",
+      "urls": ["assets/audios/Coin_score.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Time_danger",
+      "urls": ["assets/audios/Time_danger.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "G_Start",
+      "urls": ["assets/audios/G_Start.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Vict",
+      "urls": ["assets/audios/Vict.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Coin_com",
+      "urls": ["assets/audios/Coin_com.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Coin_Lob",
+      "urls": ["assets/audios/Coin_Lob.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "spritesheet",
+      "key": "addPointPanel",
+      "url": "assets/sprites/addPointPanel.png",
+      "frameWidth": 120,
+      "frameHeight": 90,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "apTxtCombo",
+      "url": "assets/sprites/apTxtCombo.png",
+      "frameWidth": 39,
+      "frameHeight": 21,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "apTxtHeart",
+      "url": "assets/sprites/apTxtHeart.png",
+      "frameWidth": 39,
+      "frameHeight": 21,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "resultAddPointPanelR",
+      "url": "assets/canvas/prefabs/etcObjects/resultAddPointPanelR.js"
+    },
+    {
+      "type": "script",
+      "key": "resultAddPointPanelL",
+      "url": "assets/canvas/prefabs/etcObjects/resultAddPointPanelL.js"
+    },
+    {
+      "type": "image",
+      "key": "RUIInfo1",
+      "url": "assets/images/Result/RUIInfo1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RUIInfoR1",
+      "url": "assets/images/Result/RUIInfoR1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "GaugeMask1",
+      "url": "assets/images/GaugeMask1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomListTitleG",
+      "url": "assets/images/Lobby/RoomListTitleG.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomListTitleN",
+      "url": "assets/images/Lobby/RoomListTitleN.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomTitleG",
+      "url": "assets/images/Lobby/RoomTitleG.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "RoomTitleN",
+      "url": "assets/images/Lobby/RoomTitleN.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharAmogaeSheet1_V2",
+      "url": "assets/sprites/CharAmogaeSheet1_V2.png",
+      "frameWidth": 180,
+      "frameHeight": 115,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharAmogaeSheet2_V2",
+      "url": "assets/sprites/CharAmogaeSheet2_V2.png",
+      "frameWidth": 122,
+      "frameHeight": 194,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CharAmogeaIngameV3",
+      "url": "assets/canvas/prefabs/characters/CharAmogeaIngameV3.js"
+    },
+    {
+      "type": "script",
+      "key": "CharAmogeaResultV3",
+      "url": "assets/canvas/prefabs/characters/CharAmogeaResultV3.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharMamangSheet1_V2",
+      "url": "assets/sprites/CharMamangSheet1_V2.png",
+      "frameWidth": 210,
+      "frameHeight": 134,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharMamangSheet2_V2",
+      "url": "assets/sprites/CharMamangSheet2_V2.png",
+      "frameWidth": 166,
+      "frameHeight": 135,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "CharMamangIngameV2",
+      "url": "assets/canvas/prefabs/characters/CharMamangIngameV2.js"
+    },
+    {
+      "type": "script",
+      "key": "CharMamangResultV2",
+      "url": "assets/canvas/prefabs/characters/CharMamangResultV2.js"
+    },
+    {
+      "type": "script",
+      "key": "FlowingLetterV1",
+      "url": "assets/canvas/prefabs/etcObjects/FlowingLetterV1.js"
+    },
+    {
+      "type": "image",
+      "key": "BackImg8_bg1",
+      "url": "assets/images/BackImg8_bg1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg8_bg2",
+      "url": "assets/images/BackImg8_bg2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg8_bg3",
+      "url": "assets/images/BackImg8_bg3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg8_wallL",
+      "url": "assets/images/BackImg8_wallL.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg8_wallR",
+      "url": "assets/images/BackImg8_wallR.png",
+      "overwrite": false
+    }
+  ],
+  "meta": {
+    "generated": "1564366707119",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "CharYayaIngameV1",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "BaseCharacterIngame",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "f169e301-7cd0-4e8e-abf7-2e986ebf11cc",
+    "info": {
+      "editorName": "CharYayaIngameV1",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "3f20228e-5d91-4dad-9a69-2c0d0b29dd69",
+        "asset": "0",
+        "info": {
+          "editorName": "char_yayaSheet1",
+          "anchor.x": 0.55,
+          "anchor.y": 0.9,
+          "animations": [
+            {
+              "name": "IDLE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "0",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ]
+            },
+            {
+              "name": "JUMP_IDLE",
+              "frameRate": 8,
+              "frames": ["0"]
+            },
+            {
+              "name": "JUMP",
+              "frameRate": 8,
+              "frames": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "12",
+                "13",
+                "14",
+                "13",
+                "14",
+                "13"
+              ]
+            },
+            {
+              "name": "JUMP_LANDING",
+              "frameRate": 8,
+              "frames": [
+                "31",
+                "32"
+              ]
+            },
+            {
+              "name": "DROP_IDLE",
+              "frameRate": 8,
+              "loop": true,
+              "frames": [
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20"
+              ]
+            },
+            {
+              "name": "DROP",
+              "frameRate": 8,
+              "frames": [
+                "20",
+                "21",
+                "22",
+                "23",
+                "23",
+                "23",
+                "23"
+              ]
+            },
+            {
+              "name": "APPEAR_IDLE",
+              "frameRate": 8,
+              "frames": [
+                "24",
+                "25",
+                "26",
+                "27",
+                "28"
+              ]
+            },
+            {
+              "name": "APPEAR",
+              "frameRate": 8,
+              "frames": [
+                "29",
+                "30",
+                "29",
+                "30",
+                "29",
+                "30",
+                "29",
+                "30",
+                "29",
+                "30"
+              ]
+            },
+            {
+              "name": "APPEAR_LANDING",
+              "frameRate": 8,
+              "frames": [
+                "32",
+                "31",
+                "0"
+              ]
+            }
+          ],
+          "body": {
+            "type": "ARCADE_RECT",
+            "offsetY": 29.337059400975704,
+            "width": 201,
+            "height": 80.9990993514657
+          }
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "char_yayaSheet1",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

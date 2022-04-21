@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <meta charset="UTF-8" />
+  <!--
+<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1.0,minimum-scale=0,user-scalable=no, target-densitydpi=medium-dpi">
+-->
+  <meta name=viewport content="maximum-scale=1.0, minimum-scale=0.5, width=device-width" />
+
+  <title>동전쌓기 | 한컴타자</title>
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <script src="scripts/Common/Setting/env.js"></script>
+  <script src="scripts/Common/Setting/confinfo.js"></script>
+  <script src="scripts/Library/phaser.min.js"></script>
+  <script src="scripts/Library/socket.js"></script>
+  <script src="scripts/Library/jquery.min.js"></script>
+  <script src="scripts/Library/aes.js"></script>
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script> -->
+  <!-- <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script> -->
+  <script src="scripts/Common/Const/GameConst.js"></script>
+  <script src="scripts/Common/Helper/GameUtil.js"></script>
+  <script src="scripts/Common/Helper/Singleton.js"></script>
+  <script src="scripts/Common/Setting/Platform.js"></script>
+  <script src="scripts/Common/Setting/Config.js"></script>
+  <script src="scripts/Game/BaseClass/BaseCharacterIngame.js"></script>
+  <script src="scripts/Game/BaseClass/BaseCharacterResult.js"></script>
+  <script src="scripts/Game/Info/GameData.js"></script>
+  <script src="scripts/Game/Manager/GameStateManager.js"></script>
+  <script src="scripts/Game/Manager/SocketManager.js"></script>
+  <script src="scripts/Game/Manager/AjaxManager.js"></script>
+  <script src="scripts/Game/Manager/SoundManager.js"></script>
+  <script src="assets/canvas/scenes/Boot.js"></script>
+  <script src="assets/canvas/scenes/Preloader.js"></script>
+  <script src="assets/canvas/scenes/MenuV2.js"></script>
+  <script src="assets/canvas/scenes/levels/Level1.js"></script>
+  <script src="assets/canvas/scenes/levels/SingleLevel1.js"></script>
+  <!-- <script src="assets/canvas/scenes/levels/RegameV1.js"></script> -->
+  <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+  <style>
+    body {
+      background: black;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+</head>
+
+<body oncontextmenu='return false'>
+  <form name="form1" method="post">
+    <input type="hidden" name="session_id" value="testad">
+  </form>
+
+
+  <!-- 
+  <div style="position:fixed;width:610px;height:0px;background:#000;top:0px;z-index:10;"></div>
+  <div class="TajaBack" id="tajaBackground"></div>
+  <div class="TajaControl">
+    	<input type="text" id="tajaTyping" size="20" >
+ </div>
+ -->
+
+  <!--
+ 	<div id="c1-textBox" style="width:50px;height:600px;position:absolute;z-index:2">				
+	
+		<div class="TajaBack" id="tajaBackground"></div>
+        <div class="textbox c1-pos1">
+            <textarea id="tajaTyping" oninput="textAreaOnInput('1', this);" class="c1-textarea "></textarea>
+        </div>
+		
+    </div>
+    -->
+
+  <div style="position:fixed;width:700px;height:0px;background:#000;top:0px;z-index:10;"></div>
+  <div class="OtherTajaBack" id="otherTajaBackground" style="width:100%; margin:auto"> </div>
+  <div class="passwordTajaBack" id="passwordTajaBackground" style="width:100%; margin:auto"> </div>
+  <div class="UserTajaBack" id="userTajaBackground" style="width:100%; margin:auto"> </div>
+
+  <!--
+ <div id="layer" style="z-index: 100; position: fixed; top: 0; left: 0; width: 100%; height: 80%; background-color: rgba(0, 0, 0, 0.5);">
+ 	<button id="e-button">버튼</button>
+ </div>
+ 
+ <script>
+ 	$(document).ready(function() {
+ 		$('#e-button').click(function() {
+ 			$('#layer').remove();
+ 			$('canvas').focus();
+ 		});
+ 	});
+ </script>
+ -->
+
+  <script type='text/javascript'>
+    Kakao.init('ce15cf36a2d0aa297f5d92541e1c53df'); // test
+
+    function sendLink() {
+      Kakao.Link.sendDefault({
+        objectType: 'feed',
+        content: {
+          title: '동전쌓기',
+          description: mKakaoUserNickname + "님이 한컴타자 동전쌓기에서 " + mKakaoVsMyWinCount + '승을 달성했어요!',
+          imageUrl: 'https://cdn.malangmalang.com/typing/images/CoinTempleteImg.png',
+          link: {
+            mobileWebUrl: 'https://dev-typing-m.malangmalang.com/game/coin',
+            webUrl: 'https://typing.malangmalang.com/games/piling-coins'
+          }
+        },
+        social: {
+
+        },
+        buttons: [{
+          title: '웹으로 보기',
+          link: {
+            mobileWebUrl: 'https://dev-typing-m.malangmalang.com/game/coin',
+            webUrl: 'https://typing.malangmalang.com/games/piling-coins'
+          }
+        }]
+      });
+    }
+  </script>
+
+
+</body>
+
+</html>
