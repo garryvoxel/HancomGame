@@ -1,0 +1,14 @@
+{
+    "name": "SetCoinServer2",
+    "script": "./app.js",
+    "merge_logs": true,
+    "out_file": "../../logs/SetCoinServer2-dev-pm2-default.log",
+    "error_file": "../../logs/SetCoinServer2-dev-pm2-error.log",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "instances": "1",
+    "max_memory_restart": "128M",    
+    "exec_mode": "cluster",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}

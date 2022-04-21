@@ -1,0 +1,16 @@
+{
+    "SETCOIN_ROOM_NUMBER": {
+        "HOST": "localhost",
+        "PORT": 6379,
+        "DB": 7,
+        "KEY1": "SETCOIN_ROOM_NUMBER",
+        "MAX_ROOM_NUMBER": 1000
+    },
+    "SETCOIN_ROOM_LIST": {
+        "HOST": "localhost",
+        "PORT": 6379,
+        "DB": 1,
+        "KEY1": "SETCOIN_ROOM_LIST",
+        "KEY2": "SETCOIN"
+    }
+}
