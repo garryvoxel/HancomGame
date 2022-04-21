@@ -1,0 +1,18 @@
+{
+    "API_SERVER_HOST":"dev-api.malangmalang.com",
+    "API_SERVER_PORT":443,
+
+
+    "SERVER_PORT":7331,    
+    "ROOM_SERVER_HOST":"127.0.0.1",
+    "ROOM_SERVER_PORT":7645,
+    "ROOM_MAX":100,
+    "USER_MAX":100,
+
+    "CHECK_ROOM_TIME":1000,
+    
+
+    "SERVER_DNS":"dev-tt-coin-rt-1.malangmalang.com",
+    "SERVER_IDX":1
+}
+
