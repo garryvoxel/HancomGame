@@ -1,0 +1,950 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Menu",
+    "sceneWidth": 720,
+    "sceneHeight": 800,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      128,
+      128,
+      255
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "af8eb0de-599e-428d-94f8-09d75318f8b7",
+    "info": {
+      "editorName": "Menu",
+      "setAll": [],
+      "children": [
+        {
+          "type": "group",
+          "id": "3ca2b0e6-a790-40eb-bdc5-c4c8ac8de13c",
+          "info": {
+            "editorName": "StageInfoPopup",
+            "setAll": [],
+            "children": [
+              {
+                "type": "group",
+                "id": "75f7c754-17a3-40d9-9f0e-67f0c28b8e4b",
+                "info": {
+                  "editorName": "Stage",
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "image",
+                      "id": "26f973f0-c399-40d3-8ab1-d609beb20b35",
+                      "asset": "0",
+                      "info": {"editorName": "StageSelectBack"}
+                    },
+                    {
+                      "type": "button",
+                      "id": "35ac8837-f006-45a5-bc9d-a5dac258f88c",
+                      "asset": "1",
+                      "info": {
+                        "editorName": "BtnSheetExit",
+                        "x": 255,
+                        "y": 687,
+                        "overFrame": "1",
+                        "downFrame": "2",
+                        "upFrame": "0"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "f76e7e2e-6fb4-40ab-9048-e58b28d07f87",
+                      "asset": "2",
+                      "info": {
+                        "editorName": "StageSelectThema",
+                        "x": 58,
+                        "y": 152
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "c886fef3-b1a5-4d78-bfb9-15735447ffda",
+                      "asset": "3",
+                      "info": {
+                        "editorName": "BtnSheetLArrow",
+                        "x": 17,
+                        "y": 359,
+                        "overFrame": "1",
+                        "downFrame": "2",
+                        "upFrame": "0"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "48a23d44-855f-4fa9-8ca3-b9a573549edd",
+                      "asset": "4",
+                      "info": {
+                        "editorName": "BtnSheetRArrow",
+                        "x": 609,
+                        "y": 359,
+                        "overFrame": "1",
+                        "downFrame": "2",
+                        "upFrame": "0"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "12f7d175-998c-471f-bcd7-e89ca91f96e4",
+                      "asset": "5",
+                      "info": {
+                        "editorName": "StageSelectTitle",
+                        "x": 210,
+                        "y": 14
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "d5ce089f-3710-4b87-b6e0-714727e314ae",
+                      "asset": "6",
+                      "info": {
+                        "editorName": "BtnSheetVol",
+                        "x": 16,
+                        "y": 10,
+                        "overFrame": "1",
+                        "downFrame": "2",
+                        "upFrame": "0"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "2df60471-ec78-4c83-af0c-685630695e00",
+                      "asset": "7",
+                      "info": {
+                        "editorName": "BtnSheetHelp",
+                        "x": 596,
+                        "y": 10,
+                        "overFrame": "1",
+                        "downFrame": "2",
+                        "upFrame": "0"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "image",
+                "id": "5ff34335-b2d4-4382-a9e8-861b395101c3",
+                "asset": "8",
+                "info": {"editorName": "PopupTransBack"}
+              },
+              {
+                "type": "button",
+                "id": "d59c3702-b0c4-41d4-81e7-767caf409fc4",
+                "asset": "9",
+                "info": {
+                  "editorName": "BtnSheetGo",
+                  "x": 150,
+                  "y": 647,
+                  "overFrame": "1",
+                  "downFrame": "2",
+                  "upFrame": "0"
+                }
+              },
+              {
+                "type": "button",
+                "id": "40f1183d-3536-4368-82e3-170441d16ee1",
+                "asset": "1",
+                "info": {
+                  "editorName": "ShageInfoBtnSheetExit",
+                  "x": 364,
+                  "y": 647,
+                  "overFrame": "1",
+                  "downFrame": "2",
+                  "upFrame": "0"
+                }
+              },
+              {
+                "type": "group",
+                "id": "65502b9b-3ca1-48e7-845a-170c46a05989",
+                "info": {
+                  "editorName": "StageInfo",
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "image",
+                      "id": "59344dce-f8c5-4eb4-8057-762d2216964d",
+                      "asset": "10",
+                      "info": {
+                        "editorName": "PopupStageInfoL",
+                        "x": 122,
+                        "y": 65
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "835625c0-323b-4f15-82ee-b0fd8f16a49a",
+                      "info": {
+                        "editorName": "textMissionInfo",
+                        "x": 278,
+                        "y": 461,
+                        "text": "9999점 이상의\r\n점수획득",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 28,
+                        "style.fill": "#ffffff",
+                        "style.align": "CENTER"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "a3c14b70-557d-4ea7-a26d-0af75c18880b",
+                      "info": {
+                        "editorName": "textMission",
+                        "x": 320,
+                        "y": 421,
+                        "text": "도전과제",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 24,
+                        "style.fill": "#ffc000"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "a7613519-4bfb-43bf-a27d-fa78ce747fe7",
+                      "info": {
+                        "editorName": "textHighScoreNum",
+                        "x": 318,
+                        "y": 343,
+                        "text": "1234점",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 28,
+                        "style.fill": "#ffffff",
+                        "style.align": "CENTER"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "62116b41-bdd1-415c-bc69-d76ca342f8c1",
+                      "info": {
+                        "editorName": "textHighScore",
+                        "x": 321,
+                        "y": 304,
+                        "text": "최고점수",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 24,
+                        "style.fill": "#ffc000"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "20be3ad3-0c96-4f0a-bb9f-7d62226c2208",
+                      "info": {
+                        "editorName": "textStageLine",
+                        "x": 261,
+                        "y": 220,
+                        "text": "STAGE",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 44,
+                        "style.fill": "#ffffff",
+                        "style.stroke": "#710725",
+                        "style.strokeThickness": 4
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "2746b7c6-4d8e-4607-9754-c2aaed21597b",
+                      "info": {
+                        "editorName": "textStage",
+                        "x": 263,
+                        "y": 220,
+                        "text": "STAGE",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 44,
+                        "style.fill": "#ffffff"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "b4e64d38-46a7-47ef-aa0b-048ee7bcb5cd",
+                      "info": {
+                        "editorName": "textStageNumLine",
+                        "x": 405,
+                        "y": 218,
+                        "text": "16",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 44,
+                        "style.fill": "#ffffff",
+                        "style.stroke": "#710725",
+                        "style.strokeThickness": 4
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "18457203-b67f-4a57-8311-8e4fc39be8fb",
+                      "info": {
+                        "editorName": "textStageNum",
+                        "x": 407,
+                        "y": 220,
+                        "text": "16",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 44,
+                        "style.fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "id": "9fc71324-6834-4a3b-8c61-ce7fc4434026",
+                "info": {
+                  "editorName": "StageInfoS",
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "image",
+                      "id": "aae8bf09-add1-4b4c-bf1e-183b5796e2c9",
+                      "asset": "11",
+                      "info": {
+                        "editorName": "PopupStageInfoS",
+                        "x": 122,
+                        "y": 72
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "a29b6755-d7b4-44dd-985b-58d3e71703ee",
+                      "info": {
+                        "editorName": "textHighScoreNumS",
+                        "x": 318,
+                        "y": 353,
+                        "text": "1234점",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 28,
+                        "style.fill": "#ffffff",
+                        "style.align": "CENTER"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "50d1dd15-1ca5-4c09-85d7-2b77e3aea896",
+                      "info": {
+                        "editorName": "textHighScoreS",
+                        "x": 321,
+                        "y": 314,
+                        "text": "최고점수",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 24,
+                        "style.fill": "#ffc000"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "30b9640d-91f5-4336-8ba7-8c6b19fe7821",
+                      "info": {
+                        "editorName": "textStageLineS",
+                        "x": 261,
+                        "y": 220,
+                        "text": "STAGE",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 44,
+                        "style.fill": "#ffffff",
+                        "style.stroke": "#710725",
+                        "style.strokeThickness": 4
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "867aaf25-0e41-47ab-972e-83aa4cd13010",
+                      "info": {
+                        "editorName": "textStageS",
+                        "x": 263,
+                        "y": 220,
+                        "text": "STAGE",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 44,
+                        "style.fill": "#ffffff"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "99fe4664-711b-4607-b94f-1a22d836acc5",
+                      "info": {
+                        "editorName": "textStageNumLineS",
+                        "x": 405,
+                        "y": 218,
+                        "text": "16",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 44,
+                        "style.fill": "#ffffff",
+                        "style.stroke": "#710725",
+                        "style.strokeThickness": 4
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "3d263ce8-461c-41ae-ac29-7c525cc93fb0",
+                      "info": {
+                        "editorName": "textStageNumS",
+                        "x": 407,
+                        "y": 220,
+                        "text": "16",
+                        "style.font": "배달의민족 주아",
+                        "style.fontSize": 44,
+                        "style.fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "id": "33877423-5c83-4194-9d6b-f3009b6c5cee",
+          "info": {
+            "editorName": "text",
+            "x": 332,
+            "y": 292,
+            "text": "Click to start..."
+          }
+        },
+        {
+          "type": "group",
+          "id": "8834b74e-dd2f-4a37-832f-c0465c7c8160",
+          "info": {
+            "editorName": "ItemPopup",
+            "setAll": [],
+            "children": [{
+              "type": "group",
+              "id": "b33c28d1-1922-4602-8d7c-7668a8abc7a5",
+              "info": {
+                "editorName": "NewItem",
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "0487ee86-fe53-4c4c-8b15-e25b58b133cf",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "TransBackNI",
+                      "editorPick": false
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "ca17b363-bb9f-41e4-a0ef-6acd90c81890",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "NewItemPanel",
+                      "x": 106,
+                      "y": 111
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "bda85f83-c688-42a6-a444-948fece0a2a6",
+                    "info": {
+                      "editorName": "ContentTextOutline",
+                      "x": 203,
+                      "y": 346,
+                      "text": "이제부터 [폭탄] 아이템이\r\n등장합니다.\r\n\r\n[폭탄]\r\n화면상 모든 단어 제거",
+                      "style.font": "나눔바른고딕",
+                      "style.fontSize": 30,
+                      "style.fill": "#75daff",
+                      "style.stroke": "#75daff",
+                      "style.strokeThickness": 4,
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "62a64820-6da3-4a99-9794-94921bf6d348",
+                    "info": {
+                      "editorName": "ContentText",
+                      "x": 206,
+                      "y": 346,
+                      "text": "이제부터 [폭탄] 아이템이\r\n등장합니다.\r\n\r\n[폭탄]\r\n화면상 모든 단어 제거",
+                      "style.font": "나눔바른고딕",
+                      "style.fontSize": 30,
+                      "style.fill": "#103d5f",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "e3065629-ad47-45c0-83a8-5a95950fafbd",
+                    "asset": "14",
+                    "info": {
+                      "editorName": "NewItemPanelSlot",
+                      "x": 297,
+                      "y": 218
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "f098933b-63d0-48ba-befb-6978e21ba10f",
+                    "asset": "15",
+                    "info": {
+                      "editorName": "TitleNewItem",
+                      "x": 237,
+                      "y": 159
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "45c2017e-45e8-4c3f-b8f7-e6b589ffc887",
+                    "asset": "16",
+                    "info": {
+                      "editorName": "PopupBtnExit",
+                      "x": 490,
+                      "y": 94,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "bb236c87-8e1e-462e-a7f5-b24663382760",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "BItemIconPos",
+                      "x": 307,
+                      "y": 228
+                    }
+                  }
+                ]
+              }
+            }]
+          }
+        },
+        {
+          "type": "group",
+          "id": "34a3bbe0-7ffd-4b98-b08f-a7e8d4e232e5",
+          "info": {
+            "editorName": "VolCotrolGroup",
+            "setAll": [],
+            "children": [
+              {
+                "type": "image",
+                "id": "8db81172-80ca-452c-855d-2b334bd71d37",
+                "asset": "12",
+                "info": {"editorName": "VolControlBack"}
+              },
+              {
+                "type": "image",
+                "id": "d49c6157-9b76-42a4-9a8b-2631ec1f813f",
+                "asset": "18",
+                "info": {
+                  "editorName": "PopPanelVolControl",
+                  "x": 110,
+                  "y": 221
+                }
+              },
+              {
+                "type": "group",
+                "id": "500cc70d-ed18-4642-b767-586bd4b718f7",
+                "info": {
+                  "editorName": "VolESGroup",
+                  "y": 98,
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "button",
+                      "id": "5019a51a-5fce-434e-920a-666af95e45f4",
+                      "asset": "19",
+                      "info": {
+                        "editorName": "PanelMuteCheckES",
+                        "x": 176,
+                        "y": 349
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "395afe6f-5ee8-4118-910c-a9b54517abf4",
+                      "asset": "20",
+                      "info": {
+                        "editorName": "MuteCheckES",
+                        "x": 171,
+                        "y": 346
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "4f39738e-d1ac-45a1-b622-b47ecae20eac",
+                      "asset": "21",
+                      "info": {
+                        "editorName": "STitleSoundMuteES",
+                        "x": 160,
+                        "y": 314
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "90cd66c1-622f-4cf6-a6f8-7fd4d5c0a0c3",
+                      "asset": "22",
+                      "info": {
+                        "editorName": "BarSetGaugeBackES",
+                        "x": 308,
+                        "y": 361
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "5c7f1eb6-e4db-43cf-9ccd-db3ce9a73105",
+                      "asset": "23",
+                      "info": {
+                        "editorName": "BtnSetGaugePointerES",
+                        "x": 343,
+                        "y": 344
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "886881c8-a9ae-4fc2-bcc4-9a6a77d5325b",
+                      "asset": "24",
+                      "info": {
+                        "editorName": "BtnArrowSetLES",
+                        "x": 263,
+                        "y": 344,
+                        "overFrame": "0",
+                        "downFrame": "1",
+                        "upFrame": "0"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "44944a34-86ef-4588-9bb8-6225b2d83075",
+                      "asset": "25",
+                      "info": {
+                        "editorName": "BtnArrowSetRES",
+                        "x": 524,
+                        "y": 344,
+                        "overFrame": "0",
+                        "downFrame": "1",
+                        "upFrame": "0"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "2297704f-8295-4e3d-ba6f-fd7f5f786858",
+                      "asset": "26",
+                      "info": {
+                        "editorName": "STitleEffSound",
+                        "x": 376,
+                        "y": 313
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "id": "0b2271f0-0799-4389-b0bc-9bf253b32d46",
+                "info": {
+                  "editorName": "VolBGGroup",
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "button",
+                      "id": "9f0c928e-5415-4a93-a8a0-58da8859d404",
+                      "asset": "19",
+                      "info": {
+                        "editorName": "PanelMuteCheckBG",
+                        "x": 176,
+                        "y": 349
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "cb8ebbf0-da0b-4691-a5d9-e5a6d92158fd",
+                      "asset": "20",
+                      "info": {
+                        "editorName": "MuteCheckBG",
+                        "x": 171,
+                        "y": 346
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "efee3734-2911-4b8e-a605-0edf4697bd70",
+                      "asset": "21",
+                      "info": {
+                        "editorName": "STitleSoundMuteBG",
+                        "x": 160,
+                        "y": 314
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "fdb10fd8-f3e4-4aa4-bdc3-a219cce32147",
+                      "asset": "22",
+                      "info": {
+                        "editorName": "BarSetGaugeBackBG",
+                        "x": 308,
+                        "y": 361
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "bd0c724c-1336-4ecc-9fde-b0622f6b3600",
+                      "asset": "23",
+                      "info": {
+                        "editorName": "BtnSetGaugePointerBG",
+                        "x": 343,
+                        "y": 344
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "9500ce66-0dd7-49e8-a2d9-1d9020072d4f",
+                      "asset": "24",
+                      "info": {
+                        "editorName": "BtnArrowSetLBG",
+                        "x": 263,
+                        "y": 344,
+                        "overFrame": "0",
+                        "downFrame": "1",
+                        "upFrame": "0"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "c3b20876-6f61-43ce-a1d4-62dc06855323",
+                      "asset": "25",
+                      "info": {
+                        "editorName": "BtnArrowSetRBG",
+                        "x": 524,
+                        "y": 344,
+                        "overFrame": "0",
+                        "downFrame": "1",
+                        "upFrame": "0"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "480e7357-ba1e-4fc6-a77e-429f6a0e0f2f",
+                      "asset": "27",
+                      "info": {
+                        "editorName": "STitleBGM",
+                        "x": 366,
+                        "y": 314
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "image",
+                "id": "8c369b84-34e2-40b4-b638-dba91fd89134",
+                "asset": "28",
+                "info": {
+                  "editorName": "VolControlTitle",
+                  "x": 284,
+                  "y": 250
+                }
+              },
+              {
+                "type": "button",
+                "id": "8af0f47c-2b56-4043-ade2-6243b38cc385",
+                "asset": "29",
+                "info": {
+                  "editorName": "PopupPanelBtnX",
+                  "x": 492,
+                  "y": 198,
+                  "overFrame": "1",
+                  "downFrame": "2",
+                  "upFrame": "0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "StageSelectBack"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetExit",
+      "sprite": "0"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "StageSelectThema1"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetLArrow",
+      "sprite": "0"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetRArrow",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "StageSelectTitle"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetVol",
+      "sprite": "0"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetHelp",
+      "sprite": "0"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupTransBack"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetGo",
+      "sprite": "0"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupStageInfoL"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupStageInfoS"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIResultBack"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "NewItemPanel"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "NewItemPanelSlot"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "TitleNewItem"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupBtnExit",
+      "sprite": "0"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BItemIcon1"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopPanelVolControl"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PanelMuteCheck"
+    },
+    "20": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "MuteCheck"
+    },
+    "21": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "STitleSoundMute"
+    },
+    "22": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BarSetGaugeBack"
+    },
+    "23": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSetGaugePointer",
+      "sprite": "0"
+    },
+    "24": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnArrowSetL",
+      "sprite": "0"
+    },
+    "25": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnArrowSetR",
+      "sprite": "0"
+    },
+    "26": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "STitleEffSound"
+    },
+    "27": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "STitleBGM"
+    },
+    "28": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "VolControlTitle"
+    },
+    "29": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupPanelBtnX",
+      "sprite": "0"
+    }
+  },
+  "prefab-table": {}
+}

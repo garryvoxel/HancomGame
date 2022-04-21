@@ -1,0 +1,66 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabEffWhite",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "7dcd167d-72b6-4c6a-a51c-f46fc05077e5",
+    "info": {
+      "editorName": "PrefabEffWhite",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "5b58756e-4603-4859-a559-1afb5b134896",
+        "asset": "0",
+        "info": {
+          "editorName": "EffShockAreaW",
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 10,
+            "frames": [
+              "0",
+              "1"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "EffShockAreaW",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

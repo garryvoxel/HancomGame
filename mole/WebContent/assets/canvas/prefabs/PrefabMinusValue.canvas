@@ -1,0 +1,75 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabMinusValue",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e7de0ba1-47c7-4c88-b49d-2d34f4a23b77",
+    "info": {
+      "editorName": "PrefabMinusValue",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "f59d8f90-45a5-4459-9c1c-ab85a6a8a271",
+        "asset": "0",
+        "info": {
+          "editorName": "Minus1000",
+          "anchor.x": 0.5,
+          "anchor.y": 0.85,
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 20,
+            "frames": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "Minus1000",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

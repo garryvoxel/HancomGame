@@ -1,0 +1,131 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabCharMamangV2",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "52da76ff-9835-44ff-be6f-d18601ce8889",
+    "info": {
+      "editorName": "PrefabCharMamangV2",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "56aae5f3-e99c-42d9-ac63-d3b1e10d7d02",
+        "asset": "0",
+        "info": {
+          "editorName": "CharMamangSheetV2",
+          "anchor.x": 0.5,
+          "anchor.y": 0.76,
+          "animations": [
+            {
+              "name": "UP",
+              "frameRate": 10,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ]
+            },
+            {
+              "name": "IDLE",
+              "frameRate": 10,
+              "loop": true,
+              "frames": [
+                "6",
+                "7",
+                "8",
+                "9",
+                "9",
+                "8",
+                "7",
+                "10",
+                "11",
+                "11",
+                "10",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            },
+            {
+              "name": "DOWN",
+              "frameRate": 10,
+              "frames": [
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18"
+              ]
+            },
+            {
+              "name": "HIT",
+              "frameRate": 10,
+              "frames": [
+                "19",
+                "20",
+                "19",
+                "20",
+                "19",
+                "21"
+              ]
+            },
+            {
+              "name": "HIT_DOWN",
+              "frameRate": 10,
+              "frames": [
+                "21",
+                "22",
+                "23"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharMamangSheetV2",
+    "sprite": "6"
+  }},
+  "prefab-table": {}
+}

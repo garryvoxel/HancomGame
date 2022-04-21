@@ -1,0 +1,643 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Jin_Share",
+    "sceneWidth": 720,
+    "sceneHeight": 800,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      255,
+      255,
+      255
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "5af18189-0bfd-48d5-9e9d-393d09278c85",
+    "info": {
+      "editorName": "Jin_Share",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "b047335f-fc4b-421a-b2ef-426fec4633d0",
+        "info": {
+          "editorName": "root",
+          "setAll": [],
+          "children": [
+            {
+              "type": "group",
+              "id": "cea796b2-cb56-4708-9641-26084590acc8",
+              "info": {
+                "editorName": "ResultFail",
+                "editorShow": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "47458fe3-dcd7-4768-ae9e-296a7c1e75ee",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "TransBackRF",
+                      "editorPick": false
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "1e1185a4-02fa-4c3b-acd1-8cf77fd5d23e",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "ResultPanelFail",
+                      "x": 146,
+                      "y": 163
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "0515f74b-c598-49db-9ef9-d7c0436c3555",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "ResultBtnYes",
+                      "x": 148,
+                      "y": 548,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "1461ff2e-c018-4033-88d8-2b29fc51069d",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "ResultBtnNo",
+                      "x": 362,
+                      "y": 548,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "c44bb407-de94-4db7-b4c3-522a84cab467",
+                    "info": {
+                      "editorName": "TextLineRF",
+                      "x": 203,
+                      "y": 349,
+                      "text": "재도전 하시겠습니까?",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#ffb5b5",
+                      "style.stroke": "#ffb5b5",
+                      "style.strokeThickness": 6
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "70d5d3f8-ecdd-4062-8641-ad29db4f4032",
+                    "info": {
+                      "editorName": "TextRF",
+                      "x": 206,
+                      "y": 349,
+                      "text": "재도전 하시겠습니까?",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#491d28"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "3862d11a-5478-453f-a4c6-1988f5ccbe6f",
+              "info": {
+                "editorName": "ResultSucessM",
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "34a4adf5-29a7-4665-865a-2a95599f9b3f",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "TransBackRM",
+                      "editorPick": false
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "7b2b13e9-8843-40e8-b0a3-ccb3c79a21f4",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "ResultBtnContinueRM",
+                      "x": 148,
+                      "y": 648,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "6e12759a-7297-4ab2-a4a7-cd3aa57f8f4d",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "ResultBtnExitRM",
+                      "x": 362,
+                      "y": 648,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "441ee9b7-9a2f-4633-beb5-bad5aa6c1935",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "ResultPanelSucessRM",
+                      "x": 122,
+                      "y": 98
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "a7881aba-243f-4471-bfc9-f65b4e06b7cc",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "ResultBtnKakaoRM",
+                      "x": 173,
+                      "y": 504,
+                      "overFrame": "0",
+                      "downFrame": "1",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "870d436a-0c41-43b7-bc33-036c272a7cda",
+                    "asset": "8",
+                    "info": {
+                      "editorName": "ResultBtnFaceRM",
+                      "x": 378,
+                      "y": 504,
+                      "overFrame": "0",
+                      "downFrame": "1",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "4b7e8a30-c339-4ef8-b405-3c1f5eb3c62e",
+                    "asset": "9",
+                    "info": {
+                      "editorName": "ResultInfoMission",
+                      "x": 162,
+                      "y": 122
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "900a1ff2-bce1-47c7-a687-3d8dbbc8a400",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "ResultInfoBarRM",
+                      "x": 246,
+                      "y": 387
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "5fbfc81f-3d5c-43cc-8164-3a6e50f41dba",
+                    "info": {
+                      "editorName": "TextPointRM",
+                      "x": 273,
+                      "y": 395,
+                      "text": "55000점",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 45,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "e352c4ba-c992-483f-aea1-c707e76ef9d5",
+                    "info": {
+                      "editorName": "TextStageNumLineRM",
+                      "x": 330,
+                      "y": 336,
+                      "text": "99",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#77e6ff",
+                      "style.stroke": "#77e6ff",
+                      "style.strokeThickness": 6,
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "8b964018-d274-4465-9d56-8d032bbd25db",
+                    "info": {
+                      "editorName": "TextStageNumRM",
+                      "x": 333,
+                      "y": 335,
+                      "text": "99",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#103d5f",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "363e52ff-85b9-4bbd-8646-8cccffa452f5",
+                    "info": {
+                      "editorName": "textLineRM",
+                      "x": 196,
+                      "y": 335,
+                      "text": "STAGE        획득점수",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#77e6ff",
+                      "style.stroke": "#77e6ff",
+                      "style.strokeThickness": 6
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "e764dff7-db81-468b-8db9-26bac182605e",
+                    "info": {
+                      "editorName": "textRM",
+                      "x": 199,
+                      "y": 334,
+                      "text": "STAGE        획득점수",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#103d5f"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "9efd74a1-36a7-4c0f-bdc4-eb11ee27aa43",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "ResultStarPanelM",
+                      "x": 276,
+                      "y": 28
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "103d9db4-c0e7-45cc-8434-eca472b774a2",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "ResultStarM",
+                      "x": 290,
+                      "y": 30
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "8ec63331-8a43-4a06-8f4f-3ddf1d2b4b69",
+              "info": {
+                "editorName": "ResultSucess",
+                "editorShow": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "4c016a15-f753-47f7-b39f-581ac1ea1590",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "TransBackRS",
+                      "editorPick": false
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "f4cab89d-b52f-4fc1-be6f-08bbe39c5ae4",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "ResultBtnContinueRS",
+                      "x": 148,
+                      "y": 648,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "2e9b8acf-f256-470b-92db-e9659767dad8",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "ResultBtnExitRS",
+                      "x": 362,
+                      "y": 648,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "e87cbdf1-52e2-45fb-976f-7ba6aa7d8eb9",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "ResultPanelSucessRS",
+                      "x": 122,
+                      "y": 98
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "59d9d992-2bad-4718-8854-f07a1d0b521a",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "ResultBtnKakaoRS",
+                      "x": 173,
+                      "y": 504,
+                      "overFrame": "0",
+                      "downFrame": "1",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "6d4d8aae-0c38-4ba5-bc24-17f8de119b4f",
+                    "asset": "8",
+                    "info": {
+                      "editorName": "ResultBtnFaceRS",
+                      "x": 378,
+                      "y": 504,
+                      "overFrame": "0",
+                      "downFrame": "1",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "63717860-1ed1-4fe3-9b0a-af474f00b474",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "ResultInfoMComplete",
+                      "x": 198,
+                      "y": 123
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "6091e9e7-c001-4eb7-9431-ce2a59e8df7c",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "ResultInfoBarRS",
+                      "x": 246,
+                      "y": 387
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "f6ee0de5-9640-436d-893e-dc927ab9cb45",
+                    "info": {
+                      "editorName": "TextPointRS",
+                      "x": 273,
+                      "y": 395,
+                      "text": "55000점",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 45,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "fea0faa8-d3f6-4299-bdc2-ee93d10749a7",
+                    "info": {
+                      "editorName": "TextStageNumLineRS",
+                      "x": 330,
+                      "y": 336,
+                      "text": "99",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#77e6ff",
+                      "style.stroke": "#77e6ff",
+                      "style.strokeThickness": 6,
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "ac5e5d2f-0717-47b0-a145-58eb57681793",
+                    "info": {
+                      "editorName": "TextStageNumRS",
+                      "x": 333,
+                      "y": 335,
+                      "text": "99",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#103d5f",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "bec3d53d-4c82-477b-8051-0b7e3c975135",
+                    "info": {
+                      "editorName": "textLineRS",
+                      "x": 196,
+                      "y": 335,
+                      "text": "STAGE        획득점수",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#77e6ff",
+                      "style.stroke": "#77e6ff",
+                      "style.strokeThickness": 6
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "d04db702-502f-4903-8dc4-efad88b3fccf",
+                    "info": {
+                      "editorName": "textRS",
+                      "x": 199,
+                      "y": 334,
+                      "text": "STAGE        획득점수",
+                      "style.font": "배달의민족 주아",
+                      "style.fontSize": 38,
+                      "style.fill": "#103d5f"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "351143f2-a206-406e-9b3e-9fb0b9d4c380",
+                    "asset": "14",
+                    "info": {
+                      "editorName": "ResultStarPanelN",
+                      "x": 217,
+                      "y": 38
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "8d3ca39c-b751-4089-b889-246cf14449e7",
+                    "asset": "15",
+                    "info": {
+                      "editorName": "UIResultPanelStar1",
+                      "x": 226,
+                      "y": 90
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "f4c20fd6-57a5-4c55-984f-9717a3976f83",
+                    "asset": "16",
+                    "info": {
+                      "editorName": "UIResultPanelStar2",
+                      "x": 303,
+                      "y": 45
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "5ac7f099-9dcd-48e7-8f33-41c1d328fc16",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "UIResultPanelStar3",
+                      "x": 399,
+                      "y": 89
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIResultBack"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultPanelFail"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultBtnYes",
+      "sprite": "0"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultBtnNo",
+      "sprite": "0"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultBtnContinue",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetExit",
+      "sprite": "0"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultPanelSucess"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultBtnKakao",
+      "sprite": "0"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultBtnFace",
+      "sprite": "0"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultInfoMission"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultInfoBar"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultStarPanelM"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultStarM"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultInfoCoin"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ResultStarPanelN"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIResultPanelStar2"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIResultPanelStar1"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIResultPanelStar3"
+    }
+  },
+  "prefab-table": {}
+}

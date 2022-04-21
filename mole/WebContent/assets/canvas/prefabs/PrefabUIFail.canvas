@@ -1,0 +1,59 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabUIFail",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e4c37e3e-790a-46be-a98c-a54881ca218a",
+    "info": {
+      "editorName": "PrefabUIFail",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "09b6af61-ac7c-4fee-b81a-e2f9e25b6acc",
+        "asset": "0",
+        "info": {
+          "editorName": "UIFailPanel",
+          "anchor.x": 0.5,
+          "anchor.y": 0.4
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "UIFailPanel"
+  }},
+  "prefab-table": {}
+}

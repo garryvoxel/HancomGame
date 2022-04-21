@@ -1,0 +1,133 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabCharMoa",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "f9b066b3-3f7e-4109-8850-7cff2272339c",
+    "info": {
+      "editorName": "PrefabCharMoa",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "7fd0f61f-9870-4600-bec4-a366ddabd082",
+        "asset": "0",
+        "info": {
+          "editorName": "CharMoaSheet",
+          "anchor.x": 0.45,
+          "anchor.y": 0.83,
+          "animations": [
+            {
+              "name": "UP",
+              "frameRate": 10,
+              "frames": [
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "0"
+              ]
+            },
+            {
+              "name": "IDLE",
+              "frameRate": 10,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "1",
+                "2",
+                "3",
+                "3",
+                "4",
+                "5",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ]
+            },
+            {
+              "name": "DOWN",
+              "frameRate": 10,
+              "frames": [
+                "0",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19"
+              ]
+            },
+            {
+              "name": "HIT",
+              "frameRate": 10,
+              "frames": [
+                "27",
+                "26",
+                "27",
+                "26",
+                "27",
+                "28"
+              ]
+            },
+            {
+              "name": "HIT_DOWN",
+              "frameRate": 10,
+              "frames": [
+                "28",
+                "29",
+                "30"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "CharMoaSheet",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

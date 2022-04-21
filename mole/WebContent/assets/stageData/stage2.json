@@ -1,0 +1,24 @@
+{ "stageData" :
+{
+    "stage" : 2,
+    "bg" : 1,
+    "hammer" : 1,
+    
+
+    "char" : [
+		{"type" : 1, "per" : 40},
+        {"type" : 2, "per" : 60}
+    ],
+
+    "item" : [
+    ],
+
+    "wordSet" : [
+        {"type" : 1, "per" : 100, "data" : ["ㅏ", "ㅑ", "ㅓ", "ㅕ", "ㅗ", "ㅛ", "ㅜ", "ㅠ", "ㅡ", "ㅣ", "ㅐ", "ㅔ", "ㅒ", "ㅖ"]}
+    ],
+
+    "showTime" : {"min" : 10, "max" : 10},
+    
+    "playLimitTime" : 60
+}
+}

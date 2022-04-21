@@ -1,0 +1,259 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level",
+    "sceneWidth": 720,
+    "sceneHeight": 800,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "stageBackgroundColor": [
+      255,
+      128,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "group",
+          "id": "d48e30c7-c56e-43f8-821d-f3c80d0ec1ca",
+          "info": {
+            "editorName": "root",
+            "setAll": [],
+            "children": [
+              {
+                "type": "image",
+                "id": "02ffa96a-a91f-4e5c-a61a-4c4dacde1d46",
+                "asset": "0",
+                "info": {"editorName": "BackImg_type_1"}
+              },
+              {
+                "type": "image",
+                "id": "35be41f2-390e-4019-a553-0aa59f1aa882",
+                "asset": "1",
+                "info": {"editorName": "BackImg_typeA_1"}
+              },
+              {
+                "type": "group",
+                "id": "219c7e02-d8c2-4473-aed6-017774a025d9",
+                "info": {
+                  "editorName": "UI",
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "image",
+                      "id": "2fcea4a6-ffb4-4370-8bc6-5c74d8a2c1f5",
+                      "asset": "2",
+                      "info": {
+                        "editorName": "ui_input",
+                        "x": 170,
+                        "y": 740
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "id": "4a26c793-ff74-4dd3-9092-46bf66c32468",
+                      "asset": "3",
+                      "info": {
+                        "editorName": "ui_input_btnSheet",
+                        "x": 459,
+                        "y": 745,
+                        "overFrame": "1",
+                        "downFrame": "2",
+                        "upFrame": "3"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "f5a47d29-ba18-4b1b-8596-6cc8e0e3222c",
+          "info": {
+            "editorName": "NewItemInfoPopup",
+            "setAll": [],
+            "children": [
+              {
+                "type": "image",
+                "id": "c195ea17-0448-45e4-ab09-d83de8a4bc60",
+                "asset": "4",
+                "info": {
+                  "editorName": "TransBackNI",
+                  "editorPick": false
+                }
+              },
+              {
+                "type": "image",
+                "id": "c6c499ee-9660-4dd6-bd10-1d8cbb40e704",
+                "asset": "5",
+                "info": {
+                  "editorName": "NewItemPanel",
+                  "x": 106,
+                  "y": 111
+                }
+              },
+              {
+                "type": "text",
+                "id": "7edca9a9-8d89-4505-947a-1d172fbdf38d",
+                "info": {
+                  "editorName": "ContentTextOutline",
+                  "x": 203,
+                  "y": 346,
+                  "text": "이제부터 [폭탄] 아이템이\r\n등장합니다.\r\n\r\n[폭탄]\r\n화면상 모든 단어 제거",
+                  "style.font": "나눔바른고딕",
+                  "style.fontSize": 30,
+                  "style.fill": "#75daff",
+                  "style.stroke": "#75daff",
+                  "style.strokeThickness": 4,
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "text",
+                "id": "dbf3df0b-ca76-448b-9448-e82da4dd6b9e",
+                "info": {
+                  "editorName": "ContentText",
+                  "x": 206,
+                  "y": 346,
+                  "text": "이제부터 [폭탄] 아이템이\r\n등장합니다.\r\n\r\n[폭탄]\r\n화면상 모든 단어 제거",
+                  "style.font": "나눔바른고딕",
+                  "style.fontSize": 30,
+                  "style.fill": "#103d5f",
+                  "style.align": "CENTER"
+                }
+              },
+              {
+                "type": "image",
+                "id": "4521d620-7193-4638-be07-d9f883207d15",
+                "asset": "6",
+                "info": {
+                  "editorName": "NewItemPanelSlot",
+                  "x": 297,
+                  "y": 218
+                }
+              },
+              {
+                "type": "image",
+                "id": "5569ebf4-9880-444a-b5b8-17f9500d3ecb",
+                "asset": "7",
+                "info": {
+                  "editorName": "TitleNewItem",
+                  "x": 237,
+                  "y": 159
+                }
+              },
+              {
+                "type": "button",
+                "id": "2b6118aa-3f19-4db6-a8ff-f2b69badf443",
+                "asset": "8",
+                "info": {
+                  "editorName": "PopupBtnExit",
+                  "x": 490,
+                  "y": 94,
+                  "overFrame": "1",
+                  "downFrame": "2",
+                  "upFrame": "0"
+                }
+              },
+              {
+                "type": "image",
+                "id": "3aec712c-16f9-4474-b8d4-2c9087963439",
+                "asset": "9",
+                "info": {
+                  "editorName": "BItemIconPos",
+                  "x": 307,
+                  "y": 228
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BackImg_type_1"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BackImg_typeA_1"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_input"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "ui_input_btnSheet",
+      "sprite": "0"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIResultBack"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "NewItemPanel"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "NewItemPanelSlot"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "TitleNewItem"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupBtnExit",
+      "sprite": "0"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BItemIcon1"
+    }
+  },
+  "prefab-table": {}
+}

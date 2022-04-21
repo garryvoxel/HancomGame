@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name=viewport content="maximum-scale=1.0, minimum-scale=0.5, width=device-width" />
+
+  <title>두더지잡기 | 한컴타자</title>
+
+  <script src="assets/config/env.js"></script>
+  <script src="assets/config/config.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type='image/ico' />
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script> -->
+
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+  <script src="lib/phaser.min.js"></script>
+  <script src="lib/aes.js"></script>
+
+  <script src="js/stToastMsg.js"></script>
+  <script src="js/Main.js"></script>
+
+  <script src="assets/canvas/Boot.js"></script>
+  <script src="assets/canvas/Preloader.js"></script>
+  <script src="assets/canvas/Menu.js"></script>
+  <script src="assets/canvas/Level.js"></script>
+
+  <script type='text/javascript'>
+    //<![CDATA[
+    // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    //Kakao.init('3e786f8df14fcfc89d159421a6a7c9b6');	// 카카오 샘플
+    Kakao.init('ce15cf36a2d0aa297f5d92541e1c53df'); // 말랑말랑 플랫폼
+    // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+    function sendLink() {
+      Kakao.Link.sendDefault({
+        objectType: 'feed',
+        content: {
+          title: '두더지잡기',
+          description: gNickName + '님이 한컴타자 두더지잡기 ' + gCurrentStage + '스테이지에서 ' + gScore + '점을 획득했어요!',
+          imageUrl: 'https://cdn.malangmalang.com/typing/images/MoleTempleteImg.png',
+          link: {
+            mobileWebUrl: gMobileURL+'/game/moles',
+            webUrl: gHomeURL+'/games/catching-moles'
+          }
+        },
+        social: {
+
+        },
+        buttons: [{
+          title: '웹으로 보기',
+          link: {
+            mobileWebUrl: gMobileURL+'/game/moles',
+            webUrl: gHomeURL+'/games/catching-moles'
+          }
+        }]
+      });
+    }
+    //]]>
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79918145-18"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-79918145-18');
+  </script>
+
+  <style>
+    body {
+      font-family: 'Nanum Gothic', sans-serif;
+      background: black;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+
+
+</head>
+
+<body oncontextmenu='return false'>
+
+  <div style="position:fixed;width:auto;height:100%;background:#000;top:0px;z-index:10;"></div>
+  <div class="TajaBack" id="tajaBackground">
+    <div id="TajaControl" style='position: absolute; left: 50px; top: -250px; width: 200px; height: 22px;'>
+
+      <input type="text" style="ime-mode: active;" id="tajaTyping" maxlength="8" autofocus><br>
+    </div>
+  </div>
+
+</body>
+
+</html>

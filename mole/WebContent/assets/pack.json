@@ -1,0 +1,2129 @@
+{
+  "boot": [
+    {
+      "type": "script",
+      "key": "config",
+      "url": "assets/config/config.js"
+    },
+    {
+      "type": "image",
+      "key": "ToastPanel",
+      "url": "assets/images/ToastPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ToastPanelNoticeIcon",
+      "url": "assets/images/ToastPanelNoticeIcon.png",
+      "overwrite": false
+    }
+  ],
+  "preloader": [
+    {
+      "type": "image",
+      "key": "BackImg_type_1",
+      "url": "assets/images/BackImg_type_1.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "TalkBox_sheet",
+      "url": "assets/spriteSheets/TalkBox_sheet.png",
+      "frameWidth": 220,
+      "frameHeight": 94,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "TextBox",
+      "url": "assets/canvas/prefabs/TextBox.js"
+    },
+    {
+      "type": "image",
+      "key": "ui_input",
+      "url": "assets/images/ui_input.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "ui_input_btnSheet",
+      "url": "assets/spriteSheets/ui_input_btnSheet.png",
+      "frameWidth": 73,
+      "frameHeight": 39,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "ToyHammer",
+      "url": "assets/images/ToyHammer.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "Prefab_ToyHammer",
+      "url": "assets/canvas/prefabs/Prefab_ToyHammer.js"
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_1",
+      "url": "assets/images/BackImg_typeA_1.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "Eff_Punch",
+      "url": "assets/images/Eff_Punch.png",
+      "frameWidth": 275,
+      "frameHeight": 256,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "Prefab_EffPunch",
+      "url": "assets/canvas/prefabs/Prefab_EffPunch.js"
+    },
+    {
+      "type": "script",
+      "key": "Prefab_talkBox",
+      "url": "assets/canvas/prefabs/Prefab_talkBox.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharYayaSheet",
+      "url": "assets/spriteSheets/CharYayaSheet.png",
+      "frameWidth": 185,
+      "frameHeight": 187,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharYaya",
+      "url": "assets/canvas/prefabs/PrefabCharYaya.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "BalloonDestroySheet",
+      "url": "assets/spriteSheets/BalloonDestroySheet.png",
+      "frameWidth": 170,
+      "frameHeight": 161,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "WrongActionSheet",
+      "url": "assets/spriteSheets/WrongActionSheet.png",
+      "frameWidth": 720,
+      "frameHeight": 800,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffWrongAnswer",
+      "url": "assets/canvas/prefabs/PrefabEffWrongAnswer.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffBalloonDestroy",
+      "url": "assets/canvas/prefabs/PrefabEffBalloonDestroy.js"
+    },
+    {
+      "type": "image",
+      "key": "UIIconCoin",
+      "url": "assets/images/UIIconCoin.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UIPanel1",
+      "url": "assets/images/UIPanel1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UITimeGauge",
+      "url": "assets/images/UITimeGauge.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UITimeGaugeMask",
+      "url": "assets/images/UITimeGaugeMask.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UITimePanel",
+      "url": "assets/images/UITimePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Sshot",
+      "url": "assets/images/Sshot.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UIFailPanel",
+      "url": "assets/images/UIFailPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UIResultBack",
+      "url": "assets/images/UIResultBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UIResultPanel",
+      "url": "assets/images/UIResultPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UIResultPanelStar1",
+      "url": "assets/images/UIResultPanelStar1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UIResultPanelStar2",
+      "url": "assets/images/UIResultPanelStar2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UIResultPanelStar3",
+      "url": "assets/images/UIResultPanelStar3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UISuccessPanel",
+      "url": "assets/images/UISuccessPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "UIResultBtnOk",
+      "url": "assets/spriteSheets/UIResultBtnOk.png",
+      "frameWidth": 192,
+      "frameHeight": 95,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "UIResultBtnReplay",
+      "url": "assets/spriteSheets/UIResultBtnReplay.png",
+      "frameWidth": 192,
+      "frameHeight": 95,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "UIResultBtnShare",
+      "url": "assets/spriteSheets/UIResultBtnShare.png",
+      "frameWidth": 192,
+      "frameHeight": 95,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabUISuccess",
+      "url": "assets/canvas/prefabs/PrefabUISuccess.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabUIFail",
+      "url": "assets/canvas/prefabs/PrefabUIFail.js"
+    },
+    {
+      "type": "image",
+      "key": "StageSelectBack",
+      "url": "assets/images/Stage/StageSelectBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema1",
+      "url": "assets/images/Stage/StageSelectThema1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema10",
+      "url": "assets/images/Stage/StageSelectThema10.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema2",
+      "url": "assets/images/Stage/StageSelectThema2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema3",
+      "url": "assets/images/Stage/StageSelectThema3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema4",
+      "url": "assets/images/Stage/StageSelectThema4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema5",
+      "url": "assets/images/Stage/StageSelectThema5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema6",
+      "url": "assets/images/Stage/StageSelectThema6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema7",
+      "url": "assets/images/Stage/StageSelectThema7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema8",
+      "url": "assets/images/Stage/StageSelectThema8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectThema9",
+      "url": "assets/images/Stage/StageSelectThema9.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageSelectTitle",
+      "url": "assets/images/Stage/StageSelectTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Star1",
+      "url": "assets/images/Stage/Star1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Star2",
+      "url": "assets/images/Stage/Star2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Star3",
+      "url": "assets/images/Stage/Star3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StarMission",
+      "url": "assets/images/Stage/StarMission.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnClearMissionStage",
+      "url": "assets/spriteSheets/Stage/BtnClearMissionStage.png",
+      "frameWidth": 77,
+      "frameHeight": 131,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnClearStage",
+      "url": "assets/spriteSheets/Stage/BtnClearStage.png",
+      "frameWidth": 95,
+      "frameHeight": 119,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnNextStage",
+      "url": "assets/spriteSheets/Stage/BtnNextStage.png",
+      "frameWidth": 83,
+      "frameHeight": 87,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnSheetExit",
+      "url": "assets/spriteSheets/Stage/BtnSheetExit.png",
+      "frameWidth": 206,
+      "frameHeight": 102,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnSheetHelp",
+      "url": "assets/spriteSheets/Stage/BtnSheetHelp.png",
+      "frameWidth": 106,
+      "frameHeight": 102,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnSheetLArrow",
+      "url": "assets/spriteSheets/Stage/BtnSheetLArrow.png",
+      "frameWidth": 94,
+      "frameHeight": 94,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnSheetRArrow",
+      "url": "assets/spriteSheets/Stage/BtnSheetRArrow.png",
+      "frameWidth": 94,
+      "frameHeight": 94,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnSheetVol",
+      "url": "assets/spriteSheets/Stage/BtnSheetVol.png",
+      "frameWidth": 106,
+      "frameHeight": 102,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "PopupStageInfoL",
+      "url": "assets/images/Stage/PopupStageInfoL.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupStageInfoS",
+      "url": "assets/images/Stage/PopupStageInfoS.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupTransBack",
+      "url": "assets/images/Stage/PopupTransBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageInfoStar1",
+      "url": "assets/images/Stage/StageInfoStar1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageInfoStar2",
+      "url": "assets/images/Stage/StageInfoStar2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageInfoStar3",
+      "url": "assets/images/Stage/StageInfoStar3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageInfoStarMission",
+      "url": "assets/images/Stage/StageInfoStarMission.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnSheetGo",
+      "url": "assets/spriteSheets/Stage/BtnSheetGo.png",
+      "frameWidth": 206,
+      "frameHeight": 102,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Eff_Bomb",
+      "url": "assets/spriteSheets/Eff_Bomb.png",
+      "frameWidth": 278,
+      "frameHeight": 261,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Eff_DoublePunch",
+      "url": "assets/spriteSheets/Eff_DoublePunch.png",
+      "frameWidth": 285,
+      "frameHeight": 266,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Eff_Line",
+      "url": "assets/spriteSheets/Eff_Line.png",
+      "frameWidth": 720,
+      "frameHeight": 118,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffBomb",
+      "url": "assets/canvas/prefabs/PrefabEffBomb.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffDPunch",
+      "url": "assets/canvas/prefabs/PrefabEffDPunch.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffLine",
+      "url": "assets/canvas/prefabs/PrefabEffLine.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "Eff_wow",
+      "url": "assets/spriteSheets/Eff_wow.png",
+      "frameWidth": 127,
+      "frameHeight": 96,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffWow",
+      "url": "assets/canvas/prefabs/PrefabEffWow.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "EffShockAreaW",
+      "url": "assets/spriteSheets/EffShockAreaW.png",
+      "frameWidth": 720,
+      "frameHeight": 800,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffWhite",
+      "url": "assets/canvas/prefabs/PrefabEffWhite.js"
+    },
+    {
+      "type": "image",
+      "key": "Bird",
+      "url": "assets/images/Bird.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType1Sheet",
+      "url": "assets/spriteSheets/ShotType1Sheet.png",
+      "frameWidth": 248,
+      "frameHeight": 311,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType4Sheet",
+      "url": "assets/spriteSheets/ShotType4Sheet.png",
+      "frameWidth": 311,
+      "frameHeight": 351,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType1",
+      "url": "assets/canvas/prefabs/PrefabHammerType1.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType4",
+      "url": "assets/canvas/prefabs/PrefabHammerType4.js"
+    },
+    {
+      "type": "image",
+      "key": "ItemIcon1",
+      "url": "assets/images/ItemIcon1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ItemIcon2",
+      "url": "assets/images/ItemIcon2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ItemIcon4",
+      "url": "assets/images/ItemIcon4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "UIMissionPanel",
+      "url": "assets/images/UIMissionPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultInfoBar",
+      "url": "assets/images/ResultInfoBar.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultInfoCoin",
+      "url": "assets/images/ResultInfoCoin.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultInfoMission",
+      "url": "assets/images/ResultInfoMission.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultPanelFail",
+      "url": "assets/images/ResultPanelFail.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultPanelSucess",
+      "url": "assets/images/ResultPanelSucess.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultStarM",
+      "url": "assets/images/ResultStarM.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultStarPanelM",
+      "url": "assets/images/ResultStarPanelM.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultStarPanelN",
+      "url": "assets/images/ResultStarPanelN.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "ResultBtnContinue",
+      "url": "assets/spriteSheets/ResultBtnContinue.png",
+      "frameWidth": 206,
+      "frameHeight": 102,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ResultBtnFace",
+      "url": "assets/spriteSheets/ResultBtnFace.png",
+      "frameWidth": 169,
+      "frameHeight": 72,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ResultBtnKakao",
+      "url": "assets/spriteSheets/ResultBtnKakao.png",
+      "frameWidth": 169,
+      "frameHeight": 72,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ResultBtnNo",
+      "url": "assets/spriteSheets/ResultBtnNo.png",
+      "frameWidth": 206,
+      "frameHeight": 102,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ResultBtnYes",
+      "url": "assets/spriteSheets/ResultBtnYes.png",
+      "frameWidth": 206,
+      "frameHeight": 102,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Eff_Erazer",
+      "url": "assets/spriteSheets/Eff_Erazer.png",
+      "frameWidth": 204,
+      "frameHeight": 102,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "Erazer",
+      "url": "assets/images/Erazer.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffErazer",
+      "url": "assets/canvas/prefabs/PrefabEffErazer.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "EffSlingshotSheet",
+      "url": "assets/spriteSheets/EffSlingshotSheet.png",
+      "frameWidth": 529,
+      "frameHeight": 528,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "SlingshotSheet",
+      "url": "assets/spriteSheets/SlingshotSheet.png",
+      "frameWidth": 196,
+      "frameHeight": 223,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabSlingshot",
+      "url": "assets/canvas/prefabs/PrefabSlingshot.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabEffSlingshot",
+      "url": "assets/canvas/prefabs/PrefabEffSlingshot.js"
+    },
+    {
+      "type": "image",
+      "key": "ItemIcon3",
+      "url": "assets/images/ItemIcon3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ItemIcon5",
+      "url": "assets/images/ItemIcon5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BItemIcon1",
+      "url": "assets/images/BItemIcon1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BItemIcon2",
+      "url": "assets/images/BItemIcon2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BItemIcon3",
+      "url": "assets/images/BItemIcon3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BItemIcon4",
+      "url": "assets/images/BItemIcon4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BItemIcon5",
+      "url": "assets/images/BItemIcon5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ToastMessagePanel",
+      "url": "assets/images/ToastMessagePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BItemIcon6",
+      "url": "assets/images/BItemIcon6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ItemIcon6",
+      "url": "assets/images/ItemIcon6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "WFlag",
+      "url": "assets/images/WFlag.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "Minus1000",
+      "url": "assets/spriteSheets/Minus1000.png",
+      "frameWidth": 70,
+      "frameHeight": 91,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "WFlagTalkbox",
+      "url": "assets/spriteSheets/WFlagTalkbox.png",
+      "frameWidth": 217,
+      "frameHeight": 210,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabWFlagTalkbox",
+      "url": "assets/canvas/prefabs/PrefabWFlagTalkbox.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabMinusValue",
+      "url": "assets/canvas/prefabs/PrefabMinusValue.js"
+    },
+    {
+      "type": "image",
+      "key": "NewItemPanel",
+      "url": "assets/images/Stage/NewItemPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "NewItemPanelSlot",
+      "url": "assets/images/Stage/NewItemPanelSlot.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "TitleNewItem",
+      "url": "assets/images/Stage/TitleNewItem.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupBtnExit",
+      "url": "assets/spriteSheets/Stage/PopupBtnExit.png",
+      "frameWidth": 90,
+      "frameHeight": 94,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "bitmapFont",
+      "key": "StageNum",
+      "textureURL": "assets/bmfont/StageNum.png",
+      "atlasURL": "assets/bmfont/StageNum.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "image",
+      "key": "Count0",
+      "url": "assets/images/Count0.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Count1",
+      "url": "assets/images/Count1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Count2",
+      "url": "assets/images/Count2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Count3",
+      "url": "assets/images/Count3.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "PrefabBird",
+      "url": "assets/canvas/prefabs/PrefabBird.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabEraser",
+      "url": "assets/canvas/prefabs/PrefabEraser.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabUIMissionPanel",
+      "url": "assets/canvas/prefabs/PrefabUIMissionPanel.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabWFlag",
+      "url": "assets/canvas/prefabs/PrefabWFlag.js"
+    },
+    {
+      "type": "script",
+      "key": "GrpPrefabBtnClearStage",
+      "url": "assets/canvas/prefabs/GrpPrefabBtnClearStage.js"
+    },
+    {
+      "type": "script",
+      "key": "GrpPrefabBtnNextStage",
+      "url": "assets/canvas/prefabs/GrpPrefabBtnNextStage.js"
+    },
+    {
+      "type": "bitmapFont",
+      "key": "IngameNum",
+      "textureURL": "assets/bmfont/IngameNum.png",
+      "atlasURL": "assets/bmfont/IngameNum.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_2",
+      "url": "assets/images/BackImg_typeA_2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_3",
+      "url": "assets/images/BackImg_typeA_3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_4",
+      "url": "assets/images/BackImg_typeA_4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_2",
+      "url": "assets/images/BackImg_type_2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_3",
+      "url": "assets/images/BackImg_type_3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_4",
+      "url": "assets/images/BackImg_type_4.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "Char6BSheet",
+      "url": "assets/spriteSheets/Char6BSheet.png",
+      "frameWidth": 197,
+      "frameHeight": 189,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharJijiSheet",
+      "url": "assets/spriteSheets/CharJijiSheet.png",
+      "frameWidth": 185,
+      "frameHeight": 189,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharMoaSheet",
+      "url": "assets/spriteSheets/CharMoaSheet.png",
+      "frameWidth": 188,
+      "frameHeight": 179,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharMoa",
+      "url": "assets/canvas/prefabs/PrefabCharMoa.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharJiji",
+      "url": "assets/canvas/prefabs/PrefabCharJiji.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabChar6B",
+      "url": "assets/canvas/prefabs/PrefabChar6B.js"
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_5",
+      "url": "assets/images/BackImg_typeA_5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_6",
+      "url": "assets/images/BackImg_typeA_6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_5",
+      "url": "assets/images/BackImg_type_5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_6",
+      "url": "assets/images/BackImg_type_6.png",
+      "overwrite": false
+    },
+    {
+      "type": "bitmapFont",
+      "key": "StageBigNum",
+      "textureURL": "assets/bmfont/StageBigNum.png",
+      "atlasURL": "assets/bmfont/StageBigNum.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "image",
+      "key": "StageInfoTitle",
+      "url": "assets/images/Stage/StageInfoTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType2Sheet",
+      "url": "assets/spriteSheets/ShotType2Sheet.png",
+      "frameWidth": 391,
+      "frameHeight": 476,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType10Sheet",
+      "url": "assets/spriteSheets/ShotType10Sheet.png",
+      "frameWidth": 372,
+      "frameHeight": 360,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType3Sheet",
+      "url": "assets/spriteSheets/ShotType3Sheet.png",
+      "frameWidth": 261,
+      "frameHeight": 370,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType5Sheet",
+      "url": "assets/spriteSheets/ShotType5Sheet.png",
+      "frameWidth": 313,
+      "frameHeight": 354,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType6Sheet",
+      "url": "assets/spriteSheets/ShotType6Sheet.png",
+      "frameWidth": 392,
+      "frameHeight": 384,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType7Sheet",
+      "url": "assets/spriteSheets/ShotType7Sheet.png",
+      "frameWidth": 384,
+      "frameHeight": 380,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType8Sheet",
+      "url": "assets/spriteSheets/ShotType8Sheet.png",
+      "frameWidth": 380,
+      "frameHeight": 373,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "ShotType9Sheet",
+      "url": "assets/spriteSheets/ShotType9Sheet.png",
+      "frameWidth": 253,
+      "frameHeight": 304,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType2",
+      "url": "assets/canvas/prefabs/PrefabHammerType2.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType3",
+      "url": "assets/canvas/prefabs/PrefabHammerType3.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerTyp5",
+      "url": "assets/canvas/prefabs/PrefabHammerTyp5.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType6",
+      "url": "assets/canvas/prefabs/PrefabHammerType6.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType7",
+      "url": "assets/canvas/prefabs/PrefabHammerType7.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType8",
+      "url": "assets/canvas/prefabs/PrefabHammerType8.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType9",
+      "url": "assets/canvas/prefabs/PrefabHammerType9.js"
+    },
+    {
+      "type": "script",
+      "key": "PrefabHammerType10",
+      "url": "assets/canvas/prefabs/PrefabHammerType10.js"
+    },
+    {
+      "type": "image",
+      "key": "BarSetGaugeBack",
+      "url": "assets/images/BarSetGaugeBack.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "MuteCheck",
+      "url": "assets/images/MuteCheck.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PanelMuteCheck",
+      "url": "assets/images/PanelMuteCheck.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopPanelVolControl",
+      "url": "assets/images/PopPanelVolControl.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "STitleBGM",
+      "url": "assets/images/STitleBGM.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "STitleEffSound",
+      "url": "assets/images/STitleEffSound.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "STitleSoundMute",
+      "url": "assets/images/STitleSoundMute.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "VolControlTitle",
+      "url": "assets/images/VolControlTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnArrowSetL",
+      "url": "assets/spriteSheets/BtnArrowSetL.png",
+      "frameWidth": 35,
+      "frameHeight": 47,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnArrowSetR",
+      "url": "assets/spriteSheets/BtnArrowSetR.png",
+      "frameWidth": 35,
+      "frameHeight": 47,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BtnSetGaugePointer",
+      "url": "assets/spriteSheets/BtnSetGaugePointer.png",
+      "frameWidth": 46,
+      "frameHeight": 46,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupPanelBtnX",
+      "url": "assets/spriteSheets/PopupPanelBtnX.png",
+      "frameWidth": 90,
+      "frameHeight": 94,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_10",
+      "url": "assets/images/BackImg_typeA_10.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_7",
+      "url": "assets/images/BackImg_typeA_7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_10",
+      "url": "assets/images/BackImg_type_10.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_7",
+      "url": "assets/images/BackImg_type_7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_8",
+      "url": "assets/images/BackImg_typeA_8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_typeA_9",
+      "url": "assets/images/BackImg_typeA_9.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_8",
+      "url": "assets/images/BackImg_type_8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BackImg_type_9",
+      "url": "assets/images/BackImg_type_9.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo1",
+      "url": "assets/images/Help/HelpContentInfo1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo10",
+      "url": "assets/images/Help/HelpContentInfo10.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo11",
+      "url": "assets/images/Help/HelpContentInfo11.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo12",
+      "url": "assets/images/Help/HelpContentInfo12.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo2",
+      "url": "assets/images/Help/HelpContentInfo2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo3",
+      "url": "assets/images/Help/HelpContentInfo3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo4",
+      "url": "assets/images/Help/HelpContentInfo4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo5",
+      "url": "assets/images/Help/HelpContentInfo5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo6",
+      "url": "assets/images/Help/HelpContentInfo6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo7",
+      "url": "assets/images/Help/HelpContentInfo7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo8",
+      "url": "assets/images/Help/HelpContentInfo8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HelpContentInfo9",
+      "url": "assets/images/Help/HelpContentInfo9.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpCheckTxt",
+      "url": "assets/images/Help/PopupHelpCheckTxt.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "PopupHelpPanel",
+      "url": "assets/images/Help/PopupHelpPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "PopupHelpCheckBox",
+      "url": "assets/spriteSheets/PopupHelpCheckBox.png",
+      "frameWidth": 41,
+      "frameHeight": 47,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "json",
+      "key": "stage1",
+      "url": "assets/stageData/stage1.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage10",
+      "url": "assets/stageData/stage10.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage11",
+      "url": "assets/stageData/stage11.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage12",
+      "url": "assets/stageData/stage12.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage13",
+      "url": "assets/stageData/stage13.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage14",
+      "url": "assets/stageData/stage14.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage15",
+      "url": "assets/stageData/stage15.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage16",
+      "url": "assets/stageData/stage16.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage17",
+      "url": "assets/stageData/stage17.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage18",
+      "url": "assets/stageData/stage18.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage19",
+      "url": "assets/stageData/stage19.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage2",
+      "url": "assets/stageData/stage2.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage20",
+      "url": "assets/stageData/stage20.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage21",
+      "url": "assets/stageData/stage21.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage22",
+      "url": "assets/stageData/stage22.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage23",
+      "url": "assets/stageData/stage23.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage24",
+      "url": "assets/stageData/stage24.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage25",
+      "url": "assets/stageData/stage25.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage26",
+      "url": "assets/stageData/stage26.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage27",
+      "url": "assets/stageData/stage27.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage28",
+      "url": "assets/stageData/stage28.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage29",
+      "url": "assets/stageData/stage29.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage3",
+      "url": "assets/stageData/stage3.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage30",
+      "url": "assets/stageData/stage30.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage31",
+      "url": "assets/stageData/stage31.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage32",
+      "url": "assets/stageData/stage32.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage33",
+      "url": "assets/stageData/stage33.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage34",
+      "url": "assets/stageData/stage34.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage35",
+      "url": "assets/stageData/stage35.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage36",
+      "url": "assets/stageData/stage36.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage37",
+      "url": "assets/stageData/stage37.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage38",
+      "url": "assets/stageData/stage38.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage39",
+      "url": "assets/stageData/stage39.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage4",
+      "url": "assets/stageData/stage4.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage40",
+      "url": "assets/stageData/stage40.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage41",
+      "url": "assets/stageData/stage41.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage42",
+      "url": "assets/stageData/stage42.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage43",
+      "url": "assets/stageData/stage43.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage44",
+      "url": "assets/stageData/stage44.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage45",
+      "url": "assets/stageData/stage45.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage46",
+      "url": "assets/stageData/stage46.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage47",
+      "url": "assets/stageData/stage47.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage48",
+      "url": "assets/stageData/stage48.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage49",
+      "url": "assets/stageData/stage49.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage5",
+      "url": "assets/stageData/stage5.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage50",
+      "url": "assets/stageData/stage50.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage6",
+      "url": "assets/stageData/stage6.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage7",
+      "url": "assets/stageData/stage7.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage8",
+      "url": "assets/stageData/stage8.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "stage9",
+      "url": "assets/stageData/stage9.json",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "MissionIcon0",
+      "url": "assets/images/MissionIcon0.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "MissionIcon1",
+      "url": "assets/images/MissionIcon1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "MissionIcon2",
+      "url": "assets/images/MissionIcon2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "MissionIcon3",
+      "url": "assets/images/MissionIcon3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "MissionIcon4",
+      "url": "assets/images/MissionIcon4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "MissionIcon5",
+      "url": "assets/images/MissionIcon5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "CountStage",
+      "url": "assets/images/CountStage.png",
+      "overwrite": false
+    },
+    {
+      "type": "bitmapFont",
+      "key": "StageEmNum",
+      "textureURL": "assets/bmfont/StageEmNum.png",
+      "atlasURL": "assets/bmfont/StageEmNum.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "Mole_hit",
+      "urls": ["assets/sounds/Mole_hit.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "G_Start",
+      "urls": ["assets/sounds/G_Start.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_in",
+      "urls": ["assets/sounds/Mole_in.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_thr",
+      "urls": ["assets/sounds/Mole_thr.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Ans_wrong",
+      "urls": ["assets/sounds/Ans_wrong.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Ans_right",
+      "urls": ["assets/sounds/Ans_right.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_sch",
+      "urls": ["assets/sounds/Mole_sch.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Vict",
+      "urls": ["assets/sounds/Vict.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_it2",
+      "urls": ["assets/sounds/Mole_it2.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_it1",
+      "urls": ["assets/sounds/Mole_it1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Tog_sound",
+      "urls": ["assets/sounds/Tog_sound.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Draw",
+      "urls": ["assets/sounds/Draw.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Lose",
+      "urls": ["assets/sounds/Lose.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Popup",
+      "urls": ["assets/sounds/Popup.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_out",
+      "urls": ["assets/sounds/Mole_out.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Click",
+      "urls": ["assets/sounds/Click.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_it4",
+      "urls": ["assets/sounds/Mole_it4.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_it3",
+      "urls": ["assets/sounds/Mole_it3.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_it6",
+      "urls": ["assets/sounds/Mole_it6.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Time_danger",
+      "urls": ["assets/sounds/Time_danger.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_it5",
+      "urls": ["assets/sounds/Mole_it5.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "CoDown_3_2_1",
+      "urls": ["assets/sounds/CoDown_3_2_1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_music",
+      "urls": ["assets/sounds/Mole_music.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "Mole_nat",
+      "urls": ["assets/sounds/Mole_nat.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "image",
+      "key": "GameUIInX",
+      "url": "assets/images/GameUIInX.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ResultPanelSucessn",
+      "url": "assets/images/ResultPanelSucessn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle1",
+      "url": "assets/images/Stage/StageThemaTitle1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle10",
+      "url": "assets/images/Stage/StageThemaTitle10.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle2",
+      "url": "assets/images/Stage/StageThemaTitle2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle3",
+      "url": "assets/images/Stage/StageThemaTitle3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle4",
+      "url": "assets/images/Stage/StageThemaTitle4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle5",
+      "url": "assets/images/Stage/StageThemaTitle5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle6",
+      "url": "assets/images/Stage/StageThemaTitle6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle7",
+      "url": "assets/images/Stage/StageThemaTitle7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle8",
+      "url": "assets/images/Stage/StageThemaTitle8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "StageThemaTitle9",
+      "url": "assets/images/Stage/StageThemaTitle9.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "InputCover",
+      "url": "assets/images/InputCover.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ObjectiveValuePanel",
+      "url": "assets/images/ObjectiveValuePanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "MobileKeyboardBtnSheet",
+      "url": "assets/spriteSheets/MobileKeyboardBtnSheet.png",
+      "frameWidth": 134,
+      "frameHeight": 85,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "NoticePanelDisturb",
+      "url": "assets/images/NoticePanelDisturb.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "DisturbItemCoverSheet",
+      "url": "assets/spriteSheets/DisturbItemCoverSheet.png",
+      "frameWidth": 73,
+      "frameHeight": 73,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "KeyboradAlertPanel",
+      "url": "assets/images/KeyboradAlertPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "CommingSoonAlertPanel",
+      "url": "assets/images/CommingSoonAlertPanel.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "OpinionBtnSheet",
+      "url": "assets/spriteSheets/OpinionBtnSheet.png",
+      "frameWidth": 96,
+      "frameHeight": 91,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "InputCursorSheet",
+      "url": "assets/spriteSheets/InputCursorSheet.png",
+      "frameWidth": 3,
+      "frameHeight": 18,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "InputCursor",
+      "url": "assets/canvas/prefabs/InputCursor.js"
+    },
+    {
+      "type": "image",
+      "key": "SharePanelOnly",
+      "url": "assets/images/SharePanelOnly.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "MobileKeyboardBtnSheet2",
+      "url": "assets/spriteSheets/MobileKeyboardBtnSheet2.png",
+      "frameWidth": 121,
+      "frameHeight": 77,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Char_Amogae_AniSheet_V2",
+      "url": "assets/spriteSheets/Char_Amogae_AniSheet_V2.png",
+      "frameWidth": 214,
+      "frameHeight": 172,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "Prefab_Char_AmogaeV2",
+      "url": "assets/canvas/prefabs/Prefab_Char_AmogaeV2.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "CharMamangSheetV2",
+      "url": "assets/spriteSheets/CharMamangSheetV2.png",
+      "frameWidth": 216,
+      "frameHeight": 172,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "script",
+      "key": "PrefabCharMamangV2",
+      "url": "assets/canvas/prefabs/PrefabCharMamangV2.js"
+    }
+  ],
+  "meta": {
+    "generated": "1563267786780",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

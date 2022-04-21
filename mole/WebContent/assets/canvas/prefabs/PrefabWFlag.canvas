@@ -1,0 +1,54 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabWFlag",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "9e4403be-44b0-4d09-9f80-220d7bacc954",
+    "info": {
+      "editorName": "PrefabWFlag",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "a00ee8a2-38c0-40c7-a077-55d51130d903",
+        "asset": "0",
+        "info": {"editorName": "WFlag"}
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "WFlag"
+  }},
+  "prefab-table": {}
+}

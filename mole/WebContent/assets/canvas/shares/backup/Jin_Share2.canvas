@@ -1,0 +1,187 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Jin_Share",
+    "sceneWidth": 720,
+    "sceneHeight": 800,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      255,
+      255,
+      255
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "5af18189-0bfd-48d5-9e9d-393d09278c85",
+    "info": {
+      "editorName": "Jin_Share",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "b047335f-fc4b-421a-b2ef-426fec4633d0",
+        "info": {
+          "editorName": "root",
+          "setAll": [],
+          "children": [{
+            "type": "group",
+            "id": "cea796b2-cb56-4708-9641-26084590acc8",
+            "info": {
+              "editorName": "NewItem",
+              "setAll": [],
+              "children": [
+                {
+                  "type": "image",
+                  "id": "47458fe3-dcd7-4768-ae9e-296a7c1e75ee",
+                  "asset": "0",
+                  "info": {
+                    "editorName": "TransBackNI",
+                    "editorPick": false
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "97c378bc-e385-44ea-8ee0-e1fdacaf180c",
+                  "asset": "1",
+                  "info": {
+                    "editorName": "NewItemPanel",
+                    "x": 106,
+                    "y": 111
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "a58428e0-050c-4dd1-bbeb-294da6180c65",
+                  "info": {
+                    "editorName": "ContentTextOutline",
+                    "x": 203,
+                    "y": 346,
+                    "text": "이제부터 [폭탄] 아이템이\r\n등장합니다.\r\n\r\n[폭탄]\r\n화면상 모든 단어 제거",
+                    "style.font": "나눔바른고딕",
+                    "style.fontSize": 30,
+                    "style.fill": "#75daff",
+                    "style.stroke": "#75daff",
+                    "style.strokeThickness": 4,
+                    "style.align": "CENTER"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "40fce229-1adf-4327-b5c3-fc2fe500f974",
+                  "info": {
+                    "editorName": "ContentText",
+                    "x": 206,
+                    "y": 346,
+                    "text": "이제부터 [폭탄] 아이템이\r\n등장합니다.\r\n\r\n[폭탄]\r\n화면상 모든 단어 제거",
+                    "style.font": "나눔바른고딕",
+                    "style.fontSize": 30,
+                    "style.fill": "#103d5f",
+                    "style.align": "CENTER"
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "7cf3158c-f7f7-43f6-8904-0360aa365f7b",
+                  "asset": "2",
+                  "info": {
+                    "editorName": "NewItemPanelSlot",
+                    "x": 297,
+                    "y": 218
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "d989e07e-4c61-4514-9da5-c7cac5097e40",
+                  "asset": "3",
+                  "info": {
+                    "editorName": "TitleNewItem",
+                    "x": 237,
+                    "y": 159
+                  }
+                },
+                {
+                  "type": "button",
+                  "id": "472c280d-6c3c-4ea4-b5eb-0bd5b9f2e6af",
+                  "asset": "4",
+                  "info": {
+                    "editorName": "PopupBtnExit",
+                    "x": 490,
+                    "y": 94,
+                    "overFrame": "1",
+                    "downFrame": "2",
+                    "upFrame": "0"
+                  }
+                },
+                {
+                  "type": "image",
+                  "id": "0cd09d76-fa16-448f-a2e6-9047f435a1bf",
+                  "asset": "5",
+                  "info": {
+                    "editorName": "BItemIconPos",
+                    "x": 307,
+                    "y": 228
+                  }
+                }
+              ]
+            }
+          }]
+        }
+      }]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIResultBack"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "NewItemPanel"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "NewItemPanelSlot"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "TitleNewItem"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupBtnExit",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BItemIcon1"
+    }
+  },
+  "prefab-table": {}
+}

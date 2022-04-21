@@ -1,0 +1,68 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "InputCursor",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "9d45f491-f286-4d46-ae23-5011723d11af",
+    "info": {
+      "editorName": "InputCursor",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "bffae805-f3f7-4a03-afe1-781b7667cf02",
+        "asset": "0",
+        "info": {
+          "editorName": "InputCursorSheet",
+          "animations": [{
+            "name": "_PLAY",
+            "frameRate": 3,
+            "loop": true,
+            "autoPlay": true,
+            "frames": [
+              "0",
+              "1"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "InputCursorSheet",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

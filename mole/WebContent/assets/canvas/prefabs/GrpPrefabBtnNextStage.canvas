@@ -1,0 +1,53 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "GrpPrefabBtnNextStage",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "5018c8a8-2e0c-481f-977f-4560cc7904b1",
+    "info": {
+      "editorName": "GrpPrefabBtnNextStage",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "0b3ad30b-fbd5-4af2-8e67-4c9c52cbad5e",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": []
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {},
+  "prefab-table": {}
+}

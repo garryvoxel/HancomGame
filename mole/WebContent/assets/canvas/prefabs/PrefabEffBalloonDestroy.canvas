@@ -1,0 +1,85 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabEffBalloonDestroy",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "a0dc7734-836d-4897-9fa7-cb1e9ce007cd",
+    "info": {
+      "editorName": "PrefabEffBalloonDestroy",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "61d99005-1b41-42b6-85d2-0178d24ebb58",
+        "asset": "0",
+        "info": {
+          "editorName": "BalloonDestroySheet",
+          "anchor.x": 0.51,
+          "anchor.y": 0.51,
+          "animations": [
+            {
+              "name": "PLAY1",
+              "frameRate": 8,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ]
+            },
+            {
+              "name": "PLAY2",
+              "frameRate": 8,
+              "frames": [
+                "4",
+                "5",
+                "9",
+                "6",
+                "8",
+                "7",
+                "8"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "BalloonDestroySheet",
+    "sprite": "8"
+  }},
+  "prefab-table": {}
+}

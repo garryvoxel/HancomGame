@@ -1,0 +1,59 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabBird",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "91f5bc32-e92a-4e4c-9af9-3f7e8d54e0c2",
+    "info": {
+      "editorName": "PrefabBird",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "2f4d103b-c699-4a28-be1b-57651f462ce7",
+        "asset": "0",
+        "info": {
+          "editorName": "Bird",
+          "anchor.x": 0.5,
+          "anchor.y": 0.5
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "Bird"
+  }},
+  "prefab-table": {}
+}

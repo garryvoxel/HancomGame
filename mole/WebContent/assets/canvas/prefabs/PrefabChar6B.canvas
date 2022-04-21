@@ -1,0 +1,128 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabChar6B",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "49dc2382-6f1b-4e8b-8e1f-3ba026d575bc",
+    "info": {
+      "editorName": "PrefabChar6B",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "888a1cf2-fe41-465f-9ff0-bb1d1dc4d539",
+        "asset": "0",
+        "info": {
+          "editorName": "Char6BSheet",
+          "anchor.x": 0.48,
+          "anchor.y": 0.76,
+          "animations": [
+            {
+              "name": "UP",
+              "frameRate": 10,
+              "frames": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "0"
+              ]
+            },
+            {
+              "name": "IDLE",
+              "frameRate": 10,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "1"
+              ]
+            },
+            {
+              "name": "DOWN",
+              "frameRate": 10,
+              "frames": [
+                "0",
+                "15",
+                "16",
+                "17",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21"
+              ]
+            },
+            {
+              "name": "HIT",
+              "frameRate": 10,
+              "frames": [
+                "22",
+                "23",
+                "22",
+                "23",
+                "22",
+                "24"
+              ]
+            },
+            {
+              "name": "HIT_DOWN",
+              "frameRate": 10,
+              "frames": [
+                "24",
+                "25",
+                "26"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "Char6BSheet",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

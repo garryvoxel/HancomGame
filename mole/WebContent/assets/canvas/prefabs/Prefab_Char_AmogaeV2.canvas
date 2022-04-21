@@ -1,0 +1,137 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Prefab_Char_AmogaeV2",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "56ea5f1d-303a-46b9-a1a1-271752bd74f8",
+    "info": {
+      "editorName": "Prefab_Char_AmogaeV2",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "9e0508e4-26fa-4ad9-a4ea-00887872f385",
+        "asset": "0",
+        "info": {
+          "editorName": "Char_Amogae_AniSheet_V2",
+          "anchor.x": 0.5,
+          "anchor.y": 0.77,
+          "animations": [
+            {
+              "name": "UP",
+              "frameRate": 10,
+              "frames": [
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ]
+            },
+            {
+              "name": "IDLE",
+              "frameRate": 10,
+              "loop": true,
+              "frames": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "4",
+                "5",
+                "5",
+                "5",
+                "4",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "name": "DOWN",
+              "frameRate": 10,
+              "frames": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19"
+              ]
+            },
+            {
+              "name": "HIT",
+              "frameRate": 10,
+              "frames": [
+                "20",
+                "21",
+                "20",
+                "21",
+                "20",
+                "22"
+              ]
+            },
+            {
+              "name": "HIT_DOWN",
+              "frameRate": 10,
+              "frames": [
+                "22",
+                "23",
+                "24"
+              ]
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "Char_Amogae_AniSheet_V2",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

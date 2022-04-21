@@ -1,0 +1,70 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabHammerType10",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "fa23a702-4efc-48a1-9241-df64acd08921",
+    "info": {
+      "editorName": "PrefabHammerType10",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "b469c3d5-9d07-4c37-94b8-1f062d00bf4f",
+        "asset": "0",
+        "info": {
+          "editorName": "ShotType10Sheet",
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 10,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "ShotType10Sheet",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

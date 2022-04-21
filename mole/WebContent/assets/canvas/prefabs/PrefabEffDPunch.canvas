@@ -1,0 +1,75 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabEffDPunch",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "c49fd2da-e65b-4401-a04e-31898456773a",
+    "info": {
+      "editorName": "PrefabEffDPunch",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "efade58c-bdaa-457c-be2e-b99a193569d2",
+        "asset": "0",
+        "info": {
+          "editorName": "Eff_DoublePunch",
+          "anchor.x": 0.5,
+          "anchor.y": 0.5,
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 10,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "Eff_DoublePunch",
+    "sprite": "1"
+  }},
+  "prefab-table": {}
+}

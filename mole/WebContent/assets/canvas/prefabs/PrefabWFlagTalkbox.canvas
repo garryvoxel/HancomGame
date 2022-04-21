@@ -1,0 +1,74 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabWFlagTalkbox",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "58dc82fd-9ee0-4d64-8fc7-834d61a301ff",
+    "info": {
+      "editorName": "PrefabWFlagTalkbox",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "1e1bbb19-0899-4cee-8c6d-4a1fa3bec9e4",
+        "asset": "0",
+        "info": {
+          "editorName": "WFlagTalkbox",
+          "anchor.x": 0.5,
+          "anchor.y": 0.5,
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 20,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "WFlagTalkbox",
+    "sprite": "7"
+  }},
+  "prefab-table": {}
+}

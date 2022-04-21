@@ -1,0 +1,72 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "TextBox",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "b8c4d448-f2ac-432f-b374-540b21edc099",
+    "info": {
+      "editorName": "TextBox",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "4de33277-eb94-4cfa-837e-248829cadab7",
+        "asset": "0",
+        "info": {
+          "editorName": "TalkBox_sheet",
+          "animations": [{
+            "name": "SHOW",
+            "frameRate": 18,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "2",
+              "3",
+              "5",
+              "4",
+              "5"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "TalkBox_sheet",
+    "sprite": "5"
+  }},
+  "prefab-table": {}
+}

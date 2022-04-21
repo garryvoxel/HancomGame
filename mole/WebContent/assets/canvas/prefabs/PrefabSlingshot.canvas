@@ -1,0 +1,82 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabSlingshot",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "a8a0325f-a19b-43bb-a812-048c2adddbac",
+    "info": {
+      "editorName": "PrefabSlingshot",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "c5eba027-5e76-4bfd-8f81-c6a895cefeca",
+        "asset": "0",
+        "info": {
+          "editorName": "SlingshotSheet",
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 20,
+            "frames": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "3",
+              "4",
+              "3",
+              "4",
+              "3",
+              "4",
+              "3",
+              "4",
+              "0"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "SlingshotSheet",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

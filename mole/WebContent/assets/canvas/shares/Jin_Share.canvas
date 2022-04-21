@@ -1,0 +1,639 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Jin_Share",
+    "sceneWidth": 720,
+    "sceneHeight": 800,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      255,
+      255,
+      255
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "5af18189-0bfd-48d5-9e9d-393d09278c85",
+    "info": {
+      "editorName": "Jin_Share",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "b047335f-fc4b-421a-b2ef-426fec4633d0",
+        "info": {
+          "editorName": "root",
+          "setAll": [],
+          "children": [
+            {
+              "type": "group",
+              "id": "cea796b2-cb56-4708-9641-26084590acc8",
+              "info": {
+                "editorName": "NewItem",
+                "editorPick": false,
+                "editorShow": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "47458fe3-dcd7-4768-ae9e-296a7c1e75ee",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "TransBackNI",
+                      "editorPick": false
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "97c378bc-e385-44ea-8ee0-e1fdacaf180c",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "NewItemPanel",
+                      "x": 106,
+                      "y": 111
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "a58428e0-050c-4dd1-bbeb-294da6180c65",
+                    "info": {
+                      "editorName": "ContentTextOutline",
+                      "x": 203,
+                      "y": 346,
+                      "text": "¿Ã¡¶∫Œ≈Õ [∆¯≈∫] æ∆¿Ã≈€¿Ã\r\nµÓ¿Â«’¥œ¥Ÿ.\r\n\r\n[∆¯≈∫]\r\n»≠∏ÈªÛ ∏µÁ ¥‹æÓ ¡¶∞≈",
+                      "style.font": "≥™¥ÆπŸ∏•∞ÌµÒ",
+                      "style.fontSize": 30,
+                      "style.fill": "#75daff",
+                      "style.stroke": "#75daff",
+                      "style.strokeThickness": 4,
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "40fce229-1adf-4327-b5c3-fc2fe500f974",
+                    "info": {
+                      "editorName": "ContentText",
+                      "x": 206,
+                      "y": 346,
+                      "text": "¿Ã¡¶∫Œ≈Õ [∆¯≈∫] æ∆¿Ã≈€¿Ã\r\nµÓ¿Â«’¥œ¥Ÿ.\r\n\r\n[∆¯≈∫]\r\n»≠∏ÈªÛ ∏µÁ ¥‹æÓ ¡¶∞≈",
+                      "style.font": "≥™¥ÆπŸ∏•∞ÌµÒ",
+                      "style.fontSize": 30,
+                      "style.fill": "#103d5f",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "7cf3158c-f7f7-43f6-8904-0360aa365f7b",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "NewItemPanelSlot",
+                      "x": 297,
+                      "y": 218
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "d989e07e-4c61-4514-9da5-c7cac5097e40",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "TitleNewItem",
+                      "x": 237,
+                      "y": 159
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "472c280d-6c3c-4ea4-b5eb-0bd5b9f2e6af",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "PopupBtnExit",
+                      "x": 490,
+                      "y": 94,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "0cd09d76-fa16-448f-a2e6-9047f435a1bf",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "BItemIconPos",
+                      "x": 307,
+                      "y": 228
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "51d9d461-05d0-406f-8117-84a4baaeeef3",
+              "info": {
+                "editorName": "VolCotrolGroup",
+                "editorShow": false,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "5027824d-8510-4e5e-bce4-12c14fd00eeb",
+                    "asset": "0",
+                    "info": {"editorName": "VolControlBack"}
+                  },
+                  {
+                    "type": "image",
+                    "id": "bdda9166-d495-4544-a968-f51aed845ec6",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "PopPanelVolControl",
+                      "x": 110,
+                      "y": 221
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "605da83c-480e-49fd-8f01-a025d74343d0",
+                    "info": {
+                      "editorName": "VolESGroup",
+                      "y": 98,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "button",
+                          "id": "c7297b1b-3a88-4939-9ade-53a53ff92551",
+                          "asset": "7",
+                          "info": {
+                            "editorName": "PanelMuteCheckES",
+                            "x": 176,
+                            "y": 349
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "4c624e70-b1d7-4992-acb4-d640a3d7baf6",
+                          "asset": "8",
+                          "info": {
+                            "editorName": "MuteCheckES",
+                            "x": 171,
+                            "y": 346
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "81282705-f1fc-47c2-bac4-ff133487ebb6",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "STitleSoundMuteES",
+                            "x": 160,
+                            "y": 314
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "d39ca2e4-09dd-415c-9f2a-84a0fae81cc1",
+                          "asset": "10",
+                          "info": {
+                            "editorName": "BarSetGaugeBackES",
+                            "x": 308,
+                            "y": 361
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "47f91bbc-771e-49ef-86b0-92e10ece030d",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "BtnSetGaugePointerES",
+                            "x": 343,
+                            "y": 344
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "d20860b7-c878-4ed3-a195-ed6a38d6563a",
+                          "asset": "12",
+                          "info": {
+                            "editorName": "BtnArrowSetLES",
+                            "x": 263,
+                            "y": 344,
+                            "overFrame": "0",
+                            "downFrame": "1",
+                            "upFrame": "0"
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "d7989526-94d4-428f-a30d-e8453c086b8e",
+                          "asset": "13",
+                          "info": {
+                            "editorName": "BtnArrowSetRES",
+                            "x": 524,
+                            "y": 344,
+                            "overFrame": "0",
+                            "downFrame": "1",
+                            "upFrame": "0"
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "501e1f09-afdf-4135-a7b6-cc160b295cea",
+                          "asset": "14",
+                          "info": {
+                            "editorName": "STitleEffSound",
+                            "x": 376,
+                            "y": 313
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "62cd7c50-79f6-4f6f-b953-26e92eda7b29",
+                    "info": {
+                      "editorName": "VolBGGroup",
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "button",
+                          "id": "311f81de-1c36-48ad-89fb-8eb90d22e3c4",
+                          "asset": "7",
+                          "info": {
+                            "editorName": "PanelMuteCheckBG",
+                            "x": 176,
+                            "y": 349
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "d9a70ea2-2387-4f56-b1cf-881060dd9217",
+                          "asset": "8",
+                          "info": {
+                            "editorName": "MuteCheckBG",
+                            "x": 171,
+                            "y": 346
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "b12d0aa0-560e-43d2-8fa6-f1a920b97e14",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "STitleSoundMuteBG",
+                            "x": 160,
+                            "y": 314
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "3b5a889b-329c-40d3-91a2-9b3ed2f39a6f",
+                          "asset": "10",
+                          "info": {
+                            "editorName": "BarSetGaugeBackBG",
+                            "x": 308,
+                            "y": 361
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "249d2f4a-f76d-429b-8ca2-a480ddc03432",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "BtnSetGaugePointerBG",
+                            "x": 343,
+                            "y": 344
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "8e96996d-5def-445a-975d-a723a49dc56a",
+                          "asset": "12",
+                          "info": {
+                            "editorName": "BtnArrowSetLBG",
+                            "x": 263,
+                            "y": 344,
+                            "overFrame": "0",
+                            "downFrame": "1",
+                            "upFrame": "0"
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "dca4ec53-2245-473d-935d-f166fa6db16d",
+                          "asset": "13",
+                          "info": {
+                            "editorName": "BtnArrowSetRBG",
+                            "x": 524,
+                            "y": 344,
+                            "overFrame": "0",
+                            "downFrame": "1",
+                            "upFrame": "0"
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "e6cdccc7-7621-451d-ba62-430be6d37e59",
+                          "asset": "15",
+                          "info": {
+                            "editorName": "STitleBGM",
+                            "x": 366,
+                            "y": 314
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "95725a0b-3629-4d1c-b0e8-a19541ceadb3",
+                    "asset": "16",
+                    "info": {
+                      "editorName": "VolControlTitle",
+                      "x": 284,
+                      "y": 250
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "534aa51a-abc2-4345-956d-33b05e4a4ada",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "PopupPanelBtnX",
+                      "x": 492,
+                      "y": 198,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "536a39c0-1087-4f73-928d-0158b119862c",
+              "info": {
+                "editorName": "PopupHelpgroup",
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "2f743e35-ac6f-4689-8e31-02dc1413f4b1",
+                    "asset": "0",
+                    "info": {"editorName": "HelpBack"}
+                  },
+                  {
+                    "type": "image",
+                    "id": "d6bde281-5eeb-4864-a00d-b2229f24ecb7",
+                    "asset": "18",
+                    "info": {
+                      "editorName": "PopupHelpPanel",
+                      "x": 72,
+                      "y": 42
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "8bad2419-3745-4121-9fb9-f4618a8916e7",
+                    "asset": "19",
+                    "info": {
+                      "editorName": "HelpContentInfo",
+                      "x": 143,
+                      "y": 162
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "d13d0970-02c1-4d43-913a-bf90f74e8b15",
+                    "asset": "20",
+                    "info": {
+                      "editorName": "BtnSheetLArrow",
+                      "x": 35,
+                      "y": 319,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "bf9c50bf-f4f6-4cbf-915e-32aa42a1c3ba",
+                    "asset": "21",
+                    "info": {
+                      "editorName": "BtnSheetRArrow",
+                      "x": 591,
+                      "y": 319,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "42c4fb53-c8bf-4a25-9da4-71f39859ba20",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "PopupPanelBtnX1",
+                      "x": 542,
+                      "y": 40,
+                      "overFrame": "1",
+                      "downFrame": "2",
+                      "upFrame": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "365373be-fb5a-4874-bb8f-39b524426c73",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "PopupHelpCheckBox",
+                      "x": 233,
+                      "y": 600
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "9b38b0d6-f4f1-48d5-bd1a-5244aca80526",
+                    "asset": "23",
+                    "info": {
+                      "editorName": "PopupHelpCheckTxt",
+                      "x": 276,
+                      "y": 617
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "97409ac1-6c41-4959-b58e-952e47045a44",
+                    "info": {
+                      "editorName": "text",
+                      "x": 311,
+                      "y": 676,
+                      "text": "99/99",
+                      "style.font": "≥™¥Æ∞ÌµÒ",
+                      "style.fontSize": 36,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "UIResultBack"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "NewItemPanel"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "NewItemPanelSlot"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "TitleNewItem"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupBtnExit",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BItemIcon1"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopPanelVolControl"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PanelMuteCheck"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "MuteCheck"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "STitleSoundMute"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BarSetGaugeBack"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSetGaugePointer",
+      "sprite": "0"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnArrowSetL",
+      "sprite": "0"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnArrowSetR",
+      "sprite": "0"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "STitleEffSound"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "STitleBGM"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "VolControlTitle"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupPanelBtnX",
+      "sprite": "0"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupHelpPanel"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "HelpContentInfo1"
+    },
+    "20": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetLArrow",
+      "sprite": "0"
+    },
+    "21": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "BtnSheetRArrow",
+      "sprite": "0"
+    },
+    "22": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupHelpCheckBox",
+      "sprite": "0"
+    },
+    "23": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preloader",
+      "asset": "PopupHelpCheckTxt"
+    }
+  },
+  "prefab-table": {}
+}

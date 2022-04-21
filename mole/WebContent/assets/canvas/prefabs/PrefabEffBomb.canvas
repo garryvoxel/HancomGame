@@ -1,0 +1,72 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "PrefabEffBomb",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "9b4f8717-4df3-463e-943d-998d8fb2b73d",
+    "info": {
+      "editorName": "PrefabEffBomb",
+      "setAll": [],
+      "children": [{
+        "type": "spritesheet",
+        "id": "a2d6c6d9-8837-4e94-8b97-c44cb6ce177d",
+        "asset": "0",
+        "info": {
+          "editorName": "Eff_Bomb",
+          "anchor.x": 0.5,
+          "anchor.y": 0.5,
+          "animations": [{
+            "name": "PLAY",
+            "frameRate": 10,
+            "frames": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          }]
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "Eff_Bomb",
+    "sprite": "0"
+  }},
+  "prefab-table": {}
+}

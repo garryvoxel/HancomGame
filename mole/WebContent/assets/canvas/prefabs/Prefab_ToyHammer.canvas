@@ -1,0 +1,59 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Prefab_ToyHammer",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "62fcf3ac-9ed8-45d2-81b4-04b8c7f7f299",
+    "info": {
+      "editorName": "Prefab_ToyHammer",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "29c9c1b6-c73b-464f-86a8-d72a16f957bd",
+        "asset": "0",
+        "info": {
+          "editorName": "ToyHammer",
+          "anchor.x": 0.79,
+          "anchor.y": 0.54
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preloader",
+    "asset": "ToyHammer"
+  }},
+  "prefab-table": {}
+}
