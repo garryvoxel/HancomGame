@@ -1,0 +1,38 @@
+{
+    "test": {
+        "netffice": {
+            "protocol": "https",
+            "host": "dev-api.malangmalang.com",
+            "validOtp": "/callback/checkOtp",
+            "basePath": "/space/mobile",
+            "token": "eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNTk3NzQxMDI1Mjc1LCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOiJ0YWphIn0.8HNWEDhKXU096GOSc0qOr_ntkvhnimbPtdVjjS0XS8k"
+        }
+    },
+    "development": {
+        "netffice": {
+            "protocol": "https",
+            "host": "dev-api.malangmalang.com",
+            "validOtp": "/callback/checkOtp",
+            "basePath": "/space/mobile",
+            "token": "eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNTk3NzQxMDI1Mjc1LCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOiJ0YWphIn0.8HNWEDhKXU096GOSc0qOr_ntkvhnimbPtdVjjS0XS8k"
+        }
+    },
+    "stage": {
+        "netffice": {
+            "protocol": "https",
+            "host": "stg-api.malangmalang.com",
+            "validOtp": "/callback/checkOtp",
+            "basePath": "/space/mobile",
+            "token": "eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNTk3NzQxMDI1Mjc1LCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOiJ0YWphIn0.8HNWEDhKXU096GOSc0qOr_ntkvhnimbPtdVjjS0XS8k"
+        }
+    },
+    "production": {
+        "netffice": {
+            "protocol": "https",
+            "host": "api.malangmalang.com",
+            "validOtp": "/callback/checkOtp",
+            "basePath": "/space/mobile",
+            "token": "eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNTk3NzQxMDI1Mjc1LCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOiJ0YWphIn0.8HNWEDhKXU096GOSc0qOr_ntkvhnimbPtdVjjS0XS8k"
+        }
+    }
+}

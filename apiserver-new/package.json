@@ -1,0 +1,40 @@
+{
+  "name": "apiserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "SET NODE_ENV=test&&node ./bin/www",
+    "dev": "NODE_ENV=development pm2 start ~/dev/APIServer/pm2.config.json --env development",
+    "stage": "NODE_ENV=stage pm2 start ~/APIServer/pm2.config.json --env stage",
+    "production": "NODE_ENV=production pm2 start ~/APIServer/pm2.config.json --env production",
+    "start": "set NODE_ENV=development&&nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async": "2.6.1",
+    "body-parser": "1.18.3",
+    "cluster": "0.7.7",
+    "cors": "2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "dateformat": "3.0.3",
+    "debug": "^4.1.1",
+    "express": "4.16.4",
+    "http": "0.0.0",
+    "http-errors": "1.7.1",
+    "jade": "1.11.0",
+    "moment": "^2.24.0",
+    "morgan": "1.9.1",
+    "mysql": "2.16.0",
+    "mysql2": "1.6.5",
+    "node-cache": "^4.2.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "5.1.1",
+    "os": "0.1.1",
+    "querystring": "0.2.0",
+    "redis": "^2.8.0",
+    "request": "2.88.0",
+    "sequelize": "4.42.0",
+    "serve-favicon": "2.5.0",
+    "useragent": "2.3.0"
+  },
+  "description": ""
+}

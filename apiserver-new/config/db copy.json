@@ -1,0 +1,452 @@
+{
+    "test": {
+        "MYSQL_ACCOUNT_DB_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "AccountDB",
+            "waitForConnections": false
+        },
+        "MYSQL_ACCOUNT_DB_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "AccountDB",
+            "waitForConnections": false
+        },
+        "MYSQL_GAME_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "GameDB",
+            "waitForConnections": false
+        },
+        "MYSQL_GAME_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "GameDB",
+            "waitForConnections": false
+        },
+        "MYSQL_LOG_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "LogDB",
+            "waitForConnections": false
+        },
+        "MYSQL_LOG_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "LogDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WEB_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WEB_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WORD_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WordDB",
+            "waitForConnections": false
+        },
+        "MYSQL_RANKING_W":{
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_RANKING_R":{
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        }
+    },
+    "development": {
+        "MYSQL_ACCOUNT_DB_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "AccountDB",
+            "waitForConnections": false
+        },
+        "MYSQL_ACCOUNT_DB_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "AccountDB",
+            "waitForConnections": false
+        },
+        "MYSQL_GAME_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "GameDB",
+            "waitForConnections": false
+        },
+        "MYSQL_GAME_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "GameDB",
+            "waitForConnections": false
+        },
+        "MYSQL_LOG_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "LogDB",
+            "waitForConnections": false
+        },
+        "MYSQL_LOG_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "LogDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WEB_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WEB_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WORD_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WordDB",
+            "waitForConnections": false
+        },
+        "MYSQL_RANKING_W":{
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_RANKING_R":{
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-dev-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        }
+
+    },
+    "stage": {
+        "MYSQL_ACCOUNT_DB_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "AccountDB",
+            "waitForConnections": false
+        },
+        "MYSQL_ACCOUNT_DB_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "AccountDB",
+            "waitForConnections": false
+        },
+        "MYSQL_GAME_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "GameDB",
+            "waitForConnections": false
+        },
+        "MYSQL_GAME_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "GameDB",
+            "waitForConnections": false
+        },
+        "MYSQL_LOG_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "LogDB",
+            "waitForConnections": false
+        },
+        "MYSQL_LOG_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "LogDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WEB_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WEB_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WORD_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WordDB",
+            "waitForConnections": false
+        },
+        "MYSQL_RANKING_W":{
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_RANKING_R":{
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-stg-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        }
+
+    },
+    "production": {
+        "MYSQL_ACCOUNT_DB_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "AccountDB",
+            "waitForConnections": false
+        },
+        "MYSQL_ACCOUNT_DB_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "AccountDB",
+            "waitForConnections": false
+        },
+        "MYSQL_GAME_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "GameDB",
+            "waitForConnections": false
+        },
+        "MYSQL_GAME_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "GameDB",
+            "waitForConnections": false
+        },
+        "MYSQL_LOG_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "LogDB",
+            "waitForConnections": false
+        },
+        "MYSQL_LOG_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "LogDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WEB_W": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WEB_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_WORD_R": {
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WordDB",
+            "waitForConnections": false
+        },
+        "MYSQL_RANKING_W":{
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        },
+        "MYSQL_RANKING_R":{
+            "multipleStatements": true,
+            "connectionLimit": 100,
+            "host": "seoul-prd-tt-mysql.hancom.io",
+            "port": 3306,
+            "user": "hancom_tt",
+            "password": "gkszjaxkwk$#21",
+            "database": "WebDB",
+            "waitForConnections": false
+        }
+    }
+}

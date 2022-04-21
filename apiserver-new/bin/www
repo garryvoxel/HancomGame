@@ -1,0 +1,166 @@
+#!/usr/bin/env node
+/**
+ * Module dependencies.
+*/
+var app                 = require('../app');
+var debug               = require('debug')('apiserver:server');
+var http                = require('http');
+const config            = require('../config/server.json');
+const mysql             = require('../src/mysql');
+const redis             = require('../src/redis');
+const cluster           = require('cluster');
+const cpus              = require('os').cpus().length;
+const NodeCache         = require( "node-cache" );
+let global_arr          = require('../common/global_array');
+/**
+ * Get port from environment and store in Express.
+ */
+var port = normalizePort(process.env.PORT || config.SERVER_PORT);
+app.set('port', port);
+
+function Work(){
+  var server = http.createServer(app);
+  server.listen(port);
+  server.on('error', onError);
+  server.on('listening', onListening);
+
+
+  /**
+ * Event listener for HTTP server "listening" event.
+ */
+
+  function onListening() {
+    var addr = server.address();
+    var bind = typeof addr === 'string'
+      ? 'pipe ' + addr
+      : 'port ' + addr.port;
+    debug('Listening on ' + bind);
+    console.log('APIServer Start port: ' + addr.port);    
+    console.log('node env :' + process.env.NODE_ENV);
+  }
+
+}
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  var bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+//비속어 데이터를 디비로 부터 셋팅합니다.
+function InitFilerWord(){
+
+  mysql.getWebRead().getConnection((err,con)=>{
+    if(err){
+        con.release();
+        console.error('write_friend_complete >> getConnection .1. mysql err' + err);            
+        callback(PACKET_ERR.COMMON_GET_CONNECTION_ERR);
+    }else{
+        con.query('SELECT word FROM Slang', function(err,result,fields){
+            con.release();
+            if(err){
+                console.log('write_friend_complete >> query.1..'+err);
+                callback(PACKET_ERR.ACCEPT_FRIEND_REQUEST_QUERY1);
+            }else{
+                arr = [];
+                for(var i=0; i < result.length; i++){
+                  //console.log("디비에서 뽑아요 이곳은 WWWW==================="+result[i].word);
+                  arr[i]= result[i].word;
+                }
+                console.log("LOAD FROM DATABASE FOR FILTERING WORD COMPLETED!");
+                global_arr.set(arr)
+              
+            }
+        })
+    }
+});
+
+}
+
+if(true){
+  Work();
+  mysql.create();
+  mysql.on_connection();
+  mysql.on_enqueue();
+  mysql.on_error();
+
+  redis.on_create();
+  redis.on_select();
+  redis.on_error();
+  redis.on_connect();
+  redis.on_ready();
+  InitFilerWord(); // 비속어 로드
+
+}else{
+  if (cluster.isMaster) {
+    // console.log("cpu : " + numCPU)
+    for (var i = 0; i < cpus; i++) {
+        //log.debug("master");
+        cluster.fork();
+    }
+    cluster.on("death", function(worker) {
+        log.error("Worker Death " + worker.pid + " died. restart...");
+        cluster.fork();
+    });
+
+    cluster.on("exit", function(worker) {
+        log.error("Worker Exit " + worker.pid + " exied. restart...");
+        cluster.fork();
+    });
+
+    mysql.create();
+    mysql.on_connection();
+    mysql.on_enqueue();
+    mysql.on_error();
+
+    redis.on_create();
+    redis.on_select();
+    redis.on_error();
+    redis.on_connect();
+    redis.on_ready();
+  } else {
+    Work();
+  }
+}
